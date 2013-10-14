@@ -28,16 +28,16 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ontology for raaga, which is the melodic framework of Indian art music traditions.</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">గోపాలకృష్ణ కోడూరి</Literal>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">0.01</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">An ontology that describes raaga, which is the melodic framework for Indian art music traditions: Hindustani and Carnatic.</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">0.01</Literal>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">గోపాలకృష్ణ కోడూరి</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
@@ -73,6 +73,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#D3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dummy"/>
     </Declaration>
     <Declaration>
         <Class IRI="#G"/>
@@ -510,6 +513,10 @@
     <SubClassOf>
         <Class IRI="#D3"/>
         <Class IRI="#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dummy"/>
+        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#G"/>
