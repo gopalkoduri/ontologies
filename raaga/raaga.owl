@@ -75,9 +75,6 @@
         <Class IRI="#D3"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Dummy"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#G"/>
     </Declaration>
     <Declaration>
@@ -513,10 +510,6 @@
     <SubClassOf>
         <Class IRI="#D3"/>
         <Class IRI="#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Dummy"/>
-        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#G"/>
