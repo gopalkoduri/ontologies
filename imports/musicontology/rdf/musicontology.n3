@@ -13,22 +13,37 @@
 @prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time:    <http://www.w3.org/2006/time#> .
+@prefix vann:    <http://purl.org/vocab/vann/> .
 @prefix vs:      <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix wot:     <http://xmlns.com/wot/0.1/> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
 
 mo:   rdf:type owl:Ontology ;
-      dc:date "$Date: 2010/11/28 17:08:19 $" ;
+      dc:created "2006/12/21 12:00:00";
+      dc:date "2013/07/22 16:54:19";
       dc:description """
         The Music Ontology Specification provides main concepts and 
         properties fo describing music (i.e. artists, albums and tracks) 
-        on the Semantic Web. This document contains a RDF description 
-        of the Music Ontology.
+        on the Semantic Web. 
     """ ;
       dc:title "The Music Ontology" ;
       owl:imports bio: , <http://purl.org/NET/c4dm/event.owl> , <http://purl.org/ontology/ao/core> , <http://www.w3.org/2006/time> , foaf: , dcterms: , <http://purl.org/NET/c4dm/keys.owl> , <http://purl.org/vocab/frbr/core> ;
+      vann:preferredNamespacePrefix "mo" ;
+      vann:preferredNamespaceUri "http://purl.org/ontology/mo/" ;
       owl:versionInfo "Revision: 2.1.5" ;
-      foaf:maker <http://www.talkdigger.com/foaf/fgiasson> , <http://foaf.me/zazi#me> , <http://moustaki.org/foaf.rdf#moustaki> .
+      foaf:maker 
+        <http://raimond.me.uk/foaf.rdf#moustaki>,
+        <http://foaf.me/zazi#me>,
+        <http://www.talkdigger.com/foaf/fgiasson>,
+        <http://kurtisrandom.com/foaf.rdf#kurtjx>,
+        [ foaf:name "George Fazekas" ],
+        [ foaf:name "Simon Reinhardt"; foaf:homepage <http://simon-reinhardt.de/> ],
+        [ foaf:name "Alexandre Passant"; foaf:homepage <http://apassant.net/> ].
+
+<http://raimond.me.uk/foaf.rdf#moustaki> foaf:name "Yves Raimond" ; foaf:homepage <http://raimond.me.uk/> .
+<http://foaf.me/zazi#me> foaf:name "Thomas Gängler"; foaf:homepage <http://smiy.wordpress.com/> .
+<http://www.talkdigger.com/foaf/fgiasson> foaf:name "Frédérick Giasson"; foaf:homepage <http://fgiasson.com/> .
+<http://kurtisrandom.com/foaf.rdf#kurtjx> foaf:name "Kurt Jacobson"; foaf:homepage <http://kurtisrandom.com/> .
 
 mo:Activity
       rdf:type owl:Class ;
@@ -698,7 +713,7 @@ mo:Track
       rdf:type owl:Class ;
       rdfs:comment "A track on a particular record" ;
       rdfs:isDefinedBy mo: ;
-      rdfs:label "rack" ;
+      rdfs:label "track" ;
       rdfs:subClassOf mo:MusicalManifestation ;
       mo:level "1" ;
       vs:term_status "stable" .
@@ -1970,10 +1985,10 @@ mo:produced
 mo:produced_score
       rdf:type owl:ObjectProperty ;
       rdfs:comment """
-        Associates an arrangement event to a score product (score here does not refer to a published score, but more
+        Associates an arrangement or a composition event to a score product (score here does not refer to a published score, but more
         an abstract arrangement of a particular work).
     """ ;
-      rdfs:domain mo:Arrangement ;
+      rdfs:domain [ rdf:type owl:Class ; owl:unionOf (mo:Composition mo:Arrangement) ] ;
       rdfs:isDefinedBy mo: ;
       rdfs:label "produced score" ;
       rdfs:range mo:Score ;
