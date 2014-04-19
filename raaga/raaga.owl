@@ -28,16 +28,16 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ontology for raaga, which is the melodic framework of Indian art music traditions.</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">0.01</Literal>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">గోపాలకృష్ణ కోడూరి</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">An ontology that describes raaga, which is the melodic framework for Indian art music traditions: Hindustani and Carnatic.</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">గోపాలకృష్ణ కోడూరి</Literal>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">0.01</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
@@ -162,6 +162,9 @@
         <Class IRI="#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_b510f9e1_a5af_41a2_bbf9_842d5d661b48"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a"/>
     </Declaration>
     <Declaration>
@@ -187,6 +190,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_f674f408_0498_407a_9429_72a50c4810d4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ffa3b47a_ef1d_44bf_a868_8a20a357083d"/>
     </Declaration>
     <Declaration>
         <Class IRI="#P"/>
@@ -244,6 +250,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Vakra_Raaga"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_1a81d57e_47e4_4646_819e_7f491f6fd43c"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434"/>
@@ -620,6 +629,10 @@
         <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_b510f9e1_a5af_41a2_bbf9_842d5d661b48"/>
+        <Class IRI="#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a"/>
         <Class IRI="#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420"/>
     </SubClassOf>
@@ -654,6 +667,10 @@
     <SubClassOf>
         <Class IRI="#OWLClass_f674f408_0498_407a_9429_72a50c4810d4"/>
         <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ffa3b47a_ef1d_44bf_a868_8a20a357083d"/>
+        <Class IRI="#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#P"/>
@@ -863,6 +880,10 @@
         <ObjectProperty IRI="#hasAvarohana"/>
     </InverseObjectProperties>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_1a81d57e_47e4_4646_819e_7f491f6fd43c"/>
+        <Class IRI="#OWLClass_b510f9e1_a5af_41a2_bbf9_842d5d661b48"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434"/>
         <Class IRI="#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5"/>
     </ObjectPropertyDomain>
@@ -870,6 +891,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711"/>
         <Class IRI="#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_1a81d57e_47e4_4646_819e_7f491f6fd43c"/>
+        <Class IRI="#OWLClass_ffa3b47a_ef1d_44bf_a868_8a20a357083d"/>
+    </ObjectPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#OWLDataProperty_4a9f62ef_1da8_48af_b4eb_1208fc40b418"/>
         <Datatype abbreviatedIRI="xsd:string"/>
@@ -1036,6 +1061,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_b510f9e1_a5af_41a2_bbf9_842d5d661b48</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Melakarta_Raaga</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chatussruti Daivata</Literal>
     </AnnotationAssertion>
@@ -1126,6 +1156,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ffa3b47a_ef1d_44bf_a868_8a20a357083d</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Janya_Raaga</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLDataProperty_4a9f62ef_1da8_48af_b4eb_1208fc40b418</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasProperty</Literal>
     </AnnotationAssertion>
@@ -1168,6 +1203,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_da268e86_e549_4cf8_82f8_3f5c0946f767</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Odukkal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_1a81d57e_47e4_4646_819e_7f491f6fd43c</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasJanyaRaaga</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
