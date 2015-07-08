@@ -101,6 +101,21 @@
         <Class IRI="#OWLClass_00000000000000000156"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_19f73850_4048_48e7_bbc3_36bc07014855"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_431f833a_a298_4911_b7eb_2898760ffb1d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_85a57536_d1fe_4bfd_b161_01210b43e92f"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_c57d57f7_05e4_4392_a589_ed55da1c749f"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ce25313a_cff8_4f2b_b473_aee5d6fca72c"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000001"/>
     </Declaration>
     <Declaration>
@@ -108,12 +123,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLObjectProperty_00000000000000000000"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLObjectProperty_00000000000000000004"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000017"/>
@@ -167,19 +176,49 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000604"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000000"/>
+        <ObjectProperty IRI="#OWLObjectProperty_34766051_eb14_470c_aacb_c3ecd3e023b4"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000005"/>
+        <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_67513725_5db9_4935_bf55_cd5beec795e5"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_fb1cbfb8_d2eb_4d14_a54a_668abe42cc33"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000000"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000048"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000050"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000052"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000052"/>
+        <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_74293444_628d_4dc9_8133_7f2d9082d7e1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_95dce3e0_b788_4289_bce9_1a0711207a34"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_ee4729bb_fad1_452c_a36f_4cea1faa0fc6"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_f47391ed_2a0a_4573_ae73_5e36bb777705"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_f85212e4_521e_4402_a5d7_1e9f8509b249"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000000"/>
@@ -1772,9 +1811,6 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000542"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000543"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000544"/>
     </Declaration>
     <Declaration>
@@ -1974,16 +2010,6 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#OWLClass_00000000000000000021"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#OWLClass_00000000000000000004"/>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#OWLObjectProperty_00000000000000000603"/>
-                <Class IRI="#OWLClass_00000000000000000004"/>
-            </ObjectExactCardinality>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#OWLClass_00000000000000000153"/>
         <ObjectIntersectionOf>
             <Class IRI="#OWLClass_00000000000000000004"/>
@@ -2072,6 +2098,26 @@
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_19f73850_4048_48e7_bbc3_36bc07014855"/>
+        <Class IRI="#OWLClass_85a57536_d1fe_4bfd_b161_01210b43e92f"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_431f833a_a298_4911_b7eb_2898760ffb1d"/>
+        <Class IRI="#OWLClass_00000000000000000010"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_85a57536_d1fe_4bfd_b161_01210b43e92f"/>
+        <Class IRI="#OWLClass_00000000000000000010"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_c57d57f7_05e4_4392_a589_ed55da1c749f"/>
+        <Class IRI="#OWLClass_85a57536_d1fe_4bfd_b161_01210b43e92f"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ce25313a_cff8_4f2b_b473_aee5d6fca72c"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000001"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
     </SubClassOf>
@@ -2103,10 +2149,6 @@
         <Class IRI="#OWLClass_00000000000000000019"/>
         <Class IRI="#OWLClass_00000000000000000021"/>
     </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#OWLClass_00000000000000000020"/>
-        <Class IRI="#OWLClass_00000000000000000021"/>
-    </DisjointClasses>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000000"/>
@@ -2116,8 +2158,20 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000001"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000001"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000012"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000156"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000009"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000003"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000012"/>
@@ -2132,7 +2186,15 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000006"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000006"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000007"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000007"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2152,11 +2214,23 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000011"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000156"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000011"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000010"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000012"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000012"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000010"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000013"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_19f73850_4048_48e7_bbc3_36bc07014855"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000013"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2168,7 +2242,19 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000014"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000014"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000010"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000015"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000015"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_ce25313a_cff8_4f2b_b473_aee5d6fca72c"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000015"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2188,11 +2274,19 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000019"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000019"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000017"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000020"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000010"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000021"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000021"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2240,6 +2334,10 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000032"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000032"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000012"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000033"/>
     </ClassAssertion>
@@ -2253,6 +2351,10 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000017"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000035"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000156"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000035"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2288,6 +2390,10 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000042"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000042"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000010"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000043"/>
     </ClassAssertion>
@@ -2297,6 +2403,10 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000010"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000045"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_19f73850_4048_48e7_bbc3_36bc07014855"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000045"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2320,7 +2430,15 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000050"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000050"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000012"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000051"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000156"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000051"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2328,7 +2446,19 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000052"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000156"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000052"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_19f73850_4048_48e7_bbc3_36bc07014855"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000052"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000011"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000053"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000053"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2340,7 +2470,15 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000055"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000055"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000010"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000056"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000056"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2352,7 +2490,15 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000058"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000156"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000058"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000012"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000059"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000156"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000059"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2364,6 +2510,10 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000061"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000156"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000061"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000012"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000062"/>
     </ClassAssertion>
@@ -2372,7 +2522,15 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000062"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000156"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000062"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000012"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000063"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000063"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2381,6 +2539,18 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000012"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000065"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000156"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000065"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_19f73850_4048_48e7_bbc3_36bc07014855"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000065"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_ce25313a_cff8_4f2b_b473_aee5d6fca72c"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000065"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2396,7 +2566,15 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000068"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000068"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000010"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000069"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000069"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2404,7 +2582,15 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000070"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000070"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000010"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000071"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000071"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2412,7 +2598,15 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000072"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000072"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000017"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000073"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000155"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000073"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2420,12 +2614,24 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000074"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#OWLClass_ce25313a_cff8_4f2b_b473_aee5d6fca72c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000074"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000017"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000075"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_19f73850_4048_48e7_bbc3_36bc07014855"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000075"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000017"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000076"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000009"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000077"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000010"/>
@@ -2722,6 +2928,10 @@
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000151"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000009"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000152"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
@@ -4661,10 +4871,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000543"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000544"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4876,10 +5082,68 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000599"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000269"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000516"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000277"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000516"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000289"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000516"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000290"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000516"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000033"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000299"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000537"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000299"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000516"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000338"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000537"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000338"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000516"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000033"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000353"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000533"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000030"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000385"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000487"/>
     </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_f85212e4_521e_4402_a5d7_1e9f8509b249"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000065"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000030"/>
+        <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000031"/>
+        <ObjectProperty IRI="#OWLObjectProperty_67513725_5db9_4935_bf55_cd5beec795e5"/>
+    </EquivalentObjectProperties>
     <EquivalentObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000032"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000033"/>
@@ -4924,10 +5188,22 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000492"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000488"/>
     </SubObjectPropertyOf>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLObjectProperty_00000000000000000000"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLObjectProperty_00000000000000000004"/>
-    </InverseObjectProperties>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000039"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_67513725_5db9_4935_bf55_cd5beec795e5"/>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000039"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000039"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_fb1cbfb8_d2eb_4d14_a54a_668abe42cc33"/>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000488"/>
+    </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000489"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000030"/>
@@ -4948,6 +5224,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000603"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000604"/>
     </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
+        <ObjectProperty IRI="#OWLObjectProperty_fb1cbfb8_d2eb_4d14_a54a_668abe42cc33"/>
+    </InverseObjectProperties>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000603"/>
     </AsymmetricObjectProperty>
@@ -4955,16 +5235,8 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000604"/>
     </AsymmetricObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLObjectProperty_00000000000000000004"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000017"/>
         <Class IRI="#OWLClass_00000000000000000004"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000017"/>
-        <Class IRI="#OWLClass_00000000000000000024"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000025"/>
@@ -4983,48 +5255,20 @@
         <Class IRI="#OWLClass_00000000000000000004"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000030"/>
-        <Class IRI="#OWLClass_00000000000000000024"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000031"/>
         <Class IRI="#OWLClass_00000000000000000004"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000031"/>
-        <Class IRI="#OWLClass_00000000000000000024"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000033"/>
         <Class IRI="#OWLClass_00000000000000000004"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000033"/>
-        <Class IRI="#OWLClass_00000000000000000024"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000035"/>
-        <Class IRI="#OWLClass_00000000000000000004"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000035"/>
-        <Class IRI="#OWLClass_00000000000000000024"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000039"/>
-        <Class IRI="#OWLClass_00000000000000000004"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000039"/>
         <Class IRI="#OWLClass_00000000000000000024"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000041"/>
         <Class IRI="#OWLClass_00000000000000000013"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000041"/>
-        <Class IRI="#OWLClass_00000000000000000024"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000603"/>
@@ -5035,11 +5279,15 @@
         <Class IRI="#OWLClass_00000000000000000020"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000000"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <ObjectProperty IRI="#OWLObjectProperty_34766051_eb14_470c_aacb_c3ecd3e023b4"/>
+        <Class IRI="#OWLClass_00000000000000000004"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000005"/>
+        <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
+        <Class IRI="#OWLClass_00000000000000000013"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000000"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -5047,20 +5295,9 @@
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000050"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000052"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLObjectProperty_00000000000000000004"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:boolean"/>
-        </DataExactCardinality>
-    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000017"/>
         <Class IRI="#OWLClass_00000000000000000009"/>
@@ -5102,40 +5339,86 @@
         <Class IRI="#OWLClass_00000000000000000021"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000000"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:int"/>
-        </DataExactCardinality>
+        <ObjectProperty IRI="#OWLObjectProperty_34766051_eb14_470c_aacb_c3ecd3e023b4"/>
+        <Class IRI="#OWLClass_00000000000000000000"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000005"/>
+        <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
+        <Class IRI="#OWLClass_00000000000000000005"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000000"/>
         <DataExactCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:boolean"/>
+            <DataProperty IRI="#OWLDataProperty_f47391ed_2a0a_4573_ae73_5e36bb777705"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
         </DataExactCardinality>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000048"/>
         <DataExactCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:int"/>
-        </DataExactCardinality>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000050"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <DataProperty IRI="#OWLDataProperty_74293444_628d_4dc9_8133_7f2d9082d7e1"/>
             <Datatype abbreviatedIRI="xsd:int"/>
         </DataExactCardinality>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000052"/>
         <DataMinCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <DataProperty IRI="#OWLDataProperty_f47391ed_2a0a_4573_ae73_5e36bb777705"/>
             <Datatype abbreviatedIRI="xsd:int"/>
         </DataMinCardinality>
     </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OWLDataProperty_ee4729bb_fad1_452c_a36f_4cea1faa0fc6"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_74293444_628d_4dc9_8133_7f2d9082d7e1"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_95dce3e0_b788_4289_bce9_1a0711207a34"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_f47391ed_2a0a_4573_ae73_5e36bb777705"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_f85212e4_521e_4402_a5d7_1e9f8509b249"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_74293444_628d_4dc9_8133_7f2d9082d7e1"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_95dce3e0_b788_4289_bce9_1a0711207a34"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_f47391ed_2a0a_4573_ae73_5e36bb777705"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_f85212e4_521e_4402_a5d7_1e9f8509b249"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000</IRI>
@@ -5145,16 +5428,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLObjectProperty_00000000000000000000</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isVocal</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLObjectProperty_00000000000000000004</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isInstrumental</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5292,6 +5565,11 @@
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Üçlü</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_00000000000000000017</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">HalkFormu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000017</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">FolkForm</Literal>
@@ -5327,6 +5605,12 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TransposedMakam</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_00000000000000000024</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Makam
+ and (isTranspositionOf exactly 1 Makam)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000024</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Dizi</Literal>
@@ -5347,6 +5631,11 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Interval</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_00000000000000000077</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">OrduFormu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000077</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">MilitaryForm</Literal>
@@ -5362,14 +5651,99 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">AscendingDescendingMakam</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_00000000000000000155</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">VokalForm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000155</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">VocalForm</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_00000000000000000156</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">EnstrümantelForm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000156</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">InstrumentalForm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_19f73850_4048_48e7_bbc3_36bc07014855</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">MevleviForm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_431f833a_a298_4911_b7eb_2898760ffb1d</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">CamiFormu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_431f833a_a298_4911_b7eb_2898760ffb1d</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">MosqueForm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_85a57536_d1fe_4bfd_b161_01210b43e92f</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TekkeForm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_85a57536_d1fe_4bfd_b161_01210b43e92f</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">TekkeFormu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_c57d57f7_05e4_4392_a589_ed55da1c749f</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BektaşiForm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_ce25313a_cff8_4f2b_b473_aee5d6fca72c</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">DoğaçlamaFormu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ce25313a_cff8_4f2b_b473_aee5d6fca72c</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ImprovisationalForm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isInstrumental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_74293444_628d_4dc9_8133_7f2d9082d7e1</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">mertebe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">averageTempo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_95dce3e0_b788_4289_bce9_1a0711207a34</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasVelvele</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_ee4729bb_fad1_452c_a36f_4cea1faa0fc6</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isVocal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_f47391ed_2a0a_4573_ae73_5e36bb777705</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">beats</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_f85212e4_521e_4402_a5d7_1e9f8509b249</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isImprovisational</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7784,7 +8158,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000486</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba rast</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba rast_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7794,7 +8168,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000487</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rast</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rast_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7804,7 +8178,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000493</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz gerdaniye</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz gerdaniye_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7814,7 +8188,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000494</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">gerdaniye</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">gerdaniye_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7824,7 +8198,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000495</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba çargah</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba çargah_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7834,7 +8208,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000496</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba nim hicaz</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba nim hicaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7844,7 +8218,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000497</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba hicaz</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba hicaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7861,7 +8235,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000498</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik hicaz</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik hicaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7871,7 +8245,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000499</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">yegah</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">yegah_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7881,7 +8255,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000500</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba nim hisar</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba nim hisar_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7891,7 +8265,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000501</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba hisar</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba hisar_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7901,7 +8275,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000502</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik hisar</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik hisar_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7911,7 +8285,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000503</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hüseyni aşiran</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hüseyni aşiran_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7921,7 +8295,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000504</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">acem aşiran</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">acem aşiran_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7938,7 +8312,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000505</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik acem aşiran</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik acem aşiran_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7948,7 +8322,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000506</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ırak</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ırak_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7958,7 +8332,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000507</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">geveşt</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">geveşt_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7975,7 +8349,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000508</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik geveşt</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik geveşt_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7985,7 +8359,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000510</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nim zirgüle</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nim zirgüle_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7995,7 +8369,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000511</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba nim zirgüle</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba nim zirgüle_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8005,7 +8379,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000512</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">zirgüle</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">zirgüle_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8015,7 +8389,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000513</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba zirgüle</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba zirgüle_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8025,7 +8399,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000514</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik zirgüle</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik zirgüle_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8035,7 +8409,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000515</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik zirgüle</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik zirgüle_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8045,7 +8419,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000516</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dügah</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dügah_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8055,7 +8429,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000517</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dügah</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dügah_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8065,7 +8439,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000518</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kürdi</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kürdi_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8075,7 +8449,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000519</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba kürdi</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba kürdi_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8085,7 +8459,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000520</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik kürdi</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik kürdi_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8095,7 +8469,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000521</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik kürdi</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik kürdi_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8110,7 +8484,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000522</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">segah</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">segah_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8125,7 +8499,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000523</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba segah</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba segah_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8135,7 +8509,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000524</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">buselik</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">buselik_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8145,7 +8519,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000525</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba buselik</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba buselik_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8162,7 +8536,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000527</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik buselik</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik buselik_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8179,7 +8553,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000528</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik buselik</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik buselik_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8189,7 +8563,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000529</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">çargah</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">çargah_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8199,7 +8573,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000530</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nim hicaz</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nim hicaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8209,7 +8583,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000531</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hicaz</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hicaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8226,7 +8600,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000532</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik hicaz</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik hicaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8236,7 +8610,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000533</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">neva</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">neva_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8246,7 +8620,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000534</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nim hisar</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nim hisar_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8256,7 +8630,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000535</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hisar</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hisar_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8266,7 +8640,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000536</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik hisar</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik hisar_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8276,7 +8650,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000537</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hüseyni</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hüseyni_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8286,7 +8660,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000538</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">acem</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">acem_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8303,7 +8677,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000539</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik acem</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik acem_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8313,7 +8687,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000540</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">eviç</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">eviç_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8323,7 +8697,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000541</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">mahur</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">mahur_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8340,17 +8714,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000542</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik mahur</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#OWLNamedIndividual_00000000000000000543</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">G</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000543</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">gerdaniye</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik mahur_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8360,7 +8724,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000544</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nim şehnaz</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nim şehnaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8370,7 +8734,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000545</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">şehnaz</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">şehnaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8380,7 +8744,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000546</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik şehnaz</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik şehnaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8390,7 +8754,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000547</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">muhayyer</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">muhayyer_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8400,7 +8764,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000548</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">sünbüle</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">sünbüle_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8410,7 +8774,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000549</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik sünbüle</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik sünbüle_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8425,7 +8789,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000550</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz segah</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz segah_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8435,7 +8799,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000551</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz buselik</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz buselik_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8452,7 +8816,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000552</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik buselik</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik buselik_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8462,7 +8826,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000553</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz çargah</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz çargah_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8472,7 +8836,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000554</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz nim hicaz</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz nim hicaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8482,7 +8846,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000555</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz hicaz</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz hicaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8499,7 +8863,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000556</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik hicaz</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik hicaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8509,7 +8873,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000557</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz neva</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz neva_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8519,7 +8883,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000558</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz nim hisar</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz nim hisar_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8529,7 +8893,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000559</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz hisar</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz hisar_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8539,7 +8903,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000560</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik hisar</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik hisar_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8549,7 +8913,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000561</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz hüseyni</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz hüseyni_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8559,7 +8923,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000562</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz acem</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz acem_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8576,7 +8940,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000563</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik acem</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik acem_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8586,7 +8950,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000564</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz eviç</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz eviç_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8596,7 +8960,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000565</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz mahur</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz mahur_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -8613,157 +8977,157 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000566</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik mahur</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik mahur_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000568</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">çargah</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">çargah_tetrachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000569</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">buselik</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">buselik_tetrachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000570</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kürdi</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kürdi_tetrachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000571</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rast</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rast_tetrachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000572</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">uşşak</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">uşşak_tetrachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000573</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hicaz</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hicaz_tetrachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000574</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">çargah</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">çargah_pentachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000575</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">buselik</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">buselik_pentachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000576</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kürdi</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kürdi_pentachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000577</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rast</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rast_pentachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000578</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hüseyni</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hüseyni_pentachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000579</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hicaz</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hicaz_pentachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000580</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">segah</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">segah_pentachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000581</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">segah</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">segah_tetrachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000583</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">saba</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">saba_tetrachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000584</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nikriz</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nikriz_pentachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000586</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hüzzam</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hüzzam_pentachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000587</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ferahnak</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ferahnak_pentachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000588</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">çargah</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">çargah_trichord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000589</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">buselik</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">buselik_trichord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000590</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kürdi</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kürdi_trichord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000591</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rast</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rast_trichord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000592</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">uşşak</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">uşşak_trichord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000593</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hicaz</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hicaz_trichord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000594</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nikriz</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nikriz_trichord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000595</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">müstear</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">müstear_tetrachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000596</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">müstear</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">müstear_pentachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000597</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">pençgah</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">pençgah_pentachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000598</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nişabur</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nişabur_pentachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000599</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nişabur</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nişabur_tetrachord</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8787,8 +9151,23 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_00000000000000000030</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">tonikVar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000031</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasSeventh</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_00000000000000000031</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">yedenVar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_00000000000000000032</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">dominantVar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8798,7 +9177,17 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000033</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">başlangıçNotasıVar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_00000000000000000033</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasInitialNote</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_00000000000000000035</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">arızaVar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8809,6 +9198,16 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000039</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasNote</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_00000000000000000039</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">notaVar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_00000000000000000041</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">aralıkVar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8852,6 +9251,36 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_34766051_eb14_470c_aacb_c3ecd3e023b4</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasFlavor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasFinalNote</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">kararVar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_67513725_5db9_4935_bf55_cd5beec795e5</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasLeading</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasBaseNote</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_fb1cbfb8_d2eb_4d14_a54a_668abe42cc33</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isBaseNoteOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000001</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">BasitUsul</Literal>
     </AnnotationAssertion>
@@ -8887,18 +9316,13 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000005</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasVelvele</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000048</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasMertebe</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000050</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasAverageTempo</Literal>
+        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLObjectProperty_00000000000000000048</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">mertebeVar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
