@@ -1681,6 +1681,12 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000489"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000490"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000491"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000493"/>
     </Declaration>
     <Declaration>
@@ -1984,6 +1990,16 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000599"/>
     </Declaration>
     <EquivalentClasses>
+        <Class IRI="#OWLClass_00000000000000000000"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#OWLClass_00000000000000000013"/>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
+                <Class IRI="#OWLClass_00000000000000000005"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#OWLClass_00000000000000000002"/>
         <ObjectIntersectionOf>
             <Class IRI="#OWLClass_00000000000000000004"/>
@@ -1991,6 +2007,16 @@
                 <ObjectProperty IRI="#OWLObjectProperty_00000000000000000017"/>
                 <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000003"/>
             </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_00000000000000000004"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#OWLClass_00000000000000000004"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#OWLObjectProperty_00000000000000000025"/>
+                <Class IRI="#OWLClass_00000000000000000024"/>
+            </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -2027,7 +2053,7 @@
         <Class IRI="#OWLClass_00000000000000000014"/>
         <ObjectIntersectionOf>
             <Class IRI="#OWLClass_00000000000000000013"/>
-            <ObjectExactCardinality cardinality="4">
+            <ObjectExactCardinality cardinality="3">
                 <ObjectProperty IRI="#OWLObjectProperty_00000000000000000494"/>
                 <Class IRI="#OWLClass_00000000000000000040"/>
             </ObjectExactCardinality>
@@ -2037,7 +2063,7 @@
         <Class IRI="#OWLClass_00000000000000000015"/>
         <ObjectIntersectionOf>
             <Class IRI="#OWLClass_00000000000000000013"/>
-            <ObjectExactCardinality cardinality="5">
+            <ObjectExactCardinality cardinality="4">
                 <ObjectProperty IRI="#OWLObjectProperty_00000000000000000494"/>
                 <Class IRI="#OWLClass_00000000000000000040"/>
             </ObjectExactCardinality>
@@ -2047,7 +2073,7 @@
         <Class IRI="#OWLClass_00000000000000000016"/>
         <ObjectIntersectionOf>
             <Class IRI="#OWLClass_00000000000000000013"/>
-            <ObjectExactCardinality cardinality="3">
+            <ObjectExactCardinality cardinality="2">
                 <ObjectProperty IRI="#OWLObjectProperty_00000000000000000494"/>
                 <Class IRI="#OWLClass_00000000000000000040"/>
             </ObjectExactCardinality>
@@ -5192,6 +5218,11 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000385"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000025"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000385"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000489"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000030"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000385"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000487"/>
@@ -5199,12 +5230,22 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000027"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000489"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000571"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000491"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000027"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000489"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000577"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000490"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000490"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000487"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000491"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000533"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
@@ -5406,7 +5447,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000027"/>
-        <Class IRI="#OWLClass_00000000000000000013"/>
+        <Class IRI="#OWLClass_00000000000000000000"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000030"/>
@@ -5512,11 +5553,11 @@
         <DataProperty IRI="#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;minExclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;maxInclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">300</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;minExclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -8314,6 +8355,16 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Rast_scale</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_00000000000000000490</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rast_pentachord_at_rast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_00000000000000000491</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rast_tetrachord_at_neva</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OWLNamedIndividual_00000000000000000493</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">G6</Literal>
@@ -9288,9 +9339,14 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasScale</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLObjectProperty_00000000000000000027</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">makamınDizisiVar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000027</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasChord</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">scaleHasFlavor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -9403,9 +9459,14 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isFinalNoteOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLObjectProperty_34766051_eb14_470c_aacb_c3ecd3e023b4</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">makamınÇeşnisiVar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_34766051_eb14_470c_aacb_c3ecd3e023b4</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasFlavor</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">makamHasFlavor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
