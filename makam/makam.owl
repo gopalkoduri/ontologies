@@ -5244,6 +5244,11 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000490"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000001"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000490"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000577"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000490"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000487"/>
@@ -5445,7 +5450,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
-        <Class IRI="#OWLClass_00000000000000000013"/>
+        <Class IRI="#OWLClass_00000000000000000000"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000001"/>
@@ -9510,7 +9515,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">chordHasBaseNote</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">flavorHasBaseNote</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
