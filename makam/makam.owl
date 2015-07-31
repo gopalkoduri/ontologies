@@ -118,6 +118,9 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000000"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000001"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000017"/>
     </Declaration>
     <Declaration>
@@ -1992,7 +1995,10 @@
     <EquivalentClasses>
         <Class IRI="#OWLClass_00000000000000000000"/>
         <ObjectIntersectionOf>
-            <Class IRI="#OWLClass_00000000000000000013"/>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#OWLObjectProperty_00000000000000000001"/>
+                <Class IRI="#OWLClass_00000000000000000013"/>
+            </ObjectExactCardinality>
             <ObjectExactCardinality cardinality="1">
                 <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
                 <Class IRI="#OWLClass_00000000000000000005"/>
@@ -5390,6 +5396,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000604"/>
     </AsymmetricObjectProperty>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000001"/>
+        <Class IRI="#OWLClass_00000000000000000000"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000017"/>
         <Class IRI="#OWLClass_00000000000000000004"/>
     </ObjectPropertyDomain>
@@ -5437,6 +5447,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
         <Class IRI="#OWLClass_00000000000000000013"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000001"/>
+        <Class IRI="#OWLClass_00000000000000000013"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000017"/>
         <Class IRI="#OWLClass_00000000000000000009"/>
@@ -9330,13 +9344,18 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_00000000000000000001</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">flavorHasChord</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000017</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasProgression</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000025</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasScale</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">makamHasScale</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9491,7 +9510,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasBaseNote</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">chordHasBaseNote</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
