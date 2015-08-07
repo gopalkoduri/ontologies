@@ -193,6 +193,9 @@
         <ObjectProperty IRI="#OWLObjectProperty_fb1cbfb8_d2eb_4d14_a54a_668abe42cc33"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_fc0c117e_9bad_4ffd_bfb7_89b138d1b90e"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
     </Declaration>
     <Declaration>
@@ -2534,10 +2537,6 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000052"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000156"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000052"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000053"/>
     </ClassAssertion>
@@ -5264,6 +5263,11 @@
         <Literal datatypeIRI="&xsd;boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000052"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#OWLDataProperty_f85212e4_521e_4402_a5d7_1e9f8509b249"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000052"/>
         <Literal datatypeIRI="&xsd;boolean">false</Literal>
@@ -5319,6 +5323,14 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000488"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000001"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000027"/>
+        <ObjectProperty IRI="#OWLObjectProperty_fc0c117e_9bad_4ffd_bfb7_89b138d1b90e"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000030"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000039"/>
     </SubObjectPropertyOf>
@@ -5353,6 +5365,10 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000622"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000488"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_34766051_eb14_470c_aacb_c3ecd3e023b4"/>
+        <ObjectProperty IRI="#OWLObjectProperty_fc0c117e_9bad_4ffd_bfb7_89b138d1b90e"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
@@ -5507,6 +5523,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
         <Class IRI="#OWLClass_00000000000000000005"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_fc0c117e_9bad_4ffd_bfb7_89b138d1b90e"/>
+        <Class IRI="#OWLClass_00000000000000000000"/>
     </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
@@ -9521,6 +9541,11 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_fb1cbfb8_d2eb_4d14_a54a_668abe42cc33</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isBaseNoteOfFlavor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_fc0c117e_9bad_4ffd_bfb7_89b138d1b90e</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasFlavor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
