@@ -178,6 +178,9 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000622"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_2cb220f4_94ae_4d7e_8f4c_ae9d725856a6"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_34766051_eb14_470c_aacb_c3ecd3e023b4"/>
     </Declaration>
     <Declaration>
@@ -209,6 +212,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_954a4ca2_4dd5_477a_be7b_77e98deb682f"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#OWLDataProperty_95dce3e0_b788_4289_bce9_1a0711207a34"/>
@@ -2228,6 +2234,18 @@
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000002"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
     </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+        <Class IRI="#OWLClass_00000000000000000000"/>
+        <Class IRI="#OWLClass_00000000000000000001"/>
+        <Class IRI="#OWLClass_00000000000000000004"/>
+        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_00000000000000000009"/>
+        <Class IRI="#OWLClass_00000000000000000013"/>
+        <Class IRI="#OWLClass_00000000000000000024"/>
+        <Class IRI="#OWLClass_00000000000000000040"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+    </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#OWLClass_00000000000000000007"/>
         <Class IRI="#OWLClass_00000000000000000008"/>
@@ -5572,11 +5590,11 @@
         <DataProperty IRI="#OWLDataProperty_00000000000000000619"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;minInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">0</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;maxInclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">127</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;minInclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">0</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -5917,6 +5935,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">averageTempo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_954a4ca2_4dd5_477a_be7b_77e98deb682f</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">uuid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -9501,6 +9524,11 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000622</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isFinalNoteOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_2cb220f4_94ae_4d7e_8f4c_ae9d725856a6</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasUUID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

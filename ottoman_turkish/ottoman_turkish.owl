@@ -26,9 +26,6 @@
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_2e155dbd_2ccf_4d5f_8fd7_b0d473c5bd66"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_599f1f8b_f55e_400d_96d0_259ce6ebb198"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_99ed48ee_cf57_4900_99a7_4ee2f4e8b214"/>
     </Declaration>
     <Declaration>
@@ -42,9 +39,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_8dbb8a7b_4e7d_4dee_b85b_aee240361655"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_bfab533b_f69b_44fa_9e17_e08d3351bbc2"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_cf1787e9_5c5f_40b1_940c_2121b418c61d"/>
@@ -81,24 +75,20 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_599f1f8b_f55e_400d_96d0_259ce6ebb198"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/symbTr#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_99ed48ee_cf57_4900_99a7_4ee2f4e8b214"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_599f1f8b_f55e_400d_96d0_259ce6ebb198"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/symbTr#OWLClass_1d5aed3b_6b7b_4e26_998a_53b3a18211af"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_cdc25bbe_9c16_4468_b114_22546ed1c092"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_599f1f8b_f55e_400d_96d0_259ce6ebb198"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/symbTr#OWLClass_1d5aed3b_6b7b_4e26_998a_53b3a18211af"/>
     </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_cf1787e9_5c5f_40b1_940c_2121b418c61d"/>
-        <ObjectProperty IRI="#OWLObjectProperty_bfab533b_f69b_44fa_9e17_e08d3351bbc2"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/symbTr#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_e7997e47_0707_4cf7_8c35_0853b589d729"/>
-        <ObjectProperty IRI="#OWLObjectProperty_bfab533b_f69b_44fa_9e17_e08d3351bbc2"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/symbTr#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLObjectPropertyImpl_33e3bdc1_8d81_414b_a1df_65ba59d532b9"/>
@@ -125,8 +115,8 @@
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_3af81887_2120_4d20_9f2a_d27006a6f522"/>
         <ObjectProperty IRI="#OWLObjectProperty_8dbb8a7b_4e7d_4dee_b85b_aee240361655"/>
+        <ObjectProperty IRI="#OWLObjectProperty_3af81887_2120_4d20_9f2a_d27006a6f522"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLObjectPropertyImpl_33e3bdc1_8d81_414b_a1df_65ba59d532b9"/>
@@ -151,10 +141,6 @@
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/symbTr#OWLClass_00000000000000000000"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_bfab533b_f69b_44fa_9e17_e08d3351bbc2"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_599f1f8b_f55e_400d_96d0_259ce6ebb198"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_cf1787e9_5c5f_40b1_940c_2121b418c61d"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_99ed48ee_cf57_4900_99a7_4ee2f4e8b214"/>
     </ObjectPropertyDomain>
@@ -176,10 +162,6 @@
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_8dbb8a7b_4e7d_4dee_b85b_aee240361655"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/symbTr#OWLClass_00000000000000000000"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_bfab533b_f69b_44fa_9e17_e08d3351bbc2"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/symbTr#OWLClass_00000000000000000000"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -232,11 +214,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_bfab533b_f69b_44fa_9e17_e08d3351bbc2</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">performsIn</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_cf1787e9_5c5f_40b1_940c_2121b418c61d</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">playsInstrumentIn</Literal>
     </AnnotationAssertion>
@@ -254,16 +231,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_2e155dbd_2ccf_4d5f_8fd7_b0d473c5bd66</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Recording</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_599f1f8b_f55e_400d_96d0_259ce6ebb198</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Performer</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_599f1f8b_f55e_400d_96d0_259ce6ebb198</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">İcracı</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

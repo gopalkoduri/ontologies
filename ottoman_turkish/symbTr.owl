@@ -89,6 +89,9 @@
         <Class IRI="#OWLClass_00000000000000000007"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_1d5aed3b_6b7b_4e26_998a_53b3a18211af"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLObjectProperty_00000000000000000000"/>
     </Declaration>
     <Declaration>
@@ -188,6 +191,9 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000164"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_0aad85c8_27a2_403d_b458_50bc3b87ebc2"/>
     </Declaration>
     <Declaration>
@@ -210,9 +216,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_4e191fbb_dffd_493b_9c4e_0580ba6e0487"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_571f30f6_f4d6_4a57_a93a_17950ed9d716"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_717dec53_873f_47cc_a340_3ed3860c7f48"/>
@@ -269,6 +272,9 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000008"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_177484f7_41ac_4d16_ad1c_fb732ef9c501"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_2f6c58c8_e190_4bed_9b4d_da3d577e0257"/>
     </Declaration>
     <Declaration>
@@ -291,6 +297,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_9783e179_4581_4e47_b083_2ecec77d38d2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_9fe127be_1889_46fb_91a7_b22dc1f039fd"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_b780bc7f_2ab5_449d_8ea6_0cb09697ab91"/>
@@ -371,6 +380,24 @@
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_00000000000000000007"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
+            <ObjectUnionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectInverseOf>
+                        <ObjectProperty IRI="#OWLObjectProperty_209e373f_44f4_4b99_833a_b831ca4b9fdc"/>
+                    </ObjectInverseOf>
+                    <Class IRI="#OWLClassImpl_9a1c8d4f_ac02_4482_b99e_7b96c4b5a4e0"/>
+                </ObjectSomeValuesFrom>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#OWLObjectProperty_9cfca580_79ec_4f51_bd79_74a2a40a7ebb"/>
+                    <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
+                </ObjectExactCardinality>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLClass_00000000000000000000"/>
         <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
@@ -386,6 +413,10 @@
     <SubClassOf>
         <Class IRI="#OWLClassImpl_390b035c_2380_440f_a391_1db2b7ad7696"/>
         <Class IRI="#OWLClassImpl_3913ae58_190f_4851_a510_7f626edf52f3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClassImpl_39e9163a_8f23_4f71_8564_758ee50d7b33"/>
+        <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClassImpl_6f231c72_0573_45b6_ac1b_143b706265c6"/>
@@ -423,6 +454,10 @@
         <Class IRI="#OWLClass_00000000000000000007"/>
         <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_1d5aed3b_6b7b_4e26_998a_53b3a18211af"/>
+        <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
+    </SubClassOf>
     <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000005"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000006"/>
@@ -446,6 +481,10 @@
     <ClassAssertion>
         <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
         <NamedIndividual IRI="#OWLNamedIndividual_57c99634_db54_4915_9317_9b4b87ef7032"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9fe127be_1889_46fb_91a7_b22dc1f039fd"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
@@ -512,6 +551,21 @@
         <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000065"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectPropertyImpl_95cfcbf4_9786_4397_bd41_66b2e4030d1c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9fe127be_1889_46fb_91a7_b22dc1f039fd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_177484f7_41ac_4d16_ad1c_fb732ef9c501"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9fe127be_1889_46fb_91a7_b22dc1f039fd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9783e179_4581_4e47_b083_2ecec77d38d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLObjectProperty_00000000000000000000"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b780bc7f_2ab5_449d_8ea6_0cb09697ab91"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_774c9260_c4af_4305_a75e_5c266c3842dc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000000"/>
         <NamedIndividual IRI="#OWLNamedIndividual_b780bc7f_2ab5_449d_8ea6_0cb09697ab91"/>
         <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000466"/>
@@ -527,15 +581,35 @@
         <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000166"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_571f30f6_f4d6_4a57_a93a_17950ed9d716"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_b780bc7f_2ab5_449d_8ea6_0cb09697ab91"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_774c9260_c4af_4305_a75e_5c266c3842dc"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_ea5ca6d0_a4f5_4ef3_a0fa_5bb70057a118"/>
         <NamedIndividual IRI="#OWLNamedIndividual_b780bc7f_2ab5_449d_8ea6_0cb09697ab91"/>
         <NamedIndividual IRI="#OWLNamedIndividual_f24aefe4_95e8_4f5e_9afb_7aedfce9b6b6"/>
     </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLDataProperty_954a4ca2_4dd5_477a_be7b_77e98deb682f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2f6c58c8_e190_4bed_9b4d_da3d577e0257"/>
+        <Literal datatypeIRI="&xsd;anyURI">http://musicbrainz.org/work/c0efb7c2-7322-480e-b480-c08b50f357aa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLDataProperty_954a4ca2_4dd5_477a_be7b_77e98deb682f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_4532b098_c89d_434b_a303_755703122517"/>
+        <Literal datatypeIRI="&xsd;anyURI">http://musicbrainz.org/artist/01939cf0-1b5b-42ff-b6cd-237f264c44f2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLDataProperty_954a4ca2_4dd5_477a_be7b_77e98deb682f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_576bea44_9ffd_4b83_be96_a3fa9faad889"/>
+        <Literal datatypeIRI="&xsd;anyURI">http://musicbrainz.org/artist/d6b21c04-af22-4028-8688-5de9ffbceb8a</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLDataProperty_954a4ca2_4dd5_477a_be7b_77e98deb682f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9fe127be_1889_46fb_91a7_b22dc1f039fd"/>
+        <Literal datatypeIRI="&xsd;anyURI">http://musicbrainz.org/artist/4cc5200e-a3f7-4d5d-8b15-9b10a8f9a9a2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLDataProperty_954a4ca2_4dd5_477a_be7b_77e98deb682f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b780bc7f_2ab5_449d_8ea6_0cb09697ab91"/>
+        <Literal datatypeIRI="&xsd;anyURI">http://musicbrainz.org/work/0e5d02ae-574c-408b-8df4-af477948c8ff</Literal>
+    </DataPropertyAssertion>
     <EquivalentObjectProperties>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLObjectProperty_74550960_3ed2_4278_afef_e34463ae9136"/>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLObjectProperty_9efe8e74_0e9c_4780_895e_8af57a52a2ad"/>
@@ -725,16 +799,16 @@
         <ObjectProperty IRI="#OWLObjectProperty_45a63a3f_28f1_41e0_a6e5_4c66107b5c7f"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_c1978757_22a5_4916_a9d1_7d5ee0a56bfc"/>
         <ObjectProperty IRI="#OWLObjectProperty_717dec53_873f_47cc_a340_3ed3860c7f48"/>
+        <ObjectProperty IRI="#OWLObjectProperty_c1978757_22a5_4916_a9d1_7d5ee0a56bfc"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_7f04e1b4_d2c1_48eb_93e3_09cd67d71ad1"/>
         <ObjectProperty IRI="#OWLObjectProperty_9cfca580_79ec_4f51_bd79_74a2a40a7ebb"/>
+        <ObjectProperty IRI="#OWLObjectProperty_7f04e1b4_d2c1_48eb_93e3_09cd67d71ad1"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_ea5ca6d0_a4f5_4ef3_a0fa_5bb70057a118"/>
         <ObjectProperty IRI="#OWLObjectProperty_a9801f20_f5a1_4730_83cd_96e3155ff0a6"/>
+        <ObjectProperty IRI="#OWLObjectProperty_ea5ca6d0_a4f5_4ef3_a0fa_5bb70057a118"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLObjectProperty_00000000000000000000"/>
@@ -848,6 +922,10 @@
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLClass_00000000000000000000"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5"/>
+        <Class IRI="#OWLClass_1d5aed3b_6b7b_4e26_998a_53b3a18211af"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_209e373f_44f4_4b99_833a_b831ca4b9fdc"/>
         <Class IRI="#OWLClassImpl_9a1c8d4f_ac02_4482_b99e_7b96c4b5a4e0"/>
     </ObjectPropertyDomain>
@@ -906,6 +984,13 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLObjectProperty_9efe8e74_0e9c_4780_895e_8af57a52a2ad"/>
         <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLObjectProperty_2cb220f4_94ae_4d7e_8f4c_ae9d725856a6"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLDataProperty_954a4ca2_4dd5_477a_be7b_77e98deb682f"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataExactCardinality>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_051a3848_a8d1_42da_82b5_48d52fc5d006"/>
@@ -969,6 +1054,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000164"/>
         <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5"/>
+        <Class IRI="#OWLClass_00000000000000000000"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_0aad85c8_27a2_403d_b458_50bc3b87ebc2"/>
@@ -1109,7 +1198,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClassImpl_39e9163a_8f23_4f71_8564_758ee50d7b33</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Place</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Location</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1189,12 +1278,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Musician</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Artist</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Müzisyen</Literal>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Sanatçı</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1263,6 +1352,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_1d5aed3b_6b7b_4e26_998a_53b3a18211af</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Performer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLDataProperty_5f2e6ffb_4885_4b47_bccb_cb91a1904bd9</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TRTRepertoireNo</Literal>
     </AnnotationAssertion>
@@ -1280,6 +1374,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000008</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">OtherGender</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_177484f7_41ac_4d16_ad1c_fb732ef9c501</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">İstanbul</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1323,6 +1422,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_9fe127be_1889_46fb_91a7_b22dc1f039fd</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tanburi Cemil Bey</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_b780bc7f_2ab5_449d_8ea6_0cb09697ab91</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mevlam Birçok Dert Vermiş</Literal>
     </AnnotationAssertion>
@@ -1334,7 +1438,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectPropertyImpl_051a3848_a8d1_42da_82b5_48d52fc5d006</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">diedInPlace</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">diedInLocation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1379,7 +1483,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectPropertyImpl_95cfcbf4_9786_4397_bd41_66b2e4030d1c</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">bornInPlace</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">bornInLocation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1478,6 +1582,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">performsIn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_0aad85c8_27a2_403d_b458_50bc3b87ebc2</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasUsul</Literal>
     </AnnotationAssertion>
@@ -1515,11 +1624,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_4e191fbb_dffd_493b_9c4e_0580ba6e0487</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">performanceHasMakam</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_571f30f6_f4d6_4a57_a93a_17950ed9d716</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">workIsFromPlace</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
