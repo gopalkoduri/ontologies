@@ -5540,11 +5540,11 @@
         <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;minExclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;maxInclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">120</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;minExclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -5766,12 +5766,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000019</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BasicMakam</Literal>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">BasitMakam</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000019</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">BasitMakam</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">SimpleMakam</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -9520,7 +9520,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_fb1cbfb8_d2eb_4d14_a54a_668abe42cc33</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isBaseNoteOf</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isBaseNoteOfFlavor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
