@@ -190,6 +190,12 @@
         <ObjectProperty IRI="#OWLObjectProperty_67513725_5db9_4935_bf55_cd5beec795e5"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_7fdc1362_2c9e_49be_b98e_cdb3e1110b1b"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_919ba604_5b51_43a9_91f7_ee21f8ea40fc"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
     </Declaration>
     <Declaration>
@@ -5394,6 +5400,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000039"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_919ba604_5b51_43a9_91f7_ee21f8ea40fc"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000039"/>
     </SubObjectPropertyOf>
@@ -5422,6 +5432,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000620"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_7fdc1362_2c9e_49be_b98e_cdb3e1110b1b"/>
+        <ObjectProperty IRI="#OWLObjectProperty_919ba604_5b51_43a9_91f7_ee21f8ea40fc"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_fb1cbfb8_d2eb_4d14_a54a_668abe42cc33"/>
         <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
     </InverseObjectProperties>
@@ -5431,6 +5445,12 @@
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000604"/>
     </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_7fdc1362_2c9e_49be_b98e_cdb3e1110b1b"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_919ba604_5b51_43a9_91f7_ee21f8ea40fc"/>
+    </TransitiveObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000001"/>
         <Class IRI="#OWLClass_00000000000000000000"/>
@@ -5478,6 +5498,14 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_34766051_eb14_470c_aacb_c3ecd3e023b4"/>
         <Class IRI="#OWLClass_00000000000000000004"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_7fdc1362_2c9e_49be_b98e_cdb3e1110b1b"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_919ba604_5b51_43a9_91f7_ee21f8ea40fc"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
@@ -5536,6 +5564,14 @@
         <Class IRI="#OWLClass_00000000000000000000"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_7fdc1362_2c9e_49be_b98e_cdb3e1110b1b"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_919ba604_5b51_43a9_91f7_ee21f8ea40fc"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
         <Class IRI="#OWLClass_00000000000000000005"/>
     </ObjectPropertyRange>
@@ -5591,11 +5627,11 @@
         <DataProperty IRI="#OWLDataProperty_00000000000000000619"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;maxInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">127</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;minInclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">0</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;maxInclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">127</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -5611,11 +5647,11 @@
         <DataProperty IRI="#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;maxInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">300</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;minExclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;maxInclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">300</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -9560,6 +9596,16 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_67513725_5db9_4935_bf55_cd5beec795e5</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">yedenVar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_7fdc1362_2c9e_49be_b98e_cdb3e1110b1b</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">subformIsPartOfForm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_919ba604_5b51_43a9_91f7_ee21f8ea40fc</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">formHasSubform</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

@@ -230,9 +230,6 @@
         <ObjectProperty IRI="#OWLObjectProperty_355ebe17_5835_42f9_a72d_ab129927cfbb"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_376f182f_e973_4867_bcb5_fdb5ef6faadd"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_3efcd420_314a_42fc_83ee_e0b92f3188a0"/>
     </Declaration>
     <Declaration>
@@ -243,9 +240,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_4e191fbb_dffd_493b_9c4e_0580ba6e0487"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_58b3d9ea_3ff9_470b_9759_cb560c83604b"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_64033dd0_7b4b_4ad5_8cad_518e730e35e2"/>
@@ -297,6 +291,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_c1978757_22a5_4916_a9d1_7d5ee0a56bfc"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_c701e137_e07e_44aa_a77e_965cb1accd2f"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_ccd9ee0a_af32_4429_9d0d_6efccb789fdc"/>
@@ -877,6 +874,14 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000164"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLObjectProperty_7fdc1362_2c9e_49be_b98e_cdb3e1110b1b"/>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000005"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLObjectProperty_919ba604_5b51_43a9_91f7_ee21f8ea40fc"/>
+        <ObjectProperty IRI="#OWLObjectProperty_1d5aa141_68e7_46fa_aa7b_309c27fa2d40"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_051a3848_a8d1_42da_82b5_48d52fc5d006"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
@@ -945,10 +950,6 @@
         <ObjectProperty IRI="#OWLObjectProperty_1d5aa141_68e7_46fa_aa7b_309c27fa2d40"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#OWLObjectProperty_376f182f_e973_4867_bcb5_fdb5ef6faadd"/>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000005"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_3efcd420_314a_42fc_83ee_e0b92f3188a0"/>
         <ObjectProperty IRI="#OWLObjectProperty_0aad85c8_27a2_403d_b458_50bc3b87ebc2"/>
     </SubObjectPropertyOf>
@@ -959,10 +960,6 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_4e191fbb_dffd_493b_9c4e_0580ba6e0487"/>
         <ObjectProperty IRI="#OWLObjectProperty_0bb2d6ba_c672_4fec_bb7b_75c909a4b64a"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#OWLObjectProperty_58b3d9ea_3ff9_470b_9759_cb560c83604b"/>
-        <ObjectProperty IRI="#OWLObjectProperty_1d5aa141_68e7_46fa_aa7b_309c27fa2d40"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_64033dd0_7b4b_4ad5_8cad_518e730e35e2"/>
@@ -1097,10 +1094,6 @@
         <ObjectProperty IRI="#OWLObjectProperty_355ebe17_5835_42f9_a72d_ab129927cfbb"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_58b3d9ea_3ff9_470b_9759_cb560c83604b"/>
-        <ObjectProperty IRI="#OWLObjectProperty_376f182f_e973_4867_bcb5_fdb5ef6faadd"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_91bc0165_9200_4c1a_8e49_e41ca194315c"/>
         <ObjectProperty IRI="#OWLObjectProperty_45a63a3f_28f1_41e0_a6e5_4c66107b5c7f"/>
     </InverseObjectProperties>
@@ -1151,9 +1144,6 @@
     </FunctionalObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000005"/>
-    </TransitiveObjectProperty>
-    <TransitiveObjectProperty>
-        <ObjectProperty IRI="#OWLObjectProperty_376f182f_e973_4867_bcb5_fdb5ef6faadd"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_64033dd0_7b4b_4ad5_8cad_518e730e35e2"/>
@@ -1258,10 +1248,6 @@
         <Class IRI="#OWLClassImpl_9a1c8d4f_ac02_4482_b99e_7b96c4b5a4e0"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_376f182f_e973_4867_bcb5_fdb5ef6faadd"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_3efcd420_314a_42fc_83ee_e0b92f3188a0"/>
         <Class IRI="#OWLClass_00000000000000000001"/>
     </ObjectPropertyDomain>
@@ -1316,6 +1302,10 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_ad569841_421b_410e_b409_4ce678212d9e"/>
         <Class IRI="#OWLClass_00000000000000000002"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_c701e137_e07e_44aa_a77e_965cb1accd2f"/>
+        <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_eab20f8d_7939_421b_ac6b_b313b0aa21be"/>
@@ -1416,10 +1406,6 @@
         <Class IRI="#OWLClass_00000000000000000007"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_376f182f_e973_4867_bcb5_fdb5ef6faadd"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_45a63a3f_28f1_41e0_a6e5_4c66107b5c7f"/>
         <Class IRI="#OWLClass_00000000000000000000"/>
     </ObjectPropertyRange>
@@ -1466,6 +1452,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_ad569841_421b_410e_b409_4ce678212d9e"/>
         <Class IRI="#OWLClass_00000000000000000002"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_c701e137_e07e_44aa_a77e_965cb1accd2f"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_00000000000000000005"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_ee732b79_1e34_4e0d_87f2_9645f9d268de"/>
@@ -2155,11 +2145,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_376f182f_e973_4867_bcb5_fdb5ef6faadd</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">formIsPartOfForm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_3efcd420_314a_42fc_83ee_e0b92f3188a0</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">structureHasUsul</Literal>
     </AnnotationAssertion>
@@ -2177,11 +2162,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_4e191fbb_dffd_493b_9c4e_0580ba6e0487</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">performanceHasMakam</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_58b3d9ea_3ff9_470b_9759_cb560c83604b</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">formHasSubform</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2267,6 +2247,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_c1978757_22a5_4916_a9d1_7d5ee0a56bfc</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">workHasScore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_c701e137_e07e_44aa_a77e_965cb1accd2f</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasNoteSequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
