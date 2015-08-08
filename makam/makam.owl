@@ -2149,7 +2149,7 @@
         <ObjectIntersectionOf>
             <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
             <DataHasValue>
-                <DataProperty IRI="#OWLDataProperty_f85212e4_521e_4402_a5d7_1e9f8509b249"/>
+                <DataProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/symbTr#OWLDataProperty_c61a289b_0814_4434_8bca_4c59d0357176"/>
                 <Literal datatypeIRI="&xsd;boolean">true</Literal>
             </DataHasValue>
         </ObjectIntersectionOf>
@@ -2364,10 +2364,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000155"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000015"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_ce25313a_cff8_4f2b_b473_aee5d6fca72c"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000015"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2640,10 +2636,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000012"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000065"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000156"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000065"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -5296,6 +5288,11 @@
         <Literal datatypeIRI="&xsd;boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000065"/>
+        <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#OWLDataProperty_f85212e4_521e_4402_a5d7_1e9f8509b249"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000065"/>
         <Literal datatypeIRI="&xsd;boolean">true</Literal>
@@ -5546,6 +5543,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_fc0c117e_9bad_4ffd_bfb7_89b138d1b90e"/>
         <Class IRI="#OWLClass_00000000000000000000"/>
     </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
@@ -5924,7 +5925,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isInstrumental</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">formIsInstrumental</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5949,7 +5950,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLDataProperty_f85212e4_521e_4402_a5d7_1e9f8509b249</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isImprovisational</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">formIsImprovisational</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
