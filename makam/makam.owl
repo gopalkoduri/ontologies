@@ -142,9 +142,6 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000039"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000041"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000488"/>
     </Declaration>
     <Declaration>
@@ -212,6 +209,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#OWLDataProperty_74293444_628d_4dc9_8133_7f2d9082d7e1"/>
@@ -2006,6 +2006,30 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000599"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_01bc73a2_2007_45d1_b8c2_ef2290376061"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_6963c708_6089_439d_8ac4_249df9074e5d"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_a1c27f5b_b3b5_429b_b24c_2b51839c6f56"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_b25484ae_bbb5_4319_8c4a_35d0cc9bf8be"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_bfd63110_d8d3_4dac_936f_10fed4d34c87"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_cb03291d_6df8_47ca_a302_d1a8a021ca66"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_fa9daa58_52c7_4fd2_af84_bc649c1400c5"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="#OWLClass_00000000000000000000"/>
@@ -5188,6 +5212,30 @@
         <Class IRI="#OWLClass_00000000000000000014"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000599"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000040"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6963c708_6089_439d_8ac4_249df9074e5d"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000040"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_a1c27f5b_b3b5_429b_b24c_2b51839c6f56"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000040"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b25484ae_bbb5_4319_8c4a_35d0cc9bf8be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000040"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_bfd63110_d8d3_4dac_936f_10fed4d34c87"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000040"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_cb03291d_6df8_47ca_a302_d1a8a021ca66"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_00000000000000000040"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fa9daa58_52c7_4fd2_af84_bc649c1400c5"/>
+    </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000269"/>
@@ -5322,6 +5370,41 @@
         <DataProperty IRI="#OWLDataProperty_00000000000000000619"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000516"/>
         <Literal datatypeIRI="&xsd;integer">69</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_6963c708_6089_439d_8ac4_249df9074e5d"/>
+        <Literal datatypeIRI="&xsd;integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_a1c27f5b_b3b5_429b_b24c_2b51839c6f56"/>
+        <Literal datatypeIRI="&xsd;integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b25484ae_bbb5_4319_8c4a_35d0cc9bf8be"/>
+        <Literal datatypeIRI="&xsd;integer">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b25484ae_bbb5_4319_8c4a_35d0cc9bf8be"/>
+        <Literal datatypeIRI="&xsd;integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_bfd63110_d8d3_4dac_936f_10fed4d34c87"/>
+        <Literal datatypeIRI="&xsd;integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_cb03291d_6df8_47ca_a302_d1a8a021ca66"/>
+        <Literal datatypeIRI="&xsd;integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_fa9daa58_52c7_4fd2_af84_bc649c1400c5"/>
+        <Literal datatypeIRI="&xsd;integer">9</Literal>
     </DataPropertyAssertion>
     <EquivalentObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000030"/>
@@ -5476,10 +5559,6 @@
         <Class IRI="#OWLClass_00000000000000000004"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000041"/>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000493"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
     </ObjectPropertyDomain>
@@ -5540,10 +5619,6 @@
         <Class IRI="#OWLClass_00000000000000000005"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000041"/>
-        <Class IRI="#OWLClass_00000000000000000040"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000493"/>
         <Class IRI="#OWLClass_00000000000000000001"/>
     </ObjectPropertyRange>
@@ -5596,6 +5671,10 @@
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
+        <Class IRI="#OWLClass_00000000000000000040"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_74293444_628d_4dc9_8133_7f2d9082d7e1"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
     </DataPropertyDomain>
@@ -5640,6 +5719,10 @@
         <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#OWLDataProperty_74293444_628d_4dc9_8133_7f2d9082d7e1"/>
         <Datatype abbreviatedIRI="xsd:positiveInteger"/>
     </DataPropertyRange>
@@ -5675,6 +5758,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">abbreviation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000000</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Flavor</Literal>
     </AnnotationAssertion>
@@ -5686,17 +5774,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000001</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Darb</Literal>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">DarbSembolü</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000001</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Stroke</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">StrokeSymbol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000001</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Vuruş</Literal>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">VuruşSembolü</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5726,12 +5814,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000005</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Nota</Literal>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">NotaSembolü</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000005</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Note</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">NoteSymbol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5962,6 +6050,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">formIsInstrumental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasInterval</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8424,7 +8517,7 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Zirefkend</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000486</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">G3</Literal>
     </AnnotationAssertion>
@@ -8434,7 +8527,7 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba rast_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000487</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">G4</Literal>
     </AnnotationAssertion>
@@ -8464,7 +8557,7 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rast_tetrachord_at_neva</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000493</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">G6</Literal>
     </AnnotationAssertion>
@@ -8474,7 +8567,7 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz gerdaniye_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000494</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">G5</Literal>
     </AnnotationAssertion>
@@ -8484,7 +8577,7 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">gerdaniye_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000495</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">C4</Literal>
     </AnnotationAssertion>
@@ -8494,7 +8587,7 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba çargah_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000496</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">C4#4</Literal>
     </AnnotationAssertion>
@@ -8504,7 +8597,7 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba nim hicaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000497</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">C4#5</Literal>
     </AnnotationAssertion>
@@ -8514,7 +8607,7 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba hicaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000498</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">C4#8</Literal>
     </AnnotationAssertion>
@@ -8531,7 +8624,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik hicaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000499</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">D4</Literal>
     </AnnotationAssertion>
@@ -8541,7 +8634,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">yegah_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000500</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">D4#4</Literal>
     </AnnotationAssertion>
@@ -8551,7 +8644,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba nim hisar_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000501</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">D4#5</Literal>
     </AnnotationAssertion>
@@ -8561,7 +8654,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba hisar_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000502</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">D4#8</Literal>
     </AnnotationAssertion>
@@ -8571,7 +8664,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik hisar_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000503</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">E4</Literal>
     </AnnotationAssertion>
@@ -8581,7 +8674,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hüseyni aşiran_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000504</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">F</Literal>
     </AnnotationAssertion>
@@ -8591,7 +8684,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">acem aşiran_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000505</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">F4#1</Literal>
     </AnnotationAssertion>
@@ -8608,7 +8701,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik acem aşiran_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000506</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">F4#4</Literal>
     </AnnotationAssertion>
@@ -8618,7 +8711,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ırak_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000507</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">F4#5</Literal>
     </AnnotationAssertion>
@@ -8628,7 +8721,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">geveşt_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000508</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">F4#8</Literal>
     </AnnotationAssertion>
@@ -8645,7 +8738,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik geveşt_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000510</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">G4#4</Literal>
     </AnnotationAssertion>
@@ -8655,7 +8748,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nim zirgüle_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000511</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">G3#4</Literal>
     </AnnotationAssertion>
@@ -8665,7 +8758,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba nim zirgüle_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000512</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">G4#5</Literal>
     </AnnotationAssertion>
@@ -8675,7 +8768,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">zirgüle_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000513</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">G3#5</Literal>
     </AnnotationAssertion>
@@ -8685,7 +8778,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba zirgüle_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000514</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">G4#8</Literal>
     </AnnotationAssertion>
@@ -8695,7 +8788,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik zirgüle_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000515</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">G3#8</Literal>
     </AnnotationAssertion>
@@ -8715,7 +8808,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dügah_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000517</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A3</Literal>
     </AnnotationAssertion>
@@ -8725,7 +8818,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dügah_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000518</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A4#4</Literal>
     </AnnotationAssertion>
@@ -8735,7 +8828,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kürdi_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000519</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A3#4</Literal>
     </AnnotationAssertion>
@@ -8745,7 +8838,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba kürdi_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000520</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A4#5</Literal>
     </AnnotationAssertion>
@@ -8755,7 +8848,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik kürdi_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000521</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A3#5</Literal>
     </AnnotationAssertion>
@@ -8765,12 +8858,12 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik kürdi_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000522</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A4#8</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000522</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">B4b1</Literal>
     </AnnotationAssertion>
@@ -8780,12 +8873,12 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">segah_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000523</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A3#8</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000523</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">B3b1</Literal>
     </AnnotationAssertion>
@@ -8795,7 +8888,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba segah_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000524</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">B4</Literal>
     </AnnotationAssertion>
@@ -8805,7 +8898,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">buselik_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000525</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">B3</Literal>
     </AnnotationAssertion>
@@ -8815,7 +8908,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba buselik_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000527</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">C5b1</Literal>
     </AnnotationAssertion>
@@ -8832,7 +8925,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik buselik_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000528</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">C4b1</Literal>
     </AnnotationAssertion>
@@ -8849,7 +8942,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik buselik_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000529</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">C5</Literal>
     </AnnotationAssertion>
@@ -8859,7 +8952,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">çargah_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000530</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">C5#4</Literal>
     </AnnotationAssertion>
@@ -8869,7 +8962,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nim hicaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000531</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">C5#5</Literal>
     </AnnotationAssertion>
@@ -8879,7 +8972,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hicaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000532</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">C5#8</Literal>
     </AnnotationAssertion>
@@ -8896,7 +8989,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik hicaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000533</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">D5</Literal>
     </AnnotationAssertion>
@@ -8906,7 +8999,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">neva_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000534</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">D5#4</Literal>
     </AnnotationAssertion>
@@ -8916,7 +9009,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nim hisar_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000535</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">D5#5</Literal>
     </AnnotationAssertion>
@@ -8926,7 +9019,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hisar_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000536</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">D5#8</Literal>
     </AnnotationAssertion>
@@ -8936,7 +9029,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik hisar_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000537</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">E5</Literal>
     </AnnotationAssertion>
@@ -8946,7 +9039,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hüseyni_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000538</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">F5</Literal>
     </AnnotationAssertion>
@@ -8956,7 +9049,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">acem_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000539</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">F5#1</Literal>
     </AnnotationAssertion>
@@ -8973,7 +9066,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik acem_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000540</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">F5#4</Literal>
     </AnnotationAssertion>
@@ -8983,7 +9076,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">eviç_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000541</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">F5#5</Literal>
     </AnnotationAssertion>
@@ -8993,7 +9086,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">mahur_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000542</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">F5#8</Literal>
     </AnnotationAssertion>
@@ -9010,7 +9103,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik mahur_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000544</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">G5#4</Literal>
     </AnnotationAssertion>
@@ -9020,7 +9113,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nim şehnaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000545</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">G5#5</Literal>
     </AnnotationAssertion>
@@ -9030,7 +9123,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">şehnaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000546</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">G5#8</Literal>
     </AnnotationAssertion>
@@ -9040,7 +9133,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik şehnaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000547</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A5</Literal>
     </AnnotationAssertion>
@@ -9050,7 +9143,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">muhayyer_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000548</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A5#4</Literal>
     </AnnotationAssertion>
@@ -9060,7 +9153,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">sünbüle_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000549</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A5#5</Literal>
     </AnnotationAssertion>
@@ -9070,12 +9163,12 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik sünbüle_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000550</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">A5#8</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000550</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">B5b1</Literal>
     </AnnotationAssertion>
@@ -9085,7 +9178,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz segah_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000551</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">B5</Literal>
     </AnnotationAssertion>
@@ -9095,7 +9188,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz buselik_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000552</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">C6b1</Literal>
     </AnnotationAssertion>
@@ -9112,7 +9205,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik buselik_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000553</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">C6</Literal>
     </AnnotationAssertion>
@@ -9122,7 +9215,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz çargah_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000554</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">C6#4</Literal>
     </AnnotationAssertion>
@@ -9132,7 +9225,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz nim hicaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000555</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">C6#5</Literal>
     </AnnotationAssertion>
@@ -9142,7 +9235,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz hicaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000556</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">C6#8</Literal>
     </AnnotationAssertion>
@@ -9159,7 +9252,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik hicaz_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000557</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">D6</Literal>
     </AnnotationAssertion>
@@ -9169,7 +9262,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz neva_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000558</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">D6#4</Literal>
     </AnnotationAssertion>
@@ -9179,7 +9272,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz nim hisar_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000559</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">D6#5</Literal>
     </AnnotationAssertion>
@@ -9189,7 +9282,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz hisar_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000560</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">D6#8</Literal>
     </AnnotationAssertion>
@@ -9199,7 +9292,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik hisar_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000561</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">E6</Literal>
     </AnnotationAssertion>
@@ -9209,7 +9302,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz hüseyni_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000562</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">F6</Literal>
     </AnnotationAssertion>
@@ -9219,7 +9312,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz acem_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000563</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">F6#1</Literal>
     </AnnotationAssertion>
@@ -9236,7 +9329,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik acem_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000564</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">F6#4</Literal>
     </AnnotationAssertion>
@@ -9246,7 +9339,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz eviç_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000565</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">F6#5</Literal>
     </AnnotationAssertion>
@@ -9256,7 +9349,7 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz mahur_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
         <IRI>#OWLNamedIndividual_00000000000000000566</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">F6#8</Literal>
     </AnnotationAssertion>
@@ -9424,6 +9517,86 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_01bc73a2_2007_45d1_b8c2_ef2290376061</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">9 Comma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
+        <IRI>#OWLNamedIndividual_6963c708_6089_439d_8ac4_249df9074e5d</IRI>
+        <Literal datatypeIRI="&xsd;string">8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_6963c708_6089_439d_8ac4_249df9074e5d</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Büyük Mücennep</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
+        <IRI>#OWLNamedIndividual_a1c27f5b_b3b5_429b_b24c_2b51839c6f56</IRI>
+        <Literal datatypeIRI="&xsd;string">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_a1c27f5b_b3b5_429b_b24c_2b51839c6f56</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Comma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_a1c27f5b_b3b5_429b_b24c_2b51839c6f56</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Fazla</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_a1c27f5b_b3b5_429b_b24c_2b51839c6f56</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Koma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
+        <IRI>#OWLNamedIndividual_b25484ae_bbb5_4319_8c4a_35d0cc9bf8be</IRI>
+        <Literal datatypeIRI="&xsd;string">A12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
+        <IRI>#OWLNamedIndividual_b25484ae_bbb5_4319_8c4a_35d0cc9bf8be</IRI>
+        <Literal datatypeIRI="&xsd;string">A13</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_b25484ae_bbb5_4319_8c4a_35d0cc9bf8be</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Artık İkili</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
+        <IRI>#OWLNamedIndividual_bfd63110_d8d3_4dac_936f_10fed4d34c87</IRI>
+        <Literal datatypeIRI="&xsd;string">B</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_bfd63110_d8d3_4dac_936f_10fed4d34c87</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Bakiye</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
+        <IRI>#OWLNamedIndividual_cb03291d_6df8_47ca_a302_d1a8a021ca66</IRI>
+        <Literal datatypeIRI="&xsd;string">5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_cb03291d_6df8_47ca_a302_d1a8a021ca66</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Küçük Müneccep</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
+        <IRI>#OWLNamedIndividual_fa9daa58_52c7_4fd2_af84_bc649c1400c5</IRI>
+        <Literal datatypeIRI="&xsd;string">9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_fa9daa58_52c7_4fd2_af84_bc649c1400c5</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tanini</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000000</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isLeadingOf</Literal>
     </AnnotationAssertion>
@@ -9491,16 +9664,6 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000039</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">notaVar</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_00000000000000000041</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">aralıkVar</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_00000000000000000041</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasInterval</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
