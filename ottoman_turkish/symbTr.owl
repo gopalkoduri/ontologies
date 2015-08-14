@@ -23,6 +23,21 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam</Import>
     <Declaration>
+        <Class IRI="http://purl.org/ontology/mo/Arranger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/mo/Composer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/mo/Lyrics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/mo/Performer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLClass_00000000000000000000"/>
     </Declaration>
     <Declaration>
@@ -65,9 +80,6 @@
         <Class IRI="#OWLClassImpl_afc39164_fc7a_4b7b_ad6d_b106fb5e1180"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OWLClass_00000000000000000000"/>
     </Declaration>
     <Declaration>
@@ -86,7 +98,13 @@
         <Class IRI="#OWLClass_00000000000000000005"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_00000000000000000006"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_00000000000000000007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_00000000000000000008"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_0859abec_0931_4766_aad8_c0621dd9691a"/>
@@ -407,24 +425,39 @@
         <NamedIndividual IRI="#OWLNamedIndividual_f24aefe4_95e8_4f5e_9afb_7aedfce9b6b6"/>
     </Declaration>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLClass_00000000000000000000"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#OWLObjectProperty_00000000000000000162"/>
-                <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
+        <Class IRI="http://purl.org/ontology/mo/Arranger"/>
+        <Class IRI="#OWLClass_00000000000000000006"/>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLClass_82a85f61_5bd3_48cc_884e_7a1f4c26cac6"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLObjectProperty_9efe8e74_0e9c_4780_895e_8af57a52a2ad"/>
-                <Class IRI="#OWLClassImpl_6f231c72_0573_45b6_ac1b_143b706265c6"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
+        <Class IRI="http://purl.org/ontology/mo/Composer"/>
+        <Class IRI="#OWLClassImpl_9a1c8d4f_ac02_4482_b99e_7b96c4b5a4e0"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/mo/Composition"/>
+        <Class IRI="#OWLClass_00000000000000000008"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/mo/Lyrics"/>
+        <Class IRI="#OWLClassImpl_a1a0e208_27d8_4be3_8ad7_50a218c2012c"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/mo/Performance"/>
+        <Class IRI="#OWLClass_00000000000000000000"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/mo/Performer"/>
+        <Class IRI="#OWLClass_1d5aed3b_6b7b_4e26_998a_53b3a18211af"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/mo/Performer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.org/ontology/mo/performed"/>
+            <Class IRI="http://purl.org/ontology/mo/Performance"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#OWLClassImpl_2e34b0ec_f715_4a89_a779_2417c196e26b"/>
@@ -443,39 +476,9 @@
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#OWLObjectPropertyImpl_9cf17e96_3449_4098_8bdb_e5fcb4797212"/>
                 <ObjectUnionOf>
-                    <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
-                    <Class IRI="#OWLClass_00000000000000000000"/>
+                    <Class IRI="http://purl.org/ontology/mo/Composition"/>
+                    <Class IRI="http://purl.org/ontology/mo/Performance"/>
                 </ObjectUnionOf>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClassImpl_9a1c8d4f_ac02_4482_b99e_7b96c4b5a4e0"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#OWLObjectPropertyImpl_f580e6aa_7f11_4b42_b3b5_52bf78c2e5a8"/>
-                <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClassImpl_afc39164_fc7a_4b7b_ad6d_b106fb5e1180"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#OWLObjectPropertyImpl_25a4d516_6457_4076_b0a4_8a961e891bf0"/>
-                <Class IRI="#OWLClassImpl_a1a0e208_27d8_4be3_8ad7_50a218c2012c"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClass_00000000000000000004"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#OWLObjectProperty_00000000000000000160"/>
-                <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -492,7 +495,7 @@
                 </ObjectSomeValuesFrom>
                 <ObjectExactCardinality cardinality="1">
                     <ObjectProperty IRI="#OWLObjectProperty_9cfca580_79ec_4f51_bd79_74a2a40a7ebb"/>
-                    <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
+                    <Class IRI="http://purl.org/ontology/mo/Composition"/>
                 </ObjectExactCardinality>
             </ObjectUnionOf>
         </ObjectIntersectionOf>
@@ -548,12 +551,32 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <SubClassOf>
+        <Class IRI="http://purl.org/ontology/mo/Arranger"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/mo/Composer"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/mo/Composition"/>
+        <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/mo/Lyrics"/>
+        <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/mo/Performer"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLClass_00000000000000000000"/>
-        <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLClass_82a85f61_5bd3_48cc_884e_7a1f4c26cac6"/>
-        <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClassImpl_2e34b0ec_f715_4a89_a779_2417c196e26b"/>
@@ -577,7 +600,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClassImpl_9a1c8d4f_ac02_4482_b99e_7b96c4b5a4e0"/>
-        <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClassImpl_a1a0e208_27d8_4be3_8ad7_50a218c2012c"/>
+        <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClassImpl_a844d999_377c_4ca9_b790_dd4d0daf0782"/>
@@ -585,7 +612,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClassImpl_afc39164_fc7a_4b7b_ad6d_b106fb5e1180"/>
-        <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000002"/>
@@ -597,11 +624,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000004"/>
-        <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_00000000000000000006"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000007"/>
         <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_00000000000000000008"/>
+        <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_0859abec_0931_4766_aad8_c0621dd9691a"/>
@@ -609,7 +644,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_1d5aed3b_6b7b_4e26_998a_53b3a18211af"/>
-        <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_2ec3cda3_f9e1_4706_9442_aa4e67246c44"/>
@@ -644,20 +679,8 @@
         <NamedIndividual IRI="#OWLNamedIndividual_3f2a1647_a61e_4ad9_b6d6_e1319cc3aed8"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_49538fbd_d894_4288_807e_103574b4b223"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
         <NamedIndividual IRI="#OWLNamedIndividual_57c99634_db54_4915_9317_9b4b87ef7032"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_9fe127be_1889_46fb_91a7_b22dc1f039fd"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_b780bc7f_2ab5_449d_8ea6_0cb09697ab91"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_6f9fea52_7c43_4cbf_bf54_b2a26e3609a4"/>
@@ -1172,32 +1195,16 @@
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLClass_82a85f61_5bd3_48cc_884e_7a1f4c26cac6"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_051a3848_a8d1_42da_82b5_48d52fc5d006"/>
-        <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_0a819a63_71fc_4e13_b308_aaac01378e85"/>
         <Class IRI="#OWLClassImpl_9a1c8d4f_ac02_4482_b99e_7b96c4b5a4e0"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_3459184c_fa1e_401a_8c22_7148a6f1b73a"/>
-        <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_7b11e27b_b41c_45f1_8b34_9b4695ee1069"/>
         <Class IRI="#OWLClassImpl_a1a0e208_27d8_4be3_8ad7_50a218c2012c"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_95cfcbf4_9786_4397_bd41_66b2e4030d1c"/>
-        <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_9cf17e96_3449_4098_8bdb_e5fcb4797212"/>
         <Class IRI="#OWLClassImpl_6f231c72_0573_45b6_ac1b_143b706265c6"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_d00080e0_ec0f_43a3_90e1_10c32669721b"/>
-        <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_d54cb729_2f64_46f2_9311_a1170a8e009a"/>
@@ -1209,27 +1216,23 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000000"/>
-        <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
+        <Class IRI="#OWLClass_00000000000000000008"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000001"/>
-        <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
+        <Class IRI="#OWLClass_00000000000000000008"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000002"/>
-        <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
+        <Class IRI="#OWLClass_00000000000000000008"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000003"/>
-        <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
+        <Class IRI="#OWLClass_00000000000000000008"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000004"/>
-        <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000009"/>
-        <Class IRI="#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4"/>
+        <Class IRI="#OWLClass_00000000000000000008"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000160"/>
@@ -1340,7 +1343,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_0a819a63_71fc_4e13_b308_aaac01378e85"/>
-        <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
+        <Class IRI="#OWLClass_00000000000000000008"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_3459184c_fa1e_401a_8c22_7148a6f1b73a"/>
@@ -1348,7 +1351,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_7b11e27b_b41c_45f1_8b34_9b4695ee1069"/>
-        <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
+        <Class IRI="http://purl.org/ontology/mo/Composition"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_95cfcbf4_9786_4397_bd41_66b2e4030d1c"/>
@@ -1423,7 +1426,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_717dec53_873f_47cc_a340_3ed3860c7f48"/>
-        <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
+        <Class IRI="#OWLClass_00000000000000000008"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_7b5df677_a905_4060_968c_504e976f4228"/>
@@ -1435,7 +1438,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_9cfca580_79ec_4f51_bd79_74a2a40a7ebb"/>
-        <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
+        <Class IRI="#OWLClass_00000000000000000008"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_a5ab2cc7_bb9d_4efb_a5be_28efa75ea1ca"/>
@@ -1447,7 +1450,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_a9801f20_f5a1_4730_83cd_96e3155ff0a6"/>
-        <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
+        <Class IRI="#OWLClass_00000000000000000008"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_ad569841_421b_410e_b409_4ce678212d9e"/>
@@ -1495,7 +1498,7 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_5f2e6ffb_4885_4b47_bccb_cb91a1904bd9"/>
-        <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
+        <Class IRI="#OWLClass_00000000000000000008"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_61e8c783_968b_4a90_8fb7_c5f1bdf95e56"/>
@@ -1533,6 +1536,123 @@
         <DataProperty IRI="#OWLDataProperty_f32e2afb_b07c_43bb_98ab_33ee1586cfe4"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/ontology/mo/level"/>
+        <IRI>http://purl.org/ontology/mo/Arranger</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/mo/Arranger</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">arranger</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://purl.org/ontology/mo/Arranger</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/ontology/mo/level"/>
+        <IRI>http://purl.org/ontology/mo/Composer</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/mo/Composer</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">composer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://purl.org/ontology/mo/Composer</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/ontology/mo/level"/>
+        <IRI>http://purl.org/ontology/mo/Lyrics</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/ontology/mo/Lyrics</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">
+        Lyrics
+    </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.org/ontology/mo/Lyrics</IRI>
+        <IRI>http://purl.org/ontology/mo/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/mo/Lyrics</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">lyrics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://purl.org/ontology/mo/Lyrics</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/ontology/mo/level"/>
+        <IRI>http://purl.org/ontology/mo/Performer</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/mo/Performer</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">performer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://purl.org/ontology/mo/Performer</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/issued"/>
+        <IRI>http://purl.org/vocab/frbr/core#Work</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">2005-07-15</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/vocab/frbr/core#Work</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">This class corresponds to the FRBR group one entity &apos;Work&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.org/vocab/frbr/core#Work</IRI>
+        <IRI>http://purl.org/vocab/frbr/core</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/vocab/frbr/core#Work</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">work</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#changeNote"/>
+        <IRI>http://purl.org/vocab/frbr/core#Work</IRI>
+        <AnonymousIndividual nodeID="_:genid-nodeid-mor55ce4deaab41f"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#changeNote"/>
+        <IRI>http://purl.org/vocab/frbr/core#Work</IRI>
+        <AnonymousIndividual nodeID="_:genid-nodeid-mor55ce4deaab479"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#changeNote"/>
+        <IRI>http://purl.org/vocab/frbr/core#Work</IRI>
+        <AnonymousIndividual nodeID="_:genid-nodeid-mor55ce4deaab530"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://purl.org/vocab/frbr/core#Work</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">An abstract notion of an artistic or intellectual creation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+        <IRI>http://purl.org/vocab/frbr/core#Work</IRI>
+        <AnonymousIndividual nodeID="_:genid-nodeid-mor55ce4deaab4d7"/>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLClass_00000000000000000000</IRI>
@@ -1695,16 +1815,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Artist</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClassImpl_b170a451_2b7f_4dae_8e4b_e5910a0337c4</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Sanatçı</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000000</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Performance</Literal>
     </AnnotationAssertion>
@@ -1760,6 +1870,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_00000000000000000006</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Arranger</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000007</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">OriginalScore</Literal>
     </AnnotationAssertion>
@@ -1767,6 +1882,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000007</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">OrjinalPartitür</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_00000000000000000008</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Composition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2041,17 +2161,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000000</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">workHasMakam</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">compositionHasMakam</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000001</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">workHasForm</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">compositionHasForm</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000002</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">workHasUsul</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">compositionHasUsul</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2181,7 +2301,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_717dec53_873f_47cc_a340_3ed3860c7f48</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isScoreOfWork</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isScoreOfComposition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2231,7 +2351,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_a9801f20_f5a1_4730_83cd_96e3155ff0a6</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isTranscriptionOfWork</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isTranscriptionOfComposition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2246,7 +2366,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_c1978757_22a5_4916_a9d1_7d5ee0a56bfc</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">workHasScore</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">compositionHasScore</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2261,7 +2381,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_ea5ca6d0_a4f5_4ef3_a0fa_5bb70057a118</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">workHasTranscription</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">compositionHasTranscription</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
