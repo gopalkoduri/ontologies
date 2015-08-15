@@ -256,6 +256,9 @@
         <DataProperty IRI="#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#OWLDataProperty_9078b776_be69_4d40_868f_bd09633c681d"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#OWLDataProperty_954a4ca2_4dd5_477a_be7b_77e98deb682f"/>
     </Declaration>
     <Declaration>
@@ -5493,7 +5496,7 @@
         <Literal datatypeIRI="&xsd;integer">69</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
+        <DataProperty IRI="#OWLDataProperty_9078b776_be69_4d40_868f_bd09633c681d"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000522"/>
         <Literal datatypeIRI="&xsd;int">1</Literal>
     </DataPropertyAssertion>
@@ -5811,6 +5814,10 @@
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_9078b776_be69_4d40_868f_bd09633c681d"/>
+        <Class IRI="#OWLClass_00000000000000000005"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_95dce3e0_b788_4289_bce9_1a0711207a34"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
     </DataPropertyDomain>
@@ -5826,11 +5833,11 @@
         <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;minExclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;maxInclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">120</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;minExclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -5862,11 +5869,20 @@
         <DataProperty IRI="#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+            <FacetRestriction facet="&xsd;minExclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
+            </FacetRestriction>
             <FacetRestriction facet="&xsd;maxInclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">300</Literal>
             </FacetRestriction>
+        </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_9078b776_be69_4d40_868f_bd09633c681d"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:double"/>
             <FacetRestriction facet="&xsd;minExclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
+                <Literal datatypeIRI="&xsd;double">0.0</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -5878,11 +5894,11 @@
         <DataProperty IRI="#OWLDataProperty_989ead94_771d_43e2_b31e_3c9e6ed35bf0"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:int"/>
-            <FacetRestriction facet="&xsd;minInclusive">
-                <Literal datatypeIRI="&xsd;negativeInteger">-1</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;maxInclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">10</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;minInclusive">
+                <Literal datatypeIRI="&xsd;negativeInteger">-1</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -6309,6 +6325,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">averageTempo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_9078b776_be69_4d40_868f_bd09633c681d</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">deviationFromLatinNoteSymbol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -9110,16 +9131,6 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000521</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik kürdi_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000522</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A4#8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000522</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">B4b1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
