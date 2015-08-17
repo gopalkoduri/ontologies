@@ -21,6 +21,7 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-symbolic-music</Import>
     <Declaration>
         <Class IRI="http://purl.org/ontology/symbolic-music/Octave"/>
     </Declaration>
@@ -31,16 +32,10 @@
         <Class IRI="#OWLClass_00000000000000000000"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_00000000000000000001"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OWLClass_00000000000000000002"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_00000000000000000004"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_00000000000000000005"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_00000000000000000007"/>
@@ -88,9 +83,6 @@
         <Class IRI="#OWLClass_00000000000000000024"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_00000000000000000040"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OWLClass_00000000000000000077"/>
     </Declaration>
     <Declaration>
@@ -106,46 +98,7 @@
         <Class IRI="#OWLClass_00000000000000000156"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_0c0f2f79_ebdb_4651_b205_fa2143315c38"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_451dabf8_1681_4835_bbf3_0a1a1b63af38"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_51c856fd_96ea_479f_adea_14e07c536901"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_52f146e4_7da4_4ae5_b0be_0fba65fcd06d"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_73acd0af_2f99_4951_9d40_bfcc8842cbc0"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_92025319_8401_469d_a440_f2e0480f3d2a"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_a2eefe41_6440_40bc_9d61_917f175be3c4"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_aad6f6a2_d4e8_4c92_a373_40ceb0d1dbbe"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OWLClass_ce25313a_cff8_4f2b_b473_aee5d6fca72c"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_d55f406f_8174_4cb7_b1a6_5343b4fe96c7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_e3973721_9e18_4948_abfa_bcbd835ac1cd"/>
     </Declaration>
     <Declaration>
         <Class IRI="-symbolic-music#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327"/>
@@ -220,9 +173,6 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000622"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_2cb220f4_94ae_4d7e_8f4c_ae9d725856a6"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_34766051_eb14_470c_aacb_c3ecd3e023b4"/>
     </Declaration>
     <Declaration>
@@ -245,6 +195,18 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_fc0c117e_9bad_4ffd_bfb7_89b138d1b90e"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_00000000000000000493"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_0f8a434d_56a0_4031_b551_94ca1e2d76ce"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_767ce942_b464_4bbc_8f76_1acdd8162d00"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_cfe193f7_b448_45d5_b513_c0e794fc2b41"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="http://purl.org/ontology/mo/musicbrainz_guid"/>
@@ -808,9 +770,6 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000175"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000176"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000177"/>
     </Declaration>
     <Declaration>
@@ -1078,9 +1037,6 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000265"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000266"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000267"/>
     </Declaration>
     <Declaration>
@@ -1115,9 +1071,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000278"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000279"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000280"/>
@@ -1303,9 +1256,6 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000340"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000341"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000342"/>
     </Declaration>
     <Declaration>
@@ -1373,9 +1323,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000364"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000365"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000366"/>
@@ -1723,9 +1670,6 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000480"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000481"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000482"/>
     </Declaration>
     <Declaration>
@@ -1736,237 +1680,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000485"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000486"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000487"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000488"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000489"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000490"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000491"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000493"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000494"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000495"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000496"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000497"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000498"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000499"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000500"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000501"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000502"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000503"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000504"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000505"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000506"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000507"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000508"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000510"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000511"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000512"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000513"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000514"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000515"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000516"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000517"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000518"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000519"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000520"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000521"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000522"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000523"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000524"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000525"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000527"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000528"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000529"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000530"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000531"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000532"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000533"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000534"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000535"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000536"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000537"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000538"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000539"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000540"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000541"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000542"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000544"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000545"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000546"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000547"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000548"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000549"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000550"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000551"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000552"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000553"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000554"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000555"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000556"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000557"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000558"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000559"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000560"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000561"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000562"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000563"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000564"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000565"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000566"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000568"/>
@@ -2059,90 +1772,8 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000599"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_01afca4c_66ef_48b3_bcc3_21bd696a3173"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_05514863_b191_4100_88a2_8fd5180660ea"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_0ca6f2ca_5121_4598_812b_85b63ff91819"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_0f593035_c8a8_4115_a561_a07416041134"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_3b270759_e6a2_44e2_8321_b276460771bb"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_3e94eadf_942e_4569_8a18_7b0175fd4f04"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_41380b4c_964b_46d2_b327_4f232de63613"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_4c8900d0_5f9f_4a5b_8af9_9d19f32a703e"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_6dcaf715_6611_4ce9_b41f_f2033d1919ae"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_700df79c_7e41_4817_bf21_5d138fa122b7"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_74317462_a940_444e_9fd0_4b19944af891"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_7828dc74_f94d_4fea_9fcd_84035c93af58"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_8d40626f_40a0_40eb_b9a1_2070ba0d8fe7"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_8f43216f_7462_4ccd_bfa2_b431c1e86be1"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_9e4286ca_aaee_47da_95e4_86e2ae09b4b9"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_ae733e65_182c_4f10_b007_d6ae4927fd54"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_ba7b6f32_27b4_4d30_a0fd_446b6d404732"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_cbd16101_685f_4677_b621_7c947a279b94"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_e06f39da_7986_4413_9692_848d86e6ace9"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_f212056f_c045_4e86_af66_31d753c2aa20"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_f721e416_aa3c_4c2b_8c2a_e046b15db0b4"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_f992497b_4ebd_49d9_a8c2_156dd0331c76"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_fb5702d6_4cf0_414f_8966_ccd4e97bc2c1"/>
-    </Declaration>
-    <Declaration>
         <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
     </Declaration>
-    <EquivalentClasses>
-        <Class IRI="#OWLClass_00000000000000000000"/>
-        <ObjectIntersectionOf>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#OWLObjectProperty_00000000000000000001"/>
-                <Class IRI="#OWLClass_00000000000000000013"/>
-            </ObjectExactCardinality>
-            <ObjectExactCardinality cardinality="1">
-                <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
-                <Class IRI="#OWLClass_00000000000000000005"/>
-            </ObjectExactCardinality>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#OWLClass_00000000000000000002"/>
         <ObjectIntersectionOf>
@@ -2191,36 +1822,6 @@
                     </FacetRestriction>
                 </DatatypeRestriction>
             </DataSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClass_00000000000000000014"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#OWLClass_00000000000000000013"/>
-            <ObjectExactCardinality cardinality="3">
-                <ObjectProperty IRI="#OWLObjectProperty_00000000000000000494"/>
-                <Class IRI="#OWLClass_00000000000000000040"/>
-            </ObjectExactCardinality>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClass_00000000000000000015"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#OWLClass_00000000000000000013"/>
-            <ObjectExactCardinality cardinality="4">
-                <ObjectProperty IRI="#OWLObjectProperty_00000000000000000494"/>
-                <Class IRI="#OWLClass_00000000000000000040"/>
-            </ObjectExactCardinality>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClass_00000000000000000016"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#OWLClass_00000000000000000013"/>
-            <ObjectExactCardinality cardinality="2">
-                <ObjectProperty IRI="#OWLObjectProperty_00000000000000000494"/>
-                <Class IRI="#OWLClass_00000000000000000040"/>
-            </ObjectExactCardinality>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -2273,99 +1874,9 @@
             </DataHasValue>
         </ObjectIntersectionOf>
     </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClass_0c0f2f79_ebdb_4651_b205_fa2143315c38"/>
-        <ObjectUnionOf>
-            <DataHasValue>
-                <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-                <Literal datatypeIRI="&xsd;integer">-9</Literal>
-            </DataHasValue>
-            <DataHasValue>
-                <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-                <Literal datatypeIRI="&xsd;integer">9</Literal>
-            </DataHasValue>
-        </ObjectUnionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClass_451dabf8_1681_4835_bbf3_0a1a1b63af38"/>
-        <ObjectUnionOf>
-            <DataHasValue>
-                <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-                <Literal datatypeIRI="&xsd;integer">-8</Literal>
-            </DataHasValue>
-            <DataHasValue>
-                <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-                <Literal datatypeIRI="&xsd;integer">8</Literal>
-            </DataHasValue>
-        </ObjectUnionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClass_52f146e4_7da4_4ae5_b0be_0fba65fcd06d"/>
-        <ObjectUnionOf>
-            <DataHasValue>
-                <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-                <Literal datatypeIRI="&xsd;integer">-4</Literal>
-            </DataHasValue>
-            <DataHasValue>
-                <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-                <Literal datatypeIRI="&xsd;integer">4</Literal>
-            </DataHasValue>
-        </ObjectUnionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClass_aad6f6a2_d4e8_4c92_a373_40ceb0d1dbbe"/>
-        <ObjectUnionOf>
-            <DataHasValue>
-                <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-                <Literal datatypeIRI="&xsd;integer">-1</Literal>
-            </DataHasValue>
-            <DataHasValue>
-                <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-                <Literal datatypeIRI="&xsd;integer">1</Literal>
-            </DataHasValue>
-        </ObjectUnionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClass_d55f406f_8174_4cb7_b1a6_5343b4fe96c7"/>
-        <ObjectUnionOf>
-            <DataHasValue>
-                <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-                <Literal datatypeIRI="&xsd;integer">-5</Literal>
-            </DataHasValue>
-            <DataHasValue>
-                <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-                <Literal datatypeIRI="&xsd;integer">5</Literal>
-            </DataHasValue>
-        </ObjectUnionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClass_e3973721_9e18_4948_abfa_bcbd835ac1cd"/>
-        <ObjectUnionOf>
-            <DataHasValue>
-                <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-                <Literal datatypeIRI="&xsd;integer">-12</Literal>
-            </DataHasValue>
-            <DataHasValue>
-                <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-                <Literal datatypeIRI="&xsd;integer">-13</Literal>
-            </DataHasValue>
-            <DataHasValue>
-                <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-                <Literal datatypeIRI="&xsd;integer">12</Literal>
-            </DataHasValue>
-            <DataHasValue>
-                <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-                <Literal datatypeIRI="&xsd;integer">13</Literal>
-            </DataHasValue>
-        </ObjectUnionOf>
-    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000002"/>
         <Class IRI="#OWLClass_00000000000000000004"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <Class IRI="#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000007"/>
@@ -2432,52 +1943,8 @@
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OWLClass_0c0f2f79_ebdb_4651_b205_fa2143315c38"/>
-        <Class IRI="#OWLClass_00000000000000000040"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_451dabf8_1681_4835_bbf3_0a1a1b63af38"/>
-        <Class IRI="#OWLClass_00000000000000000040"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_51c856fd_96ea_479f_adea_14e07c536901"/>
-        <Class IRI="#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_52f146e4_7da4_4ae5_b0be_0fba65fcd06d"/>
-        <Class IRI="#OWLClass_00000000000000000040"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_73acd0af_2f99_4951_9d40_bfcc8842cbc0"/>
-        <Class IRI="#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_92025319_8401_469d_a440_f2e0480f3d2a"/>
-        <Class IRI="#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_a2eefe41_6440_40bc_9d61_917f175be3c4"/>
-        <Class IRI="#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323"/>
-        <Class IRI="#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_aad6f6a2_d4e8_4c92_a373_40ceb0d1dbbe"/>
-        <Class IRI="#OWLClass_00000000000000000040"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#OWLClass_ce25313a_cff8_4f2b_b473_aee5d6fca72c"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_d55f406f_8174_4cb7_b1a6_5343b4fe96c7"/>
-        <Class IRI="#OWLClass_00000000000000000040"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_e3973721_9e18_4948_abfa_bcbd835ac1cd"/>
-        <Class IRI="#OWLClass_00000000000000000040"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000001"/>
@@ -2511,30 +1978,6 @@
         <Class IRI="#OWLClass_00000000000000000019"/>
         <Class IRI="#OWLClass_00000000000000000021"/>
     </DisjointClasses>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_51c856fd_96ea_479f_adea_14e07c536901"/>
-        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/double_flat"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0"/>
-        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/double_natural"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_51c856fd_96ea_479f_adea_14e07c536901"/>
-        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/double_sharp"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_51c856fd_96ea_479f_adea_14e07c536901"/>
-        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/flat"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0"/>
-        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/natural"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_51c856fd_96ea_479f_adea_14e07c536901"/>
-        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/sharp"/>
-    </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000000"/>
@@ -3372,10 +2815,6 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000175"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000001"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000176"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000004"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000177"/>
     </ClassAssertion>
@@ -3880,10 +3319,6 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000265"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000001"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000266"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000004"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000267"/>
     </ClassAssertion>
@@ -3954,10 +3389,6 @@
     <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000004"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000278"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000001"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000279"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000004"/>
@@ -4284,10 +3715,6 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000340"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000001"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000341"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000004"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000342"/>
     </ClassAssertion>
@@ -4398,10 +3825,6 @@
     <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000004"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000364"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000001"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000365"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000004"/>
@@ -5008,10 +4431,6 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000480"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000001"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000481"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000004"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000482"/>
     </ClassAssertion>
@@ -5034,298 +4453,6 @@
     <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000020"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000485"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000486"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000487"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000001"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000488"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000493"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000494"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000495"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000496"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000497"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000498"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000499"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000500"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000501"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000502"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000503"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000504"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000505"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000506"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000507"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000508"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000510"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000511"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000512"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000513"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000514"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000515"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000517"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000518"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000519"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000520"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000521"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_92025319_8401_469d_a440_f2e0480f3d2a"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000522"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000523"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000524"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000525"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000527"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000528"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000529"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000530"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000531"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000532"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000533"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000534"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000535"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000536"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000537"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000538"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000539"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000540"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000541"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000542"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000544"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000545"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000546"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000547"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000548"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000549"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000550"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000551"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000552"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000553"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000554"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000555"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000556"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000557"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000558"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000559"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000560"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000561"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000562"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000563"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000564"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000565"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000566"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OWLClass_00000000000000000014"/>
@@ -5447,227 +4574,11 @@
         <Class IRI="#OWLClass_00000000000000000014"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000599"/>
     </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_a2eefe41_6440_40bc_9d61_917f175be3c4"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_01afca4c_66ef_48b3_bcc3_21bd696a3173"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_a2eefe41_6440_40bc_9d61_917f175be3c4"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_05514863_b191_4100_88a2_8fd5180660ea"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_0ca6f2ca_5121_4598_812b_85b63ff91819"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_0f593035_c8a8_4115_a561_a07416041134"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3b270759_e6a2_44e2_8321_b276460771bb"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_a2eefe41_6440_40bc_9d61_917f175be3c4"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3e94eadf_942e_4569_8a18_7b0175fd4f04"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_a2eefe41_6440_40bc_9d61_917f175be3c4"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_41380b4c_964b_46d2_b327_4f232de63613"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_a2eefe41_6440_40bc_9d61_917f175be3c4"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_4c8900d0_5f9f_4a5b_8af9_9d19f32a703e"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_6dcaf715_6611_4ce9_b41f_f2033d1919ae"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_a2eefe41_6440_40bc_9d61_917f175be3c4"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_700df79c_7e41_4817_bf21_5d138fa122b7"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_74317462_a940_444e_9fd0_4b19944af891"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_7828dc74_f94d_4fea_9fcd_84035c93af58"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_8d40626f_40a0_40eb_b9a1_2070ba0d8fe7"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_51c856fd_96ea_479f_adea_14e07c536901"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_8f43216f_7462_4ccd_bfa2_b431c1e86be1"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_a2eefe41_6440_40bc_9d61_917f175be3c4"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_9e4286ca_aaee_47da_95e4_86e2ae09b4b9"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_ae733e65_182c_4f10_b007_d6ae4927fd54"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_ba7b6f32_27b4_4d30_a0fd_446b6d404732"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_a2eefe41_6440_40bc_9d61_917f175be3c4"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_cbd16101_685f_4677_b621_7c947a279b94"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_e06f39da_7986_4413_9692_848d86e6ace9"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_51c856fd_96ea_479f_adea_14e07c536901"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_f212056f_c045_4e86_af66_31d753c2aa20"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_51c856fd_96ea_479f_adea_14e07c536901"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_f721e416_aa3c_4c2b_8c2a_e046b15db0b4"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_f992497b_4ebd_49d9_a8c2_156dd0331c76"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_51c856fd_96ea_479f_adea_14e07c536901"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_fb5702d6_4cf0_414f_8966_ccd4e97bc2c1"/>
-    </ClassAssertion>
-    <SameIndividual>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000522"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_e06f39da_7986_4413_9692_848d86e6ace9"/>
-    </SameIndividual>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000269"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000516"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000277"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000516"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000289"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000516"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000290"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000516"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000033"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000299"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000537"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000299"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000516"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000338"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000537"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000338"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000516"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000033"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000353"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000533"/>
-    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000603"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000371"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000385"/>
     </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000025"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000385"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000489"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000030"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000385"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000487"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000027"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000489"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000491"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000027"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000489"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000490"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000001"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000490"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000577"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000490"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000487"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000491"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000533"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/accidental"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000522"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_ba7b6f32_27b4_4d30_a0fd_446b6d404732"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/latinNoteSymbol"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000522"/>
-        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/b"/>
-    </ObjectPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/double_flat"/>
-        <Literal datatypeIRI="&xsd;int">-9</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/double_natural"/>
-        <Literal datatypeIRI="&xsd;int">0</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/double_sharp"/>
-        <Literal datatypeIRI="&xsd;int">+9</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/flat"/>
-        <Literal datatypeIRI="&xsd;float">-4.5</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/natural"/>
-        <Literal datatypeIRI="&xsd;int">0</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/sharp"/>
-        <Literal datatypeIRI="&xsd;float">4.5</Literal>
-    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000011"/>
@@ -5712,126 +4623,6 @@
         <DataProperty IRI="#OWLDataProperty_74293444_628d_4dc9_8133_7f2d9082d7e1"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000156"/>
         <Literal datatypeIRI="&xsd;int">4</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_00000000000000000619"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000516"/>
-        <Literal datatypeIRI="&xsd;integer">69</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_989ead94_771d_43e2_b31e_3c9e6ed35bf0"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000522"/>
-        <Literal datatypeIRI="&xsd;int">4</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_01afca4c_66ef_48b3_bcc3_21bd696a3173"/>
-        <Literal datatypeIRI="&xsd;int">-4</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_05514863_b191_4100_88a2_8fd5180660ea"/>
-        <Literal datatypeIRI="&xsd;int">1</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_0ca6f2ca_5121_4598_812b_85b63ff91819"/>
-        <Literal datatypeIRI="&xsd;int">4</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_0f593035_c8a8_4115_a561_a07416041134"/>
-        <Literal datatypeIRI="&xsd;float">-9.0</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3b270759_e6a2_44e2_8321_b276460771bb"/>
-        <Literal datatypeIRI="&xsd;int">+1</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3e94eadf_942e_4569_8a18_7b0175fd4f04"/>
-        <Literal datatypeIRI="&xsd;int">5</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_41380b4c_964b_46d2_b327_4f232de63613"/>
-        <Literal datatypeIRI="&xsd;int">-2</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_4c8900d0_5f9f_4a5b_8af9_9d19f32a703e"/>
-        <Literal datatypeIRI="&xsd;int">+2</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_6dcaf715_6611_4ce9_b41f_f2033d1919ae"/>
-        <Literal datatypeIRI="&xsd;int">+8</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_700df79c_7e41_4817_bf21_5d138fa122b7"/>
-        <Literal datatypeIRI="&xsd;int">+3</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_74317462_a940_444e_9fd0_4b19944af891"/>
-        <Literal datatypeIRI="&xsd;int">+5</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_7828dc74_f94d_4fea_9fcd_84035c93af58"/>
-        <Literal datatypeIRI="&xsd;int">-8</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_8d40626f_40a0_40eb_b9a1_2070ba0d8fe7"/>
-        <Literal datatypeIRI="&xsd;int">-5</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_8f43216f_7462_4ccd_bfa2_b431c1e86be1"/>
-        <Literal datatypeIRI="&xsd;float">-2.25</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_9e4286ca_aaee_47da_95e4_86e2ae09b4b9"/>
-        <Literal datatypeIRI="&xsd;int">-3</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_ae733e65_182c_4f10_b007_d6ae4927fd54"/>
-        <Literal datatypeIRI="&xsd;float">9.0</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_ba7b6f32_27b4_4d30_a0fd_446b6d404732"/>
-        <Literal datatypeIRI="&xsd;int">-1</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_cbd16101_685f_4677_b621_7c947a279b94"/>
-        <Literal datatypeIRI="&xsd;int">1</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_f212056f_c045_4e86_af66_31d753c2aa20"/>
-        <Literal datatypeIRI="&xsd;float">-6.75</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_f721e416_aa3c_4c2b_8c2a_e046b15db0b4"/>
-        <Literal datatypeIRI="&xsd;float">6.75</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_f992497b_4ebd_49d9_a8c2_156dd0331c76"/>
-        <Literal datatypeIRI="&xsd;int">-4</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_fb5702d6_4cf0_414f_8966_ccd4e97bc2c1"/>
-        <Literal datatypeIRI="&xsd;float">2.25</Literal>
     </DataPropertyAssertion>
     <EquivalentObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000030"/>
@@ -5886,6 +4677,14 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000488"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000493"/>
+        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_0f8a434d_56a0_4031_b551_94ca1e2d76ce"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000494"/>
+        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_0f8a434d_56a0_4031_b551_94ca1e2d76ce"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000620"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000039"/>
     </SubObjectPropertyOf>
@@ -5920,6 +4719,18 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_fb1cbfb8_d2eb_4d14_a54a_668abe42cc33"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000488"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_00000000000000000493"/>
+        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_0f8a434d_56a0_4031_b551_94ca1e2d76ce"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_767ce942_b464_4bbc_8f76_1acdd8162d00"/>
+        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_0f8a434d_56a0_4031_b551_94ca1e2d76ce"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_cfe193f7_b448_45d5_b513_c0e794fc2b41"/>
+        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_0f8a434d_56a0_4031_b551_94ca1e2d76ce"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000489"/>
@@ -5961,14 +4772,6 @@
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_919ba604_5b51_43a9_91f7_ee21f8ea40fc"/>
     </TransitiveObjectProperty>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/accidental"/>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/latinNoteSymbol"/>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000001"/>
         <Class IRI="#OWLClass_00000000000000000000"/>
@@ -6042,32 +4845,12 @@
         <Class IRI="#OWLClass_00000000000000000000"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000030"/>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000033"/>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000039"/>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000493"/>
-        <Class IRI="#OWLClass_00000000000000000001"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000494"/>
-        <Class IRI="#OWLClass_00000000000000000040"/>
+        <Class IRI="-symbolic-music#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000603"/>
         <Class IRI="#OWLClass_00000000000000000004"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000620"/>
-        <Class IRI="#OWLClass_00000000000000000005"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_34766051_eb14_470c_aacb_c3ecd3e023b4"/>
@@ -6080,10 +4863,6 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_919ba604_5b51_43a9_91f7_ee21f8ea40fc"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
-        <Class IRI="#OWLClass_00000000000000000005"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_fc0c117e_9bad_4ffd_bfb7_89b138d1b90e"/>
@@ -6110,16 +4889,8 @@
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#OWLDataProperty_00000000000000000619"/>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <Class IRI="#OWLClass_00000000000000000040"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_74293444_628d_4dc9_8133_7f2d9082d7e1"/>
@@ -6132,10 +4903,6 @@
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_95dce3e0_b788_4289_bce9_1a0711207a34"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#OWLDataProperty_989ead94_771d_43e2_b31e_3c9e6ed35bf0"/>
-        <Class IRI="#OWLClass_00000000000000000005"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_f85212e4_521e_4402_a5d7_1e9f8509b249"/>
@@ -6157,11 +4924,11 @@
         <DataProperty IRI="#OWLDataProperty_00000000000000000619"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;minInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">0</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;maxInclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">127</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;minInclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">0</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -6184,11 +4951,11 @@
         <DataProperty IRI="#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;minExclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;maxInclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">300</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;minExclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -6264,21 +5031,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000001</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Darbİsmi</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000001</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">StrokeName</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000001</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Vuruşİsmi</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000002</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">AscendingMakam</Literal>
     </AnnotationAssertion>
@@ -6301,16 +5053,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000004</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Makam</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000005</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ClassicalNoteName</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000005</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">KlasikNotaİsmi</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -6458,16 +5200,6 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Scale</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000040</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Aralık</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000040</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Interval</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OWLClass_00000000000000000077</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">OrduFormu</Literal>
@@ -6518,61 +5250,6 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">InstrumentalForm</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_0c0f2f79_ebdb_4651_b205_fa2143315c38</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tanini</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Accidental</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_451dabf8_1681_4835_bbf3_0a1a1b63af38</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Büyük Mücennep</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_51c856fd_96ea_479f_adea_14e07c536901</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EurogeneticAccidental</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_52f146e4_7da4_4ae5_b0be_0fba65fcd06d</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Bakiye</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_73acd0af_2f99_4951_9d40_bfcc8842cbc0</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">FolkNoteName</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_92025319_8401_469d_a440_f2e0480f3d2a</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">53TETNoteName</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_a2eefe41_6440_40bc_9d61_917f175be3c4</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">FolkAccidental</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ClassicalAccidental</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_aad6f6a2_d4e8_4c92_a373_40ceb0d1dbbe</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Comma</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">NoteName</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OWLClass_ce25313a_cff8_4f2b_b473_aee5d6fca72c</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">DoğaçlamaFormu</Literal>
@@ -6581,16 +5258,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_ce25313a_cff8_4f2b_b473_aee5d6fca72c</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ImprovisationalForm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_d55f406f_8174_4cb7_b1a6_5343b4fe96c7</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Küçük Müneccep</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_e3973721_9e18_4948_abfa_bcbd835ac1cd</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Artık İkili</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7534,11 +6201,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000176</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">düm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000177</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ambiguous</Literal>
     </AnnotationAssertion>
@@ -7984,11 +6646,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000266</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tek</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000267</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Haver</Literal>
     </AnnotationAssertion>
@@ -8046,11 +6703,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000278</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Hicazi Acem</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000279</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">te</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8359,11 +7011,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000341</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ka</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000342</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Muhayyerkürdi</Literal>
     </AnnotationAssertion>
@@ -8476,11 +7123,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000364</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Nigar</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000365</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ke</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -9059,11 +7701,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000481</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tek-ka</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000482</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Çargah (Yeni)</Literal>
     </AnnotationAssertion>
@@ -9081,845 +7718,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_00000000000000000485</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Zirefkend</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000486</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">G3</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000486</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba rast_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000487</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">G4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000487</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rast_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000488</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ta-hek</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000489</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Rast_scale</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000490</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rast_pentachord_at_rast</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000491</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rast_tetrachord_at_neva</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000493</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">G6</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000493</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz gerdaniye_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000494</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">G5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000494</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">gerdaniye_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000495</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">C4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000495</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba çargah_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000496</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">C4#4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000496</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba nim hicaz_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000497</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">C4#5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000497</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba hicaz_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000498</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">C4#8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#OWLNamedIndividual_00000000000000000498</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">This note is not played in practice.
-
-Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek Ses Sistemi ve Uygulamada Kullanılmayan Bazı Perdeler. Gazi Eğitim Fakültesi Dergisi, 22(1).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000498</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik hicaz_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000499</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">D4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000499</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">yegah_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000500</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">D4#4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000500</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba nim hisar_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000501</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">D4#5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000501</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba hisar_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000502</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">D4#8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000502</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik hisar_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000503</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">E4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000503</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hüseyni aşiran_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000504</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">F</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000504</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">acem aşiran_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000505</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">F4#1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#OWLNamedIndividual_00000000000000000505</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">This note is not played in practice.
-
-Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek Ses Sistemi ve Uygulamada Kullanılmayan Bazı Perdeler. Gazi Eğitim Fakültesi Dergisi, 22(1).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000505</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik acem aşiran_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000506</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">F4#4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000506</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ırak_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000507</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">F4#5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000507</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">geveşt_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000508</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">F4#8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#OWLNamedIndividual_00000000000000000508</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">This note is not played in practice.
-
-Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek Ses Sistemi ve Uygulamada Kullanılmayan Bazı Perdeler. Gazi Eğitim Fakültesi Dergisi, 22(1).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000508</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik geveşt_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000510</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">G4#4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000510</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nim zirgüle_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000511</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">G3#4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000511</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba nim zirgüle_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000512</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">G4#5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000512</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">zirgüle_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000513</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">G3#5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000513</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba zirgüle_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000514</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">G4#8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000514</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik zirgüle_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000515</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">G3#8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000515</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik zirgüle_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#OWLNamedIndividual_00000000000000000516</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000516</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dügah_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000517</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A3</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000517</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dügah_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000518</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A4#4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000518</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kürdi_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000519</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A3#4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000519</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba kürdi_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000520</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A4#5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000520</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik kürdi_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000521</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A3#5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000521</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik kürdi_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000522</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">B4b1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000523</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A3#8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000523</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">B3b1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000523</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba segah_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000524</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">B4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000524</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">buselik_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000525</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">B3</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000525</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba buselik_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000527</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">C5b1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#OWLNamedIndividual_00000000000000000527</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">This note is not played in practice.
-
-Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek Ses Sistemi ve Uygulamada Kullanılmayan Bazı Perdeler. Gazi Eğitim Fakültesi Dergisi, 22(1).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000527</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik buselik_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000528</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">C4b1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#OWLNamedIndividual_00000000000000000528</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">This note is not played in practice.
-
-Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek Ses Sistemi ve Uygulamada Kullanılmayan Bazı Perdeler. Gazi Eğitim Fakültesi Dergisi, 22(1).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000528</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kaba dik buselik_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000529</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">C5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000529</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">çargah_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000530</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">C5#4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000530</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nim hicaz_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000531</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">C5#5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000531</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hicaz_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000532</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">C5#8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#OWLNamedIndividual_00000000000000000532</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">This note is not played in practice.
-
-Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek Ses Sistemi ve Uygulamada Kullanılmayan Bazı Perdeler. Gazi Eğitim Fakültesi Dergisi, 22(1).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000532</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik hicaz_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000533</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">D5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000533</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">neva_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000534</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">D5#4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000534</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nim hisar_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000535</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">D5#5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000535</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hisar_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000536</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">D5#8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000536</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik hisar_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000537</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">E5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000537</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hüseyni_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000538</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">F5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000538</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">acem_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000539</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">F5#1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#OWLNamedIndividual_00000000000000000539</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">This note is not played in practice.
-
-Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek Ses Sistemi ve Uygulamada Kullanılmayan Bazı Perdeler. Gazi Eğitim Fakültesi Dergisi, 22(1).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000539</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik acem_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000540</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">F5#4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000540</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">eviç_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000541</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">F5#5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000541</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">mahur_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000542</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">F5#8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#OWLNamedIndividual_00000000000000000542</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">This note is not played in practice.
-
-Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek Ses Sistemi ve Uygulamada Kullanılmayan Bazı Perdeler. Gazi Eğitim Fakültesi Dergisi, 22(1).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000542</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik mahur_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000544</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">G5#4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000544</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nim şehnaz_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000545</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">G5#5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000545</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">şehnaz_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000546</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">G5#8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000546</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik şehnaz_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000547</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000547</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">muhayyer_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000548</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A5#4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000548</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">sünbüle_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000549</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A5#5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000549</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">dik sünbüle_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000550</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A5#8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000550</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">B5b1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000550</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz segah_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000551</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">B5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000551</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz buselik_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000552</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">C6b1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#OWLNamedIndividual_00000000000000000552</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">This note is not played in practice.
-
-Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek Ses Sistemi ve Uygulamada Kullanılmayan Bazı Perdeler. Gazi Eğitim Fakültesi Dergisi, 22(1).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000552</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik buselik_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000553</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">C6</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000553</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz çargah_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000554</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">C6#4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000554</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz nim hicaz_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000555</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">C6#5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000555</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz hicaz_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000556</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">C6#8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#OWLNamedIndividual_00000000000000000556</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">This note is not played in practice.
-
-Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek Ses Sistemi ve Uygulamada Kullanılmayan Bazı Perdeler. Gazi Eğitim Fakültesi Dergisi, 22(1).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000556</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik hicaz_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000557</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">D6</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000557</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz neva_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000558</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">D6#4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000558</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz nim hisar_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000559</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">D6#5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000559</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz hisar_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000560</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">D6#8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000560</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik hisar_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000561</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">E6</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000561</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz hüseyni_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000562</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">F6</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000562</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz acem_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000563</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">F6#1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#OWLNamedIndividual_00000000000000000563</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">This note is not played in practice.
-
-Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek Ses Sistemi ve Uygulamada Kullanılmayan Bazı Perdeler. Gazi Eğitim Fakültesi Dergisi, 22(1).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000563</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik acem_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000564</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">F6#4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000564</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz eviç_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000565</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">F6#5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000565</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz mahur_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
-        <IRI>#OWLNamedIndividual_00000000000000000566</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">F6#8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#OWLNamedIndividual_00000000000000000566</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">This note is not played in practice.
-
-Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek Ses Sistemi ve Uygulamada Kullanılmayan Bazı Perdeler. Gazi Eğitim Fakültesi Dergisi, 22(1).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_00000000000000000566</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tiz dik mahur_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10073,121 +7871,6 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_01afca4c_66ef_48b3_bcc3_21bd696a3173</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">flat4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_05514863_b191_4100_88a2_8fd5180660ea</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">sharp1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_0ca6f2ca_5121_4598_812b_85b63ff91819</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">bakiye_sharp</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_0f593035_c8a8_4115_a561_a07416041134</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tanini_flat</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_3b270759_e6a2_44e2_8321_b276460771bb</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">comma_sharp</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_3e94eadf_942e_4569_8a18_7b0175fd4f04</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">sharp5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_41380b4c_964b_46d2_b327_4f232de63613</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">flat2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_4c8900d0_5f9f_4a5b_8af9_9d19f32a703e</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">sharp2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_6dcaf715_6611_4ce9_b41f_f2033d1919ae</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">buyuk_mucennep_sharp</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_700df79c_7e41_4817_bf21_5d138fa122b7</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">sharp3</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_74317462_a940_444e_9fd0_4b19944af891</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kucuk_mucennep_sharp</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_7828dc74_f94d_4fea_9fcd_84035c93af58</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">buyuk_mucennep_flat</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_8d40626f_40a0_40eb_b9a1_2070ba0d8fe7</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">kucuk_mucennep_flat</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_8f43216f_7462_4ccd_bfa2_b431c1e86be1</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">quarter_flat</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_9e4286ca_aaee_47da_95e4_86e2ae09b4b9</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">flat3</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_ae733e65_182c_4f10_b007_d6ae4927fd54</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tanini_sharp</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_ba7b6f32_27b4_4d30_a0fd_446b6d404732</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">comma_flat</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_cbd16101_685f_4677_b621_7c947a279b94</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">flat1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_e06f39da_7986_4413_9692_848d86e6ace9</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">segah_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_f212056f_c045_4e86_af66_31d753c2aa20</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">three_quarter_flat</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_f721e416_aa3c_4c2b_8c2a_e046b15db0b4</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">three_quarter_sharp</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_f992497b_4ebd_49d9_a8c2_156dd0331c76</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">bakiye_flat</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_fb5702d6_4cf0_414f_8966_ccd4e97bc2c1</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">quarter_sharp</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000000</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isLeadingOf</Literal>
     </AnnotationAssertion>
@@ -10317,11 +8000,6 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isFinalNoteOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_2cb220f4_94ae_4d7e_8f4c_ae9d725856a6</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasUUID</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OWLObjectProperty_34766051_eb14_470c_aacb_c3ecd3e023b4</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">makamınÇeşnisiVar</Literal>
@@ -10380,6 +8058,26 @@ Source: CAN, M. C. (2002). Geleneksel Türk Sanat Müziğinde Arel Ezgi Uzdilek 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>-symbolic-music#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EurogeneticNoteSymbol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-symbolic-music#OWLObjectProperty_00000000000000000493</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasStrokeNameSequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-symbolic-music#OWLObjectProperty_0f8a434d_56a0_4031_b551_94ca1e2d76ce</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasEventSequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-symbolic-music#OWLObjectProperty_767ce942_b464_4bbc_8f76_1acdd8162d00</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasNoteSequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>-symbolic-music#OWLObjectProperty_cfe193f7_b448_45d5_b513_c0e794fc2b41</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasNoteNameSequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
