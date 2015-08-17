@@ -113,6 +113,9 @@
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000000"/>
     </Declaration>
     <Declaration>
@@ -150,12 +153,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000492"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000493"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000494"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000603"/>
@@ -197,31 +194,16 @@
         <ObjectProperty IRI="#OWLObjectProperty_fc0c117e_9bad_4ffd_bfb7_89b138d1b90e"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_00000000000000000493"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_0f8a434d_56a0_4031_b551_94ca1e2d76ce"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_767ce942_b464_4bbc_8f76_1acdd8162d00"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_cfe193f7_b448_45d5_b513_c0e794fc2b41"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="http://purl.org/ontology/mo/musicbrainz_guid"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/ontology/olo/core#index"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#OWLDataProperty_00000000000000000619"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#OWLDataProperty_74293444_628d_4dc9_8133_7f2d9082d7e1"/>
@@ -234,9 +216,6 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#OWLDataProperty_95dce3e0_b788_4289_bce9_1a0711207a34"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#OWLDataProperty_989ead94_771d_43e2_b31e_3c9e6ed35bf0"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#OWLDataProperty_f85212e4_521e_4402_a5d7_1e9f8509b249"/>
@@ -1772,6 +1751,15 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000599"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_3b961ed1_4f49_44b9_90ed_384bea5ab016"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_5fdecc20_9b59_4c2a_b690_717955243b1b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_879b4259_1090_4adb_b93b_136c5d02d01c"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="#OWLAnnotationProperty_68fb55de_62cb_434a_b922_6868b07a990c"/>
     </Declaration>
     <EquivalentClasses>
@@ -1825,6 +1813,49 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="#OWLClass_00000000000000000013"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
+                <Class IRI="-symbolic-music#OWLClass_00000000000000000040"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
+                <Class IRI="-symbolic-music#OWLClass_00000000000000000040"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_00000000000000000014"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#OWLClass_00000000000000000013"/>
+            <ObjectExactCardinality cardinality="3">
+                <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
+                <Class IRI="-symbolic-music#OWLClass_00000000000000000040"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_00000000000000000015"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#OWLClass_00000000000000000013"/>
+            <ObjectExactCardinality cardinality="4">
+                <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
+                <Class IRI="-symbolic-music#OWLClass_00000000000000000040"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_00000000000000000016"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#OWLClass_00000000000000000013"/>
+            <ObjectExactCardinality cardinality="2">
+                <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
+                <Class IRI="-symbolic-music#OWLClass_00000000000000000040"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#OWLClass_00000000000000000021"/>
         <ObjectIntersectionOf>
             <Class IRI="#OWLClass_00000000000000000004"/>
@@ -1872,6 +1903,19 @@
                 <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
                 <Literal datatypeIRI="&xsd;boolean">true</Literal>
             </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
+                <Class IRI="-symbolic-music#OWLClass_aadaf480_7da0_4be6_81b1_47ec2ce8fe4d"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
+                <Class IRI="-symbolic-music#OWLClass_aadaf480_7da0_4be6_81b1_47ec2ce8fe4d"/>
+            </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <SubClassOf>
@@ -4579,6 +4623,21 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000371"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000385"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000571"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_879b4259_1090_4adb_b93b_136c5d02d01c"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000571"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5fdecc20_9b59_4c2a_b690_717955243b1b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000571"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_3b961ed1_4f49_44b9_90ed_384bea5ab016"/>
+    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000011"/>
@@ -4623,6 +4682,21 @@
         <DataProperty IRI="#OWLDataProperty_74293444_628d_4dc9_8133_7f2d9082d7e1"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000156"/>
         <Literal datatypeIRI="&xsd;int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="-symbolic-music#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_3b961ed1_4f49_44b9_90ed_384bea5ab016"/>
+        <Literal datatypeIRI="&xsd;int">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="-symbolic-music#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5fdecc20_9b59_4c2a_b690_717955243b1b"/>
+        <Literal datatypeIRI="&xsd;int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="-symbolic-music#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_879b4259_1090_4adb_b93b_136c5d02d01c"/>
+        <Literal datatypeIRI="&xsd;int">8</Literal>
     </DataPropertyAssertion>
     <EquivalentObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000030"/>
@@ -4677,14 +4751,6 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000488"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000493"/>
-        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_0f8a434d_56a0_4031_b551_94ca1e2d76ce"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000494"/>
-        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_0f8a434d_56a0_4031_b551_94ca1e2d76ce"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000620"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000039"/>
     </SubObjectPropertyOf>
@@ -4720,18 +4786,6 @@
         <ObjectProperty IRI="#OWLObjectProperty_fb1cbfb8_d2eb_4d14_a54a_668abe42cc33"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000488"/>
     </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_00000000000000000493"/>
-        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_0f8a434d_56a0_4031_b551_94ca1e2d76ce"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_767ce942_b464_4bbc_8f76_1acdd8162d00"/>
-        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_0f8a434d_56a0_4031_b551_94ca1e2d76ce"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_cfe193f7_b448_45d5_b513_c0e794fc2b41"/>
-        <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_0f8a434d_56a0_4031_b551_94ca1e2d76ce"/>
-    </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000489"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000030"/>
@@ -4760,6 +4814,24 @@
         <ObjectProperty IRI="#OWLObjectProperty_fb1cbfb8_d2eb_4d14_a54a_668abe42cc33"/>
         <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
     </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000030"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000032"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000033"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_67513725_5db9_4935_bf55_cd5beec795e5"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
+    </FunctionalObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000603"/>
     </AsymmetricObjectProperty>
@@ -4772,6 +4844,10 @@
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_919ba604_5b51_43a9_91f7_ee21f8ea40fc"/>
     </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
+        <Class IRI="http://purl.org/ontology/olo/core#OrderedList"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000001"/>
         <Class IRI="#OWLClass_00000000000000000000"/>
@@ -4797,14 +4873,6 @@
         <Class IRI="#OWLClass_00000000000000000004"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000493"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000494"/>
-        <Class IRI="#OWLClass_00000000000000000013"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000603"/>
         <Class IRI="#OWLClass_00000000000000000021"/>
     </ObjectPropertyDomain>
@@ -4828,6 +4896,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
         <Class IRI="#OWLClass_00000000000000000000"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
+        <Class IRI="http://purl.org/ontology/olo/core#Slot"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000001"/>
         <Class IRI="#OWLClass_00000000000000000013"/>
@@ -4884,6 +4956,13 @@
         <DataProperty IRI="#OWLDataProperty_f85212e4_521e_4402_a5d7_1e9f8509b249"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://purl.org/ontology/olo/core#index"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/ontology/olo/core#index"/>
+        <Class IRI="http://purl.org/ontology/olo/core#Slot"/>
+    </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
@@ -4909,6 +4988,10 @@
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
     </DataPropertyDomain>
     <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/ontology/olo/core#index"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
@@ -4921,27 +5004,8 @@
         </DatatypeRestriction>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#OWLDataProperty_00000000000000000619"/>
-        <DatatypeRestriction>
-            <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;maxInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">127</Literal>
-            </FacetRestriction>
-            <FacetRestriction facet="&xsd;minInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">0</Literal>
-            </FacetRestriction>
-        </DatatypeRestriction>
-    </DataPropertyRange>
-    <DataPropertyRange>
         <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <DataUnionOf>
-            <Datatype abbreviatedIRI="xsd:float"/>
-            <Datatype abbreviatedIRI="xsd:int"/>
-        </DataUnionOf>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#OWLDataProperty_74293444_628d_4dc9_8133_7f2d9082d7e1"/>
@@ -4962,18 +5026,6 @@
     <DataPropertyRange>
         <DataProperty IRI="#OWLDataProperty_95dce3e0_b788_4289_bce9_1a0711207a34"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#OWLDataProperty_989ead94_771d_43e2_b31e_3c9e6ed35bf0"/>
-        <DatatypeRestriction>
-            <Datatype abbreviatedIRI="xsd:int"/>
-            <FacetRestriction facet="&xsd;maxInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">10</Literal>
-            </FacetRestriction>
-            <FacetRestriction facet="&xsd;minInclusive">
-                <Literal datatypeIRI="&xsd;negativeInteger">-1</Literal>
-            </FacetRestriction>
-        </DatatypeRestriction>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#OWLDataProperty_f85212e4_521e_4402_a5d7_1e9f8509b249"/>
@@ -5003,6 +5055,46 @@
         <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
         <IRI>http://purl.org/ontology/mo/musicbrainz_guid</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/ontology/olo/core#index</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">An index of a slot in an ordered list.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.org/ontology/olo/core#index</IRI>
+        <IRI>http://purl.org/ontology/olo/core#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/olo/core#index</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has index</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://purl.org/ontology/olo/core#index</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/ontology/olo/core#slot</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A slot in an ordered list.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.org/ontology/olo/core#slot</IRI>
+        <IRI>http://purl.org/ontology/olo/core#</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/olo/core#slot</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has slot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://purl.org/ontology/olo/core#slot</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5266,18 +5358,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLDataProperty_00000000000000000619</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">midiNumber</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">formIsInstrumental</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">interval</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5298,16 +5380,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLDataProperty_95dce3e0_b788_4289_bce9_1a0711207a34</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">velvele</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#OWLDataProperty_989ead94_771d_43e2_b31e_3c9e6ed35bf0</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Taken to cover range between C-1 (8.18Hz, Lowest organ note) and C11 (first inaudible C note). Source: https://en.wikipedia.org/wiki/Audio_frequency</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLDataProperty_989ead94_771d_43e2_b31e_3c9e6ed35bf0</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">octave</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7871,6 +7943,21 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_3b961ed1_4f49_44b9_90ed_384bea5ab016</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rast_tetrachord_interval1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_5fdecc20_9b59_4c2a_b690_717955243b1b</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rast_tetrachord_interval3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_879b4259_1090_4adb_b93b_136c5d02d01c</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rast_tetrachord_interval2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000000</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isLeadingOf</Literal>
     </AnnotationAssertion>
@@ -7961,16 +8048,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_00000000000000000493</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasStrokeSequence</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_00000000000000000494</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasIntervalSequence</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000603</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isTranspositionOf</Literal>
     </AnnotationAssertion>
@@ -8058,26 +8135,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>-symbolic-music#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EurogeneticNoteSymbol</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>-symbolic-music#OWLObjectProperty_00000000000000000493</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasStrokeNameSequence</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>-symbolic-music#OWLObjectProperty_0f8a434d_56a0_4031_b551_94ca1e2d76ce</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasEventSequence</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>-symbolic-music#OWLObjectProperty_767ce942_b464_4bbc_8f76_1acdd8162d00</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasNoteSequence</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>-symbolic-music#OWLObjectProperty_cfe193f7_b448_45d5_b513_c0e794fc2b41</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasNoteNameSequence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
