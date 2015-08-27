@@ -10,12 +10,12 @@
 
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/symbTr"
+     xml:base="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-score"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/symbTr">
+     ontologyIRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-score">
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -38,6 +38,9 @@
         <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://schema.org/Place"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLClass_00000000000000000000"/>
     </Declaration>
     <Declaration>
@@ -54,9 +57,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClassImpl_3913ae58_190f_4851_a510_7f626edf52f3"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClassImpl_39e9163a_8f23_4f71_8564_758ee50d7b33"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClassImpl_6f231c72_0573_45b6_ac1b_143b706265c6"/>
@@ -95,9 +95,6 @@
         <Class IRI="#OWLClass_00000000000000000004"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OWLClass_00000000000000000006"/>
     </Declaration>
     <Declaration>
@@ -107,22 +104,124 @@
         <Class IRI="#OWLClass_00000000000000000008"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_0324ad0d_7e6e_4834_9348_11dc96c18689"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_070f85ea_4179_49ce_ae18_a628b45df881"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_0859abec_0931_4766_aad8_c0621dd9691a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_0f542114_b2c9_4a67_80cf_e285c35e8a58"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_181e11a5_7161_4ec1_b939_8186c0a06a70"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_190d9b91_c51d_42ae_8b97_1c73be39a3ff"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_1d5aed3b_6b7b_4e26_998a_53b3a18211af"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_1f08b605_29ce_40d4_a49f_87efb659c4cf"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_2ec3cda3_f9e1_4706_9442_aa4e67246c44"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_39e14bbb_aa19_4378_bc91_c301c05803d8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_3bc0ed3d_feb9_4d31_8d0e_0e778060b721"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_3d8939f6_265d_4101_831d_739354eb919b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_438c672d_4a3f_4261_8a60_e39ef2bbf06d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_51ade939_10e8_49fc_903c_22c3e06ea687"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_6590323e_45e7_4673_9507_f5389bd4ff3e"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_78888530_e81a_452a_85ad_0272de70183d"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_7ed61b43_2895_427e_98fd_ad92c88df3e9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_81bd144e_2e3e_499f_99f2_efdfb954d3c7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_8459431e_a1c4_4b27_94ca_eaca7abe45cb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_8a3dcaf4_3d51_4f2d_9f00_11e03ab7d849"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_8cb23c5d_5727_4eb7_9220_e632ed6fa68d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_8eced34a_1567_47d5_9044_9e356d17e927"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_90435073_a0dc_44ea_abce_c978cb51c816"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_913d8ed8_3152_4d33_9c11_614d90666328"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_97d54e82_77a3_4973_ad8f_8160fac8a937"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_97f0ade7_be98_4303_8a54_1d804af027d2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_a637fda7_ffda_4e4e_bbc9_0aa3b13485e6"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_b2ae8b5a_c471_49e4_8371_3f1338d3eea2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_b75e7ee7_00db_4e6a_9e2d_991ac45f9ec2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ba4e20a9_6de0_49dd_97c1_1019387317d1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_c09838eb_4fa0_484f_bb18_b1e95a353430"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_c223e782_6b68_4842_9dd1_551b73654d64"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_d1a3da37_388d_4cd8_ad25_9db99d8ad2e3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_e0fcb841_2612_4d54_aa05_764611658ea4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_edd4e5dc_c225_4a40_ae36_97d76b8a3257"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_f4a56d93_a125_49e7_a4b1_4dcfec364c58"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_f5f47fcf_6a53_4884_8433_350f0c8a1e4a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://schema.org/birthPlace"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://schema.org/deathPlace"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLObjectProperty_00000000000000000000"/>
@@ -135,9 +234,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLObjectProperty_9efe8e74_0e9c_4780_895e_8af57a52a2ad"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_051a3848_a8d1_42da_82b5_48d52fc5d006"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_0a819a63_71fc_4e13_b308_aaac01378e85"/>
@@ -162,9 +258,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_7bb14de8_ee6f_4252_ac32_c500012ab6df"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_95cfcbf4_9786_4397_bd41_66b2e4030d1c"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_9cf17e96_3449_4098_8bdb_e5fcb4797212"/>
@@ -194,16 +287,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000002"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000003"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000004"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000005"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000009"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000159"/>
@@ -311,19 +398,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_c1978757_22a5_4916_a9d1_7d5ee0a56bfc"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_c701e137_e07e_44aa_a77e_965cb1accd2f"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_ccd9ee0a_af32_4429_9d0d_6efccb789fdc"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_ea5ca6d0_a4f5_4ef3_a0fa_5bb70057a118"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_eab20f8d_7939_421b_ac6b_b313b0aa21be"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_ee732b79_1e34_4e0d_87f2_9645f9d268de"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_ffbb11b3_e78b_4231_846a_d5dd9ffe3612"/>
@@ -348,6 +426,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#OWLDataProperty_f32e2afb_b07c_43bb_98ab_33ee1586cfe4"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/gender"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000006"/>
@@ -460,6 +541,10 @@
         <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="http://schema.org/Person"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#OWLClassImpl_2e34b0ec_f715_4a89_a779_2417c196e26b"/>
         <ObjectIntersectionOf>
             <Class IRI="#OWLClass_00000000000000000000"/>
@@ -501,6 +586,10 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="#OWLClass_0324ad0d_7e6e_4834_9348_11dc96c18689"/>
+        <Class IRI="#OWLClass_90435073_a0dc_44ea_abce_c978cb51c816"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#OWLClass_0859abec_0931_4766_aad8_c0621dd9691a"/>
         <ObjectIntersectionOf>
             <Class IRI="#OWLClass_00000000000000000002"/>
@@ -511,6 +600,22 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="#OWLClass_0f542114_b2c9_4a67_80cf_e285c35e8a58"/>
+        <Class IRI="#OWLClass_b2ae8b5a_c471_49e4_8371_3f1338d3eea2"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_181e11a5_7161_4ec1_b939_8186c0a06a70"/>
+        <Class IRI="#OWLClass_8eced34a_1567_47d5_9044_9e356d17e927"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_190d9b91_c51d_42ae_8b97_1c73be39a3ff"/>
+        <Class IRI="#OWLClass_81bd144e_2e3e_499f_99f2_efdfb954d3c7"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_1f08b605_29ce_40d4_a49f_87efb659c4cf"/>
+        <Class IRI="#OWLClass_b75e7ee7_00db_4e6a_9e2d_991ac45f9ec2"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#OWLClass_2ec3cda3_f9e1_4706_9442_aa4e67246c44"/>
         <ObjectIntersectionOf>
             <Class IRI="#OWLClass_00000000000000000003"/>
@@ -519,6 +624,18 @@
                 <Literal datatypeIRI="&xsd;boolean">false</Literal>
             </DataHasValue>
         </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_3d8939f6_265d_4101_831d_739354eb919b"/>
+        <Class IRI="#OWLClass_97d54e82_77a3_4973_ad8f_8160fac8a937"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_3d8939f6_265d_4101_831d_739354eb919b"/>
+        <Class IRI="#OWLClass_f4a56d93_a125_49e7_a4b1_4dcfec364c58"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OWLClass_3d8939f6_265d_4101_831d_739354eb919b"/>
+        <Class IRI="#OWLClass_f5f47fcf_6a53_4884_8433_350f0c8a1e4a"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#OWLClass_78888530_e81a_452a_85ad_0272de70183d"/>
@@ -571,6 +688,10 @@
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://schema.org/Place"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLClass_00000000000000000000"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </SubClassOf>
@@ -585,10 +706,6 @@
     <SubClassOf>
         <Class IRI="#OWLClassImpl_390b035c_2380_440f_a391_1db2b7ad7696"/>
         <Class IRI="#OWLClassImpl_3913ae58_190f_4851_a510_7f626edf52f3"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClassImpl_39e9163a_8f23_4f71_8564_758ee50d7b33"/>
-        <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClassImpl_6f231c72_0573_45b6_ac1b_143b706265c6"/>
@@ -639,40 +756,164 @@
         <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_0324ad0d_7e6e_4834_9348_11dc96c18689"/>
+        <Class IRI="#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_070f85ea_4179_49ce_ae18_a628b45df881"/>
+        <Class IRI="#OWLClass_78888530_e81a_452a_85ad_0272de70183d"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_0859abec_0931_4766_aad8_c0621dd9691a"/>
         <Class IRI="#OWLClass_00000000000000000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_0f542114_b2c9_4a67_80cf_e285c35e8a58"/>
+        <Class IRI="#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_181e11a5_7161_4ec1_b939_8186c0a06a70"/>
+        <Class IRI="#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_190d9b91_c51d_42ae_8b97_1c73be39a3ff"/>
+        <Class IRI="#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_1d5aed3b_6b7b_4e26_998a_53b3a18211af"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_1f08b605_29ce_40d4_a49f_87efb659c4cf"/>
+        <Class IRI="#OWLClass_0859abec_0931_4766_aad8_c0621dd9691a"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_2ec3cda3_f9e1_4706_9442_aa4e67246c44"/>
         <Class IRI="#OWLClass_00000000000000000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_39e14bbb_aa19_4378_bc91_c301c05803d8"/>
+        <Class IRI="#OWLClass_438c672d_4a3f_4261_8a60_e39ef2bbf06d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_3bc0ed3d_feb9_4d31_8d0e_0e778060b721"/>
+        <Class IRI="#OWLClass_78888530_e81a_452a_85ad_0272de70183d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_3d8939f6_265d_4101_831d_739354eb919b"/>
+        <Class IRI="#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_438c672d_4a3f_4261_8a60_e39ef2bbf06d"/>
+        <Class IRI="#OWLClass_78888530_e81a_452a_85ad_0272de70183d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_51ade939_10e8_49fc_903c_22c3e06ea687"/>
+        <Class IRI="#OWLClass_438c672d_4a3f_4261_8a60_e39ef2bbf06d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_6590323e_45e7_4673_9507_f5389bd4ff3e"/>
+        <Class IRI="#OWLClass_78888530_e81a_452a_85ad_0272de70183d"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_78888530_e81a_452a_85ad_0272de70183d"/>
         <Class IRI="#OWLClass_00000000000000000002"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_7ed61b43_2895_427e_98fd_ad92c88df3e9"/>
+        <Class IRI="#OWLClass_0859abec_0931_4766_aad8_c0621dd9691a"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_81bd144e_2e3e_499f_99f2_efdfb954d3c7"/>
+        <Class IRI="#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_8459431e_a1c4_4b27_94ca_eaca7abe45cb"/>
+        <Class IRI="#OWLClass_78888530_e81a_452a_85ad_0272de70183d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_8a3dcaf4_3d51_4f2d_9f00_11e03ab7d849"/>
+        <Class IRI="#OWLClass_78888530_e81a_452a_85ad_0272de70183d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_8a3dcaf4_3d51_4f2d_9f00_11e03ab7d849"/>
+        <Class IRI="#OWLClass_a637fda7_ffda_4e4e_bbc9_0aa3b13485e6"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_8cb23c5d_5727_4eb7_9220_e632ed6fa68d"/>
+        <Class IRI="#OWLClass_438c672d_4a3f_4261_8a60_e39ef2bbf06d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_8eced34a_1567_47d5_9044_9e356d17e927"/>
+        <Class IRI="#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_90435073_a0dc_44ea_abce_c978cb51c816"/>
+        <Class IRI="#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_913d8ed8_3152_4d33_9c11_614d90666328"/>
+        <Class IRI="#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_97d54e82_77a3_4973_ad8f_8160fac8a937"/>
+        <Class IRI="#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_97f0ade7_be98_4303_8a54_1d804af027d2"/>
+        <Class IRI="#OWLClass_0859abec_0931_4766_aad8_c0621dd9691a"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144"/>
+        <Class IRI="#OWLClass_0859abec_0931_4766_aad8_c0621dd9691a"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_a637fda7_ffda_4e4e_bbc9_0aa3b13485e6"/>
         <Class IRI="#OWLClass_00000000000000000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_b2ae8b5a_c471_49e4_8371_3f1338d3eea2"/>
+        <Class IRI="#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_b75e7ee7_00db_4e6a_9e2d_991ac45f9ec2"/>
+        <Class IRI="#OWLClass_0859abec_0931_4766_aad8_c0621dd9691a"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ba4e20a9_6de0_49dd_97c1_1019387317d1"/>
+        <Class IRI="#OWLClass_0859abec_0931_4766_aad8_c0621dd9691a"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_c09838eb_4fa0_484f_bb18_b1e95a353430"/>
+        <Class IRI="#OWLClass_0859abec_0931_4766_aad8_c0621dd9691a"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_c223e782_6b68_4842_9dd1_551b73654d64"/>
         <Class IRI="#OWLClass_00000000000000000003"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_d1a3da37_388d_4cd8_ad25_9db99d8ad2e3"/>
+        <Class IRI="#OWLClass_78888530_e81a_452a_85ad_0272de70183d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_e0fcb841_2612_4d54_aa05_764611658ea4"/>
+        <Class IRI="#OWLClass_78888530_e81a_452a_85ad_0272de70183d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_edd4e5dc_c225_4a40_ae36_97d76b8a3257"/>
+        <Class IRI="#OWLClass_438c672d_4a3f_4261_8a60_e39ef2bbf06d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_f4a56d93_a125_49e7_a4b1_4dcfec364c58"/>
+        <Class IRI="#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_f5f47fcf_6a53_4884_8433_350f0c8a1e4a"/>
+        <Class IRI="#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144"/>
+    </SubClassOf>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000006"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000007"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000008"/>
+        <Class IRI="#OWLClass_190d9b91_c51d_42ae_8b97_1c73be39a3ff"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_226e9380_9d87_4ebd_a14b_7d59aae007c1"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
@@ -682,20 +923,22 @@
         <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
         <NamedIndividual IRI="#OWLNamedIndividual_57c99634_db54_4915_9317_9b4b87ef7032"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_181e11a5_7161_4ec1_b939_8186c0a06a70"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7038e797_b461_4faa_bb1b_fffabcba8790"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_0324ad0d_7e6e_4834_9348_11dc96c18689"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_78d28e37_e0a8_47b3_a980_64f8f2ac4413"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_b75e7ee7_00db_4e6a_9e2d_991ac45f9ec2"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9d3c84f4_68b3_4b0c_ae6a_c55d67216e21"/>
+    </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_6f9fea52_7c43_4cbf_bf54_b2a26e3609a4"/>
         <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000002"/>
         <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000063"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_7fb6b2b5_82fa_486d_8c48_4532c865685a"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000052"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_e9182a8a_8b33_4d9b_982f_01cde25889a3"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_7fb6b2b5_82fa_486d_8c48_4532c865685a"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000052"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_7ceabeaa_5de1_4e34_a31f_1586ac49df71"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_7fb6b2b5_82fa_486d_8c48_4532c865685a"/>
@@ -710,17 +953,27 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_7fb6b2b5_82fa_486d_8c48_4532c865685a"/>
         <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000052"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_7ceabeaa_5de1_4e34_a31f_1586ac49df71"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7fb6b2b5_82fa_486d_8c48_4532c865685a"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000052"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e9182a8a_8b33_4d9b_982f_01cde25889a3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_7fb6b2b5_82fa_486d_8c48_4532c865685a"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000052"/>
         <NamedIndividual IRI="#OWLNamedIndividual_d5dd28da_b737_4e33_88e6_a794bd534bba"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_7fb6b2b5_82fa_486d_8c48_4532c865685a"/>
         <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000063"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000002"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000015"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_7fb6b2b5_82fa_486d_8c48_4532c865685a"/>
         <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000063"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000015"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000002"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_2d8cf55f_4e24_466f_8011_477a359513dc"/>
@@ -750,11 +1003,6 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_0ec1a402_e707_4100_931a_6cae11375b33"/>
         <NamedIndividual IRI="#OWLNamedIndividual_3f2a1647_a61e_4ad9_b6d6_e1319cc3aed8"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_65713164_7eec_46dd_9742_00493be6d9be"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_0ec1a402_e707_4100_931a_6cae11375b33"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3f2a1647_a61e_4ad9_b6d6_e1319cc3aed8"/>
         <NamedIndividual IRI="#OWLNamedIndividual_7038e797_b461_4faa_bb1b_fffabcba8790"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -771,6 +1019,11 @@
         <ObjectProperty IRI="#OWLObjectProperty_0ec1a402_e707_4100_931a_6cae11375b33"/>
         <NamedIndividual IRI="#OWLNamedIndividual_3f2a1647_a61e_4ad9_b6d6_e1319cc3aed8"/>
         <NamedIndividual IRI="#OWLNamedIndividual_226e9380_9d87_4ebd_a14b_7d59aae007c1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_0ec1a402_e707_4100_931a_6cae11375b33"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_3f2a1647_a61e_4ad9_b6d6_e1319cc3aed8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_65713164_7eec_46dd_9742_00493be6d9be"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000162"/>
@@ -808,7 +1061,7 @@
         <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000065"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_95cfcbf4_9786_4397_bd41_66b2e4030d1c"/>
+        <ObjectProperty IRI="http://schema.org/birthPlace"/>
         <NamedIndividual IRI="#OWLNamedIndividual_9fe127be_1889_46fb_91a7_b22dc1f039fd"/>
         <NamedIndividual IRI="#OWLNamedIndividual_177484f7_41ac_4d16_ad1c_fb732ef9c501"/>
     </ObjectPropertyAssertion>
@@ -905,10 +1158,6 @@
         <ObjectProperty IRI="#OWLObjectProperty_1d5aa141_68e7_46fa_aa7b_309c27fa2d40"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_051a3848_a8d1_42da_82b5_48d52fc5d006"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_25a4d516_6457_4076_b0a4_8a961e891bf0"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
@@ -923,10 +1172,6 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_5e2421a3_3fb4_4fa6_b8e8_c880b93c57d9"/>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_0fce72a6_523d_4067_aa75_cbbbd6582568"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_95cfcbf4_9786_4397_bd41_66b2e4030d1c"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_9cf17e96_3449_4098_8bdb_e5fcb4797212"/>
@@ -1057,14 +1302,6 @@
         <ObjectProperty IRI="#OWLObjectPropertyImpl_5e2421a3_3fb4_4fa6_b8e8_c880b93c57d9"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#OWLObjectProperty_eab20f8d_7939_421b_ac6b_b313b0aa21be"/>
-        <ObjectProperty IRI="#OWLObjectProperty_0bb2d6ba_c672_4fec_bb7b_75c909a4b64a"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#OWLObjectProperty_ee732b79_1e34_4e0d_87f2_9645f9d268de"/>
-        <ObjectProperty IRI="#OWLObjectProperty_49622cb5_27f0_4e32_a5c8_a3c02038945c"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_ffbb11b3_e78b_4231_846a_d5dd9ffe3612"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000005"/>
     </SubObjectPropertyOf>
@@ -1081,40 +1318,40 @@
         <ObjectProperty IRI="#OWLObjectPropertyImpl_d54cb729_2f64_46f2_9311_a1170a8e009a"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_5e2421a3_3fb4_4fa6_b8e8_c880b93c57d9"/>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_9cf17e96_3449_4098_8bdb_e5fcb4797212"/>
+        <ObjectProperty IRI="#OWLObjectPropertyImpl_5e2421a3_3fb4_4fa6_b8e8_c880b93c57d9"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_b37a0424_c017_453f_83ad_485c34d4a966"/>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_7b11e27b_b41c_45f1_8b34_9b4695ee1069"/>
+        <ObjectProperty IRI="#OWLObjectPropertyImpl_b37a0424_c017_453f_83ad_485c34d4a966"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_7bb14de8_ee6f_4252_ac32_c500012ab6df"/>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_f1634704_726a_4d9f_b463_dcf8c9b14426"/>
+        <ObjectProperty IRI="#OWLObjectPropertyImpl_7bb14de8_ee6f_4252_ac32_c500012ab6df"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000005"/>
         <ObjectProperty IRI="#OWLObjectProperty_1d5aa141_68e7_46fa_aa7b_309c27fa2d40"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000160"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000161"/>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000160"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_0ec1a402_e707_4100_931a_6cae11375b33"/>
         <ObjectProperty IRI="#OWLObjectProperty_9c780368_28c1_4bac_b70f_2b903e279960"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_ccd9ee0a_af32_4429_9d0d_6efccb789fdc"/>
         <ObjectProperty IRI="#OWLObjectProperty_209e373f_44f4_4b99_833a_b831ca4b9fdc"/>
+        <ObjectProperty IRI="#OWLObjectProperty_ccd9ee0a_af32_4429_9d0d_6efccb789fdc"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_7b5df677_a905_4060_968c_504e976f4228"/>
         <ObjectProperty IRI="#OWLObjectProperty_24b8b7e9_cf82_476e_a8ee_b8e6688660e3"/>
+        <ObjectProperty IRI="#OWLObjectProperty_7b5df677_a905_4060_968c_504e976f4228"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_ad569841_421b_410e_b409_4ce678212d9e"/>
         <ObjectProperty IRI="#OWLObjectProperty_355ebe17_5835_42f9_a72d_ab129927cfbb"/>
+        <ObjectProperty IRI="#OWLObjectProperty_ad569841_421b_410e_b409_4ce678212d9e"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_91bc0165_9200_4c1a_8e49_e41ca194315c"/>
@@ -1125,12 +1362,12 @@
         <ObjectProperty IRI="#OWLObjectProperty_b0db019b_ffa1_4596_abde_7530f9bfac6d"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_ffbb11b3_e78b_4231_846a_d5dd9ffe3612"/>
         <ObjectProperty IRI="#OWLObjectProperty_69c496d3_5a36_4ce2_9726_a9436b9ee9b1"/>
+        <ObjectProperty IRI="#OWLObjectProperty_ffbb11b3_e78b_4231_846a_d5dd9ffe3612"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_7fb6b2b5_82fa_486d_8c48_4532c865685a"/>
         <ObjectProperty IRI="#OWLObjectProperty_6f9fea52_7c43_4cbf_bf54_b2a26e3609a4"/>
+        <ObjectProperty IRI="#OWLObjectProperty_7fb6b2b5_82fa_486d_8c48_4532c865685a"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_717dec53_873f_47cc_a340_3ed3860c7f48"/>
@@ -1141,29 +1378,20 @@
         <ObjectProperty IRI="#OWLObjectProperty_7f04e1b4_d2c1_48eb_93e3_09cd67d71ad1"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_a9801f20_f5a1_4730_83cd_96e3155ff0a6"/>
         <ObjectProperty IRI="#OWLObjectProperty_ea5ca6d0_a4f5_4ef3_a0fa_5bb70057a118"/>
+        <ObjectProperty IRI="#OWLObjectProperty_a9801f20_f5a1_4730_83cd_96e3155ff0a6"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLObjectProperty_00000000000000000000"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_051a3848_a8d1_42da_82b5_48d52fc5d006"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_3459184c_fa1e_401a_8c22_7148a6f1b73a"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_95cfcbf4_9786_4397_bd41_66b2e4030d1c"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_d00080e0_ec0f_43a3_90e1_10c32669721b"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000004"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000009"/>
     </FunctionalObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000005"/>
@@ -1186,6 +1414,14 @@
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_ffbb11b3_e78b_4231_846a_d5dd9ffe3612"/>
     </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://schema.org/birthPlace"/>
+        <Class IRI="http://schema.org/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://schema.org/deathPlace"/>
+        <Class IRI="http://schema.org/Person"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLObjectProperty_00000000000000000000"/>
         <Class IRI="#OWLClassImpl_1faaa6df_74ad_417b_a474_bd534efc426b"/>
@@ -1199,12 +1435,20 @@
         <Class IRI="#OWLClassImpl_9a1c8d4f_ac02_4482_b99e_7b96c4b5a4e0"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectPropertyImpl_3459184c_fa1e_401a_8c22_7148a6f1b73a"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_7b11e27b_b41c_45f1_8b34_9b4695ee1069"/>
         <Class IRI="#OWLClassImpl_a1a0e208_27d8_4be3_8ad7_50a218c2012c"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_9cf17e96_3449_4098_8bdb_e5fcb4797212"/>
         <Class IRI="#OWLClassImpl_6f231c72_0573_45b6_ac1b_143b706265c6"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectPropertyImpl_d00080e0_ec0f_43a3_90e1_10c32669721b"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_d54cb729_2f64_46f2_9311_a1170a8e009a"/>
@@ -1224,10 +1468,6 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000002"/>
-        <Class IRI="#OWLClass_00000000000000000008"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000003"/>
         <Class IRI="#OWLClass_00000000000000000008"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -1307,39 +1547,24 @@
         <Class IRI="#OWLClass_00000000000000000002"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_c701e137_e07e_44aa_a77e_965cb1accd2f"/>
-        <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_eab20f8d_7939_421b_ac6b_b313b0aa21be"/>
-        <Class IRI="#OWLClass_00000000000000000001"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_ee732b79_1e34_4e0d_87f2_9645f9d268de"/>
-        <Class IRI="#OWLClass_00000000000000000001"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_ffbb11b3_e78b_4231_846a_d5dd9ffe3612"/>
         <Class IRI="#OWLClass_00000000000000000003"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="http://schema.org/birthPlace"/>
+        <Class IRI="http://schema.org/Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://schema.org/deathPlace"/>
+        <Class IRI="http://schema.org/Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLObjectProperty_00000000000000000000"/>
-        <Class IRI="#OWLClassImpl_39e9163a_8f23_4f71_8564_758ee50d7b33"/>
+        <Class IRI="http://schema.org/Place"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLObjectProperty_9efe8e74_0e9c_4780_895e_8af57a52a2ad"/>
-        <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLObjectProperty_2cb220f4_94ae_4d7e_8f4c_ae9d725856a6"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLDataProperty_954a4ca2_4dd5_477a_be7b_77e98deb682f"/>
-            <Datatype abbreviatedIRI="xsd:anyURI"/>
-        </DataExactCardinality>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_051a3848_a8d1_42da_82b5_48d52fc5d006"/>
-        <Class IRI="#OWLClassImpl_39e9163a_8f23_4f71_8564_758ee50d7b33"/>
+        <Class IRI="#OWLClassImpl_6f231c72_0573_45b6_ac1b_143b706265c6"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_0a819a63_71fc_4e13_b308_aaac01378e85"/>
@@ -1354,10 +1579,6 @@
         <Class IRI="http://purl.org/ontology/mo/Composition"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_95cfcbf4_9786_4397_bd41_66b2e4030d1c"/>
-        <Class IRI="#OWLClassImpl_39e9163a_8f23_4f71_8564_758ee50d7b33"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_d00080e0_ec0f_43a3_90e1_10c32669721b"/>
         <Class IRI="#OWLClassImpl_3913ae58_190f_4851_a510_7f626edf52f3"/>
     </ObjectPropertyRange>
@@ -1370,19 +1591,8 @@
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000003"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#OWLDataProperty_5f2e6ffb_4885_4b47_bccb_cb91a1904bd9"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000004"/>
         <Class IRI="#OWLClassImpl_3913ae58_190f_4851_a510_7f626edf52f3"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000009"/>
-        <Class IRI="#OWLClass_00000000000000000005"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000160"/>
@@ -1457,14 +1667,6 @@
         <Class IRI="#OWLClass_00000000000000000002"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_c701e137_e07e_44aa_a77e_965cb1accd2f"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_00000000000000000005"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_ee732b79_1e34_4e0d_87f2_9645f9d268de"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_ffbb11b3_e78b_4231_846a_d5dd9ffe3612"/>
         <Class IRI="#OWLClass_00000000000000000002"/>
     </ObjectPropertyRange>
@@ -1481,6 +1683,10 @@
         <DataProperty IRI="#OWLDataProperty_be78d1f8_2cff_4355_8cc0_0896584c478c"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
+        <DataProperty IRI="#OWLDataProperty_5f2e6ffb_4885_4b47_bccb_cb91a1904bd9"/>
+        <DataProperty IRI="http://purl.org/ontology/mo/uuid"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#OWLDataProperty_61e8c783_968b_4a90_8fb7_c5f1bdf95e56"/>
         <DataProperty IRI="#OWLDataProperty_be78d1f8_2cff_4355_8cc0_0896584c478c"/>
     </SubDataPropertyOf>
@@ -1492,6 +1698,9 @@
         <DataProperty IRI="#OWLDataProperty_f32e2afb_b07c_43bb_98ab_33ee1586cfe4"/>
         <DataProperty IRI="#OWLDataProperty_c61a289b_0814_4434_8bca_4c59d0357176"/>
     </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/gender"/>
+    </FunctionalDataProperty>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_41919a7b_c36a_42ce_ac90_a0eaf1d9ca19"/>
         <Class IRI="#OWLClass_00000000000000000003"/>
@@ -1511,6 +1720,10 @@
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_f32e2afb_b07c_43bb_98ab_33ee1586cfe4"/>
         <Class IRI="#OWLClass_00000000000000000002"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/gender"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#OWLDataProperty_41919a7b_c36a_42ce_ac90_a0eaf1d9ca19"/>
@@ -1535,6 +1748,10 @@
     <DataPropertyRange>
         <DataProperty IRI="#OWLDataProperty_f32e2afb_b07c_43bb_98ab_33ee1586cfe4"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/gender"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/ontology/mo/level"/>
@@ -1654,6 +1871,36 @@
         <AnonymousIndividual nodeID="_:genid-nodeid-mor55ce4deaab4d7"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://schema.org/Place</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Entities that have a somewhat fixed, physical extension.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://schema.org/Place</IRI>
+        <Literal datatypeIRI="&xsd;string">Place</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://schema.org/birthPlace</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The place where the person was born.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://schema.org/birthPlace</IRI>
+        <Literal datatypeIRI="&xsd;string">birth place</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://schema.org/deathPlace</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The place where the person died.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://schema.org/deathPlace</IRI>
+        <Literal datatypeIRI="&xsd;string">death place</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLClass_00000000000000000000</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">KaynakKişi</Literal>
@@ -1732,16 +1979,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClassImpl_3913ae58_190f_4851_a510_7f626edf52f3</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Zaman</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClassImpl_39e9163a_8f23_4f71_8564_758ee50d7b33</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Location</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClassImpl_39e9163a_8f23_4f71_8564_758ee50d7b33</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Yer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1865,11 +2102,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000005</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Gender</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000006</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Arranger</Literal>
     </AnnotationAssertion>
@@ -1890,8 +2122,38 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_0324ad0d_7e6e_4834_9348_11dc96c18689</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">3. Hane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_070f85ea_4179_49ce_ae18_a628b45df881</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">First section of the Şarkı form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_070f85ea_4179_49ce_ae18_a628b45df881</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Zemin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_0859abec_0931_4766_aad8_c0621dd9691a</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">InstrumentalSection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_0f542114_b2c9_4a67_80cf_e285c35e8a58</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">5. Hane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_181e11a5_7161_4ec1_b939_8186c0a06a70</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">4. Hane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_190d9b91_c51d_42ae_8b97_1c73be39a3ff</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">1. Hane</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1900,13 +2162,143 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_1f08b605_29ce_40d4_a49f_87efb659c4cf</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mülazime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_2ec3cda3_f9e1_4706_9442_aa4e67246c44</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">VocalPhrase</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_39e14bbb_aa19_4378_bc91_c301c05803d8</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">1. Selam</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_3bc0ed3d_feb9_4d31_8d0e_0e778060b721</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A section in the Beste form. The lyrics of this section are usually composed of unmeaningful syllables.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_3bc0ed3d_feb9_4d31_8d0e_0e778060b721</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Terennüm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_3d8939f6_265d_4101_831d_739354eb919b</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">2. Hane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_438c672d_4a3f_4261_8a60_e39ef2bbf06d</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A section of the Ayin-i Şerif form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_438c672d_4a3f_4261_8a60_e39ef2bbf06d</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Selam</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_51ade939_10e8_49fc_903c_22c3e06ea687</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">4. Selam</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_6590323e_45e7_4673_9507_f5389bd4ff3e</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Third section of the Beste and Şarkı forms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_6590323e_45e7_4673_9507_f5389bd4ff3e</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Meyan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_78888530_e81a_452a_85ad_0272de70183d</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">VocalSection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_7ed61b43_2895_427e_98fd_ad92c88df3e9</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A zeybek dance section in the folk forms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_7ed61b43_2895_427e_98fd_ad92c88df3e9</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Zeybek Kısmı</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_81bd144e_2e3e_499f_99f2_efdfb954d3c7</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Serhane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_8459431e_a1c4_4b27_94ca_eaca7abe45cb</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">First section of the Beste form.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_8459431e_a1c4_4b27_94ca_eaca7abe45cb</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Zeminhane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_8a3dcaf4_3d51_4f2d_9f00_11e03ab7d849</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Improvisational section in the Şarkı form with definite lyrics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_8a3dcaf4_3d51_4f2d_9f00_11e03ab7d849</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Gazel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_8cb23c5d_5727_4eb7_9220_e632ed6fa68d</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">3. Selam</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_8eced34a_1567_47d5_9044_9e356d17e927</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Hane-i rabi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_90435073_a0dc_44ea_abce_c978cb51c816</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Hane-i Salis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_913d8ed8_3152_4d33_9c11_614d90666328</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Son Hane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_97d54e82_77a3_4973_ad8f_8160fac8a937</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Miyan Hane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_97f0ade7_be98_4303_8a54_1d804af027d2</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A short instrumental section in the start of the Marş form.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_97f0ade7_be98_4303_8a54_1d804af027d2</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Küşat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A section in several forms such as Peşrev, Sazsemaisi, Medhal etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Hane</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1915,8 +2307,78 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_b2ae8b5a_c471_49e4_8371_3f1338d3eea2</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Zeyl Hane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_b75e7ee7_00db_4e6a_9e2d_991ac45f9ec2</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Refrain section of several forms such as Peşrev, Sazsemaisi, Medhal etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_b75e7ee7_00db_4e6a_9e2d_991ac45f9ec2</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Teslim</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_ba4e20a9_6de0_49dd_97c1_1019387317d1</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A dance section in the folk forms.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ba4e20a9_6de0_49dd_97c1_1019387317d1</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Oyun Kısmı</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_c09838eb_4fa0_484f_bb18_b1e95a353430</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A short instrumental section in vocal forms such as Şarkı. It is usually performed in the start. However it might be perfromed in the middle or the end too.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_c09838eb_4fa0_484f_bb18_b1e95a353430</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Aranağme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_c223e782_6b68_4842_9dd1_551b73654d64</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">InstrumentalPhrase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_d1a3da37_388d_4cd8_ad25_9db99d8ad2e3</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Second and repetitive section of the Beste form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_d1a3da37_388d_4cd8_ad25_9db99d8ad2e3</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Nakarathane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_e0fcb841_2612_4d54_aa05_764611658ea4</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Second and repetitive section of the Şarkı form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_e0fcb841_2612_4d54_aa05_764611658ea4</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Nakarat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_edd4e5dc_c225_4a40_ae36_97d76b8a3257</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">2. Selam</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_f4a56d93_a125_49e7_a4b1_4dcfec364c58</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Hane-i Sani</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_f5f47fcf_6a53_4884_8433_350f0c8a1e4a</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Orta Hane</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2080,11 +2542,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectPropertyImpl_051a3848_a8d1_42da_82b5_48d52fc5d006</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">diedInLocation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectPropertyImpl_0a819a63_71fc_4e13_b308_aaac01378e85</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isComposerOf</Literal>
     </AnnotationAssertion>
@@ -2122,11 +2579,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectPropertyImpl_7bb14de8_ee6f_4252_ac32_c500012ab6df</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">lyricsWrittenBy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectPropertyImpl_95cfcbf4_9786_4397_bd41_66b2e4030d1c</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">bornInLocation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2175,11 +2627,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_00000000000000000003</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasTRTRepertoireNo</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000004</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">composedOnTime</Literal>
     </AnnotationAssertion>
@@ -2187,11 +2634,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000005</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isPartOf</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_00000000000000000009</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasGender</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2261,7 +2703,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_355ebe17_5835_42f9_a72d_ab129927cfbb</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">sectionHasSubsection</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasSubsection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2370,11 +2812,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_c701e137_e07e_44aa_a77e_965cb1accd2f</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasNoteSequence</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_ccd9ee0a_af32_4429_9d0d_6efccb789fdc</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">originalScoreWrittenBy</Literal>
     </AnnotationAssertion>
@@ -2382,16 +2819,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_ea5ca6d0_a4f5_4ef3_a0fa_5bb70057a118</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">compositionHasTranscription</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_eab20f8d_7939_421b_ac6b_b313b0aa21be</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">structureHasMakam</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_ee732b79_1e34_4e0d_87f2_9645f9d268de</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">structureHasForm</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2407,6 +2834,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>rdfs:label</AbbreviatedIRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rdfs:label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://xmlns.com/foaf/0.1/gender</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The gender of this Agent (typically but not necessarily &apos;male&apos; or &apos;female&apos;).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://xmlns.com/foaf/0.1/gender</IRI>
+        <IRI>http://xmlns.com/foaf/0.1/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://xmlns.com/foaf/0.1/gender</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">gender</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://xmlns.com/foaf/0.1/gender</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
     </AnnotationAssertion>
 </Ontology>
 
