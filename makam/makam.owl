@@ -21,7 +21,14 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.org/ontology/olo/core#</Import>
     <Import>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-symbolic-music</Import>
+    <Declaration>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#Interval"/>
+    </Declaration>
     <Declaration>
         <Class IRI="http://purl.org/ontology/symbolic-music/Octave"/>
     </Declaration>
@@ -113,9 +120,6 @@
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000000"/>
     </Declaration>
     <Declaration>
@@ -200,10 +204,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_fc0c117e_9bad_4ffd_bfb7_89b138d1b90e"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://purl.org/ontology/mo/musicbrainz_guid"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://purl.org/ontology/olo/core#index"/>
+        <DataProperty IRI="http://purl.org/ontology/mo/musicbrainz_guid"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
@@ -216,9 +220,6 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#OWLDataProperty_954a4ca2_4dd5_477a_be7b_77e98deb682f"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#OWLDataProperty_95dce3e0_b788_4289_bce9_1a0711207a34"/>
@@ -1778,6 +1779,10 @@
         <NamedIndividual IRI="#OWLNamedIndividual_e02a1732_897e_4bc1_8b36_476f7617127c"/>
     </Declaration>
     <EquivalentClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#Interval"/>
+        <Class IRI="http://www.w3.org/2006/time#ProperInterval"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#OWLClass_00000000000000000002"/>
         <ObjectIntersectionOf>
             <Class IRI="#OWLClass_00000000000000000004"/>
@@ -1825,19 +1830,6 @@
                     </FacetRestriction>
                 </DatatypeRestriction>
             </DataSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClass_00000000000000000013"/>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#OWLObjectProperty_13a55716_aa6d_4443_97d6_b60ea3a0bbcd"/>
-                <Class IRI="-symbolic-music#OWLClass_00000000000000000040"/>
-            </ObjectSomeValuesFrom>
-            <ObjectAllValuesFrom>
-                <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
-                <Class IRI="-symbolic-music#OWLClass_00000000000000000040"/>
-            </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -1920,19 +1912,17 @@
             </DataHasValue>
         </ObjectIntersectionOf>
     </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#OWLObjectProperty_754202e4_0490_4bf3_8415_153b5e71e546"/>
-                <Class IRI="-symbolic-music#OWLClass_aadaf480_7da0_4be6_81b1_47ec2ce8fe4d"/>
-            </ObjectSomeValuesFrom>
-            <ObjectAllValuesFrom>
-                <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
-                <Class IRI="-symbolic-music#OWLClass_aadaf480_7da0_4be6_81b1_47ec2ce8fe4d"/>
-            </ObjectAllValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#Interval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
+            <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000002"/>
         <Class IRI="#OWLClass_00000000000000000004"/>
@@ -4649,19 +4639,24 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000385"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
+        <ObjectProperty IRI="#OWLObjectProperty_13a55716_aa6d_4443_97d6_b60ea3a0bbcd"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000571"/>
         <NamedIndividual IRI="#OWLNamedIndividual_879b4259_1090_4adb_b93b_136c5d02d01c"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
+        <ObjectProperty IRI="#OWLObjectProperty_13a55716_aa6d_4443_97d6_b60ea3a0bbcd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000571"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_3b961ed1_4f49_44b9_90ed_384bea5ab016"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_13a55716_aa6d_4443_97d6_b60ea3a0bbcd"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000571"/>
         <NamedIndividual IRI="#OWLNamedIndividual_5fdecc20_9b59_4c2a_b690_717955243b1b"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000571"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3b961ed1_4f49_44b9_90ed_384bea5ab016"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_047cd93f_b91b_466e_b6aa_1b3cd03d1f8e"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_14231b4e_5819_4e7c_b035_6c0f0dc8f22e"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
@@ -4739,19 +4734,9 @@
         <Literal datatypeIRI="&xsd;float">0.125</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="http://purl.org/ontology/olo/core#index"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3b961ed1_4f49_44b9_90ed_384bea5ab016"/>
-        <Literal datatypeIRI="&xsd;int">1</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="-symbolic-music#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
         <NamedIndividual IRI="#OWLNamedIndividual_3b961ed1_4f49_44b9_90ed_384bea5ab016"/>
         <Literal datatypeIRI="&xsd;int">9</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://purl.org/ontology/olo/core#index"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_5fdecc20_9b59_4c2a_b690_717955243b1b"/>
-        <Literal datatypeIRI="&xsd;int">3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="-symbolic-music#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
@@ -4759,15 +4744,24 @@
         <Literal datatypeIRI="&xsd;int">5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="http://purl.org/ontology/olo/core#index"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_879b4259_1090_4adb_b93b_136c5d02d01c"/>
-        <Literal datatypeIRI="&xsd;int">2</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="-symbolic-music#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
         <NamedIndividual IRI="#OWLNamedIndividual_879b4259_1090_4adb_b93b_136c5d02d01c"/>
         <Literal datatypeIRI="&xsd;int">8</Literal>
     </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/ontology/olo/core#index"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9485fb53_fe93_4287_ba78_2076a6d615f3"/>
+        <Literal datatypeIRI="&xsd;positiveInteger">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/ontology/olo/core#index"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e02a1732_897e_4bc1_8b36_476f7617127c"/>
+        <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
+    </DataPropertyAssertion>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#meets"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
+    </EquivalentObjectProperties>
     <EquivalentObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000030"/>
         <ObjectProperty IRI="#OWLObjectProperty_3a998ea5_79d5_46e8_8adf_760c4e9c3ea7"/>
@@ -4864,6 +4858,14 @@
         <ObjectProperty IRI="#OWLObjectProperty_fb1cbfb8_d2eb_4d14_a54a_668abe42cc33"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000488"/>
     </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
+        <ObjectProperty IRI="http://purl.org/ontology/olo/core#next"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMetBy"/>
+        <ObjectProperty IRI="http://purl.org/ontology/olo/core#previous"/>
+    </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000489"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000030"/>
@@ -4891,6 +4893,10 @@
     <InverseObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_fb1cbfb8_d2eb_4d14_a54a_668abe42cc33"/>
         <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMetBy"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000030"/>
@@ -4922,10 +4928,6 @@
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_919ba604_5b51_43a9_91f7_ee21f8ea40fc"/>
     </TransitiveObjectProperty>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
-        <Class IRI="http://purl.org/ontology/olo/core#OrderedList"/>
-    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000001"/>
         <Class IRI="#OWLClass_00000000000000000000"/>
@@ -4982,10 +4984,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
         <Class IRI="#OWLClass_00000000000000000000"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
-        <Class IRI="http://purl.org/ontology/olo/core#Slot"/>
-    </ObjectPropertyRange>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
+        <Class IRI="http://www.w3.org/2006/time#ProperInterval"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000001"/>
         <Class IRI="#OWLClass_00000000000000000013"/>
@@ -5034,10 +5036,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_fc0c117e_9bad_4ffd_bfb7_89b138d1b90e"/>
         <Class IRI="#OWLClass_00000000000000000000"/>
     </ObjectPropertyRange>
-    <EquivalentDataProperties>
-        <DataProperty IRI="http://purl.org/ontology/mo/uuid"/>
-        <DataProperty IRI="#OWLDataProperty_954a4ca2_4dd5_477a_be7b_77e98deb682f"/>
-    </EquivalentDataProperties>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
+        <Class IRI="http://www.w3.org/2006/time#ProperInterval"/>
+    </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="http://purl.org/ontology/mo/musicbrainz_guid"/>
         <DataProperty IRI="http://purl.org/ontology/mo/uuid"/>
@@ -5050,13 +5052,6 @@
         <DataProperty IRI="#OWLDataProperty_f85212e4_521e_4402_a5d7_1e9f8509b249"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
-    <FunctionalDataProperty>
-        <DataProperty IRI="http://purl.org/ontology/olo/core#index"/>
-    </FunctionalDataProperty>
-    <DataPropertyDomain>
-        <DataProperty IRI="http://purl.org/ontology/olo/core#index"/>
-        <Class IRI="http://purl.org/ontology/olo/core#Slot"/>
-    </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
@@ -5081,10 +5076,6 @@
         <DataProperty IRI="#OWLDataProperty_f85212e4_521e_4402_a5d7_1e9f8509b249"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
     </DataPropertyDomain>
-    <DataPropertyRange>
-        <DataProperty IRI="http://purl.org/ontology/olo/core#index"/>
-        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-    </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
         <DatatypeRestriction>
@@ -5109,11 +5100,11 @@
         <DataProperty IRI="#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;maxInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">300</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;minExclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;maxInclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">300</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -5125,6 +5116,38 @@
         <DataProperty IRI="#OWLDataProperty_f85212e4_521e_4402_a5d7_1e9f8509b249"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#AbstractInterval</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">
+	An interval defined on an abstract time-line.
+    </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#AbstractInterval</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">abstract interval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#AbstractInterval</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#Interval</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">An interval (same as in OWL-Time). Allen&apos;s relationships are defined in OWL-Time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#Interval</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">interval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#Interval</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/ontology/mo/level"/>
         <IRI>http://purl.org/ontology/mo/musicbrainz_guid</IRI>
@@ -5149,46 +5172,6 @@
         <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
         <IRI>http://purl.org/ontology/mo/musicbrainz_guid</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.org/ontology/olo/core#index</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">An index of a slot in an ordered list.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>http://purl.org/ontology/olo/core#index</IRI>
-        <IRI>http://purl.org/ontology/olo/core#</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.org/ontology/olo/core#index</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has index</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
-        <IRI>http://purl.org/ontology/olo/core#index</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stable</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://purl.org/ontology/olo/core#slot</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A slot in an ordered list.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <IRI>http://purl.org/ontology/olo/core#slot</IRI>
-        <IRI>http://purl.org/ontology/olo/core#</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.org/ontology/olo/core#slot</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has slot</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
-        <IRI>http://purl.org/ontology/olo/core#slot</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5459,11 +5442,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">averageTempo</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLDataProperty_954a4ca2_4dd5_477a_be7b_77e98deb682f</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">uuid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
