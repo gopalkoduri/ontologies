@@ -642,10 +642,6 @@
     </EquivalentClasses>
     <SubClassOf>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
-        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#Interval"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
             <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine"/>
@@ -1001,11 +997,6 @@
         <ObjectProperty IRI="#OWLObjectProperty_7fb6b2b5_82fa_486d_8c48_4532c865685a"/>
         <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000063"/>
         <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000002"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_047cd93f_b91b_466e_b6aa_1b3cd03d1f8e"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_14231b4e_5819_4e7c_b035_6c0f0dc8f22e"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_9c780368_28c1_4bac_b70f_2b903e279960"/>
@@ -1448,13 +1439,6 @@
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_ffbb11b3_e78b_4231_846a_d5dd9ffe3612"/>
     </TransitiveObjectProperty>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
-        <ObjectUnionOf>
-            <Class IRI="http://purl.org/NET/c4dm/timeline.owl#Instant"/>
-            <Class IRI="http://purl.org/NET/c4dm/timeline.owl#Interval"/>
-        </ObjectUnionOf>
-    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/OWLObjectProperty_589f1660_1059_45ea_859d_05790e72ae63"/>
         <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
