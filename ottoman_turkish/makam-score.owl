@@ -83,15 +83,6 @@
         <Class IRI="#OWLClassImpl_afc39164_fc7a_4b7b_ad6d_b106fb5e1180"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_00000000000000000001"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_00000000000000000002"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_00000000000000000003"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OWLClass_00000000000000000004"/>
     </Declaration>
     <Declaration>
@@ -434,19 +425,34 @@
         <DataProperty IRI="http://xmlns.com/foaf/0.1/gender"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_03938113_0b65_4a51_a686_e76df6e55dee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_109e5b72_4338_45a6_ae59_27722d4953ef"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_177484f7_41ac_4d16_ad1c_fb732ef9c501"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_226e9380_9d87_4ebd_a14b_7d59aae007c1"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_18899e92_a2dd_46e0_b866_ba84b8c4ac51"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_2f6c58c8_e190_4bed_9b4d_da3d577e0257"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_357fabce_a519_4e3f_9a11_1c658abe21f3"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_3f2a1647_a61e_4ad9_b6d6_e1319cc3aed8"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_3f70d665_fe9b_4571_ade8_53a2b051eaa6"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_4532b098_c89d_434b_a303_755703122517"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_45e27e33_7a69_4c9e_989b_813bc40e3fe3"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_49538fbd_d894_4288_807e_103574b4b223"/>
@@ -458,22 +464,13 @@
         <NamedIndividual IRI="#OWLNamedIndividual_57c99634_db54_4915_9317_9b4b87ef7032"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_65713164_7eec_46dd_9742_00493be6d9be"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_7038e797_b461_4faa_bb1b_fffabcba8790"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_71f9c82f_17bc_4174_9b94_8fda059cbe06"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_774c9260_c4af_4305_a75e_5c266c3842dc"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_78d28e37_e0a8_47b3_a980_64f8f2ac4413"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_9783e179_4581_4e47_b083_2ecec77d38d2"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_9d3c84f4_68b3_4b0c_ae6a_c55d67216e21"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_9fe127be_1889_46fb_91a7_b22dc1f039fd"/>
@@ -641,13 +638,6 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <SubClassOf>
-        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
-            <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine"/>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#TimeLine"/>
     </SubClassOf>
@@ -710,14 +700,6 @@
     <SubClassOf>
         <Class IRI="#OWLClassImpl_afc39164_fc7a_4b7b_ad6d_b106fb5e1180"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_00000000000000000002"/>
-        <Class IRI="#OWLClass_00000000000000000001"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_00000000000000000003"/>
-        <Class IRI="#OWLClass_00000000000000000001"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000004"/>
@@ -887,6 +869,10 @@
         <Class IRI="#OWLClass_f5f47fcf_6a53_4884_8433_350f0c8a1e4a"/>
         <Class IRI="#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144"/>
     </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/mo/Composition"/>
+        <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
+    </DisjointClasses>
     <ClassAssertion>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
         <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_047cd93f_b91b_466e_b6aa_1b3cd03d1f8e"/>
@@ -920,12 +906,16 @@
         <NamedIndividual IRI="#OWLNamedIndividual_177484f7_41ac_4d16_ad1c_fb732ef9c501"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_190d9b91_c51d_42ae_8b97_1c73be39a3ff"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_226e9380_9d87_4ebd_a14b_7d59aae007c1"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_18899e92_a2dd_46e0_b866_ba84b8c4ac51"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.org/ontology/mo/Composition"/>
         <NamedIndividual IRI="#OWLNamedIndividual_2f6c58c8_e190_4bed_9b4d_da3d577e0257"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_357fabce_a519_4e3f_9a11_1c658abe21f3"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
@@ -934,6 +924,10 @@
     <ClassAssertion>
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
         <NamedIndividual IRI="#OWLNamedIndividual_4532b098_c89d_434b_a303_755703122517"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreTimeLine"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_45e27e33_7a69_4c9e_989b_813bc40e3fe3"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
@@ -948,28 +942,16 @@
         <NamedIndividual IRI="#OWLNamedIndividual_57c99634_db54_4915_9317_9b4b87ef7032"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_3d8939f6_265d_4101_831d_739354eb919b"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_65713164_7eec_46dd_9742_00493be6d9be"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_181e11a5_7161_4ec1_b939_8186c0a06a70"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_7038e797_b461_4faa_bb1b_fffabcba8790"/>
+        <Class IRI="http://purl.org/ontology/mo/Composition"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_71f9c82f_17bc_4174_9b94_8fda059cbe06"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://schema.org/Place"/>
         <NamedIndividual IRI="#OWLNamedIndividual_774c9260_c4af_4305_a75e_5c266c3842dc"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_0324ad0d_7e6e_4834_9348_11dc96c18689"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_78d28e37_e0a8_47b3_a980_64f8f2ac4413"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="http://purl.org/ontology/mo/Performance"/>
         <NamedIndividual IRI="#OWLNamedIndividual_9783e179_4581_4e47_b083_2ecec77d38d2"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#OWLClass_b75e7ee7_00db_4e6a_9e2d_991ac45f9ec2"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_9d3c84f4_68b3_4b0c_ae6a_c55d67216e21"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
@@ -999,9 +981,19 @@
         <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000002"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_9c780368_28c1_4bac_b70f_2b903e279960"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_226e9380_9d87_4ebd_a14b_7d59aae007c1"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3f2a1647_a61e_4ad9_b6d6_e1319cc3aed8"/>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#sub_event"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_109e5b72_4338_45a6_ae59_27722d4953ef"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_3f70d665_fe9b_4571_ade8_53a2b051eaa6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_18899e92_a2dd_46e0_b866_ba84b8c4ac51"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_03938113_0b65_4a51_a686_e76df6e55dee"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/pitch"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_18899e92_a2dd_46e0_b866_ba84b8c4ac51"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-symbolic-music#OWLNamedIndividual_00000000000000000494"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_2d8cf55f_4e24_466f_8011_477a359513dc"/>
@@ -1024,39 +1016,39 @@
         <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000131"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/OWLObjectProperty_589f1660_1059_45ea_859d_05790e72ae63"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_357fabce_a519_4e3f_9a11_1c658abe21f3"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_45e27e33_7a69_4c9e_989b_813bc40e3fe3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_d54cb729_2f64_46f2_9311_a1170a8e009a"/>
         <NamedIndividual IRI="#OWLNamedIndividual_3f2a1647_a61e_4ad9_b6d6_e1319cc3aed8"/>
         <NamedIndividual IRI="#OWLNamedIndividual_2f6c58c8_e190_4bed_9b4d_da3d577e0257"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_0ec1a402_e707_4100_931a_6cae11375b33"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3f2a1647_a61e_4ad9_b6d6_e1319cc3aed8"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_7038e797_b461_4faa_bb1b_fffabcba8790"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_0ec1a402_e707_4100_931a_6cae11375b33"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3f2a1647_a61e_4ad9_b6d6_e1319cc3aed8"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_9d3c84f4_68b3_4b0c_ae6a_c55d67216e21"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_0ec1a402_e707_4100_931a_6cae11375b33"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3f2a1647_a61e_4ad9_b6d6_e1319cc3aed8"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_78d28e37_e0a8_47b3_a980_64f8f2ac4413"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_0ec1a402_e707_4100_931a_6cae11375b33"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3f2a1647_a61e_4ad9_b6d6_e1319cc3aed8"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_226e9380_9d87_4ebd_a14b_7d59aae007c1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_0ec1a402_e707_4100_931a_6cae11375b33"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3f2a1647_a61e_4ad9_b6d6_e1319cc3aed8"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_65713164_7eec_46dd_9742_00493be6d9be"/>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#sub_event"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_3f70d665_fe9b_4571_ade8_53a2b051eaa6"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_18899e92_a2dd_46e0_b866_ba84b8c4ac51"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000162"/>
         <NamedIndividual IRI="#OWLNamedIndividual_4532b098_c89d_434b_a303_755703122517"/>
         <NamedIndividual IRI="#OWLNamedIndividual_b780bc7f_2ab5_449d_8ea6_0cb09697ab91"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_45e27e33_7a69_4c9e_989b_813bc40e3fe3"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_109e5b72_4338_45a6_ae59_27722d4953ef"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_45e27e33_7a69_4c9e_989b_813bc40e3fe3"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_18899e92_a2dd_46e0_b866_ba84b8c4ac51"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_45e27e33_7a69_4c9e_989b_813bc40e3fe3"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_3f70d665_fe9b_4571_ade8_53a2b051eaa6"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLObjectProperty_74550960_3ed2_4278_afef_e34463ae9136"/>
@@ -1074,19 +1066,24 @@
         <NamedIndividual IRI="#OWLNamedIndividual_9783e179_4581_4e47_b083_2ecec77d38d2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_9c780368_28c1_4bac_b70f_2b903e279960"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_65713164_7eec_46dd_9742_00493be6d9be"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3f2a1647_a61e_4ad9_b6d6_e1319cc3aed8"/>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000000"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_71f9c82f_17bc_4174_9b94_8fda059cbe06"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000326"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_9c780368_28c1_4bac_b70f_2b903e279960"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_7038e797_b461_4faa_bb1b_fffabcba8790"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3f2a1647_a61e_4ad9_b6d6_e1319cc3aed8"/>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000001"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_71f9c82f_17bc_4174_9b94_8fda059cbe06"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000063"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_9c780368_28c1_4bac_b70f_2b903e279960"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_78d28e37_e0a8_47b3_a980_64f8f2ac4413"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_3f2a1647_a61e_4ad9_b6d6_e1319cc3aed8"/>
+        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000002"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_71f9c82f_17bc_4174_9b94_8fda059cbe06"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000156"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_c1978757_22a5_4916_a9d1_7d5ee0a56bfc"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_71f9c82f_17bc_4174_9b94_8fda059cbe06"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_357fabce_a519_4e3f_9a11_1c658abe21f3"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_4e191fbb_dffd_493b_9c4e_0580ba6e0487"/>
@@ -1143,6 +1140,16 @@
         <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000015"/>
         <Literal datatypeIRI="&xsd;boolean">true</Literal>
     </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_03938113_0b65_4a51_a686_e76df6e55dee"/>
+        <Literal datatypeIRI="&xsd;float">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/ontology/olo/core#index"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_18899e92_a2dd_46e0_b866_ba84b8c4ac51"/>
+        <Literal datatypeIRI="&xsd;int">1</Literal>
+    </DataPropertyAssertion>
     <EquivalentObjectProperties>
         <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#onTimeLine"/>
         <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
@@ -1163,6 +1170,14 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000159"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000160"/>
     </EquivalentObjectProperties>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#onTimeLine"/>
+        <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
+        <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
+    </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLObjectProperty_9e85675c_b1c9_44eb_be94_bb9c589cc53e"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000163"/>
@@ -2170,36 +2185,6 @@ Two timelines can be mapped using timeline maps.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000001</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Structure</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000001</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Yapı</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000002</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Bölüm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000002</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Section</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000003</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Cümle</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000003</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Phrase</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000004</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Curator</Literal>
     </AnnotationAssertion>
@@ -2520,13 +2505,23 @@ Two timelines can be mapped using timeline maps.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_03938113_0b65_4a51_a686_e76df6e55dee</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">mahur--sarki--nimsofyan--otomobil_ucar--munir_nurettin_selcuk--n001_time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_109e5b72_4338_45a6_ae59_27722d4953ef</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">mahur--sarki--nimsofyan--otomobil_ucar--munir_nurettin_selcuk--aranagme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_177484f7_41ac_4d16_ad1c_fb732ef9c501</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Istanbul</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_226e9380_9d87_4ebd_a14b_7d59aae007c1</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mini Mini, 1. Hane</Literal>
+        <IRI>#OWLNamedIndividual_18899e92_a2dd_46e0_b866_ba84b8c4ac51</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">mahur--sarki--nimsofyan--otomobil_ucar--munir_nurettin_selcuk--n001</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2535,13 +2530,28 @@ Two timelines can be mapped using timeline maps.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_357fabce_a519_4e3f_9a11_1c658abe21f3</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">mahur--sarki--nimsofyan--otomobil_ucar--munir_nurettin_selcuk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_3f2a1647_a61e_4ad9_b6d6_e1319cc3aed8</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">nihavent--pesrev--hafif--mini_mini--huseyin_sadettin_arel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_3f70d665_fe9b_4571_ade8_53a2b051eaa6</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">mahur--sarki--nimsofyan--otomobil_ucar--munir_nurettin_selcuk--bar001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_4532b098_c89d_434b_a303_755703122517</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Kemal Çığrık</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_45e27e33_7a69_4c9e_989b_813bc40e3fe3</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">mahur--sarki--nimsofyan--otomobil_ucar--munir_nurettin_selcuk--timeline</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2560,13 +2570,8 @@ Two timelines can be mapped using timeline maps.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_65713164_7eec_46dd_9742_00493be6d9be</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mini Mini, 2. Hane</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_7038e797_b461_4faa_bb1b_fffabcba8790</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mini Mini, 4. Hane</Literal>
+        <IRI>#OWLNamedIndividual_71f9c82f_17bc_4174_9b94_8fda059cbe06</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Otomobil Uçar Gider</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2575,18 +2580,8 @@ Two timelines can be mapped using timeline maps.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_78d28e37_e0a8_47b3_a980_64f8f2ac4413</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mini Mini, 3. Hane</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_9783e179_4581_4e47_b083_2ecec77d38d2</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Rast Taksim by Tanburi Cemil Bey</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLNamedIndividual_9d3c84f4_68b3_4b0c_ae6a_c55d67216e21</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mini Mini, Teslim</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
