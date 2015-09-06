@@ -4838,10 +4838,6 @@
         <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#OWLObjectProperty_919ba604_5b51_43a9_91f7_ee21f8ea40fc"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000039"/>
     </SubObjectPropertyOf>
@@ -5051,11 +5047,11 @@
         <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;minExclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;maxInclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">120</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;minExclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -5071,11 +5067,11 @@
         <DataProperty IRI="#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;minExclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;maxInclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">300</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;minExclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -8162,12 +8158,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_7fdc1362_2c9e_49be_b98e_cdb3e1110b1b</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">subformIsPartOfForm</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">formIsPartOfForm</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_919ba604_5b51_43a9_91f7_ee21f8ea40fc</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">formHasSubform</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasSubform</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
