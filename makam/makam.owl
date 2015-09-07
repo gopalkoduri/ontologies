@@ -21,6 +21,7 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.org/ontology/olo/core#</Import>
     <Import>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-symbolic-music</Import>
     <Declaration>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
@@ -204,6 +205,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_04b6fa47_742d_457d_805f_e20c94a69b29"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
@@ -4639,6 +4643,16 @@
         <NamedIndividual IRI="#OWLNamedIndividual_5fdecc20_9b59_4c2a_b690_717955243b1b"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/ontology/olo/core#next"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_879b4259_1090_4adb_b93b_136c5d02d01c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_5fdecc20_9b59_4c2a_b690_717955243b1b"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/ontology/olo/core#previous"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_879b4259_1090_4adb_b93b_136c5d02d01c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_3b961ed1_4f49_44b9_90ed_384bea5ab016"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
         <NamedIndividual IRI="#OWLNamedIndividual_9485fb53_fe93_4287_ba78_2076a6d615f3"/>
         <NamedIndividual IRI="#OWLNamedIndividual_14231b4e_5819_4e7c_b035_6c0f0dc8f22e"/>
@@ -4652,6 +4666,11 @@
         <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
         <NamedIndividual IRI="#OWLNamedIndividual_e02a1732_897e_4bc1_8b36_476f7617127c"/>
         <NamedIndividual IRI="#OWLNamedIndividual_047cd93f_b91b_466e_b6aa_1b3cd03d1f8e"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/ontology/olo/core#next"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_e02a1732_897e_4bc1_8b36_476f7617127c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9485fb53_fe93_4287_ba78_2076a6d615f3"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_43e43f2e_c86b_483b_8d49_c6565dcf1dbd"/>
@@ -4694,7 +4713,17 @@
         <Literal datatypeIRI="&xsd;int">28</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/ontology/olo/core#length"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000156"/>
+        <Literal datatypeIRI="&xsd;int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000156"/>
+        <Literal datatypeIRI="&xsd;int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_04b6fa47_742d_457d_805f_e20c94a69b29"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000156"/>
         <Literal datatypeIRI="&xsd;int">2</Literal>
     </DataPropertyAssertion>
@@ -4702,6 +4731,11 @@
         <DataProperty IRI="#OWLDataProperty_74293444_628d_4dc9_8133_7f2d9082d7e1"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000156"/>
         <Literal datatypeIRI="&xsd;int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/ontology/olo/core#length"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000571"/>
+        <Literal datatypeIRI="&xsd;int">3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
@@ -4769,6 +4803,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000490"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000492"/>
     </EquivalentObjectProperties>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
+        <ObjectProperty IRI="http://purl.org/ontology/olo/core#slot"/>
+    </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000000"/>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000488"/>
@@ -5024,6 +5062,10 @@
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_04b6fa47_742d_457d_805f_e20c94a69b29"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
     </DataPropertyDomain>
@@ -5048,12 +5090,16 @@
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
             <FacetRestriction facet="&xsd;maxInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">120</Literal>
+                <Literal datatypeIRI="&xsd;positiveInteger">124</Literal>
             </FacetRestriction>
             <FacetRestriction facet="&xsd;minExclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_04b6fa47_742d_457d_805f_e20c94a69b29"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
@@ -5379,6 +5425,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLDataProperty_00000000000000000495</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">numberOfBeats</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_00000000000000000495</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">usulZamanı</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_04b6fa47_742d_457d_805f_e20c94a69b29</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">numberOfStrokes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
