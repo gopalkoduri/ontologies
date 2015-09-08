@@ -49,15 +49,6 @@
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-score#OWLClass_00000000000000000003"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_00000000000000000001"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_00000000000000000040"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OWLClass_0c0f2f79_ebdb_4651_b205_fa2143315c38"/>
     </Declaration>
     <Declaration>
@@ -74,6 +65,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_3e34ba35_2524_4956_a808_a3a11b93add4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_451dabf8_1681_4835_bbf3_0a1a1b63af38"/>
@@ -106,6 +100,9 @@
         <Class IRI="#OWLClass_92025319_8401_469d_a440_f2e0480f3d2a"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_96d43de5_fb00_462b_9471_29b9180ccba0"/>
     </Declaration>
     <Declaration>
@@ -134,6 +131,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_d41d988f_2cf5_4c6b_ace5_08f7df09de93"/>
@@ -506,7 +506,7 @@
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/ontology/temperament/Interval"/>
-        <Class IRI="#OWLClass_00000000000000000040"/>
+        <Class IRI="#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#OWLClass_0c0f2f79_ebdb_4651_b205_fa2143315c38"/>
@@ -767,12 +767,8 @@
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-score#OWLClass_00000000000000000001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OWLClass_00000000000000000005"/>
-        <Class IRI="#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#OWLClass_0c0f2f79_ebdb_4651_b205_fa2143315c38"/>
-        <Class IRI="#OWLClass_00000000000000000040"/>
+        <Class IRI="#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_1d06b3ac_8511_4fa1_9c44_8062571888ed"/>
@@ -792,7 +788,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_451dabf8_1681_4835_bbf3_0a1a1b63af38"/>
-        <Class IRI="#OWLClass_00000000000000000040"/>
+        <Class IRI="#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_51c856fd_96ea_479f_adea_14e07c536901"/>
@@ -800,7 +796,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_52f146e4_7da4_4ae5_b0be_0fba65fcd06d"/>
-        <Class IRI="#OWLClass_00000000000000000040"/>
+        <Class IRI="#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_54fa2e7c_99c6_44fd_9602_d73eff541e12"/>
@@ -840,7 +836,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_aad6f6a2_d4e8_4c92_a373_40ceb0d1dbbe"/>
-        <Class IRI="#OWLClass_00000000000000000040"/>
+        <Class IRI="#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_aadaf480_7da0_4be6_81b1_47ec2ce8fe4d"/>
@@ -863,12 +859,16 @@
         <Class IRI="#OWLClass_aadaf480_7da0_4be6_81b1_47ec2ce8fe4d"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
+        <Class IRI="#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_d41d988f_2cf5_4c6b_ace5_08f7df09de93"/>
         <Class IRI="#OWLClass_aadaf480_7da0_4be6_81b1_47ec2ce8fe4d"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_d55f406f_8174_4cb7_b1a6_5343b4fe96c7"/>
-        <Class IRI="#OWLClass_00000000000000000040"/>
+        <Class IRI="#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_dcd88260_4a5f_4e31_b9e8_153f6bb7d85d"/>
@@ -880,7 +880,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_e3973721_9e18_4948_abfa_bcbd835ac1cd"/>
-        <Class IRI="#OWLClass_00000000000000000040"/>
+        <Class IRI="#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_f1047564_4e30_40ba_b1de_428f50d7c2b0"/>
@@ -981,147 +981,147 @@
         <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/sharp"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000001"/>
+        <Class IRI="#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000176"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000001"/>
+        <Class IRI="#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000266"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000001"/>
+        <Class IRI="#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000279"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000001"/>
+        <Class IRI="#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000341"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000001"/>
+        <Class IRI="#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000365"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000001"/>
+        <Class IRI="#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000481"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000486"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000487"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000001"/>
+        <Class IRI="#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000488"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000493"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000494"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000495"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000496"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000497"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000498"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000499"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000500"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000501"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000502"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000503"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000504"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000505"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000506"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000507"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000508"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000510"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000511"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000512"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000513"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000514"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000515"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000517"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000518"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000519"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000520"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000521"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1129,171 +1129,171 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000522"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000523"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000524"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000525"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000527"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000528"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000529"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000530"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000531"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000532"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000533"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000534"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000535"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000536"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000537"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000538"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000539"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000540"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000541"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000542"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000544"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000545"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000546"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000547"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000548"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000549"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000550"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000551"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000552"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000553"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000554"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000555"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000556"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000557"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000558"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000559"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000560"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000561"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000562"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000563"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000564"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000565"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000566"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1369,7 +1369,7 @@
         <NamedIndividual IRI="#OWLNamedIndividual_cbd16101_685f_4677_b621_7c947a279b94"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
         <NamedIndividual IRI="#OWLNamedIndividual_e06f39da_7986_4413_9692_848d86e6ace9"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1587,7 +1587,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_1a9aa969_6a2d_40b0_bf2e_7053388ab316"/>
-        <Class IRI="#OWLClass_00000000000000000005"/>
+        <Class IRI="#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_3b3bd859_e7da_4a3b_ba47_1b44855e22a3"/>
@@ -1623,7 +1623,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_43e43f2e_c86b_483b_8d49_c6565dcf1dbd"/>
-        <Class IRI="#OWLClass_00000000000000000001"/>
+        <Class IRI="#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_50796425_fc18_4649_9f83_4b4b1042c640"/>
@@ -1653,7 +1653,7 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_6b1c2a7f_cf62_4847_9876_ed896eebc83b"/>
-        <Class IRI="#OWLClass_00000000000000000040"/>
+        <Class IRI="#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_989ead94_771d_43e2_b31e_3c9e6ed35bf0"/>
@@ -1682,11 +1682,11 @@
         <DataProperty IRI="#OWLDataProperty_989ead94_771d_43e2_b31e_3c9e6ed35bf0"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:int"/>
-            <FacetRestriction facet="&xsd;maxInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">10</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;minInclusive">
                 <Literal datatypeIRI="&xsd;negativeInteger">-1</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;maxInclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">10</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -1761,41 +1761,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000001</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Darbİsmi</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000001</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">StrokeName</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000001</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Vuruşİsmi</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000005</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ClassicalNoteName</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000005</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">KlasikNotaİsmi</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000040</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Aralık</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000040</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">PitchInterval</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_0c0f2f79_ebdb_4651_b205_fa2143315c38</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tanini</Literal>
     </AnnotationAssertion>
@@ -1823,6 +1788,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_3e34ba35_2524_4956_a808_a3a11b93add4</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DottedThirtySecondStroke</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Darbİsmi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">StrokeName</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Vuruşİsmi</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1876,6 +1856,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Aralık</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">PitchInterval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_96d43de5_fb00_462b_9471_29b9180ccba0</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ThirtySecondStroke</Literal>
     </AnnotationAssertion>
@@ -1923,6 +1913,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">NoteName</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ClassicalNoteName</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">KlasikNotaİsmi</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

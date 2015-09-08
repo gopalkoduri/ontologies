@@ -1831,7 +1831,7 @@
             <Class IRI="#OWLClass_00000000000000000013"/>
             <ObjectExactCardinality cardinality="3">
                 <ObjectProperty IRI="#OWLObjectProperty_13a55716_aa6d_4443_97d6_b60ea3a0bbcd"/>
-                <Class IRI="-symbolic-music#OWLClass_00000000000000000040"/>
+                <Class IRI="-symbolic-music#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
             </ObjectExactCardinality>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -1841,7 +1841,7 @@
             <Class IRI="#OWLClass_00000000000000000013"/>
             <ObjectExactCardinality cardinality="4">
                 <ObjectProperty IRI="#OWLObjectProperty_13a55716_aa6d_4443_97d6_b60ea3a0bbcd"/>
-                <Class IRI="-symbolic-music#OWLClass_00000000000000000040"/>
+                <Class IRI="-symbolic-music#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
             </ObjectExactCardinality>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -1851,7 +1851,7 @@
             <Class IRI="#OWLClass_00000000000000000013"/>
             <ObjectExactCardinality cardinality="2">
                 <ObjectProperty IRI="#OWLObjectProperty_13a55716_aa6d_4443_97d6_b60ea3a0bbcd"/>
-                <Class IRI="-symbolic-music#OWLClass_00000000000000000040"/>
+                <Class IRI="-symbolic-music#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
             </ObjectExactCardinality>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -5023,7 +5023,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_13a55716_aa6d_4443_97d6_b60ea3a0bbcd"/>
-        <Class IRI="-symbolic-music#OWLClass_00000000000000000040"/>
+        <Class IRI="-symbolic-music#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_34766051_eb14_470c_aacb_c3ecd3e023b4"/>
