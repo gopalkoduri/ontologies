@@ -29,6 +29,9 @@
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#Interval"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#TimeLine"/>
     </Declaration>
     <Declaration>
@@ -377,6 +380,9 @@
         <ObjectProperty IRI="#OWLObjectProperty_ffbb11b3_e78b_4231_846a_d5dd9ffe3612"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#OWLDataProperty_41919a7b_c36a_42ce_ac90_a0eaf1d9ca19"/>
     </Declaration>
     <Declaration>
@@ -499,6 +505,10 @@
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_f24aefe4_95e8_4f5e_9afb_7aedfce9b6b6"/>
     </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#Interval"/>
+        <Class IRI="http://www.w3.org/2006/time#ProperInterval"/>
+    </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/ontology/mo/Arranger"/>
         <Class IRI="#OWLClass_00000000000000000006"/>
@@ -635,6 +645,17 @@
             </DataHasValue>
         </ObjectIntersectionOf>
     </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#Interval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
+            <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine"/>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#TimeLine"/>
@@ -1344,6 +1365,10 @@
         <Literal datatypeIRI="&xsd;int">4</Literal>
     </DataPropertyAssertion>
     <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#meets"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLObjectProperty_74550960_3ed2_4278_afef_e34463ae9136"/>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLObjectProperty_9efe8e74_0e9c_4780_895e_8af57a52a2ad"/>
     </EquivalentObjectProperties>
@@ -1579,6 +1604,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_ea5ca6d0_a4f5_4ef3_a0fa_5bb70057a118"/>
         <ObjectProperty IRI="#OWLObjectProperty_a9801f20_f5a1_4730_83cd_96e3155ff0a6"/>
     </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMetBy"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
+    </InverseObjectProperties>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/general#OWLObjectProperty_00000000000000000000"/>
     </FunctionalObjectProperty>
@@ -1724,6 +1753,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_ffbb11b3_e78b_4231_846a_d5dd9ffe3612"/>
         <Class IRI="#OWLClass_00000000000000000003"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
+        <Class IRI="http://www.w3.org/2006/time#ProperInterval"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://schema.org/birthPlace"/>
         <Class IRI="http://schema.org/Place"/>
@@ -1839,6 +1872,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_ffbb11b3_e78b_4231_846a_d5dd9ffe3612"/>
         <Class IRI="#OWLClass_00000000000000000002"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
+        <Class IRI="http://www.w3.org/2006/time#ProperInterval"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
@@ -1956,6 +1993,21 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
         <IRI>http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#Interval</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">An interval (same as in OWL-Time). Allen&apos;s relationships are defined in OWL-Time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#Interval</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">interval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#Interval</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
