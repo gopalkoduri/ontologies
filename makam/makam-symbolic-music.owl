@@ -157,6 +157,9 @@
         <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#sub_event"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_1a9aa969_6a2d_40b0_bf2e_7053388ab316"/>
     </Declaration>
     <Declaration>
@@ -754,6 +757,10 @@
             </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Accidental"/>
+        <Class IRI="#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-score#OWLClass_00000000000000000001"/>
         <Class IRI="http://purl.org/NET/c4dm/event.owl#Event"/>
@@ -1543,6 +1550,10 @@
         <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#sub_event"/>
     </EquivalentObjectProperties>
     <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#onTimeLine"/>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
         <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/accidental"/>
         <ObjectProperty IRI="#OWLObjectProperty_b3736177_422e_41ec_9806_699a62cb8911"/>
     </EquivalentObjectProperties>
@@ -1566,6 +1577,9 @@
         <ObjectProperty IRI="#OWLObjectProperty_b3736177_422e_41ec_9806_699a62cb8911"/>
         <ObjectProperty IRI="#OWLObjectProperty_50796425_fc18_4649_9f83_4b4b1042c640"/>
     </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
+    </FunctionalObjectProperty>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_1a9aa969_6a2d_40b0_bf2e_7053388ab316"/>
     </FunctionalObjectProperty>
@@ -1663,11 +1677,11 @@
         <DataProperty IRI="#OWLDataProperty_00000000000000000619"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;minInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">0</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;maxInclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">127</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;minInclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">0</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -1682,11 +1696,11 @@
         <DataProperty IRI="#OWLDataProperty_989ead94_771d_43e2_b31e_3c9e6ed35bf0"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:int"/>
-            <FacetRestriction facet="&xsd;minInclusive">
-                <Literal datatypeIRI="&xsd;negativeInteger">-1</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;maxInclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">10</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;minInclusive">
+                <Literal datatypeIRI="&xsd;negativeInteger">-1</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -1706,6 +1720,27 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
         <IRI>http://purl.org/NET/c4dm/event.owl#sub_event</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#timeline</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">
+	Relates an interval or an instant to the timeline on which it is defined.
+
+	The 29th of August, 2007 would be linked through this property to the universal timeline, whereas
+	&quot;from 2s to 5s on this particular signal&quot; would be defined on the signal&apos; timeline.
+
+    </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#timeline</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">on timeline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#timeline</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
