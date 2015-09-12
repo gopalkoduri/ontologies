@@ -74,9 +74,6 @@
         <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClassImpl_9a1c8d4f_ac02_4482_b99e_7b96c4b5a4e0"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OWLClassImpl_a844d999_377c_4ca9_b790_dd4d0daf0782"/>
     </Declaration>
     <Declaration>
@@ -84,9 +81,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_00000000000000000004"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_00000000000000000006"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_00000000000000000007"/>
@@ -108,9 +102,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_190d9b91_c51d_42ae_8b97_1c73be39a3ff"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_1d5aed3b_6b7b_4e26_998a_53b3a18211af"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_1f08b605_29ce_40d4_a49f_87efb659c4cf"/>
@@ -510,18 +501,6 @@
         <Class IRI="http://www.w3.org/2006/time#ProperInterval"/>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://purl.org/ontology/mo/Arranger"/>
-        <Class IRI="#OWLClass_00000000000000000006"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://purl.org/ontology/mo/Composer"/>
-        <Class IRI="#OWLClassImpl_9a1c8d4f_ac02_4482_b99e_7b96c4b5a4e0"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://purl.org/ontology/mo/Performer"/>
-        <Class IRI="#OWLClass_1d5aed3b_6b7b_4e26_998a_53b3a18211af"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="http://purl.org/ontology/mo/Performer"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.org/ontology/mo/performed"/>
@@ -554,7 +533,7 @@
                     <ObjectInverseOf>
                         <ObjectProperty IRI="#OWLObjectProperty_209e373f_44f4_4b99_833a_b831ca4b9fdc"/>
                     </ObjectInverseOf>
-                    <Class IRI="#OWLClassImpl_9a1c8d4f_ac02_4482_b99e_7b96c4b5a4e0"/>
+                    <Class IRI="http://purl.org/ontology/mo/Composer"/>
                 </ObjectSomeValuesFrom>
                 <ObjectExactCardinality cardinality="1">
                     <ObjectProperty IRI="#OWLObjectProperty_9cfca580_79ec_4f51_bd79_74a2a40a7ebb"/>
@@ -705,10 +684,6 @@
         <Class IRI="#OWLClassImpl_3913ae58_190f_4851_a510_7f626edf52f3"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OWLClassImpl_9a1c8d4f_ac02_4482_b99e_7b96c4b5a4e0"/>
-        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#OWLClassImpl_a844d999_377c_4ca9_b790_dd4d0daf0782"/>
         <Class IRI="#OWLClassImpl_3913ae58_190f_4851_a510_7f626edf52f3"/>
     </SubClassOf>
@@ -718,10 +693,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000004"/>
-        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_00000000000000000006"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </SubClassOf>
     <SubClassOf>
@@ -751,10 +722,6 @@
     <SubClassOf>
         <Class IRI="#OWLClass_190d9b91_c51d_42ae_8b97_1c73be39a3ff"/>
         <Class IRI="#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_1d5aed3b_6b7b_4e26_998a_53b3a18211af"/>
-        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_1f08b605_29ce_40d4_a49f_87efb659c4cf"/>
@@ -1647,7 +1614,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_0a819a63_71fc_4e13_b308_aaac01378e85"/>
-        <Class IRI="#OWLClassImpl_9a1c8d4f_ac02_4482_b99e_7b96c4b5a4e0"/>
+        <Class IRI="http://purl.org/ontology/mo/Composer"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_3459184c_fa1e_401a_8c22_7148a6f1b73a"/>
@@ -1699,11 +1666,11 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5"/>
-        <Class IRI="#OWLClass_1d5aed3b_6b7b_4e26_998a_53b3a18211af"/>
+        <Class IRI="http://purl.org/ontology/mo/Performer"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_209e373f_44f4_4b99_833a_b831ca4b9fdc"/>
-        <Class IRI="#OWLClassImpl_9a1c8d4f_ac02_4482_b99e_7b96c4b5a4e0"/>
+        <Class IRI="http://purl.org/ontology/mo/Composer"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_3efcd420_314a_42fc_83ee_e0b92f3188a0"/>
@@ -2290,16 +2257,6 @@ Two timelines can be mapped using timeline maps.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClassImpl_9a1c8d4f_ac02_4482_b99e_7b96c4b5a4e0</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Besteci</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClassImpl_9a1c8d4f_ac02_4482_b99e_7b96c4b5a4e0</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Composer</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClassImpl_a844d999_377c_4ca9_b790_dd4d0daf0782</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Century</Literal>
     </AnnotationAssertion>
@@ -2327,11 +2284,6 @@ Two timelines can be mapped using timeline maps.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_00000000000000000004</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Derleyen</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000006</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Arranger</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2377,11 +2329,6 @@ Two timelines can be mapped using timeline maps.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_190d9b91_c51d_42ae_8b97_1c73be39a3ff</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">1. Hane</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_1d5aed3b_6b7b_4e26_998a_53b3a18211af</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Performer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
