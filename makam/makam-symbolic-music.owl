@@ -1651,10 +1651,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_b3736177_422e_41ec_9806_699a62cb8911"/>
         <Class IRI="#OWLClass_51c856fd_96ea_479f_adea_14e07c536901"/>
     </ObjectPropertyRange>
-    <SubDataPropertyOf>
+    <EquivalentDataProperties>
         <DataProperty IRI="http://purl.org/ontology/symbolic-music/octave"/>
         <DataProperty IRI="#OWLDataProperty_989ead94_771d_43e2_b31e_3c9e6ed35bf0"/>
-    </SubDataPropertyOf>
+    </EquivalentDataProperties>
     <FunctionalDataProperty>
         <DataProperty IRI="#OWLDataProperty_00000000000000000619"/>
     </FunctionalDataProperty>
@@ -1677,11 +1677,11 @@
         <DataProperty IRI="#OWLDataProperty_00000000000000000619"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;maxInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">127</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;minInclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">0</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;maxInclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">127</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
