@@ -4670,11 +4670,11 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000599"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
         <NamedIndividual IRI="#OWLNamedIndividual_047cd93f_b91b_466e_b6aa_1b3cd03d1f8e"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
         <NamedIndividual IRI="#OWLNamedIndividual_14231b4e_5819_4e7c_b035_6c0f0dc8f22e"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -5132,11 +5132,11 @@
         <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;maxInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">124</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;minExclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;maxInclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">124</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -5156,11 +5156,11 @@
         <DataProperty IRI="#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;maxInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">300</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;minExclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;maxInclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">300</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>

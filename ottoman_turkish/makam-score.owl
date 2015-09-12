@@ -856,14 +856,6 @@
         <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
     </DisjointClasses>
     <ClassAssertion>
-        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_047cd93f_b91b_466e_b6aa_1b3cd03d1f8e"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_14231b4e_5819_4e7c_b035_6c0f0dc8f22e"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
         <NamedIndividual IRI="#OWLNamedIndividual_03938113_0b65_4a51_a686_e76df6e55dee"/>
     </ClassAssertion>
@@ -1233,6 +1225,11 @@
         <NamedIndividual IRI="#OWLNamedIndividual_9783e179_4581_4e47_b083_2ecec77d38d2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_a1ec513b_a22f_4f04_8a03_c51418027806"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_8b444ed3_5950_4bdb_a26d_1762ba57cdce"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
         <NamedIndividual IRI="#OWLNamedIndividual_a1ec513b_a22f_4f04_8a03_c51418027806"/>
         <NamedIndividual IRI="#OWLNamedIndividual_45e27e33_7a69_4c9e_989b_813bc40e3fe3"/>
@@ -1241,6 +1238,11 @@
         <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/pitch"/>
         <NamedIndividual IRI="#OWLNamedIndividual_a1ec513b_a22f_4f04_8a03_c51418027806"/>
         <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-symbolic-music#OWLNamedIndividual_00000000000000000524"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_afa02b62_9995_4bb6_8dff_af74c44b6554"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_209da302_38ea_48da_b5d4_6de7df68a9c6"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
@@ -1278,6 +1280,11 @@
         <NamedIndividual IRI="#OWLNamedIndividual_f24aefe4_95e8_4f5e_9afb_7aedfce9b6b6"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_cddc6eaf_7943_482d_acc1_fadd5369714f"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_54331fcc_fb5f_4937_8c31_a22ce50b5a40"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
         <NamedIndividual IRI="#OWLNamedIndividual_cddc6eaf_7943_482d_acc1_fadd5369714f"/>
         <NamedIndividual IRI="#OWLNamedIndividual_45e27e33_7a69_4c9e_989b_813bc40e3fe3"/>
@@ -1291,6 +1298,11 @@
         <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/pitch"/>
         <NamedIndividual IRI="#OWLNamedIndividual_cddc6eaf_7943_482d_acc1_fadd5369714f"/>
         <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-symbolic-music#OWLNamedIndividual_00000000000000000537"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_d707e2e1_e7d9_4a15_aa49_f02ff61cc804"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_21c3732d_3d30_4b48_8e51_e230fef3b752"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
