@@ -89,6 +89,9 @@
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLObjectPropertyImpl_96bddf20_46f8_492e_ad7f_4ff2abaa5c0c"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#OWLDataProperty_72118e85_746e_4b89_be38_19fc8f489891"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_f24a11a7_c0d6_485d_b83c_ccac1d2e8141"/>
     </Declaration>
     <SubClassOf>
@@ -274,6 +277,14 @@
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLObjectPropertyImpl_96bddf20_46f8_492e_ad7f_4ff2abaa5c0c"/>
         <Class IRI="http://purl.org/ontology/mo/Performance"/>
     </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_72118e85_746e_4b89_be38_19fc8f489891"/>
+        <Class IRI="http://purl.org/ontology/mo/Performance"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_72118e85_746e_4b89_be38_19fc8f489891"/>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://purl.org/NET/c4dm/timeline.owl#ContinuousTimeLine</IRI>
@@ -471,6 +482,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_cdc25bbe_9c16_4468_b114_22546ed1c092</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Vokalist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_72118e85_746e_4b89_be38_19fc8f489891</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">performance date</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

@@ -53,22 +53,10 @@
         <Class IRI="http://schema.org/Place"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClassImpl_390b035c_2380_440f_a391_1db2b7ad7696"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClassImpl_3913ae58_190f_4851_a510_7f626edf52f3"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OWLClassImpl_6f231c72_0573_45b6_ac1b_143b706265c6"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClassImpl_76de1194_1a54_4011_b300_cc70e2a97393"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClassImpl_a844d999_377c_4ca9_b790_dd4d0daf0782"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClassImpl_afc39164_fc7a_4b7b_ad6d_b106fb5e1180"/>
@@ -218,9 +206,6 @@
         <ObjectProperty IRI="#OWLObjectPropertyImpl_2d8cf55f_4e24_466f_8011_477a359513dc"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_3459184c_fa1e_401a_8c22_7148a6f1b73a"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_5e2421a3_3fb4_4fa6_b8e8_c880b93c57d9"/>
     </Declaration>
     <Declaration>
@@ -236,9 +221,6 @@
         <ObjectProperty IRI="#OWLObjectPropertyImpl_b37a0424_c017_453f_83ad_485c34d4a966"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_d00080e0_ec0f_43a3_90e1_10c32669721b"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_d54cb729_2f64_46f2_9311_a1170a8e009a"/>
     </Declaration>
     <Declaration>
@@ -249,9 +231,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000000"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000004"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000005"/>
@@ -356,7 +335,16 @@
         <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="http://dbpedia.org/ontology/birthDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://dbpedia.org/ontology/deathDate"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#OWLDataProperty_5f2e6ffb_4885_4b47_bccb_cb91a1904bd9"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_afec3248_7719_433a_a92e_a5c961cf3691"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#OWLDataProperty_be78d1f8_2cff_4355_8cc0_0896584c478c"/>
@@ -650,20 +638,8 @@
         <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OWLClassImpl_390b035c_2380_440f_a391_1db2b7ad7696"/>
-        <Class IRI="#OWLClassImpl_3913ae58_190f_4851_a510_7f626edf52f3"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#OWLClassImpl_6f231c72_0573_45b6_ac1b_143b706265c6"/>
         <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClassImpl_76de1194_1a54_4011_b300_cc70e2a97393"/>
-        <Class IRI="#OWLClassImpl_3913ae58_190f_4851_a510_7f626edf52f3"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClassImpl_a844d999_377c_4ca9_b790_dd4d0daf0782"/>
-        <Class IRI="#OWLClassImpl_3913ae58_190f_4851_a510_7f626edf52f3"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClassImpl_afc39164_fc7a_4b7b_ad6d_b106fb5e1180"/>
@@ -896,6 +872,10 @@
     <ClassAssertion>
         <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
         <NamedIndividual IRI="#OWLNamedIndividual_21c3732d_3d30_4b48_8e51_e230fef3b752"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/mo/Lyrics"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_2743f5dd_ff95_488e_870e_6163b5fd63aa"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://purl.org/ontology/mo/Composition"/>
@@ -1471,10 +1451,6 @@
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_3459184c_fa1e_401a_8c22_7148a6f1b73a"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_5e2421a3_3fb4_4fa6_b8e8_c880b93c57d9"/>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_0fce72a6_523d_4067_aa75_cbbbd6582568"/>
     </SubObjectPropertyOf>
@@ -1484,10 +1460,6 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_b37a0424_c017_453f_83ad_485c34d4a966"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_d00080e0_ec0f_43a3_90e1_10c32669721b"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -1651,16 +1623,7 @@
         <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_3459184c_fa1e_401a_8c22_7148a6f1b73a"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_d00080e0_ec0f_43a3_90e1_10c32669721b"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000000"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000004"/>
     </FunctionalObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000005"/>
@@ -1684,20 +1647,12 @@
         <Class IRI="http://purl.org/ontology/mo/Composer"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_3459184c_fa1e_401a_8c22_7148a6f1b73a"/>
-        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_7b11e27b_b41c_45f1_8b34_9b4695ee1069"/>
         <Class IRI="http://purl.org/ontology/mo/Lyrics"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_9cf17e96_3449_4098_8bdb_e5fcb4797212"/>
         <Class IRI="#OWLClassImpl_6f231c72_0573_45b6_ac1b_143b706265c6"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_d00080e0_ec0f_43a3_90e1_10c32669721b"/>
-        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_d54cb729_2f64_46f2_9311_a1170a8e009a"/>
@@ -1710,10 +1665,6 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000000"/>
         <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000004"/>
-        <Class IRI="http://purl.org/ontology/mo/Composition"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000160"/>
@@ -1810,10 +1761,6 @@
         <Class IRI="http://purl.org/ontology/mo/Composition"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_3459184c_fa1e_401a_8c22_7148a6f1b73a"/>
-        <Class IRI="#OWLClassImpl_3913ae58_190f_4851_a510_7f626edf52f3"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_7b11e27b_b41c_45f1_8b34_9b4695ee1069"/>
         <Class IRI="http://purl.org/ontology/mo/Composition"/>
     </ObjectPropertyRange>
@@ -1823,10 +1770,6 @@
             <Class IRI="http://purl.org/ontology/mo/Composition"/>
             <Class IRI="http://purl.org/ontology/mo/Performance"/>
         </ObjectUnionOf>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectPropertyImpl_d00080e0_ec0f_43a3_90e1_10c32669721b"/>
-        <Class IRI="#OWLClassImpl_3913ae58_190f_4851_a510_7f626edf52f3"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_d54cb729_2f64_46f2_9311_a1170a8e009a"/>
@@ -1842,10 +1785,6 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000000"/>
         <Class IRI="http://schema.org/Place"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000004"/>
-        <Class IRI="#OWLClassImpl_3913ae58_190f_4851_a510_7f626edf52f3"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000160"/>
@@ -1936,11 +1875,29 @@
         <DataProperty IRI="#OWLDataProperty_c61a289b_0814_4434_8bca_4c59d0357176"/>
     </SubDataPropertyOf>
     <FunctionalDataProperty>
+        <DataProperty IRI="http://dbpedia.org/ontology/birthDate"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://dbpedia.org/ontology/deathDate"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
         <DataProperty IRI="http://xmlns.com/foaf/0.1/gender"/>
     </FunctionalDataProperty>
     <DataPropertyDomain>
+        <DataProperty IRI="http://dbpedia.org/ontology/birthDate"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://dbpedia.org/ontology/deathDate"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_5f2e6ffb_4885_4b47_bccb_cb91a1904bd9"/>
         <Class IRI="http://purl.org/ontology/mo/Composition"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_afec3248_7719_433a_a92e_a5c961cf3691"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_be78d1f8_2cff_4355_8cc0_0896584c478c"/>
@@ -1969,6 +1926,14 @@
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </DataPropertyDomain>
     <DataPropertyRange>
+        <DataProperty IRI="http://dbpedia.org/ontology/birthDate"/>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://dbpedia.org/ontology/deathDate"/>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#OWLDataProperty_5f2e6ffb_4885_4b47_bccb_cb91a1904bd9"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
@@ -1992,6 +1957,116 @@
         <DataProperty IRI="http://xmlns.com/foaf/0.1/gender"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://dbpedia.org/ontology/birthDate</IRI>
+        <IRI>http://dbpedia.org/ontology/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/birthDate</IRI>
+        <Literal xml:lang="de" datatypeIRI="&rdf;PlainLiteral">Geburtsdatum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/birthDate</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">birth date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/birthDate</IRI>
+        <Literal xml:lang="ca" datatypeIRI="&rdf;PlainLiteral">data de naixement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/birthDate</IRI>
+        <Literal xml:lang="pl" datatypeIRI="&rdf;PlainLiteral">data urodzenia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/birthDate</IRI>
+        <Literal xml:lang="fr" datatypeIRI="&rdf;PlainLiteral">date de naissance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/birthDate</IRI>
+        <Literal xml:lang="ga" datatypeIRI="&rdf;PlainLiteral">dáta breithe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/birthDate</IRI>
+        <Literal xml:lang="nl" datatypeIRI="&rdf;PlainLiteral">geboortedatum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/birthDate</IRI>
+        <Literal xml:lang="el" datatypeIRI="&rdf;PlainLiteral">ημερομηνία_γέννησης</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/birthDate</IRI>
+        <Literal xml:lang="bn" datatypeIRI="&rdf;PlainLiteral">জন্মদিন</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/birthDate</IRI>
+        <Literal xml:lang="ja" datatypeIRI="&rdf;PlainLiteral">生年月日</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2007/05/powder-s#describedby"/>
+        <IRI>http://dbpedia.org/ontology/birthDate</IRI>
+        <IRI>http://dbpedia.org/ontology/data/definitions.ttl</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+        <IRI>http://dbpedia.org/ontology/birthDate</IRI>
+        <IRI>http://mappings.dbpedia.org/index.php/OntologyProperty:birthDate</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://dbpedia.org/ontology/deathDate</IRI>
+        <IRI>http://dbpedia.org/ontology/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/deathDate</IRI>
+        <Literal xml:lang="de" datatypeIRI="&rdf;PlainLiteral">Sterbedatum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/deathDate</IRI>
+        <Literal xml:lang="fr" datatypeIRI="&rdf;PlainLiteral">date de décès</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/deathDate</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">death date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/deathDate</IRI>
+        <Literal xml:lang="nl" datatypeIRI="&rdf;PlainLiteral">sterfdatum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/deathDate</IRI>
+        <Literal xml:lang="el" datatypeIRI="&rdf;PlainLiteral">ημερομηνία_θανάτου</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://dbpedia.org/ontology/deathDate</IRI>
+        <Literal xml:lang="ja" datatypeIRI="&rdf;PlainLiteral">没年月日</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2007/05/powder-s#describedby"/>
+        <IRI>http://dbpedia.org/ontology/deathDate</IRI>
+        <IRI>http://dbpedia.org/ontology/data/definitions.ttl</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+        <IRI>http://dbpedia.org/ontology/deathDate</IRI>
+        <IRI>http://mappings.dbpedia.org/index.php/OntologyProperty:deathDate</IRI>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://purl.org/NET/c4dm/timeline.owl#AbstractInterval</IRI>
@@ -2232,26 +2307,6 @@ Two timelines can be mapped using timeline maps.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClassImpl_390b035c_2380_440f_a391_1db2b7ad7696</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Dönem</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClassImpl_390b035c_2380_440f_a391_1db2b7ad7696</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Era</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClassImpl_3913ae58_190f_4851_a510_7f626edf52f3</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Time</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClassImpl_3913ae58_190f_4851_a510_7f626edf52f3</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Zaman</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClassImpl_6f231c72_0573_45b6_ac1b_143b706265c6</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Transcription</Literal>
     </AnnotationAssertion>
@@ -2262,16 +2317,6 @@ Two timelines can be mapped using timeline maps.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClassImpl_76de1194_1a54_4011_b300_cc70e2a97393</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Year</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClassImpl_76de1194_1a54_4011_b300_cc70e2a97393</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Yıl</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Partitür</Literal>
     </AnnotationAssertion>
@@ -2279,16 +2324,6 @@ Two timelines can be mapped using timeline maps.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Score</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClassImpl_a844d999_377c_4ca9_b790_dd4d0daf0782</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Century</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClassImpl_a844d999_377c_4ca9_b790_dd4d0daf0782</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Yüzyıl</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2582,6 +2617,11 @@ Two timelines can be mapped using timeline maps.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_afec3248_7719_433a_a92e_a5c961cf3691</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">creation date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLDataProperty_be78d1f8_2cff_4355_8cc0_0896584c478c</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">structureIsInstrumental</Literal>
     </AnnotationAssertion>
@@ -2797,11 +2837,6 @@ Two timelines can be mapped using timeline maps.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectPropertyImpl_3459184c_fa1e_401a_8c22_7148a6f1b73a</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">bornOnTime</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectPropertyImpl_5e2421a3_3fb4_4fa6_b8e8_c880b93c57d9</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasTranscription</Literal>
     </AnnotationAssertion>
@@ -2827,11 +2862,6 @@ Two timelines can be mapped using timeline maps.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectPropertyImpl_d00080e0_ec0f_43a3_90e1_10c32669721b</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">diedOnTime</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectPropertyImpl_d54cb729_2f64_46f2_9311_a1170a8e009a</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isScoreOf</Literal>
     </AnnotationAssertion>
@@ -2849,11 +2879,6 @@ Two timelines can be mapped using timeline maps.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000000</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">workIsFrom</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_00000000000000000004</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">composedOnTime</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
