@@ -21,6 +21,7 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.org/ontology/symbolic-music/</Import>
     <Import>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam</Import>
     <Declaration>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
@@ -188,6 +189,9 @@
         <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#onTimeLine"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://purl.org/ontology/mo/performed"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://schema.org/birthPlace"/>
     </Declaration>
     <Declaration>
@@ -252,9 +256,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000164"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_0aad85c8_27a2_403d_b458_50bc3b87ebc2"/>
@@ -1227,14 +1228,14 @@
         <NamedIndividual IRI="#OWLNamedIndividual_ee21e709_cf64_4644_b470_fa36340ee25a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/ontology/mo/performed"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9fe127be_1889_46fb_91a7_b22dc1f039fd"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_9783e179_4581_4e47_b083_2ecec77d38d2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://schema.org/birthPlace"/>
         <NamedIndividual IRI="#OWLNamedIndividual_9fe127be_1889_46fb_91a7_b22dc1f039fd"/>
         <NamedIndividual IRI="#OWLNamedIndividual_177484f7_41ac_4d16_ad1c_fb732ef9c501"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_cf1787e9_5c5f_40b1_940c_2121b418c61d"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_9fe127be_1889_46fb_91a7_b22dc1f039fd"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_9783e179_4581_4e47_b083_2ecec77d38d2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
@@ -1551,6 +1552,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000005"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
+        <ObjectProperty IRI="http://purl.org/ontology/mo/performed"/>
+        <ObjectProperty IRI="http://purl.org/ontology/mo/performer"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_2d8cf55f_4e24_466f_8011_477a359513dc"/>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_0a819a63_71fc_4e13_b308_aaac01378e85"/>
     </InverseObjectProperties>
@@ -1635,6 +1640,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_ad569841_421b_410e_b409_4ce678212d9e"/>
     </TransitiveObjectProperty>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/ontology/mo/performed"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="http://schema.org/birthPlace"/>
         <Class IRI="http://schema.org/Person"/>
     </ObjectPropertyDomain>
@@ -1677,10 +1686,6 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000164"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5"/>
-        <Class IRI="http://purl.org/ontology/mo/Performer"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_0aad85c8_27a2_403d_b458_50bc3b87ebc2"/>
@@ -1749,6 +1754,10 @@
         <Class IRI="http://www.w3.org/2006/time#ProperInterval"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/ontology/mo/performed"/>
+        <Class IRI="http://purl.org/ontology/mo/Performance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="http://schema.org/birthPlace"/>
         <Class IRI="http://schema.org/Place"/>
     </ObjectPropertyRange>
@@ -1793,10 +1802,6 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000164"/>
         <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5"/>
-        <Class IRI="http://purl.org/ontology/mo/Performance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_0aad85c8_27a2_403d_b458_50bc3b87ebc2"/>
@@ -2227,6 +2232,31 @@ Two timelines can be mapped using timeline maps.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
         <IRI>http://purl.org/ontology/mo/Performer</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/ontology/mo/level"/>
+        <IRI>http://purl.org/ontology/mo/performed</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/ontology/mo/performed</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Relates agents to the performances they were performing in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.org/ontology/mo/performed</IRI>
+        <IRI>http://purl.org/ontology/mo/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/mo/performed</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">performed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://purl.org/ontology/mo/performed</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">unstable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2918,11 +2948,6 @@ Two timelines can be mapped using timeline maps.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_00000000000000000164</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">wroteScore</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">performsIn</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

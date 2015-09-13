@@ -21,7 +21,7 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/symbTr</Import>
+    <Import>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-score</Import>
     <Declaration>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#ContinuousTimeLine"/>
     </Declaration>
@@ -53,16 +53,10 @@
         <ObjectProperty IRI="http://purl.org/ontology/mo/member"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_3af81887_2120_4d20_9f2a_d27006a6f522"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_63abfab8_5572_4154_a212_9df4edbd4a3d"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_89f2fd64_47ec_4719_801b_4d61a649484d"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_8dbb8a7b_4e7d_4dee_b85b_aee240361655"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_cf1787e9_5c5f_40b1_940c_2121b418c61d"/>
@@ -145,11 +139,11 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_cf1787e9_5c5f_40b1_940c_2121b418c61d"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-score#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5"/>
+        <ObjectProperty IRI="http://purl.org/ontology/mo/performed"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_e7997e47_0707_4cf7_8c35_0853b589d729"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-score#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5"/>
+        <ObjectProperty IRI="http://purl.org/ontology/mo/performed"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLObjectPropertyImpl_33e3bdc1_8d81_414b_a1df_65ba59d532b9"/>
@@ -175,10 +169,6 @@
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLObjectPropertyImpl_96bddf20_46f8_492e_ad7f_4ff2abaa5c0c"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_8dbb8a7b_4e7d_4dee_b85b_aee240361655"/>
-        <ObjectProperty IRI="#OWLObjectProperty_3af81887_2120_4d20_9f2a_d27006a6f522"/>
-    </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLObjectPropertyImpl_33e3bdc1_8d81_414b_a1df_65ba59d532b9"/>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLObjectPropertyImpl_7195d4fa_d737_4f7b_8563_aeb0baeaa38b"/>
@@ -194,9 +184,6 @@
     <FunctionalObjectProperty>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLObjectProperty_00000000000000000030"/>
     </FunctionalObjectProperty>
-    <TransitiveObjectProperty>
-        <ObjectProperty IRI="#OWLObjectProperty_8dbb8a7b_4e7d_4dee_b85b_aee240361655"/>
-    </TransitiveObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://purl.org/ontology/mo/instrument"/>
         <Class IRI="http://purl.org/ontology/mo/Performance"/>
@@ -212,10 +199,6 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_89f2fd64_47ec_4719_801b_4d61a649484d"/>
         <Class IRI="http://purl.org/ontology/mo/Recording"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_8dbb8a7b_4e7d_4dee_b85b_aee240361655"/>
-        <Class IRI="http://purl.org/ontology/mo/Performance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_cf1787e9_5c5f_40b1_940c_2121b418c61d"/>
@@ -252,10 +235,6 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_89f2fd64_47ec_4719_801b_4d61a649484d"/>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#DiscreteTimeLine"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_8dbb8a7b_4e7d_4dee_b85b_aee240361655"/>
-        <Class IRI="http://purl.org/ontology/mo/Performance"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_cf1787e9_5c5f_40b1_940c_2121b418c61d"/>
@@ -495,11 +474,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_3af81887_2120_4d20_9f2a_d27006a6f522</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isSubPerformanceOf</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_63abfab8_5572_4154_a212_9df4edbd4a3d</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">performedAccordingToScore</Literal>
     </AnnotationAssertion>
@@ -510,11 +484,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_8dbb8a7b_4e7d_4dee_b85b_aee240361655</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasSubPerformance</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_cf1787e9_5c5f_40b1_940c_2121b418c61d</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">playsInstrumentIn</Literal>
     </AnnotationAssertion>
@@ -522,11 +491,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_e7997e47_0707_4cf7_8c35_0853b589d729</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">singsIn</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/symbTr#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">performsIn</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
