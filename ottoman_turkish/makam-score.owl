@@ -1927,15 +1927,19 @@
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="http://dbpedia.org/ontology/birthDate"/>
-        <Datatype abbreviatedIRI="xsd:date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="http://dbpedia.org/ontology/deathDate"/>
-        <Datatype abbreviatedIRI="xsd:date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#OWLDataProperty_5f2e6ffb_4885_4b47_bccb_cb91a1904bd9"/>
         <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_afec3248_7719_433a_a92e_a5c961cf3691"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#OWLDataProperty_be78d1f8_2cff_4355_8cc0_0896584c478c"/>
