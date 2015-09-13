@@ -23,6 +23,9 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/symbTr</Import>
     <Declaration>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#ContinuousTimeLine"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#DiscreteTimeLine"/>
     </Declaration>
     <Declaration>
@@ -32,7 +35,7 @@
         <Class IRI="http://purl.org/ontology/mo/MusicGroup"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_2e155dbd_2ccf_4d5f_8fd7_b0d473c5bd66"/>
+        <Class IRI="http://purl.org/ontology/mo/Recording"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_99ed48ee_cf57_4900_99a7_4ee2f4e8b214"/>
@@ -44,6 +47,9 @@
         <Class IRI="http://xmlns.com/foaf/0.1/Group"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://purl.org/ontology/mo/instrument"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://purl.org/ontology/mo/member"/>
     </Declaration>
     <Declaration>
@@ -51,6 +57,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_63abfab8_5572_4154_a212_9df4edbd4a3d"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_89f2fd64_47ec_4719_801b_4d61a649484d"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_8dbb8a7b_4e7d_4dee_b85b_aee240361655"/>
@@ -79,6 +88,13 @@
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLObjectPropertyImpl_96bddf20_46f8_492e_ad7f_4ff2abaa5c0c"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_f24a11a7_c0d6_485d_b83c_ccac1d2e8141"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#ContinuousTimeLine"/>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#TimeLine"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#DiscreteTimeLine"/>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#TimeLine"/>
@@ -103,17 +119,34 @@
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#ContinuousTimeLine"/>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#DiscreteTimeLine"/>
     </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/mo/Lyrics"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-score#OWLNamedIndividual_2743f5dd_ff95_488e_870e_6163b5fd63aa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/mo/Instrument"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f24a11a7_c0d6_485d_b83c_ccac1d2e8141"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/ontology/mo/instrument"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-score#OWLNamedIndividual_9783e179_4581_4e47_b083_2ecec77d38d2"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_f24a11a7_c0d6_485d_b83c_ccac1d2e8141"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/ontology/mo/instrument"/>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#factor"/>
+    </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="http://purl.org/ontology/mo/member"/>
         <ObjectProperty IRI="http://xmlns.com/foaf/0.1/member"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_cf1787e9_5c5f_40b1_940c_2121b418c61d"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/symbTr#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-score#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_e7997e47_0707_4cf7_8c35_0853b589d729"/>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/symbTr#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-score#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLObjectPropertyImpl_33e3bdc1_8d81_414b_a1df_65ba59d532b9"/>
@@ -162,12 +195,20 @@
         <ObjectProperty IRI="#OWLObjectProperty_8dbb8a7b_4e7d_4dee_b85b_aee240361655"/>
     </TransitiveObjectProperty>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/ontology/mo/instrument"/>
+        <Class IRI="http://purl.org/ontology/mo/Performance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="http://purl.org/ontology/mo/member"/>
         <Class IRI="http://purl.org/ontology/mo/MusicGroup"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_63abfab8_5572_4154_a212_9df4edbd4a3d"/>
         <Class IRI="http://purl.org/ontology/mo/Performance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_89f2fd64_47ec_4719_801b_4d61a649484d"/>
+        <Class IRI="http://purl.org/ontology/mo/Recording"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_8dbb8a7b_4e7d_4dee_b85b_aee240361655"/>
@@ -191,8 +232,12 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLObjectPropertyImpl_96bddf20_46f8_492e_ad7f_4ff2abaa5c0c"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_2e155dbd_2ccf_4d5f_8fd7_b0d473c5bd66"/>
+        <Class IRI="http://purl.org/ontology/mo/Recording"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/ontology/mo/instrument"/>
+        <Class IRI="http://purl.org/ontology/mo/Instrument"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://purl.org/ontology/mo/member"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
@@ -200,6 +245,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_63abfab8_5572_4154_a212_9df4edbd4a3d"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-score#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_89f2fd64_47ec_4719_801b_4d61a649484d"/>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#DiscreteTimeLine"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_8dbb8a7b_4e7d_4dee_b85b_aee240361655"/>
@@ -225,6 +274,21 @@
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLObjectPropertyImpl_96bddf20_46f8_492e_ad7f_4ff2abaa5c0c"/>
         <Class IRI="http://purl.org/ontology/mo/Performance"/>
     </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#ContinuousTimeLine</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A continuous timeline, like the universal one, or the one backing an analog signal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#ContinuousTimeLine</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">continuous timeline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#ContinuousTimeLine</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://purl.org/NET/c4dm/timeline.owl#DiscreteTimeLine</IRI>
@@ -303,6 +367,56 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/ontology/mo/level"/>
+        <IRI>http://purl.org/ontology/mo/Recording</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/ontology/mo/Recording</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">
+        A recording event.
+        Takes a sound as a factor to produce a signal (analog or digital).
+        The location of such events (if any) is the actual location of the corresponding
+        microphone or the &quot;recording device&quot;.
+    </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.org/ontology/mo/Recording</IRI>
+        <IRI>http://purl.org/ontology/mo/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/mo/Recording</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">recording</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://purl.org/ontology/mo/Recording</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/ontology/mo/level"/>
+        <IRI>http://purl.org/ontology/mo/instrument</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/ontology/mo/instrument</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Relates a performance to a musical instrument involved</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://purl.org/ontology/mo/instrument</IRI>
+        <IRI>http://purl.org/ontology/mo/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://purl.org/ontology/mo/instrument</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/ontology/mo/level"/>
         <IRI>http://purl.org/ontology/mo/member</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">1</Literal>
     </AnnotationAssertion>
@@ -340,6 +454,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_f24a11a7_c0d6_485d_b83c_ccac1d2e8141</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tanbur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_3af81887_2120_4d20_9f2a_d27006a6f522</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isSubPerformanceOf</Literal>
     </AnnotationAssertion>
@@ -347,6 +466,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_63abfab8_5572_4154_a212_9df4edbd4a3d</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">performedAccordingToScore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_89f2fd64_47ec_4719_801b_4d61a649484d</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">audio time</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -367,16 +491,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/symbTr#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">performsIn</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_2e155dbd_2ccf_4d5f_8fd7_b0d473c5bd66</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Kayıt</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_2e155dbd_2ccf_4d5f_8fd7_b0d473c5bd66</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Recording</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
