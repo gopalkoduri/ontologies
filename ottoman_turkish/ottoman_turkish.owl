@@ -38,10 +38,10 @@
         <Class IRI="http://purl.org/ontology/mo/Recording"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_99ed48ee_cf57_4900_99a7_4ee2f4e8b214"/>
+        <Class IRI="#OWLClassImpl_99ed48ee_cf57_4900_99a7_4ee2f4e8b214"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_cdc25bbe_9c16_4468_b114_22546ed1c092"/>
+        <Class IRI="#OWLClass_cdc25bbe_9c16_4468_b114_22546ed1c092"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://xmlns.com/foaf/0.1/Group"/>
@@ -104,11 +104,11 @@
         <Class IRI="http://xmlns.com/foaf/0.1/Group"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_99ed48ee_cf57_4900_99a7_4ee2f4e8b214"/>
+        <Class IRI="#OWLClassImpl_99ed48ee_cf57_4900_99a7_4ee2f4e8b214"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_cdc25bbe_9c16_4468_b114_22546ed1c092"/>
+        <Class IRI="#OWLClass_cdc25bbe_9c16_4468_b114_22546ed1c092"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </SubClassOf>
     <SubClassOf>
@@ -216,15 +216,15 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_cf1787e9_5c5f_40b1_940c_2121b418c61d"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_99ed48ee_cf57_4900_99a7_4ee2f4e8b214"/>
+        <Class IRI="#OWLClassImpl_99ed48ee_cf57_4900_99a7_4ee2f4e8b214"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_e7997e47_0707_4cf7_8c35_0853b589d729"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_cdc25bbe_9c16_4468_b114_22546ed1c092"/>
+        <Class IRI="#OWLClass_cdc25bbe_9c16_4468_b114_22546ed1c092"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLObjectPropertyImpl_33e3bdc1_8d81_414b_a1df_65ba59d532b9"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_99ed48ee_cf57_4900_99a7_4ee2f4e8b214"/>
+        <Class IRI="#OWLClassImpl_99ed48ee_cf57_4900_99a7_4ee2f4e8b214"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLObjectPropertyImpl_844f4c86_338b_4073_9c9c_a8b02c598148"/>
@@ -454,6 +454,26 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClassImpl_99ed48ee_cf57_4900_99a7_4ee2f4e8b214</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Enstrümantist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClassImpl_99ed48ee_cf57_4900_99a7_4ee2f4e8b214</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Instrumentalist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_cdc25bbe_9c16_4468_b114_22546ed1c092</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Vocalist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_cdc25bbe_9c16_4468_b114_22546ed1c092</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Vokalist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_f24a11a7_c0d6_485d_b83c_ccac1d2e8141</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tanbur</Literal>
     </AnnotationAssertion>
@@ -491,26 +511,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/symbTr#OWLObjectProperty_03418689_9ffb_4825_b963_970cbda1d6c5</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">performsIn</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_99ed48ee_cf57_4900_99a7_4ee2f4e8b214</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Enstrümantist</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_99ed48ee_cf57_4900_99a7_4ee2f4e8b214</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Instrumentalist</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_cdc25bbe_9c16_4468_b114_22546ed1c092</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Vocalist</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLClassImpl_cdc25bbe_9c16_4468_b114_22546ed1c092</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Vokalist</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

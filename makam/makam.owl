@@ -30,9 +30,6 @@
         <Class IRI="http://purl.org/ontology/symbolic-music/Octave"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OWLClass_00000000000000000000"/>
     </Declaration>
     <Declaration>
@@ -171,6 +168,9 @@
         <Class IRI="#OWLClass_32afe436_7da0_486e_a9d1_65815f66be99"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_407123be_c445_4518_a276_676eed8a8dd1"/>
     </Declaration>
     <Declaration>
@@ -201,6 +201,9 @@
         <Class IRI="#OWLClass_5d460d41_6c01_4faa_823f_5002d4e90b5d"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_6129766a_ba1b_4362_bffb_8f6bd67bed7b"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_63f1e449_7413_4b17_b3f5_645f449b2e00"/>
     </Declaration>
     <Declaration>
@@ -220,6 +223,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_82365a5a_9386_48a9_a915_a6ba2bd6bdc6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_8740868e_154d_4308_9eac_0b9e952783b9"/>
@@ -348,16 +354,10 @@
         <Class IRI="#OWLClass_fc43fb80_1774_4636_bfef_25a4368e8b13"/>
     </Declaration>
     <Declaration>
+        <Class IRI="-score#OWLClass_e58c7e66_adcb_452a_8ceb_32b2e12bbfc5"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="-symbolic-music#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000001"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000002"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_00000000000000000000"/>
@@ -1810,7 +1810,7 @@
     <EquivalentClasses>
         <Class IRI="#OWLClass_00000000000000000007"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+            <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
             <DataSomeValuesFrom>
                 <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
                 <DatatypeRestriction>
@@ -1825,7 +1825,7 @@
     <EquivalentClasses>
         <Class IRI="#OWLClass_00000000000000000008"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+            <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
             <DataSomeValuesFrom>
                 <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
                 <DatatypeRestriction>
@@ -1900,7 +1900,7 @@
     <EquivalentClasses>
         <Class IRI="#OWLClass_00000000000000000155"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+            <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
             <DataHasValue>
                 <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
                 <Literal datatypeIRI="&xsd;boolean">false</Literal>
@@ -1910,7 +1910,7 @@
     <EquivalentClasses>
         <Class IRI="#OWLClass_00000000000000000156"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+            <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
             <DataHasValue>
                 <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
                 <Literal datatypeIRI="&xsd;boolean">true</Literal>
@@ -1920,7 +1920,7 @@
     <EquivalentClasses>
         <Class IRI="#OWLClass_ce25313a_cff8_4f2b_b473_aee5d6fca72c"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+            <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
             <DataHasValue>
                 <DataProperty IRI="#OWLDataProperty_f85212e4_521e_4402_a5d7_1e9f8509b249"/>
                 <Literal datatypeIRI="&xsd;boolean">true</Literal>
@@ -1933,23 +1933,23 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000007"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000008"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000010"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000011"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000012"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000014"/>
@@ -1965,7 +1965,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000017"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000019"/>
@@ -1981,7 +1981,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000077"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000153"/>
@@ -1989,11 +1989,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000155"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_00000000000000000156"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_0182e23e_c54a_46b0_801f_2cdda0cefb85"/>
@@ -2188,6 +2188,10 @@
         <Class IRI="#OWLClass_00000000000000000010"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_6129766a_ba1b_4362_bffb_8f6bd67bed7b"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_63f1e449_7413_4b17_b3f5_645f449b2e00"/>
         <Class IRI="#OWLClass_00000000000000000012"/>
     </SubClassOf>
@@ -2377,11 +2381,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_ce25313a_cff8_4f2b_b473_aee5d6fca72c"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+        <Class IRI="#OWLClass_00000000000000000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_ce25313a_cff8_4f2b_b473_aee5d6fca72c"/>
-        <Class IRI="#OWLClass_00000000000000000017"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_d185c934_0544_4f3f_b6ea_0782586a7cb2"/>
@@ -2464,12 +2468,8 @@
         <Class IRI="#OWLClass_00000000000000000012"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000001"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000002"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="-score#OWLClass_e58c7e66_adcb_452a_8ceb_32b2e12bbfc5"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#OWLClass_00000000000000000004"/>
@@ -2524,291 +2524,291 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000077"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000080"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000081"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000082"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000083"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000084"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000085"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000086"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000087"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000088"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000089"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000090"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000091"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000092"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000093"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000094"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000095"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000096"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000097"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000098"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000099"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000100"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000101"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000102"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000103"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000104"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000105"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000106"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000107"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000108"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000109"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000110"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000111"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000112"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000113"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000114"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000115"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000116"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000117"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000118"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000119"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000120"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000121"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000122"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000123"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000124"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000125"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000126"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000127"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000128"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000129"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000130"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000131"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000132"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000133"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000134"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000135"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000136"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000137"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000138"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000139"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000140"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000141"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000142"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000143"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000144"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000145"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000146"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000147"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000148"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000149"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000150"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000151"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2816,95 +2816,95 @@
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000152"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000153"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000154"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000155"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000156"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000157"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000158"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000159"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000160"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000161"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000162"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000163"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000164"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000165"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000166"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000167"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000168"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000169"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000170"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000171"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000172"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000173"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000174"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
         <NamedIndividual IRI="#OWLNamedIndividual_00000000000000000175"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -5020,11 +5020,11 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_754202e4_0490_4bf3_8415_153b5e71e546"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_7fdc1362_2c9e_49be_b98e_cdb3e1110b1b"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
@@ -5083,7 +5083,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_7fdc1362_2c9e_49be_b98e_cdb3e1110b1b"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_e5458b03_9dc1_4971_9787_43a998bde5cc"/>
@@ -5099,31 +5099,31 @@
     </SubDataPropertyOf>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_04b6fa47_742d_457d_805f_e20c94a69b29"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_52dc5ca4_5d40_4f4f_acbf_087a15f4b163"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_74293444_628d_4dc9_8133_7f2d9082d7e1"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_95dce3e0_b788_4289_bce9_1a0711207a34"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#OWLDataProperty_f85212e4_521e_4402_a5d7_1e9f8509b249"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
@@ -5210,16 +5210,6 @@
         <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
         <IRI>http://purl.org/ontology/mo/musicbrainz_guid</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">testing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Form</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/form#OWLClass_00000000000000000000</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Form</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5568,6 +5558,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Usul</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Usul</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_407123be_c445_4518_a276_676eed8a8dd1</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pop şarkısı</Literal>
     </AnnotationAssertion>
@@ -5618,6 +5618,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_6129766a_ba1b_4362_bffb_8f6bd67bed7b</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">BasitUsul</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_6129766a_ba1b_4362_bffb_8f6bd67bed7b</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">SimpleUsul</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_63f1e449_7413_4b17_b3f5_645f449b2e00</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sazeseri</Literal>
     </AnnotationAssertion>
@@ -5650,6 +5660,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_82365a5a_9386_48a9_a915_a6ba2bd6bdc6</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Kürthavası</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Form</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8283,38 +8303,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>-symbolic-music#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EurogeneticNoteSymbol</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000001</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">BasitUsul</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000001</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">SimpleUsul</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000002</IRI>
+        <IRI>-score#OWLClass_e58c7e66_adcb_452a_8ceb_32b2e12bbfc5</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">BileşikUsul</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000002</IRI>
+        <IRI>-score#OWLClass_e58c7e66_adcb_452a_8ceb_32b2e12bbfc5</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">CompoundUsul</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Usul</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/usul#OWLClass_00000000000000000043</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Usul</Literal>
+        <IRI>-symbolic-music#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EurogeneticNoteSymbol</Literal>
     </AnnotationAssertion>
 </Ontology>
 
