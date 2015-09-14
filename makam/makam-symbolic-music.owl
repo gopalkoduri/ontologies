@@ -21,7 +21,6 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>http://purl.org/ontology/symbolic-music/</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">
@@ -36,6 +35,198 @@
         <AnnotationProperty IRI="http://xmlns.com/foaf/0.1/maker"/>
         <IRI>http://moustaki.org/foaf.rdf#moustaki</IRI>
     </Annotation>
+    <Declaration>
+        <Class IRI="http://purl.org/NET/c4dm/event.owl#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Accidental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Bar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedDoubleWhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedDoubleWholeNote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedEighth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedEighthNote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedHalf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedHalfNote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedQuarter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedQuarterNote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedSixteenthNote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedThirtySecondNote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedThirtysecond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedWhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedWholeNote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DoubleWhole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DoubleWholeNote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DoubleWholeRest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Eighth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/EighthNote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/EighthRest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Half"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/HalfNote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/HalfRest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Longa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/LongaRest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Motif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Note"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_1ca1f427_257f_476e_ae47_51c1a12040c0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_1ceac463_500f_4ab9_8b3c_6d251c60eeea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_21b6d619_bf32_49e4_91f3_d1ad4419ed3e"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_5a562e83_a841_409d_9d1f_0c8c58d9c3a2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_5a60da38_9013_4d0e_a953_e590a9f5a945"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_5c2f8df6_7f5b_4f30_bdcb_5dbc82756bff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_6d266fd5_cb2c_4018_873e_6a344f041a6d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_8345d39b_3bcc_4b00_a138_3996441e8549"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_ac4e7f76_fe89_4662_ad4a_d30f9c93dff6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_ca35f260_c524_4996_ab77_707b736d9f01"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_d8845137_dc79_4f9a_a860_e3b5c199fc84"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_f0ddf035_b2fd_4df2_a585_b7be13f82144"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Pitch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Quarter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/QuarterNote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/QuarterRest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreTimeLine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Sixteenth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/SixteenthNote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/SixteenthRest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Slur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ThirtySecondNote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ThirtySecondRest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Thirtysecond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Tie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Timbre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Voice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Whole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/WholeNote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/symbolic-music/WholeRest"/>
+    </Declaration>
     <Declaration>
         <Class IRI="http://purl.org/ontology/temperament/Interval"/>
     </Declaration>
@@ -154,10 +345,31 @@
         <Class IRI="#OWLClass_f1047564_4e30_40ba_b1de_428f50d7c2b0"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#factor"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#sub_event"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/OWLObjectProperty_589f1660_1059_45ea_859d_05790e72ae63"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/accidental"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/note"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/pitch"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/timbre"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_1a9aa969_6a2d_40b0_bf2e_7053388ab316"/>
@@ -176,6 +388,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_b3736177_422e_41ec_9806_699a62cb8911"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#OWLDataProperty_537fe052_1d2c_44ee_959a_8167e0fa5c8f"/>
@@ -500,12 +715,444 @@
         <Class IRI="#OWLClass_51c856fd_96ea_479f_adea_14e07c536901"/>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedDoubleWhole"/>
+        <DataHasValue>
+            <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
+            <Literal datatypeIRI="&xsd;float">3.0</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedDoubleWholeNote"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/DottedDoubleWhole"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedEighth"/>
+        <DataHasValue>
+            <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
+            <Literal datatypeIRI="&xsd;float">0.1875</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedEighthNote"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/DottedEighth"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedHalf"/>
+        <DataHasValue>
+            <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
+            <Literal datatypeIRI="&xsd;float">0.75</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedHalfNote"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/DottedHalf"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedQuarter"/>
+        <DataHasValue>
+            <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
+            <Literal datatypeIRI="&xsd;float">0.375</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedQuarterNote"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/DottedQuarter"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedSixteenthNote"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_f0ddf035_b2fd_4df2_a585_b7be13f82144"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedThirtySecondNote"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/DottedThirtysecond"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedThirtysecond"/>
+        <DataHasValue>
+            <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
+            <Literal datatypeIRI="&xsd;float">0.046875</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedWhole"/>
+        <DataHasValue>
+            <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
+            <Literal datatypeIRI="&xsd;float">1.5</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedWholeNote"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/DottedWhole"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DoubleWhole"/>
+        <DataHasValue>
+            <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
+            <Literal datatypeIRI="&xsd;float">2.0</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DoubleWholeNote"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/DoubleWhole"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DoubleWholeRest"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/DoubleWhole"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Eighth"/>
+        <DataHasValue>
+            <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
+            <Literal datatypeIRI="&xsd;float">0.125</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/EighthNote"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/Eighth"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/EighthRest"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/Eighth"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Half"/>
+        <DataHasValue>
+            <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
+            <Literal datatypeIRI="&xsd;float">0.5</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/HalfNote"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/Half"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/HalfRest"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/Half"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Longa"/>
+        <DataHasValue>
+            <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
+            <Literal datatypeIRI="&xsd;float">4.0</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/LongaRest"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/Longa"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="http://purl.org/ontology/symbolic-music/Note"/>
         <Class IRI="#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327"/>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_1ca1f427_257f_476e_ae47_51c1a12040c0"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/Longa"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_1ceac463_500f_4ab9_8b3c_6d251c60eeea"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/DottedQuarter"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_21b6d619_bf32_49e4_91f3_d1ad4419ed3e"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/DottedEighth"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_5a562e83_a841_409d_9d1f_0c8c58d9c3a2"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/DottedHalf"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_5a60da38_9013_4d0e_a953_e590a9f5a945"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_f0ddf035_b2fd_4df2_a585_b7be13f82144"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_5c2f8df6_7f5b_4f30_bdcb_5dbc82756bff"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_d8845137_dc79_4f9a_a860_e3b5c199fc84"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_6d266fd5_cb2c_4018_873e_6a344f041a6d"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/DottedDoubleWhole"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_8345d39b_3bcc_4b00_a138_3996441e8549"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_d8845137_dc79_4f9a_a860_e3b5c199fc84"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_ac4e7f76_fe89_4662_ad4a_d30f9c93dff6"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/DottedWhole"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_ca35f260_c524_4996_ab77_707b736d9f01"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/DottedThirtysecond"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_d8845137_dc79_4f9a_a860_e3b5c199fc84"/>
+        <DataHasValue>
+            <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
+            <Literal datatypeIRI="&xsd;float">6.0</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_f0ddf035_b2fd_4df2_a585_b7be13f82144"/>
+        <DataHasValue>
+            <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
+            <Literal datatypeIRI="&xsd;float">0.09375</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="http://purl.org/ontology/symbolic-music/Pitch"/>
         <Class IRI="#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Quarter"/>
+        <DataHasValue>
+            <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
+            <Literal datatypeIRI="&xsd;float">0.25</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/QuarterNote"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/Quarter"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/QuarterRest"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/Quarter"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Sixteenth"/>
+        <DataHasValue>
+            <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
+            <Literal datatypeIRI="&xsd;float">0.0625</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/SixteenthNote"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/Sixteenth"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/SixteenthRest"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/Sixteenth"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ThirtySecondNote"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/Thirtysecond"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ThirtySecondRest"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/Thirtysecond"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Thirtysecond"/>
+        <DataHasValue>
+            <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
+            <Literal datatypeIRI="&xsd;float">0.03125</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Whole"/>
+        <DataHasValue>
+            <DataProperty IRI="http://purl.org/NET/c4dm/timeline.owl#duration"/>
+            <Literal datatypeIRI="&xsd;float">1.0</Literal>
+        </DataHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/WholeNote"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/Whole"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/WholeRest"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
+                <Class IRI="http://purl.org/ontology/symbolic-music/Whole"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="http://purl.org/ontology/temperament/Interval"/>
@@ -762,6 +1409,234 @@
         <Class IRI="#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Bar"/>
+        <Class IRI="http://purl.org/NET/c4dm/event.owl#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedDoubleWhole"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedDoubleWholeNote"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedEighth"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedEighthNote"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedHalf"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedHalfNote"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedQuarter"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedQuarterNote"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedSixteenthNote"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedThirtySecondNote"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedThirtysecond"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedWhole"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DottedWholeNote"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DoubleWhole"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DoubleWholeNote"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/DoubleWholeRest"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Eighth"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/EighthNote"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/EighthRest"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Half"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/HalfNote"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/HalfRest"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Longa"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/LongaRest"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Motif"/>
+        <Class IRI="http://purl.org/NET/c4dm/event.owl#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+        <Class IRI="http://purl.org/NET/c4dm/event.owl#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_1ca1f427_257f_476e_ae47_51c1a12040c0"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_1ceac463_500f_4ab9_8b3c_6d251c60eeea"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_21b6d619_bf32_49e4_91f3_d1ad4419ed3e"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_5a562e83_a841_409d_9d1f_0c8c58d9c3a2"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_5a60da38_9013_4d0e_a953_e590a9f5a945"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_5c2f8df6_7f5b_4f30_bdcb_5dbc82756bff"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_6d266fd5_cb2c_4018_873e_6a344f041a6d"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_8345d39b_3bcc_4b00_a138_3996441e8549"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_ac4e7f76_fe89_4662_ad4a_d30f9c93dff6"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_ca35f260_c524_4996_ab77_707b736d9f01"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_d8845137_dc79_4f9a_a860_e3b5c199fc84"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/OWLClass_f0ddf035_b2fd_4df2_a585_b7be13f82144"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Quarter"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/QuarterNote"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/QuarterRest"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+        <Class IRI="http://purl.org/NET/c4dm/event.owl#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreTimeLine"/>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Sixteenth"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/SixteenthNote"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/SixteenthRest"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Slur"/>
+        <Class IRI="http://purl.org/NET/c4dm/event.owl#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ThirtySecondNote"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ThirtySecondRest"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Thirtysecond"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Tie"/>
+        <Class IRI="http://purl.org/NET/c4dm/event.owl#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Voice"/>
+        <Class IRI="http://purl.org/NET/c4dm/event.owl#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Whole"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreInterval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/WholeNote"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/ontology/symbolic-music/WholeRest"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_0c0f2f79_ebdb_4651_b205_fa2143315c38"/>
         <Class IRI="#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
     </SubClassOf>
@@ -948,6 +1823,10 @@
         <Class IRI="http://purl.org/ontology/symbolic-music/WholeRest"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/RestEvent"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#OWLClass_1d06b3ac_8511_4fa1_9c44_8062571888ed"/>
         <Class IRI="#OWLClass_3e34ba35_2524_4956_a808_a3a11b93add4"/>
         <Class IRI="#OWLClass_6276c68e_c196_4115_9ed1_a30fd43e688a"/>
@@ -968,8 +1847,56 @@
         <Class IRI="#OWLClass_dcd88260_4a5f_4e31_b9e8_153f6bb7d85d"/>
     </DisjointClasses>
     <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Note"/>
+        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Note"/>
+        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Note"/>
+        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/c"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Note"/>
+        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/d"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Accidental"/>
+        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/double_flat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Accidental"/>
+        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/double_natural"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Accidental"/>
+        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/double_sharp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Note"/>
+        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/e"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Note"/>
+        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/f"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Accidental"/>
+        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/flat"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_a2eefe41_6440_40bc_9d61_917f175be3c4"/>
         <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/flat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Note"/>
+        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/g"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Accidental"/>
+        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/natural"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OWLClass_51c856fd_96ea_479f_adea_14e07c536901"/>
@@ -982,6 +1909,10 @@
     <ClassAssertion>
         <Class IRI="#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323"/>
         <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/natural"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Accidental"/>
+        <NamedIndividual IRI="http://purl.org/ontology/symbolic-music/sharp"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#OWLClass_a2eefe41_6440_40bc_9d61_917f175be3c4"/>
@@ -1562,6 +2493,14 @@
         <ObjectProperty IRI="#OWLObjectProperty_88481c45_fd1b_40cf_8349_35ae8e77650f"/>
     </EquivalentObjectProperties>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/pitch"/>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#factor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/timbre"/>
+        <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#factor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_1a9aa969_6a2d_40b0_bf2e_7053388ab316"/>
         <ObjectProperty IRI="#OWLObjectProperty_50796425_fc18_4649_9f83_4b4b1042c640"/>
     </SubObjectPropertyOf>
@@ -1581,6 +2520,15 @@
         <ObjectProperty IRI="http://purl.org/NET/c4dm/timeline.owl#timeline"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/accidental"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/note"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/pitch"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_1a9aa969_6a2d_40b0_bf2e_7053388ab316"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
@@ -1598,6 +2546,22 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#sub_event"/>
         <Class IRI="http://purl.org/NET/c4dm/event.owl#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/accidental"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Note"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/note"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Pitch"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/pitch"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/timbre"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/NoteEvent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_1a9aa969_6a2d_40b0_bf2e_7053388ab316"/>
@@ -1628,6 +2592,26 @@
         <Class IRI="http://purl.org/NET/c4dm/event.owl#Event"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/OWLObjectProperty_589f1660_1059_45ea_859d_05790e72ae63"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/ScoreTimeLine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/accidental"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Accidental"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/note"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Note"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/pitch"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Pitch"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/timbre"/>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Timbre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_1a9aa969_6a2d_40b0_bf2e_7053388ab316"/>
         <Class IRI="#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323"/>
     </ObjectPropertyRange>
@@ -1651,10 +2635,6 @@
         <ObjectProperty IRI="#OWLObjectProperty_b3736177_422e_41ec_9806_699a62cb8911"/>
         <Class IRI="#OWLClass_51c856fd_96ea_479f_adea_14e07c536901"/>
     </ObjectPropertyRange>
-    <EquivalentDataProperties>
-        <DataProperty IRI="http://purl.org/ontology/symbolic-music/octave"/>
-        <DataProperty IRI="#OWLDataProperty_989ead94_771d_43e2_b31e_3c9e6ed35bf0"/>
-    </EquivalentDataProperties>
     <FunctionalDataProperty>
         <DataProperty IRI="#OWLDataProperty_537fe052_1d2c_44ee_959a_8167e0fa5c8f"/>
     </FunctionalDataProperty>
@@ -1742,6 +2722,484 @@
         <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
         <IRI>http://purl.org/NET/c4dm/timeline.owl#timeline</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Accidental</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">
+		An accidental - eg. flat, sharp, natural
+	</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Accidental</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">accidental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Bar</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">
+		A bar is an event, grouping a bunch of sub_event - eg. note events.
+		Relationships such as Allen&apos;s meets hold for two consecutive bars.
+	</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Bar</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">bar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/DottedDoubleWholeNote</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">dotted double whole note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/DottedEighthNote</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">dotted eighth note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/DottedHalfNote</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">dotted half note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/DottedQuarterNote</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">dotted quarter note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/DottedSixteenthNote</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">dotted sixteenth note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/DottedThirtySecondNote</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">dotted thirty second note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/DottedWholeNote</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">dotted whole note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/DoubleWhole</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">double whole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/DoubleWholeNote</IRI>
+        <Literal xml:lang="en-uk" datatypeIRI="&rdf;PlainLiteral">breve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/DoubleWholeNote</IRI>
+        <Literal xml:lang="fr" datatypeIRI="&rdf;PlainLiteral">double ronde</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/DoubleWholeNote</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">double whole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/DoubleWholeRest</IRI>
+        <Literal xml:lang="en-uk" datatypeIRI="&rdf;PlainLiteral">breve rest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/DoubleWholeRest</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">double whole rest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Eighth</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">eighth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/EighthNote</IRI>
+        <Literal xml:lang="fr" datatypeIRI="&rdf;PlainLiteral">croche</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/EighthNote</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">eighth note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/EighthNote</IRI>
+        <Literal xml:lang="en-uk" datatypeIRI="&rdf;PlainLiteral">quaver</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/EighthRest</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">eighth rest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/EighthRest</IRI>
+        <Literal xml:lang="en-uk" datatypeIRI="&rdf;PlainLiteral">quaver rest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Half</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">half</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/HalfNote</IRI>
+        <Literal xml:lang="fr" datatypeIRI="&rdf;PlainLiteral">blanche</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/HalfNote</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">half note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/HalfNote</IRI>
+        <Literal xml:lang="en-uk" datatypeIRI="&rdf;PlainLiteral">minim</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/HalfRest</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">half rest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/HalfRest</IRI>
+        <Literal xml:lang="en-uk" datatypeIRI="&rdf;PlainLiteral">minim rest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Longa</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">longa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/LongaRest</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">LongaRest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Motif</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">
+		A classification of a set of events forming a motif.
+		It can either be several note events, a set of bars, etc.
+	</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Motif</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">motif</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Note</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">
+		A note. Either A, B, C, D, E, F or G.
+	</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Note</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/ontology/symbolic-music/NoteEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">
+		Classifying a particular region of a score&apos; timeline (or another concept,
+		depending on the context), as holding a note. Several subclasses are defined,
+		implicitly specifying (through a DL restriction) the duration of the event.
+	</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/NoteEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">note event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/OWLClass_1ca1f427_257f_476e_ae47_51c1a12040c0</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">LongaNote</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/OWLClass_1ceac463_500f_4ab9_8b3c_6d251c60eeea</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DottedQuarterRest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/OWLClass_21b6d619_bf32_49e4_91f3_d1ad4419ed3e</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DottedEighthRest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/OWLClass_5a562e83_a841_409d_9d1f_0c8c58d9c3a2</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DottedHalfRest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/OWLClass_5a60da38_9013_4d0e_a953_e590a9f5a945</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DottedSixteenthRest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/OWLClass_5c2f8df6_7f5b_4f30_bdcb_5dbc82756bff</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DottedLongaRest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/OWLClass_6d266fd5_cb2c_4018_873e_6a344f041a6d</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DottedDoubleWholeRest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/OWLClass_8345d39b_3bcc_4b00_a138_3996441e8549</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DottedLongaNote</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/OWLClass_ac4e7f76_fe89_4662_ad4a_d30f9c93dff6</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DottedWholeRest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/OWLClass_ca35f260_c524_4996_ab77_707b736d9f01</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DottedThirtySecondRest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/OWLClass_d8845137_dc79_4f9a_a860_e3b5c199fc84</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DottedLonga</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/OWLClass_f0ddf035_b2fd_4df2_a585_b7be13f82144</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DottedSixteenth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/OWLObjectProperty_589f1660_1059_45ea_859d_05790e72ae63</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">score_time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Pitch</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">
+		The pitch of a note. A pitch holds information about the modifiers (sharp, flat, natural), the note, and the octave.
+	</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Pitch</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">pitch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Quarter</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">quarter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/QuarterNote</IRI>
+        <Literal xml:lang="en-uk" datatypeIRI="&rdf;PlainLiteral">crotchet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/QuarterNote</IRI>
+        <Literal xml:lang="fr" datatypeIRI="&rdf;PlainLiteral">noire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/QuarterNote</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">quarter note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/QuarterRest</IRI>
+        <Literal xml:lang="en-uk" datatypeIRI="&rdf;PlainLiteral">crotchet rest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/QuarterRest</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">quarter rest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/ontology/symbolic-music/RestEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">
+		Classifying a particular region as holding a rest (an interval of silence).
+		Subclasses of this event are restriced to a particular length, as note events.
+	</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/RestEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">rest event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/ontology/symbolic-music/ScoreInterval</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">
+		An interval defined on a score time line (defined 
+		canonically in number of beats).
+	</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/ScoreInterval</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">score interval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/ontology/symbolic-music/ScoreTimeLine</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">
+		A class of timelines backing scores, or other symbolic
+		representations. 
+	</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/ScoreTimeLine</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">score timeline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Sixteenth</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">sixteenth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/SixteenthNote</IRI>
+        <Literal xml:lang="fr" datatypeIRI="&rdf;PlainLiteral">double croche</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/SixteenthNote</IRI>
+        <Literal xml:lang="en-uk" datatypeIRI="&rdf;PlainLiteral">semiquaver</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/SixteenthNote</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">sixteenth note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/SixteenthRest</IRI>
+        <Literal xml:lang="en-uk" datatypeIRI="&rdf;PlainLiteral">semiquaver rest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/SixteenthRest</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">sixteenth rest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Slur</IRI>
+        <Literal xml:lang="en-uk" datatypeIRI="&rdf;PlainLiteral">slur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/ThirtySecondNote</IRI>
+        <Literal xml:lang="en-uk" datatypeIRI="&rdf;PlainLiteral">demisemiquaver</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/ThirtySecondNote</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">thirtysecond note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/ThirtySecondNote</IRI>
+        <Literal xml:lang="fr" datatypeIRI="&rdf;PlainLiteral">triple croche</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/ThirtySecondRest</IRI>
+        <Literal xml:lang="en-uk" datatypeIRI="&rdf;PlainLiteral">demisemiquaver rest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/ThirtySecondRest</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">thirtysecond rest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Thirtysecond</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">thirtysecond</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Tie</IRI>
+        <Literal xml:lang="en-uk" datatypeIRI="&rdf;PlainLiteral">tie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Voice</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">
+		This is stolen from Christophe Rhodes&apos; GSharp.
+		A grouping of events forming a `voice&apos;.
+	</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Voice</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">voice</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/Whole</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">whole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/WholeNote</IRI>
+        <Literal xml:lang="fr" datatypeIRI="&rdf;PlainLiteral">ronde</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/WholeNote</IRI>
+        <Literal xml:lang="en-uk" datatypeIRI="&rdf;PlainLiteral">semibreve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/WholeNote</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">whole note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/WholeRest</IRI>
+        <Literal xml:lang="en-uk" datatypeIRI="&rdf;PlainLiteral">semibreve rest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/WholeRest</IRI>
+        <Literal xml:lang="en-us" datatypeIRI="&rdf;PlainLiteral">whole rest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/accidental</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">accidental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/note</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/pitch</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">pitch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/ontology/symbolic-music/timbre</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">timbre</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
