@@ -2381,10 +2381,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_ce25313a_cff8_4f2b_b473_aee5d6fca72c"/>
-        <Class IRI="#OWLClass_00000000000000000017"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_ce25313a_cff8_4f2b_b473_aee5d6fca72c"/>
         <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
     </SubClassOf>
     <SubClassOf>
@@ -4743,7 +4739,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_43e43f2e_c86b_483b_8d49_c6565dcf1dbd"/>
         <NamedIndividual IRI="#OWLNamedIndividual_9485fb53_fe93_4287_ba78_2076a6d615f3"/>
-        <NamedIndividual IRI="-symbolic-music#OWLNamedIndividual_00000000000000000266"/>
+        <NamedIndividual IRI="-symbolic-music#OWLNamedIndividual_830e9862_3ef7_4758_8d44_55fc3f4afe40"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
@@ -4758,7 +4754,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="-symbolic-music#OWLObjectProperty_43e43f2e_c86b_483b_8d49_c6565dcf1dbd"/>
         <NamedIndividual IRI="#OWLNamedIndividual_e02a1732_897e_4bc1_8b36_476f7617127c"/>
-        <NamedIndividual IRI="-symbolic-music#OWLNamedIndividual_00000000000000000176"/>
+        <NamedIndividual IRI="-symbolic-music#OWLNamedIndividual_0def2686_b173_4fec_8e53_d43f17280ec8"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#OWLDataProperty_00000000000000000495"/>
