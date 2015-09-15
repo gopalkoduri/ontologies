@@ -182,7 +182,7 @@
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/untitled-ontology-7#OWLObjectPropertyImpl_96bddf20_46f8_492e_ad7f_4ff2abaa5c0c"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLObjectProperty_00000000000000000030"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLObjectProperty_f76ce384_901c_497b_a54e_bc619651dd34"/>
     </FunctionalObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://purl.org/ontology/mo/instrument"/>
@@ -434,12 +434,12 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_00000000000000000007</IRI>
+        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_14f09f99_e2db_4d59_9ee4_15728f67ce5c</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">BüyükUsul</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_00000000000000000008</IRI>
+        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_fb8b8e62_9eff_400c_91e2_aa07167b2dc3</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">KüçükUsul</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>

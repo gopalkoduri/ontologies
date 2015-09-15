@@ -63,12 +63,6 @@
         <Class IRI="#OWLClassImpl_afc39164_fc7a_4b7b_ad6d_b106fb5e1180"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_00000000000000000004"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_00000000000000000007"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OWLClass_0324ad0d_7e6e_4834_9348_11dc96c18689"/>
     </Declaration>
     <Declaration>
@@ -180,6 +174,12 @@
         <Class IRI="#OWLClass_f5f47fcf_6a53_4884_8433_350f0c8a1e4a"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_2e6c9301_a2dd_455d_8ef5_436149d1313d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_3765e453_9bb7_4886_bb1d_5ba4913d6a44"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_45bbd8c6_b3ee_4ccb_bc31_4f1bac418604"/>
     </Declaration>
     <Declaration>
@@ -232,30 +232,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_f580e6aa_7f11_4b42_b3b5_52bf78c2e5a8"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000000"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000005"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000159"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000160"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000161"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000162"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000163"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000164"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_0aad85c8_27a2_403d_b458_50bc3b87ebc2"/>
@@ -331,6 +307,30 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_ffbb11b3_e78b_4231_846a_d5dd9ffe3612"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_3f45d32b_90e5_405d_941d_f8406e6c5575"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_44b0f499_33bc_4bee_901b_fab030adb02b"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_5965027d_92a3_4918_b8e8_5255abdd4076"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_8aab6519_c744_4f2b_b45c_394a1254d3ec"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_9bc71aa8_32ce_4d78_ab6a_f37bb44107f9"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_c706d2ea_423b_4d88_a18e_e0a5ceeb4ec4"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_c8426ce6_29c4_4b97_b843_0dfc3da6014a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_ed280547_f25a_4859_b377_19fba5322b4d"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
@@ -502,22 +502,6 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#OWLClass_00000000000000000007"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
-            <ObjectUnionOf>
-                <ObjectSomeValuesFrom>
-                    <ObjectProperty IRI="#OWLObjectProperty_ccd9ee0a_af32_4429_9d0d_6efccb789fdc"/>
-                    <Class IRI="http://purl.org/ontology/mo/Composer"/>
-                </ObjectSomeValuesFrom>
-                <ObjectExactCardinality cardinality="1">
-                    <ObjectProperty IRI="#OWLObjectProperty_9cfca580_79ec_4f51_bd79_74a2a40a7ebb"/>
-                    <Class IRI="http://purl.org/ontology/mo/Composition"/>
-                </ObjectExactCardinality>
-            </ObjectUnionOf>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#OWLClass_0324ad0d_7e6e_4834_9348_11dc96c18689"/>
         <Class IRI="#OWLClass_90435073_a0dc_44ea_abce_c978cb51c816"/>
     </EquivalentClasses>
@@ -599,6 +583,22 @@
             </DataHasValue>
         </ObjectIntersectionOf>
     </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_3765e453_9bb7_4886_bb1d_5ba4913d6a44"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
+            <ObjectUnionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#OWLObjectProperty_ccd9ee0a_af32_4429_9d0d_6efccb789fdc"/>
+                    <Class IRI="http://purl.org/ontology/mo/Composer"/>
+                </ObjectSomeValuesFrom>
+                <ObjectExactCardinality cardinality="1">
+                    <ObjectProperty IRI="#OWLObjectProperty_9cfca580_79ec_4f51_bd79_74a2a40a7ebb"/>
+                    <Class IRI="http://purl.org/ontology/mo/Composition"/>
+                </ObjectExactCardinality>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#Interval"/>
@@ -645,14 +645,6 @@
     <SubClassOf>
         <Class IRI="#OWLClassImpl_afc39164_fc7a_4b7b_ad6d_b106fb5e1180"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_00000000000000000004"/>
-        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OWLClass_00000000000000000007"/>
-        <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_0324ad0d_7e6e_4834_9348_11dc96c18689"/>
@@ -805,6 +797,14 @@
     <SubClassOf>
         <Class IRI="#OWLClass_f5f47fcf_6a53_4884_8433_350f0c8a1e4a"/>
         <Class IRI="#OWLClass_a47532f7_13b6_40ba_b1d9_e57193be6144"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_2e6c9301_a2dd_455d_8ef5_436149d1313d"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_3765e453_9bb7_4886_bb1d_5ba4913d6a44"/>
+        <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_45bbd8c6_b3ee_4ccb_bc31_4f1bac418604"/>
@@ -1080,12 +1080,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_0aad85c8_27a2_403d_b458_50bc3b87ebc2"/>
         <NamedIndividual IRI="#OWLNamedIndividual_2f6c58c8_e190_4bed_9b4d_da3d577e0257"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000131"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_de12ed7a_c263_45cd_b999_5455fc33aa8d"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_0bb2d6ba_c672_4fec_bb7b_75c909a4b64a"/>
         <NamedIndividual IRI="#OWLNamedIndividual_2f6c58c8_e190_4bed_9b4d_da3d577e0257"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000368"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_4e63f675_3611_46c2_ae5a_be7a7f0cb779"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.org/ontology/symbolic-music/OWLObjectProperty_589f1660_1059_45ea_859d_05790e72ae63"/>
@@ -1128,7 +1128,7 @@
         <NamedIndividual IRI="#OWLNamedIndividual_7becbaed_f461_42bc_b19e_fcf12316b7a2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000162"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_44b0f499_33bc_4bee_901b_fab030adb02b"/>
         <NamedIndividual IRI="#OWLNamedIndividual_4532b098_c89d_434b_a303_755703122517"/>
         <NamedIndividual IRI="#OWLNamedIndividual_b780bc7f_2ab5_449d_8ea6_0cb09697ab91"/>
     </ObjectPropertyAssertion>
@@ -1175,12 +1175,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_0aad85c8_27a2_403d_b458_50bc3b87ebc2"/>
         <NamedIndividual IRI="#OWLNamedIndividual_71f9c82f_17bc_4174_9b94_8fda059cbe06"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000156"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_d3c20f8a_2f89_4468_b13d_d9af2edc8a8a"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_0bb2d6ba_c672_4fec_bb7b_75c909a4b64a"/>
         <NamedIndividual IRI="#OWLNamedIndividual_71f9c82f_17bc_4174_9b94_8fda059cbe06"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000326"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_b18ba551_96a2_4ec5_b7cb_3e349aba68f1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_c1978757_22a5_4916_a9d1_7d5ee0a56bfc"/>
@@ -1205,12 +1205,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_0aad85c8_27a2_403d_b458_50bc3b87ebc2"/>
         <NamedIndividual IRI="#OWLNamedIndividual_9783e179_4581_4e47_b083_2ecec77d38d2"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000165"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_f8d66c93_5645_4569_8b1a_95990b74dd31"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_0bb2d6ba_c672_4fec_bb7b_75c909a4b64a"/>
         <NamedIndividual IRI="#OWLNamedIndividual_9783e179_4581_4e47_b083_2ecec77d38d2"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000385"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLNamedIndividual_6190ed9e_d4b5_419f_91b5_83c4306d79ae"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#sub_event"/>
@@ -1273,24 +1273,24 @@
         <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-symbolic-music#OWLNamedIndividual_1d28b33f_67bf_4595_b110_0f672c2728aa"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000000"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_b780bc7f_2ab5_449d_8ea6_0cb09697ab91"/>
-        <NamedIndividual IRI="#OWLNamedIndividual_774c9260_c4af_4305_a75e_5c266c3842dc"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_0aad85c8_27a2_403d_b458_50bc3b87ebc2"/>
         <NamedIndividual IRI="#OWLNamedIndividual_b780bc7f_2ab5_449d_8ea6_0cb09697ab91"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000166"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_26bf4e75_8022_4242_a2a7_400ed80b771f"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_0bb2d6ba_c672_4fec_bb7b_75c909a4b64a"/>
         <NamedIndividual IRI="#OWLNamedIndividual_b780bc7f_2ab5_449d_8ea6_0cb09697ab91"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_00000000000000000466"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLNamedIndividual_98e1021a_36f8_4107_8861_36c94ceb0198"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#OWLObjectProperty_ea5ca6d0_a4f5_4ef3_a0fa_5bb70057a118"/>
         <NamedIndividual IRI="#OWLNamedIndividual_b780bc7f_2ab5_449d_8ea6_0cb09697ab91"/>
         <NamedIndividual IRI="#OWLNamedIndividual_f24aefe4_95e8_4f5e_9afb_7aedfce9b6b6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_3f45d32b_90e5_405d_941d_f8406e6c5575"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_b780bc7f_2ab5_449d_8ea6_0cb09697ab91"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_774c9260_c4af_4305_a75e_5c266c3842dc"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#time"/>
@@ -1420,12 +1420,12 @@
         <ObjectProperty IRI="#OWLObjectPropertyImpl_f1634704_726a_4d9f_b463_dcf8c9b14426"/>
     </EquivalentObjectProperties>
     <EquivalentObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000159"/>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000160"/>
-    </EquivalentObjectProperties>
-    <EquivalentObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_74550960_3ed2_4278_afef_e34463ae9136"/>
         <ObjectProperty IRI="#OWLObjectProperty_9efe8e74_0e9c_4780_895e_8af57a52a2ad"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_c706d2ea_423b_4d88_a18e_e0a5ceeb4ec4"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_c8426ce6_29c4_4b97_b843_0dfc3da6014a"/>
     </EquivalentObjectProperties>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="http://purl.org/NET/c4dm/event.owl#hasSubEvent"/>
@@ -1436,12 +1436,12 @@
         <ObjectProperty IRI="#OWLObjectProperty_1d5aa141_68e7_46fa_aa7b_309c27fa2d40"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLObjectProperty_7fdc1362_2c9e_49be_b98e_cdb3e1110b1b"/>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000005"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLObjectProperty_835c98c9_d00f_4b37_bf84_f81e18660775"/>
+        <ObjectProperty IRI="#OWLObjectProperty_1d5aa141_68e7_46fa_aa7b_309c27fa2d40"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLObjectProperty_919ba604_5b51_43a9_91f7_ee21f8ea40fc"/>
-        <ObjectProperty IRI="#OWLObjectProperty_1d5aa141_68e7_46fa_aa7b_309c27fa2d40"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLObjectProperty_e61acdd7_228f_481e_8b18_cb3b336258cc"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_ed280547_f25a_4859_b377_19fba5322b4d"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_25a4d516_6457_4076_b0a4_8a961e891bf0"/>
@@ -1473,11 +1473,11 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_209e373f_44f4_4b99_833a_b831ca4b9fdc"/>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000164"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_9bc71aa8_32ce_4d78_ab6a_f37bb44107f9"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_24b8b7e9_cf82_476e_a8ee_b8e6688660e3"/>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000005"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_ed280547_f25a_4859_b377_19fba5322b4d"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_355ebe17_5835_42f9_a72d_ab129927cfbb"/>
@@ -1505,7 +1505,7 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_83d9d3ab_97d3_4849_b964_385ecabdbe53"/>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000163"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_5965027d_92a3_4918_b8e8_5255abdd4076"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_91bc0165_9200_4c1a_8e49_e41ca194315c"/>
@@ -1517,15 +1517,15 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_9e85675c_b1c9_44eb_be94_bb9c589cc53e"/>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000163"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_5965027d_92a3_4918_b8e8_5255abdd4076"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_9efe8e74_0e9c_4780_895e_8af57a52a2ad"/>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000164"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_9bc71aa8_32ce_4d78_ab6a_f37bb44107f9"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_a7fbedc5_4f5d_472c_9b2c_cf325df8df4c"/>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000164"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_9bc71aa8_32ce_4d78_ab6a_f37bb44107f9"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_a9801f20_f5a1_4730_83cd_96e3155ff0a6"/>
@@ -1533,7 +1533,7 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_ad569841_421b_410e_b409_4ce678212d9e"/>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000005"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_ed280547_f25a_4859_b377_19fba5322b4d"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_c1978757_22a5_4916_a9d1_7d5ee0a56bfc"/>
@@ -1541,7 +1541,7 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_ccd9ee0a_af32_4429_9d0d_6efccb789fdc"/>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000163"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_5965027d_92a3_4918_b8e8_5255abdd4076"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_ea5ca6d0_a4f5_4ef3_a0fa_5bb70057a118"/>
@@ -1549,7 +1549,7 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#OWLObjectProperty_ffbb11b3_e78b_4231_846a_d5dd9ffe3612"/>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000005"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_ed280547_f25a_4859_b377_19fba5322b4d"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="http://purl.org/ontology/mo/performer"/>
@@ -1576,12 +1576,8 @@
         <ObjectProperty IRI="#OWLObjectPropertyImpl_7bb14de8_ee6f_4252_ac32_c500012ab6df"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000005"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_ed280547_f25a_4859_b377_19fba5322b4d"/>
         <ObjectProperty IRI="#OWLObjectProperty_1d5aa141_68e7_46fa_aa7b_309c27fa2d40"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000161"/>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000160"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_209e373f_44f4_4b99_833a_b831ca4b9fdc"/>
@@ -1624,20 +1620,24 @@
         <ObjectProperty IRI="#OWLObjectProperty_a9801f20_f5a1_4730_83cd_96e3155ff0a6"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_8aab6519_c744_4f2b_b45c_394a1254d3ec"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_c706d2ea_423b_4d88_a18e_e0a5ceeb4ec4"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMetBy"/>
         <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000000"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_3f45d32b_90e5_405d_941d_f8406e6c5575"/>
     </FunctionalObjectProperty>
-    <TransitiveObjectProperty>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000005"/>
-    </TransitiveObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_7b5df677_a905_4060_968c_504e976f4228"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#OWLObjectProperty_ad569841_421b_410e_b409_4ce678212d9e"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_ed280547_f25a_4859_b377_19fba5322b4d"/>
     </TransitiveObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://purl.org/ontology/mo/performed"/>
@@ -1670,22 +1670,6 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectPropertyImpl_f1634704_726a_4d9f_b463_dcf8c9b14426"/>
         <Class IRI="#OWLClassImpl_afc39164_fc7a_4b7b_ad6d_b106fb5e1180"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000000"/>
-        <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000160"/>
-        <Class IRI="#OWLClass_00000000000000000004"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000162"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_45bbd8c6_b3ee_4ccb_bc31_4f1bac418604"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000164"/>
-        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_0aad85c8_27a2_403d_b458_50bc3b87ebc2"/>
@@ -1727,7 +1711,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_9cfca580_79ec_4f51_bd79_74a2a40a7ebb"/>
-        <Class IRI="#OWLClass_00000000000000000007"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_3765e453_9bb7_4886_bb1d_5ba4913d6a44"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_9efe8e74_0e9c_4780_895e_8af57a52a2ad"/>
@@ -1735,7 +1719,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_a7fbedc5_4f5d_472c_9b2c_cf325df8df4c"/>
-        <Class IRI="#OWLClass_00000000000000000004"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_2e6c9301_a2dd_455d_8ef5_436149d1313d"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_a9801f20_f5a1_4730_83cd_96e3155ff0a6"/>
@@ -1748,6 +1732,22 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_ffbb11b3_e78b_4231_846a_d5dd9ffe3612"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-symbolic-music#OWLClass_6a1b7fc2_005c_4f3b_8b26_726890e6f8a5"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_3f45d32b_90e5_405d_941d_f8406e6c5575"/>
+        <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_44b0f499_33bc_4bee_901b_fab030adb02b"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_45bbd8c6_b3ee_4ccb_bc31_4f1bac418604"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_9bc71aa8_32ce_4d78_ab6a_f37bb44107f9"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_c706d2ea_423b_4d88_a18e_e0a5ceeb4ec4"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_2e6c9301_a2dd_455d_8ef5_436149d1313d"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
@@ -1792,28 +1792,16 @@
         <Class IRI="http://purl.org/ontology/mo/Lyrics"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000000"/>
-        <Class IRI="http://schema.org/Place"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000160"/>
-        <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#OWLObjectProperty_00000000000000000164"/>
-        <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_0aad85c8_27a2_403d_b458_50bc3b87ebc2"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_0bb2d6ba_c672_4fec_bb7b_75c909a4b64a"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_00000000000000000004"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_986b0e94_6bb0_4c66_93a0_a0e3d35b00e9"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_209e373f_44f4_4b99_833a_b831ca4b9fdc"/>
-        <Class IRI="#OWLClass_00000000000000000007"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_3765e453_9bb7_4886_bb1d_5ba4913d6a44"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_24b8b7e9_cf82_476e_a8ee_b8e6688660e3"/>
@@ -1854,6 +1842,18 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_ffbb11b3_e78b_4231_846a_d5dd9ffe3612"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-symbolic-music#OWLClass_2bb910e2_bb20_40f6_bdbe_24e2148e19e2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_3f45d32b_90e5_405d_941d_f8406e6c5575"/>
+        <Class IRI="http://schema.org/Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_9bc71aa8_32ce_4d78_ab6a_f37bb44107f9"/>
+        <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_c706d2ea_423b_4d88_a18e_e0a5ceeb4ec4"/>
+        <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMeets"/>
@@ -2368,26 +2368,6 @@ Two timelines can be mapped using timeline maps.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClassImpl_afc39164_fc7a_4b7b_ad6d_b106fb5e1180</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">SözYazarı</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000004</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Curator</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000004</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Derleyen</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000007</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">OriginalScore</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLClass_00000000000000000007</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">OrjinalPartitür</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2911,46 +2891,6 @@ Two timelines can be mapped using timeline maps.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_00000000000000000000</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">workIsFrom</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_00000000000000000005</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isPartOf</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_00000000000000000159</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isCuratorOf</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_00000000000000000160</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">curated</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_00000000000000000161</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">curatedBy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_00000000000000000162</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isSourcePersonOf</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_00000000000000000163</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">scoreWrittenBy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_00000000000000000164</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">wroteScore</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_0aad85c8_27a2_403d_b458_50bc3b87ebc2</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasUsul</Literal>
     </AnnotationAssertion>
@@ -3076,6 +3016,26 @@ Two timelines can be mapped using timeline maps.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_2e6c9301_a2dd_455d_8ef5_436149d1313d</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Curator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_2e6c9301_a2dd_455d_8ef5_436149d1313d</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Derleyen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_3765e453_9bb7_4886_bb1d_5ba4913d6a44</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">OriginalScore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_3765e453_9bb7_4886_bb1d_5ba4913d6a44</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">OrjinalPartitür</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_45bbd8c6_b3ee_4ccb_bc31_4f1bac418604</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">KaynakKişi</Literal>
     </AnnotationAssertion>
@@ -3093,6 +3053,46 @@ Two timelines can be mapped using timeline maps.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLClass_5319c2b6_0ab0_462e_a674_a2ae069571ed</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">TranskripsiyonuYapan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_3f45d32b_90e5_405d_941d_f8406e6c5575</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">workIsFrom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_44b0f499_33bc_4bee_901b_fab030adb02b</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isSourcePersonOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_5965027d_92a3_4918_b8e8_5255abdd4076</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">scoreWrittenBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_8aab6519_c744_4f2b_b45c_394a1254d3ec</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">curatedBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_9bc71aa8_32ce_4d78_ab6a_f37bb44107f9</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">wroteScore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_c706d2ea_423b_4d88_a18e_e0a5ceeb4ec4</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">curated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_c8426ce6_29c4_4b97_b843_0dfc3da6014a</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isCuratorOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_ed280547_f25a_4859_b377_19fba5322b4d</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isPartOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
