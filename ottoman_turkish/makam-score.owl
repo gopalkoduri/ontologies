@@ -21,7 +21,6 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>http://purl.org/ontology/symbolic-music/</Import>
     <Import>http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam</Import>
     <Declaration>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
@@ -1620,8 +1619,8 @@
         <ObjectProperty IRI="#OWLObjectProperty_a9801f20_f5a1_4730_83cd_96e3155ff0a6"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_8aab6519_c744_4f2b_b45c_394a1254d3ec"/>
         <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_c706d2ea_423b_4d88_a18e_e0a5ceeb4ec4"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLObjectProperty_8aab6519_c744_4f2b_b45c_394a1254d3ec"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="http://www.w3.org/2006/time#intervalMetBy"/>

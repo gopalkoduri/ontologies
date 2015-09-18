@@ -27,9 +27,6 @@
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.org/ontology/symbolic-music/Octave"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OWLClass_0182e23e_c54a_46b0_801f_2cdda0cefb85"/>
     </Declaration>
     <Declaration>
@@ -2447,6 +2444,114 @@
         <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
     </SubClassOf>
     <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/event.owl#Event"/>
+        <Class IRI="#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/event.owl#Event"/>
+        <Class IRI="#OWLClass_2659543b_454e_4d99_a5b2_a5ca3257c196"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/event.owl#Event"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/event.owl#Event"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/event.owl#Event"/>
+        <Class IRI="#OWLClass_986b0e94_6bb0_4c66_93a0_a0e3d35b00e9"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/event.owl#Event"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLNamedIndividual_cf826a3d_451e_4daf_9ba9_70fa516205ff"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
+        <Class IRI="#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
+        <Class IRI="#OWLClass_2659543b_454e_4d99_a5b2_a5ca3257c196"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
+        <Class IRI="#OWLClass_986b0e94_6bb0_4c66_93a0_a0e3d35b00e9"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
+        <Class IRI="#OWLClass_bdc9f772_a838_4f7d_9327_3bac0b60b35c"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractInterval"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLNamedIndividual_cf826a3d_451e_4daf_9ba9_70fa516205ff"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine"/>
+        <Class IRI="#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine"/>
+        <Class IRI="#OWLClass_2659543b_454e_4d99_a5b2_a5ca3257c196"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine"/>
+        <Class IRI="#OWLClass_986b0e94_6bb0_4c66_93a0_a0e3d35b00e9"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine"/>
+        <Class IRI="#OWLClass_bdc9f772_a838_4f7d_9327_3bac0b60b35c"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLNamedIndividual_cf826a3d_451e_4daf_9ba9_70fa516205ff"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Timbre"/>
+        <Class IRI="#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Timbre"/>
+        <Class IRI="#OWLClass_2659543b_454e_4d99_a5b2_a5ca3257c196"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Timbre"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Timbre"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Timbre"/>
+        <Class IRI="#OWLClass_986b0e94_6bb0_4c66_93a0_a0e3d35b00e9"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Timbre"/>
+        <Class IRI="#OWLClass_bdc9f772_a838_4f7d_9327_3bac0b60b35c"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Timbre"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLNamedIndividual_cf826a3d_451e_4daf_9ba9_70fa516205ff"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#OWLClass_05679e38_7060_4bd9_9a3b_ae6da5cf1890"/>
         <Class IRI="#OWLClass_5c20780b_c8f9_4ad2_b3b9_12ab8195f298"/>
     </DisjointClasses>
@@ -2460,23 +2565,243 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
+        <Class IRI="#OWLClass_2659543b_454e_4d99_a5b2_a5ca3257c196"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
         <Class IRI="#OWLClass_986b0e94_6bb0_4c66_93a0_a0e3d35b00e9"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
+        <Class IRI="#OWLClass_bdc9f772_a838_4f7d_9327_3bac0b60b35c"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
+        <Class IRI="-symbolic-music#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
+        <Class IRI="-symbolic-music#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
+        <Class IRI="-symbolic-music#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
+        <Class IRI="-symbolic-music#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
+        <Class IRI="-symbolic-music#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLNamedIndividual_cf826a3d_451e_4daf_9ba9_70fa516205ff"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_2659543b_454e_4d99_a5b2_a5ca3257c196"/>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_2659543b_454e_4d99_a5b2_a5ca3257c196"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_2659543b_454e_4d99_a5b2_a5ca3257c196"/>
+        <Class IRI="#OWLClass_986b0e94_6bb0_4c66_93a0_a0e3d35b00e9"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_2659543b_454e_4d99_a5b2_a5ca3257c196"/>
+        <Class IRI="#OWLClass_bdc9f772_a838_4f7d_9327_3bac0b60b35c"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_2659543b_454e_4d99_a5b2_a5ca3257c196"/>
+        <Class IRI="-symbolic-music#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_2659543b_454e_4d99_a5b2_a5ca3257c196"/>
+        <Class IRI="-symbolic-music#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_2659543b_454e_4d99_a5b2_a5ca3257c196"/>
+        <Class IRI="-symbolic-music#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_2659543b_454e_4d99_a5b2_a5ca3257c196"/>
+        <Class IRI="-symbolic-music#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_2659543b_454e_4d99_a5b2_a5ca3257c196"/>
+        <Class IRI="-symbolic-music#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_2659543b_454e_4d99_a5b2_a5ca3257c196"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLNamedIndividual_cf826a3d_451e_4daf_9ba9_70fa516205ff"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
+        <Class IRI="#OWLClass_986b0e94_6bb0_4c66_93a0_a0e3d35b00e9"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
+        <Class IRI="#OWLClass_bdc9f772_a838_4f7d_9327_3bac0b60b35c"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
+        <Class IRI="-symbolic-music#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
+        <Class IRI="-symbolic-music#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
+        <Class IRI="-symbolic-music#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
+        <Class IRI="-symbolic-music#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
+        <Class IRI="-symbolic-music#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLNamedIndividual_cf826a3d_451e_4daf_9ba9_70fa516205ff"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#OWLClass_5c20780b_c8f9_4ad2_b3b9_12ab8195f298"/>
         <Class IRI="#OWLClass_e43ddfa5_80b4_48a8_a8dd_c6f063fa777a"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
+        <Class IRI="#OWLClass_986b0e94_6bb0_4c66_93a0_a0e3d35b00e9"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
+        <Class IRI="#OWLClass_bdc9f772_a838_4f7d_9327_3bac0b60b35c"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
+        <Class IRI="-symbolic-music#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
+        <Class IRI="-symbolic-music#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
+        <Class IRI="-symbolic-music#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
+        <Class IRI="-symbolic-music#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
+        <Class IRI="-symbolic-music#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLNamedIndividual_cf826a3d_451e_4daf_9ba9_70fa516205ff"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#OWLClass_94f46d39_a555_4ec2_a893_8f29230f5b73"/>
         <Class IRI="#OWLClass_da568cf8_3b2d_4ec3_acea_965da355d9ee"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_986b0e94_6bb0_4c66_93a0_a0e3d35b00e9"/>
+        <Class IRI="#OWLClass_bdc9f772_a838_4f7d_9327_3bac0b60b35c"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_986b0e94_6bb0_4c66_93a0_a0e3d35b00e9"/>
+        <Class IRI="-symbolic-music#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_986b0e94_6bb0_4c66_93a0_a0e3d35b00e9"/>
+        <Class IRI="-symbolic-music#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_986b0e94_6bb0_4c66_93a0_a0e3d35b00e9"/>
+        <Class IRI="-symbolic-music#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_986b0e94_6bb0_4c66_93a0_a0e3d35b00e9"/>
+        <Class IRI="-symbolic-music#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_986b0e94_6bb0_4c66_93a0_a0e3d35b00e9"/>
+        <Class IRI="-symbolic-music#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_986b0e94_6bb0_4c66_93a0_a0e3d35b00e9"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLNamedIndividual_cf826a3d_451e_4daf_9ba9_70fa516205ff"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#OWLClass_9b9a9dd6_56d5_4f09_b5e0_b006a40eb94a"/>
         <Class IRI="#OWLClass_a3852fa0_65ea_492c_b506_2975517836e8"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#OWLClass_bdc9f772_a838_4f7d_9327_3bac0b60b35c"/>
+        <Class IRI="-symbolic-music#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_bdc9f772_a838_4f7d_9327_3bac0b60b35c"/>
+        <Class IRI="-symbolic-music#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_bdc9f772_a838_4f7d_9327_3bac0b60b35c"/>
+        <Class IRI="-symbolic-music#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_bdc9f772_a838_4f7d_9327_3bac0b60b35c"/>
+        <Class IRI="-symbolic-music#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_bdc9f772_a838_4f7d_9327_3bac0b60b35c"/>
+        <Class IRI="-symbolic-music#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_bdc9f772_a838_4f7d_9327_3bac0b60b35c"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLNamedIndividual_cf826a3d_451e_4daf_9ba9_70fa516205ff"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#OWLClass_bef81bd9_62b7_47e4_baf0_7b4c9100a3a3"/>
         <Class IRI="#OWLClass_da568cf8_3b2d_4ec3_acea_965da355d9ee"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="-symbolic-music#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLNamedIndividual_cf826a3d_451e_4daf_9ba9_70fa516205ff"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="-symbolic-music#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLNamedIndividual_cf826a3d_451e_4daf_9ba9_70fa516205ff"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="-symbolic-music#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLNamedIndividual_cf826a3d_451e_4daf_9ba9_70fa516205ff"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="-symbolic-music#OWLClass_92d80f79_a9a1_4721_8bcb_13329a170fa7"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLNamedIndividual_cf826a3d_451e_4daf_9ba9_70fa516205ff"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="-symbolic-music#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481"/>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/ottoman_turkish#OWLNamedIndividual_cf826a3d_451e_4daf_9ba9_70fa516205ff"/>
     </DisjointClasses>
     <ClassAssertion>
         <Class IRI="#OWLClass_986b0e94_6bb0_4c66_93a0_a0e3d35b00e9"/>
@@ -5088,11 +5413,11 @@
         <DataProperty IRI="#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;maxInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">300</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;minExclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;maxInclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">300</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -5100,11 +5425,11 @@
         <DataProperty IRI="#OWLDataProperty_8e5f0377_d510_4a2b_9581_3e73783d946a"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;maxInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">124</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;minExclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;maxInclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">124</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
