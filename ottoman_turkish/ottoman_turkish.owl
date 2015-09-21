@@ -262,7 +262,7 @@
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#OWLDataProperty_72118e85_746e_4b89_be38_19fc8f489891"/>
-        <Datatype abbreviatedIRI="xsd:date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
