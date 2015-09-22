@@ -8354,9 +8354,49 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">CompoundUsul</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>-symbolic-music#OWLClass_51c856fd_96ea_479f_adea_14e07c536901</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The symbols used in Eurogenetic musics. The list includes the quarter tone symbols used in Tartini-Cooper notation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>-symbolic-music#OWLClass_73acd0af_2f99_4951_9d40_bfcc8842cbc0</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Note names used in Turkish folk music.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>-symbolic-music#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The letters used to represent the 7 pitch classes (i.e. &quot;white notes&quot;) in Eurogenetic musics.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>-symbolic-music#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EurogeneticNoteSymbol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>-symbolic-music#OWLClass_92025319_8401_469d_a440_f2e0480f3d2a</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Note names according to 53-TET system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>-symbolic-music#OWLClass_a2eefe41_6440_40bc_9d61_917f175be3c4</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The accidental symbols used in Turkish folk music.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>-symbolic-music#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The accidental symbols used in clasical Turkish-Ottoman makam music.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>-symbolic-music#OWLClass_bcdcb05e_d136_4aa0_82f4_b41ecb4134d0</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Note names in Eurogenetic musics.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>-symbolic-music#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The traditional note names used in classical Ottoman-turkish classical makam music.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
