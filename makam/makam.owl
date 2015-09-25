@@ -6201,7 +6201,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLDataProperty_8e5f0377_d510_4a2b_9581_3e73783d946a</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">numberOfBeats</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">numberOfPulses</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
