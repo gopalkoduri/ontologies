@@ -5413,11 +5413,11 @@
         <DataProperty IRI="#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;minExclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;maxInclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">300</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;minExclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -5425,11 +5425,11 @@
         <DataProperty IRI="#OWLDataProperty_8e5f0377_d510_4a2b_9581_3e73783d946a"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;minExclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;maxInclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">124</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;minExclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -5519,6 +5519,11 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Karşılama</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_06818f4c_c48b_45a9_a6ff_36fbb7b782cb</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Usuls which are not constucted from other usuls.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_06818f4c_c48b_45a9_a6ff_36fbb7b782cb</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">BasitUsul</Literal>
@@ -5562,6 +5567,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_14de22e5_f091_4ee0_9a3c_18419393015d</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ImprovisationalForm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_14f09f99_e2db_4d59_9ee4_15728f67ce5c</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">An usul which has more than 15 pulses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_14f09f99_e2db_4d59_9ee4_15728f67ce5c</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">BüyükUsul</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5687,6 +5702,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_388e5a9e_d134_4d0c_a9ad_7e5ca61e1e54</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ReligiousForm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A rhythmic pattern of a certain length that defines a sequence of strokes with varying accent in Otttoman-Turkish makam music.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -6137,6 +6157,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_fa321cb8_5048_425d_b52f_2962a71cd91a</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Kuran-ı Kerim</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_fb8b8e62_9eff_400c_91e2_aa07167b2dc3</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">KüçükUsul</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_fb8b8e62_9eff_400c_91e2_aa07167b2dc3</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Usuls that have at most 15 pulses.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8344,6 +8374,11 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isDominantOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>-score#OWLClass_e58c7e66_adcb_452a_8ceb_32b2e12bbfc5</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">An usul which is formed by combining two or more usuls.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>-score#OWLClass_e58c7e66_adcb_452a_8ceb_32b2e12bbfc5</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">BileşikUsul</Literal>
@@ -8355,18 +8390,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>-symbolic-music#OWLClass_51c856fd_96ea_479f_adea_14e07c536901</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The symbols used in Eurogenetic musics. The list includes the quarter tone symbols used in Tartini-Cooper notation.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>-symbolic-music#OWLClass_73acd0af_2f99_4951_9d40_bfcc8842cbc0</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Note names used in Turkish folk music.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>-symbolic-music#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The letters used to represent the 7 pitch classes (i.e. &quot;white notes&quot;) in Eurogenetic musics.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8377,16 +8402,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>-symbolic-music#OWLClass_92025319_8401_469d_a440_f2e0480f3d2a</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Note names according to 53-TET system.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>-symbolic-music#OWLClass_a2eefe41_6440_40bc_9d61_917f175be3c4</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The accidental symbols used in Turkish folk music.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>-symbolic-music#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The accidental symbols used in clasical Turkish-Ottoman makam music.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

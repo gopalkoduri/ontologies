@@ -2790,11 +2790,11 @@
         <DataProperty IRI="#OWLDataProperty_537fe052_1d2c_44ee_959a_8167e0fa5c8f"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;minInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">0</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;maxInclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">127</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;minInclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">0</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -2819,6 +2819,25 @@
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/NET/c4dm/event.owl#Event</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">
+		An arbitrary classification of a space/time region, by a 
+		cognitive agent. An event may have actively participating agents,
+		passive factors, products, and a location in space/time.
+		</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/NET/c4dm/event.owl#Event</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://purl.org/NET/c4dm/event.owl#Event</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://purl.org/NET/c4dm/event.owl#sub_event</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">
 		This property provides a way to split a complex event (for example, a performance involving several 
@@ -2833,6 +2852,41 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
         <IRI>http://purl.org/NET/c4dm/event.owl#sub_event</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#AbstractInterval</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">
+	An interval defined on an abstract time-line.
+    </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#AbstractInterval</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">abstract interval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#AbstractInterval</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">
+    	Abstract time lines may be used as a backbone for Score, Works, ... 
+	This allows for TimeLine maps to relate works to a given 
+	performance (this part was played at this time).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">abstract timeline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://purl.org/NET/c4dm/timeline.owl#AbstractTimeLine</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">stable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -3337,8 +3391,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://purl.org/ontology/temperament/Interval</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Describes the relationship between the 
-	pitches of two notes or pitch classes.</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Describes the relationship between the pitches of two notes or pitch classes.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3356,9 +3409,19 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">abbreviation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_0c0f2f79_ebdb_4651_b205_fa2143315c38</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A pitch interval which is equal to 9 Holderian commas, i.e. (approximately) a semi-tone.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_0c0f2f79_ebdb_4651_b205_fa2143315c38</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tanini</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Arıza</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3396,6 +3459,11 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DottedThirtySecondStroke</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The names of the strokes that constitute the usuls in Turkish-Ottoman makam music.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Darbİsmi</Literal>
@@ -3411,14 +3479,29 @@
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Vuruşİsmi</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_451dabf8_1681_4835_bbf3_0a1a1b63af38</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A pitch interval which is equal to 8 Holderian commas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_451dabf8_1681_4835_bbf3_0a1a1b63af38</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Büyük Mücennep</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_51c856fd_96ea_479f_adea_14e07c536901</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The accidental symbols used in Eurogenetic musics. The list includes the quarter tone symbols used in Tartini-Cooper notation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_51c856fd_96ea_479f_adea_14e07c536901</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EurogeneticAccidental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_52f146e4_7da4_4ae5_b0be_0fba65fcd06d</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A pitch interval which is equal to 4 Holderian commas.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3446,9 +3529,19 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Phrase</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_73acd0af_2f99_4951_9d40_bfcc8842cbc0</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The traditional note names used in Turkish folk music.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_73acd0af_2f99_4951_9d40_bfcc8842cbc0</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">FolkNoteName</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The letters representing the 7 basic pitch classes (i.e. the diatonic pitch classes forming the C major scale, &quot;white notes&quot;) in Eurogenetic musics.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3476,6 +3569,11 @@
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Yapı</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_92025319_8401_469d_a440_f2e0480f3d2a</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The note names defined according to 53 tone equal temperament.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_92025319_8401_469d_a440_f2e0480f3d2a</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">53TETNoteName</Literal>
@@ -3496,14 +3594,29 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ThirtySecondStroke</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_a2eefe41_6440_40bc_9d61_917f175be3c4</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The accidental symbols used in Turkish folk music.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_a2eefe41_6440_40bc_9d61_917f175be3c4</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">FolkAccidental</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The accidental symbols used in classical Turkish-Ottoman makam music.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_a8cf72a2_5de0_4e19_b897_e8dca50b8323</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ClassicalAccidental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_aad6f6a2_d4e8_4c92_a373_40ceb0d1dbbe</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A pitch interval which is equal to 1 Holderian comma.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3521,6 +3634,11 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">QuarterStroke</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_bcdcb05e_d136_4aa0_82f4_b41ecb4134d0</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The note names used in Eurogenetic musics, including microtonal notes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_bcdcb05e_d136_4aa0_82f4_b41ecb4134d0</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EurogeneticNote</Literal>
@@ -3536,9 +3654,19 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DottedQuarterStroke</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481</IRI>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Notaİsmi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">NoteName</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_d3fa3a46_919c_4146_9a80_9a877219bb50</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The traditional note names used in classical Ottoman-Turkish makam music.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3556,6 +3684,11 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DottedHalfStroke</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_d55f406f_8174_4cb7_b1a6_5343b4fe96c7</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A pitch interval which is equal to 5 Holderian commas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_d55f406f_8174_4cb7_b1a6_5343b4fe96c7</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Küçük Müneccep</Literal>
@@ -3569,6 +3702,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_de502fe9_6af8_46d9_8f2f_0d27a4da88da</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DottedLongaStroke</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_e3973721_9e18_4948_abfa_bcbd835ac1cd</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A pitch interval which is equal to 12 or 13 Holderian commas.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
