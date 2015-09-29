@@ -92,6 +92,9 @@
         <ObjectProperty IRI="http://purl.org/ontology/mo/member"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_38ee55cf_5901_4fc9_b870_de6f01258f45"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_63abfab8_5572_4154_a212_9df4edbd4a3d"/>
     </Declaration>
     <Declaration>
@@ -204,6 +207,10 @@
         <Class IRI="http://purl.org/ontology/mo/Instrument"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/event.owl#Event"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#ContinuousTimeLine"/>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#DiscreteTimeLine"/>
     </DisjointClasses>
@@ -216,12 +223,20 @@
         <Class IRI="http://purl.org/ontology/mo/Recording"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#Interval"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#TimeLine"/>
         <Class IRI="http://purl.org/ontology/mo/Instrument"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#TimeLine"/>
         <Class IRI="http://purl.org/ontology/mo/Recording"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#TimeLine"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/ontology/mo/Instrument"/>
@@ -290,6 +305,10 @@
     <DisjointClasses>
         <Class IRI="http://purl.org/ontology/mo/Instrument"/>
         <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-symbolic-music#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/mo/Instrument"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/ontology/mo/Instrument"/>
@@ -365,10 +384,74 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/ontology/mo/Recording"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/mo/Recording"/>
         <Class IRI="#OWLNamedIndividual_cf826a3d_451e_4daf_9ba9_70fa516205ff"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/ontology/mo/Recording"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/symbolic-music/Timbre"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://schema.org/Place"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_2659543b_454e_4d99_a5b2_a5ca3257c196"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_394a980e_fa97_4951_b9b4_21e270f87d85"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_986b0e94_6bb0_4c66_93a0_a0e3d35b00e9"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_bdc9f772_a838_4f7d_9327_3bac0b60b35c"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-score#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-symbolic-music#OWLClass_4006b363_bd03_4e2a_aea2_b95f6ec9a39b"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-symbolic-music#OWLClass_758ca769_2ac0_4b34_86ad_07445194f327"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam-symbolic-music#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
+        <Class IRI="#OWLNamedIndividual_cf826a3d_451e_4daf_9ba9_70fa516205ff"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </DisjointClasses>
     <ClassAssertion>
@@ -448,6 +531,10 @@
         <Class IRI="http://purl.org/ontology/mo/MusicGroup"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_38ee55cf_5901_4fc9_b870_de6f01258f45"/>
+        <Class IRI="http://purl.org/ontology/mo/Performance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_63abfab8_5572_4154_a212_9df4edbd4a3d"/>
         <Class IRI="http://purl.org/ontology/mo/Performance"/>
     </ObjectPropertyDomain>
@@ -482,6 +569,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://purl.org/ontology/mo/member"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_38ee55cf_5901_4fc9_b870_de6f01258f45"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_63abfab8_5572_4154_a212_9df4edbd4a3d"/>
@@ -801,6 +892,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_f24a11a7_c0d6_485d_b83c_ccac1d2e8141</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tanbur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_38ee55cf_5901_4fc9_b870_de6f01258f45</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">transposition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
