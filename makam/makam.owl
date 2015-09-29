@@ -5413,11 +5413,11 @@
         <DataProperty IRI="#OWLDataProperty_7a4a2999_1403_4b5c_a58d_9a0f2a137b04"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;maxInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">300</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;minExclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;maxInclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">300</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -5425,11 +5425,11 @@
         <DataProperty IRI="#OWLDataProperty_8e5f0377_d510_4a2b_9581_3e73783d946a"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;maxInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">124</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;minExclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">1</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;maxInclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">124</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -5661,7 +5661,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OWLClass_2659543b_454e_4d99_a5b2_a5ca3257c196</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Used http://www.eksd.org.tr/turk_sanat_muzigi/turk_musikisinde_dizi_meydana_getirmeye_yarayan_ozel_dortlu_ve_besliler.php to accumulate the instances. Probably a better source is needed</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">A series of small intervals (&lt; whole tone) that span a greater interval such as a fourth. These chords are regarded as the basic building block of melodies in makam music.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5832,6 +5832,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_82365a5a_9386_48a9_a915_a6ba2bd6bdc6</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Kürthavası</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_858c1f05_8145_46d2_b2fd_e282cb29c0bc</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Explains the overall structure (melodic, rhytmic and compositonal) of a music.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -6012,6 +6017,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_bb3ee2bc_64e6_4358_a878_65a167a81184</IRI>
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">İniciÇıkıcıMakam</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_bdc9f772_a838_4f7d_9327_3bac0b60b35c</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Melodies, which are formed from chords and demonstrate performance characteristics of a makam.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
