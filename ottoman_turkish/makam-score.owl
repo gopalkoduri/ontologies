@@ -843,15 +843,15 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#Interval"/>
+        <Class IRI="http://purl.org/ontology/tonality/Scale"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#Interval"/>
         <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#Interval"/>
         <Class IRI="http://schema.org/Place"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#Interval"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#Interval"/>
@@ -915,15 +915,15 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#TimeLine"/>
+        <Class IRI="http://purl.org/ontology/tonality/Scale"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#TimeLine"/>
         <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#TimeLine"/>
         <Class IRI="http://schema.org/Place"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="http://purl.org/NET/c4dm/timeline.owl#TimeLine"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/NET/c4dm/timeline.owl#TimeLine"/>
@@ -999,15 +999,15 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/ontology/mo/Performance"/>
+        <Class IRI="http://purl.org/ontology/tonality/Scale"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/mo/Performance"/>
         <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/ontology/mo/Performance"/>
         <Class IRI="http://schema.org/Place"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="http://purl.org/ontology/mo/Performance"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/ontology/mo/Performance"/>
@@ -1074,12 +1074,24 @@
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/tonality/Scale"/>
         <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/tonality/Scale"/>
         <Class IRI="http://schema.org/Place"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/tonality/Scale"/>
+        <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/tonality/Scale"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
+        <Class IRI="http://schema.org/Place"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
@@ -1128,10 +1140,6 @@
     <DisjointClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="http://schema.org/Place"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://schema.org/Place"/>
@@ -1183,14 +1191,6 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://schema.org/Place"/>
-        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
-        <Class IRI="#OWLClassImpl_795ae384_84a6_4515_b343_1c3e4df32204"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
     </DisjointClasses>
     <DisjointClasses>

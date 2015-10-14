@@ -150,15 +150,15 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/ontology/mo/Instrument"/>
+        <Class IRI="http://purl.org/ontology/tonality/Scale"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/mo/Instrument"/>
         <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/ontology/mo/Instrument"/>
         <Class IRI="http://schema.org/Place"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="http://purl.org/ontology/mo/Instrument"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/ontology/mo/Instrument"/>
@@ -222,15 +222,15 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/ontology/mo/Recording"/>
+        <Class IRI="http://purl.org/ontology/tonality/Scale"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/mo/Recording"/>
         <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/ontology/mo/Recording"/>
         <Class IRI="http://schema.org/Place"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="http://purl.org/ontology/mo/Recording"/>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://purl.org/ontology/mo/Recording"/>
