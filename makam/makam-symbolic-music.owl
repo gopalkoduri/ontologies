@@ -2790,11 +2790,11 @@
         <DataProperty IRI="#OWLDataProperty_537fe052_1d2c_44ee_959a_8167e0fa5c8f"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-            <FacetRestriction facet="&xsd;maxInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">127</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;minInclusive">
                 <Literal datatypeIRI="&xsd;positiveInteger">0</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;maxInclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">127</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -2809,11 +2809,11 @@
         <DataProperty IRI="#OWLDataProperty_989ead94_771d_43e2_b31e_3c9e6ed35bf0"/>
         <DatatypeRestriction>
             <Datatype abbreviatedIRI="xsd:int"/>
-            <FacetRestriction facet="&xsd;maxInclusive">
-                <Literal datatypeIRI="&xsd;positiveInteger">10</Literal>
-            </FacetRestriction>
             <FacetRestriction facet="&xsd;minInclusive">
                 <Literal datatypeIRI="&xsd;negativeInteger">-1</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;maxInclusive">
+                <Literal datatypeIRI="&xsd;positiveInteger">10</Literal>
             </FacetRestriction>
         </DatatypeRestriction>
     </DataPropertyRange>
@@ -3424,6 +3424,11 @@
         <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Arıza</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Symbols which represent an alteration on pitch.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_0dc35c2b_1477_4ef9_8cbe_a6822be6f7c0</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Accidental</Literal>
@@ -3656,7 +3661,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OWLClass_c61e5f95_9f0d_41a1_b652_9d650f347481</IRI>
-        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Notaİsmi</Literal>
+        <Literal xml:lang="tr" datatypeIRI="&rdf;PlainLiteral">Perde</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
