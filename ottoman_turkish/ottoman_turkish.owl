@@ -128,6 +128,9 @@
         <DataProperty IRI="#OWLDataProperty_72118e85_746e_4b89_be38_19fc8f489891"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#OWLDataProperty_8184795a_b070_48f6_a759_5fc92ab09b76"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_f24a11a7_c0d6_485d_b83c_ccac1d2e8141"/>
     </Declaration>
     <SubClassOf>
@@ -399,15 +402,15 @@
         <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/tonality/Scale"/>
+        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="http://purl.org/vocab/frbr/core#Work"/>
         <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="http://schema.org/Place"/>
-        <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="http://www.semanticweb.org/sertansenturk/ontologies/2015/5/makam#OWLClass_190643be_2063_414e_bf04_fd1c93169987"/>
         <Class IRI="#OWLClass_70f8e0e0_9776_4316_9ab8_92f61449d980"/>
     </DisjointClasses>
     <DisjointClasses>
@@ -606,9 +609,25 @@
         <DataProperty IRI="#OWLDataProperty_72118e85_746e_4b89_be38_19fc8f489891"/>
         <Class IRI="http://purl.org/ontology/mo/Performance"/>
     </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_8184795a_b070_48f6_a759_5fc92ab09b76"/>
+        <Class IRI="http://purl.org/ontology/mo/Performance"/>
+    </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#OWLDataProperty_72118e85_746e_4b89_be38_19fc8f489891"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_8184795a_b070_48f6_a759_5fc92ab09b76"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:float"/>
+            <FacetRestriction facet="&xsd;minInclusive">
+                <Literal datatypeIRI="&xsd;float">20.0</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="&xsd;maxInclusive">
+                <Literal datatypeIRI="&xsd;float">20000.0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -887,6 +906,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLDataProperty_72118e85_746e_4b89_be38_19fc8f489891</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">performance date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_8184795a_b070_48f6_a759_5fc92ab09b76</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">tonicFrequency</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
