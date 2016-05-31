@@ -1,309 +1,254 @@
 <?xml version="1.0"?>
-
-
-<!DOCTYPE Ontology [
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-]>
-
-
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://www.compmusic.upf.edu/ontologies/raaga"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.compmusic.upf.edu/ontologies/raaga">
-    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="" IRI="http://www.compmusic.upf.edu/ontologies/raaga"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>http://www.co-ode.org/ontologies/lists/2008/09/11/list.owl</Import>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ontology for raaga, which is the melodic framework of Indian art music traditions.</Literal>
-    </Annotation>
+    <Import>http://purl.org/ontology/olo/core#</Import>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">గోపాలకృష్ణ కోడూరి</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">An ontology that describes raaga, which is the melodic framework for Indian art music traditions: Hindustani and Carnatic.</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gopala Krishna Koduri</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">0.01</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Gopala Krishna Koduri</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">0.01</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">భారత శాస్త్రీయ సంగీతంలో బాణీలు కట్టడంలో వాడే రాగం అనే విషయానికి అస్తిత్వ పత్రం.</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">భారత శాస్త్రీయ సంగీతంలో బాణీలు కట్టడంలో వాడే రాగం అనే విషయానికి అస్తిత్వ పత్రం.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An ontology that describes raaga, which is the melodic framework for Indian art music traditions: Hindustani and Carnatic.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">గోపాలకృష్ణ కోడూరి</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ontology for raaga, which is the melodic framework of Indian art music traditions.</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="#Audava_Audava_Raaga"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Audava_Progression"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Audava_Raaga"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Audava_Sampoorna_Raaga"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Audava_Shadava_Raaga"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#D"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#D1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#D2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#D3"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#G"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#G1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#G2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#G3"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Krama_Progression"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Krama_Raaga"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#M"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#M1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#M2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N3"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_1c5a84da_9c07_42d8_942c_a484f11b06c3"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_22071f5d_7383_4758_bbcf_3dcf34d6b075"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_3407d2c6_530d_47ef_8718_b5faab588f49"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_3dbe0763_23bb_4c49_874b_7636f8c1e4d0"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_586ad088_63e0_4755_ada1_c69850057e4e"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_5e342c79_f409_404f_8f53_dfc649924747"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_82740a9e_684a_4f19_9b7d_439c26b5e427"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_9f6dac85_2c8f_4867_9e12_fb91e88ff44f"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_b510f9e1_a5af_41a2_bbf9_842d5d661b48"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_edacd04e_9866_4e1e_a008_2589acc87011"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_f674f408_0498_407a_9429_72a50c4810d4"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_ffa3b47a_ef1d_44bf_a868_8a20a357083d"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#P"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Phrase"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#R"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#R1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#R2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#R3"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#S"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Sampoorna_Audava_Raaga"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Sampoorna_Progression"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Sampoorna_Raaga"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Sampoorna_Sampoorna_Raaga"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Sampoorna_Shadava_Raaga"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Shadava_Audava_Raaga"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Shadava_Progression"/>
+        <Class IRI="#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Shadava_Raaga"/>
+        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Shadava_Sampoorna_Raaga"/>
+        <Class IRI="#OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Shadava_Shadava_Raaga"/>
+        <Class IRI="#Audava_Shadava_Raaga"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Vakra_Progression"/>
+        <Class IRI="#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Vakra_Raaga"/>
+        <Class IRI="#Audava_Raaga"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_1a81d57e_47e4_4646_819e_7f491f6fd43c"/>
+        <Class IRI="#Natural_Svaras"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434"/>
+        <Class IRI="#OWLClass_9f6dac85_2c8f_4867_9e12_fb91e88ff44f"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711"/>
+        <Class IRI="#OWLClass_edacd04e_9866_4e1e_a008_2589acc87011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sampoorna_Raaga"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_c7920ecf_d794_4888_942a_67bf627ceeb3"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Audava_Sampoorna_Raaga"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasArohana"/>
+        <Class IRI="#Shadava_Progression"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasAvarohana"/>
+        <Class IRI="#OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isArohanaOf"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isAvarohanaOf"/>
+        <DataProperty IRI="#OWLDataProperty_4a9f62ef_1da8_48af_b4eb_1208fc40b418"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#OWLDataProperty_4a9f62ef_1da8_48af_b4eb_1208fc40b418"/>
+        <Class IRI="#OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_22071f5d_7383_4758_bbcf_3dcf34d6b075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_586ad088_63e0_4755_ada1_c69850057e4e"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sampoorna_Progression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ffa3b47a_ef1d_44bf_a868_8a20a357083d"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_25b46ac4_f7de_42b2_b9aa_af73f247dd59"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#isAvarohanaOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasArohana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shadava_Shadava_Raaga"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_5354d015_3830_42a5_a8c4_2459751b370c"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_5e1910c5_22e0_4848_8c25_b6c9a57619cb"/>
+        <Class IRI="#OWLClass_3dbe0763_23bb_4c49_874b_7636f8c1e4d0"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_89d2df72_83fd_4121_b2e1_93d9b20a98c5"/>
+        <Class IRI="#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_99fe8f7c_402f_4b98_8d3a_446900e67429"/>
+        <Class IRI="#Vakra_Progression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sampoorna_Shadava_Raaga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shadava_Sampoorna_Raaga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shadava_Raaga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sampoorna_Audava_Raaga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Audava_Progression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vakra_Raaga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_da268e86_e549_4cf8_82f8_3f5c0946f767"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_f674f408_0498_407a_9429_72a50c4810d4"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_b6ea1839_8259_415a_8e74_7ae19cfed232"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasAvarohana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phrase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Audava_Audava_Raaga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_82740a9e_684a_4f19_9b7d_439c26b5e427"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_b510f9e1_a5af_41a2_bbf9_842d5d661b48"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_d3899e4f_f12f_4a15_b1d3_1cfe06256371"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_da268e86_e549_4cf8_82f8_3f5c0946f767"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_89d2df72_83fd_4121_b2e1_93d9b20a98c5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_5e342c79_f409_404f_8f53_dfc649924747"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_5e1910c5_22e0_4848_8c25_b6c9a57619cb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sampoorna_Sampoorna_Raaga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_99fe8f7c_402f_4b98_8d3a_446900e67429"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_1a81d57e_47e4_4646_819e_7f491f6fd43c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_3407d2c6_530d_47ef_8718_b5faab588f49"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Krama_Raaga"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vivadi_Svaras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_1c5a84da_9c07_42d8_942c_a484f11b06c3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/list.owl#hasContents"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="#Audava_Audava_Raaga"/>
@@ -326,38 +271,6 @@
         </ObjectMinCardinality>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#D"/>
-        <Class IRI="#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#D1"/>
-        <Class IRI="#OWLClass_5e342c79_f409_404f_8f53_dfc649924747"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#D2"/>
-        <Class IRI="#OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#D3"/>
-        <Class IRI="#OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#G"/>
-        <Class IRI="#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#G1"/>
-        <Class IRI="#OWLClass_82740a9e_684a_4f19_9b7d_439c26b5e427"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#G2"/>
-        <Class IRI="#OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#G3"/>
-        <Class IRI="#OWLClass_586ad088_63e0_4755_ada1_c69850057e4e"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#Krama_Raaga"/>
         <ObjectIntersectionOf>
             <ObjectMinCardinality cardinality="2">
@@ -371,63 +284,11 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#M"/>
-        <Class IRI="#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#M1"/>
-        <Class IRI="#OWLClass_3dbe0763_23bb_4c49_874b_7636f8c1e4d0"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#M2"/>
-        <Class IRI="#OWLClass_22071f5d_7383_4758_bbcf_3dcf34d6b075"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#N"/>
-        <Class IRI="#OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#N1"/>
-        <Class IRI="#OWLClass_1c5a84da_9c07_42d8_942c_a484f11b06c3"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#N2"/>
-        <Class IRI="#OWLClass_9f6dac85_2c8f_4867_9e12_fb91e88ff44f"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#N3"/>
-        <Class IRI="#OWLClass_3407d2c6_530d_47ef_8718_b5faab588f49"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639"/>
-        <Class IRI="#R3"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2"/>
-        <Class IRI="#R"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52"/>
-        <Class IRI="#R2"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb"/>
-        <Class IRI="#P"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1"/>
             <Class IRI="#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e"/>
         </ObjectSomeValuesFrom>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClass_edacd04e_9866_4e1e_a008_2589acc87011"/>
-        <Class IRI="#R1"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#OWLClass_f674f408_0498_407a_9429_72a50c4810d4"/>
-        <Class IRI="#S"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#Sampoorna_Raaga"/>
@@ -505,38 +366,6 @@
         <Class IRI="#Shadava_Raaga"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#D"/>
-        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#D1"/>
-        <Class IRI="#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#D2"/>
-        <Class IRI="#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#D3"/>
-        <Class IRI="#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#G"/>
-        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#G1"/>
-        <Class IRI="#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#G2"/>
-        <Class IRI="#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#G3"/>
-        <Class IRI="#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Krama_Progression"/>
         <Class IRI="#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5"/>
     </SubClassOf>
@@ -545,32 +374,8 @@
         <Class IRI="#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#M"/>
+        <Class IRI="#Natural_Svaras"/>
         <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#M1"/>
-        <Class IRI="#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#M2"/>
-        <Class IRI="#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#N"/>
-        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#N1"/>
-        <Class IRI="#OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#N2"/>
-        <Class IRI="#OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#N3"/>
-        <Class IRI="#OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420"/>
@@ -581,12 +386,24 @@
         <Class IRI="#OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_1c5a84da_9c07_42d8_942c_a484f11b06c3"/>
+        <Class IRI="#Vivadi_Svaras"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_22071f5d_7383_4758_bbcf_3dcf34d6b075"/>
         <Class IRI="#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd"/>
+        <Class IRI="#Natural_Svaras"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd"/>
         <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_3407d2c6_530d_47ef_8718_b5faab588f49"/>
+        <Class IRI="#Natural_Svaras"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_3407d2c6_530d_47ef_8718_b5faab588f49"/>
@@ -598,7 +415,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_586ad088_63e0_4755_ada1_c69850057e4e"/>
+        <Class IRI="#Natural_Svaras"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_586ad088_63e0_4755_ada1_c69850057e4e"/>
         <Class IRI="#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_5e342c79_f409_404f_8f53_dfc649924747"/>
+        <Class IRI="#Natural_Svaras"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_5e342c79_f409_404f_8f53_dfc649924747"/>
@@ -609,16 +434,36 @@
         <Class IRI="#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639"/>
+        <Class IRI="#Vivadi_Svaras"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9"/>
         <Class IRI="#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9"/>
+        <Class IRI="#Vivadi_Svaras"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_82740a9e_684a_4f19_9b7d_439c26b5e427"/>
         <Class IRI="#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OWLClass_82740a9e_684a_4f19_9b7d_439c26b5e427"/>
+        <Class IRI="#Vivadi_Svaras"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9"/>
+        <Class IRI="#Natural_Svaras"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9"/>
         <Class IRI="#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_9f6dac85_2c8f_4867_9e12_fb91e88ff44f"/>
+        <Class IRI="#Natural_Svaras"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_9f6dac85_2c8f_4867_9e12_fb91e88ff44f"/>
@@ -634,7 +479,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a"/>
+        <Class IRI="#Natural_Svaras"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a"/>
         <Class IRI="#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52"/>
+        <Class IRI="#Natural_Svaras"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52"/>
@@ -642,7 +495,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d"/>
-        <Class IRI="http://www.co-ode.org/ontologies/list.owl#OWLList"/>
+        <Class IRI="http://purl.org/ontology/olo/core#OrderedList"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb"/>
+        <Class IRI="#Natural_Svaras"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb"/>
@@ -654,7 +511,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5"/>
-        <Class IRI="http://www.co-ode.org/ontologies/list.owl#OWLList"/>
+        <Class IRI="http://purl.org/ontology/olo/core#OrderedList"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_edacd04e_9866_4e1e_a008_2589acc87011"/>
+        <Class IRI="#Natural_Svaras"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_edacd04e_9866_4e1e_a008_2589acc87011"/>
@@ -666,6 +527,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_f674f408_0498_407a_9429_72a50c4810d4"/>
+        <Class IRI="#Natural_Svaras"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_f674f408_0498_407a_9429_72a50c4810d4"/>
         <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
     </SubClassOf>
     <SubClassOf>
@@ -673,32 +538,8 @@
         <Class IRI="#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#P"/>
-        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Phrase"/>
-        <Class IRI="http://www.co-ode.org/ontologies/list.owl#OWLList"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#R"/>
-        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#R1"/>
-        <Class IRI="#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#R2"/>
-        <Class IRI="#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#R3"/>
-        <Class IRI="#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#S"/>
-        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
+        <Class IRI="http://purl.org/ontology/olo/core#OrderedList"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sampoorna_Audava_Raaga"/>
@@ -764,14 +605,33 @@
         <Class IRI="#Vakra_Raaga"/>
         <Class IRI="#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vivadi_Svaras"/>
+        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://purl.org/ontology/olo/core#OrderedList"/>
+        <Class IRI="http://purl.org/ontology/olo/core#Slot"/>
+        <Class IRI="#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e"/>
+        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Natural_Svaras"/>
+        <Class IRI="#Vivadi_Svaras"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420"/>
+        <Class IRI="#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd"/>
+        <Class IRI="#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2"/>
+        <Class IRI="#OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb"/>
+        <Class IRI="#OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42"/>
+        <Class IRI="#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df"/>
+        <Class IRI="#OWLClass_f674f408_0498_407a_9429_72a50c4810d4"/>
+    </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#OWLClass_1c5a84da_9c07_42d8_942c_a484f11b06c3"/>
         <Class IRI="#OWLClass_3407d2c6_530d_47ef_8718_b5faab588f49"/>
         <Class IRI="#OWLClass_9f6dac85_2c8f_4867_9e12_fb91e88ff44f"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#OWLClass_1c5a84da_9c07_42d8_942c_a484f11b06c3"/>
-        <Class IRI="#OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#OWLClass_22071f5d_7383_4758_bbcf_3dcf34d6b075"/>
@@ -789,23 +649,11 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639"/>
-        <Class IRI="#OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639"/>
         <Class IRI="#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639"/>
         <Class IRI="#OWLClass_edacd04e_9866_4e1e_a008_2589acc87011"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9"/>
-        <Class IRI="#OWLClass_9f6dac85_2c8f_4867_9e12_fb91e88ff44f"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#OWLClass_82740a9e_684a_4f19_9b7d_439c26b5e427"/>
-        <Class IRI="#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52"/>
@@ -864,20 +712,20 @@
         <ObjectProperty IRI="#OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_c7920ecf_d794_4888_942a_67bf627ceeb3"/>
         <ObjectProperty IRI="#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434"/>
+        <ObjectProperty IRI="#OWLObjectProperty_c7920ecf_d794_4888_942a_67bf627ceeb3"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711"/>
         <ObjectProperty IRI="#OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#isArohanaOf"/>
         <ObjectProperty IRI="#hasArohana"/>
+        <ObjectProperty IRI="#isArohanaOf"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#isAvarohanaOf"/>
         <ObjectProperty IRI="#hasAvarohana"/>
+        <ObjectProperty IRI="#isAvarohanaOf"/>
     </InverseObjectProperties>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_1a81d57e_47e4_4646_819e_7f491f6fd43c"/>
@@ -902,336 +750,378 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Daivata</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Daivata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">దైవతము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">దైవతము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_1c5a84da_9c07_42d8_942c_a484f11b06c3</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Suddha Nishada</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Suddha Nishada</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_1c5a84da_9c07_42d8_942c_a484f11b06c3</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">శుద్ద నిషాదము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">శుద్ద నిషాదము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_22071f5d_7383_4758_bbcf_3dcf34d6b075</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Prati Madhyama</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Prati Madhyama</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_22071f5d_7383_4758_bbcf_3dcf34d6b075</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">ప్రతి మధ్యమము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ప్రతి మధ్యమము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Madhyama</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Madhyama</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">మధ్యమము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">మధ్యమము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_3407d2c6_530d_47ef_8718_b5faab588f49</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Kakali Nishada</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kakali Nishada</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_3407d2c6_530d_47ef_8718_b5faab588f49</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">కాకలి నిషాదము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">కాకలి నిషాదము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_3dbe0763_23bb_4c49_874b_7636f8c1e4d0</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Suddha Madhyama</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Suddha Madhyama</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_3dbe0763_23bb_4c49_874b_7636f8c1e4d0</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">శుద్ద మధ్యమము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">శుద్ద మధ్యమము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Raaga</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Raaga</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">రాగము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">రాగము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_586ad088_63e0_4755_ada1_c69850057e4e</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Antara Gandhara</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Antara Gandhara</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_586ad088_63e0_4755_ada1_c69850057e4e</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">అంతర గాంధారము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">అంతర గాంధారము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_5e342c79_f409_404f_8f53_dfc649924747</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Suddha Daivata</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Suddha Daivata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_5e342c79_f409_404f_8f53_dfc649924747</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">శుద్ద దైవతము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">శుద్ద దైవతము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Satsruti Rishaba</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Satsruti Rishaba</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">షట్శ్రుతి రిషభము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">షట్శ్రుతి రిషభము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Satsruti Daivata</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Satsruti Daivata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">షట్శ్రుతి దైవతము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">షట్శ్రుతి దైవతము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_82740a9e_684a_4f19_9b7d_439c26b5e427</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Suddha Gandhara</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Suddha Gandhara</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_82740a9e_684a_4f19_9b7d_439c26b5e427</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">శుద్ద గాంధారము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">శుద్ద గాంధారము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sadharana Gandhara</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sadharana Gandhara</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">సాధారణ గాంధారము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">సాధారణ గాంధారము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Svara</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Svara</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">స్వరము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">స్వరము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_9f6dac85_2c8f_4867_9e12_fb91e88ff44f</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Kaisiki Nishada</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kaisiki Nishada</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_9f6dac85_2c8f_4867_9e12_fb91e88ff44f</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">కైసికి నిషాదము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">కైసికి నిషాదము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Rishaba</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Rishaba</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">రిషభము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">రిషభము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_b510f9e1_a5af_41a2_bbf9_842d5d661b48</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Melakarta_Raaga</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Melakarta_Raaga</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chatussruti Daivata</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Chatussruti Daivata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">చతుశ్రుతి దైవతము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">చతుశ్రుతి దైవతము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chatussruti Rishaba</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Chatussruti Rishaba</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">చతుశ్రుతి రిషభము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">చతుశ్రుతి రిషభము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Gamaka</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gamaka</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">గమకము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">గమకము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Panchama</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Panchama</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">పంచమము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">పంచమము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Nishada</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nishada</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">నిషాదము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">నిషాదము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Progression</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Progression</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">మూర్చన</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">మూర్చన</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_edacd04e_9866_4e1e_a008_2589acc87011</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Suddha Rishaba</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Suddha Rishaba</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_edacd04e_9866_4e1e_a008_2589acc87011</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">శుద్ద రిషభము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">శుద్ద రిషభము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Gandhara</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gandhara</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">గాంధారము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">గాంధారము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_f674f408_0498_407a_9429_72a50c4810d4</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Shadjama</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Shadjama</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_f674f408_0498_407a_9429_72a50c4810d4</IRI>
-        <Literal xml:lang="te" datatypeIRI="&rdf;PlainLiteral">షడ్జమము</Literal>
+        <Literal xml:lang="te" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">షడ్జమము</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLClass_ffa3b47a_ef1d_44bf_a868_8a20a357083d</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Janya_Raaga</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Janya_Raaga</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLDataProperty_4a9f62ef_1da8_48af_b4eb_1208fc40b418</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasProperty</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasProperty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>#OWLNamedIndividual_25b46ac4_f7de_42b2_b9aa_af73f247dd59</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Upward glide. Also known as Etrajaaru in Tamil.
+
+This is known as a Meend in Hindustani. Starts from a svarasthana and reaches a higher svarasthana by gliding over the intermediate svarasthanas.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_25b46ac4_f7de_42b2_b9aa_af73f247dd59</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EtraJaaru</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">EguJaaru</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>#OWLNamedIndividual_5354d015_3830_42a5_a8c4_2459751b370c</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">While sliding down from one swara you leave the next swara and go to the 3rd one. Examples: 
+
+i) Ma Ri – Ma, ga, Ri; 
+ii) Sa, Ri - Sa Ga Ri;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_5354d015_3830_42a5_a8c4_2459751b370c</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Khandippu</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Khandimpu</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_5e1910c5_22e0_4848_8c25_b6c9a57619cb</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Jantai</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Janta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>#OWLNamedIndividual_89d2df72_83fd_4121_b2e1_93d9b20a98c5</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">In Janta Arohana swaras like SS-RR- 3/4 time of the Swara should be in the earlier note and then the 2nd note should be pressed. This is called sphuritam. i.e. in SS-SNS should be heard.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_89d2df72_83fd_4121_b2e1_93d9b20a98c5</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sphuritam</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sphuritam</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>#OWLNamedIndividual_99fe8f7c_402f_4b98_8d3a_446900e67429</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Also known as Orikai in Tamil. Sliding from one higher note to the lower note in such a way that the higher notes are touched and are heard. While playing Sa, Ni, Dha, the higher note is heard in the lower notes. Sign given is V</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_99fe8f7c_402f_4b98_8d3a_446900e67429</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Orikai</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Orayika</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>#OWLNamedIndividual_b6ea1839_8259_415a_8e74_7ae19cfed232</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Downward glide. Also known as Irakkajaaru in Tamil.
+
+This is known as a Meend in Hindustani. Starts from a svarasthana and reaches a lower svarasthana by gliding over the intermediate svarasthanas.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_b6ea1839_8259_415a_8e74_7ae19cfed232</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">IrakkaJaaru</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DiguJaaru</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>#OWLNamedIndividual_d3899e4f_f12f_4a15_b1d3_1cfe06256371</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Shaking or vibrating. Vibrating the swara slightly without losing its nature.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_d3899e4f_f12f_4a15_b1d3_1cfe06256371</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Kampita</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Kampita</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>#OWLNamedIndividual_da268e86_e549_4cf8_82f8_3f5c0946f767</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">To produce 2 or 3 adjacent swaras in one swara. For example producing Gandharam in Rishabam. This can be very vividly shown on Veena.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLNamedIndividual_da268e86_e549_4cf8_82f8_3f5c0946f767</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Odukkal</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Odigimpu</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_1a81d57e_47e4_4646_819e_7f491f6fd43c</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasJanyaRaaga</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasJanyaRaaga</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasSvara</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasSvara</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasProgression</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasProgression</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_c7920ecf_d794_4888_942a_67bf627ceeb3</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isSvaraOf</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isSvaraOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isProgressionOf</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isProgressionOf</Literal>
     </AnnotationAssertion>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
 
