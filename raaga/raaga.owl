@@ -7,6 +7,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.compmusic.upf.edu/ontologies/raaga">
     <Prefix name="" IRI="http://www.compmusic.upf.edu/ontologies/raaga"/>
+    <Prefix name="olo" IRI="http://purl.org/ontology/olo/core#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -44,22 +45,25 @@
         <Class IRI="#Shadava_Audava_Raaga"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb"/>
+        <NamedIndividual IRI="#D3"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Audava_Raaga"/>
+        <Class IRI="#OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Audava_Shadava_Raaga"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Audava_Raaga"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Natural_Svaras"/>
@@ -74,10 +78,13 @@
         <Class IRI="#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#N2"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Sampoorna_Raaga"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_c7920ecf_d794_4888_942a_67bf627ceeb3"/>
+        <NamedIndividual IRI="#R2"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Audava_Sampoorna_Raaga"/>
@@ -86,10 +93,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9"/>
+        <Class IRI="#Shadava_Progression"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Shadava_Progression"/>
+        <Class IRI="#OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isArohanaOf"/>
@@ -104,10 +111,16 @@
         <Class IRI="#OWLClass_22071f5d_7383_4758_bbcf_3dcf34d6b075"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_586ad088_63e0_4755_ada1_c69850057e4e"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_586ad088_63e0_4755_ada1_c69850057e4e"/>
+        <NamedIndividual IRI="#S"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arohana"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639"/>
@@ -116,7 +129,13 @@
         <Class IRI="#Sampoorna_Progression"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#M1"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R3"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df"/>
@@ -128,13 +147,16 @@
         <NamedIndividual IRI="#OWLNamedIndividual_25b46ac4_f7de_42b2_b9aa_af73f247dd59"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#G1"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#isAvarohanaOf"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Shadava_Shadava_Raaga"/>
+        <ObjectProperty IRI="#hasArohana"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasArohana"/>
+        <Class IRI="#Shadava_Shadava_Raaga"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_5354d015_3830_42a5_a8c4_2459751b370c"/>
@@ -143,10 +165,19 @@
         <Class IRI="#OWLClass_3dbe0763_23bb_4c49_874b_7636f8c1e4d0"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#N3"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Vakra_Progression"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Sampoorna_Shadava_Raaga"/>
@@ -164,16 +195,22 @@
         <Class IRI="#Audava_Progression"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_da268e86_e549_4cf8_82f8_3f5c0946f767"/>
+        <Class IRI="#Vakra_Raaga"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Vakra_Raaga"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_da268e86_e549_4cf8_82f8_3f5c0946f767"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_f674f408_0498_407a_9429_72a50c4810d4"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Avarohana"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_b6ea1839_8259_415a_8e74_7ae19cfed232"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPrevSvara"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasAvarohana"/>
@@ -182,13 +219,16 @@
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#G2"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Phrase"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9"/>
+        <Class IRI="#Audava_Audava_Raaga"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Audava_Audava_Raaga"/>
+        <Class IRI="#OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434"/>
@@ -200,7 +240,13 @@
         <Class IRI="#OWLClass_b510f9e1_a5af_41a2_bbf9_842d5d661b48"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#has_item"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_d3899e4f_f12f_4a15_b1d3_1cfe06256371"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M2"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_89d2df72_83fd_4121_b2e1_93d9b20a98c5"/>
@@ -209,13 +255,19 @@
         <Class IRI="#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty abbreviatedIRI="olo:next"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OWLClass_5e342c79_f409_404f_8f53_dfc649924747"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D2"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.co-ode.org/ontologies/list.owl#hasContents"/>
+        <NamedIndividual IRI="#N1"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_5e1910c5_22e0_4848_8c25_b6c9a57619cb"/>
@@ -224,16 +276,25 @@
         <Class IRI="#Sampoorna_Sampoorna_Raaga"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_1a81d57e_47e4_4646_819e_7f491f6fd43c"/>
+        <ObjectProperty IRI="#hasNextSvara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R1"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_99fe8f7c_402f_4b98_8d3a_446900e67429"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_1a81d57e_47e4_4646_819e_7f491f6fd43c"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_3407d2c6_530d_47ef_8718_b5faab588f49"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Krama_Raaga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#G3"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711"/>
@@ -294,6 +355,15 @@
                 <ObjectProperty IRI="#hasAvarohana"/>
                 <Class IRI="#Shadava_Progression"/>
             </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Krama_Progression"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5"/>
+            <ObjectComplementOf>
+                <Class IRI="#Vakra_Progression"/>
+            </ObjectComplementOf>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -410,6 +480,10 @@
         </ObjectMinCardinality>
     </EquivalentClasses>
     <SubClassOf>
+        <Class IRI="#Arohana"/>
+        <Class IRI="#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Audava_Audava_Raaga"/>
         <Class IRI="#Audava_Raaga"/>
     </SubClassOf>
@@ -436,6 +510,10 @@
     <SubClassOf>
         <Class IRI="#Audava_Shadava_Raaga"/>
         <Class IRI="#Shadava_Raaga"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avarohana"/>
+        <Class IRI="#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Krama_Progression"/>
@@ -566,10 +644,6 @@
         <Class IRI="#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d"/>
-        <Class IRI="http://purl.org/ontology/olo/core#OrderedList"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb"/>
         <Class IRI="#Natural_Svaras"/>
     </SubClassOf>
@@ -583,7 +657,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5"/>
-        <Class IRI="http://purl.org/ontology/olo/core#OrderedList"/>
+        <Class abbreviatedIRI="olo:OrderedList"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OWLClass_edacd04e_9866_4e1e_a008_2589acc87011"/>
@@ -611,7 +685,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Phrase"/>
-        <Class IRI="http://purl.org/ontology/olo/core#OrderedList"/>
+        <Class abbreviatedIRI="olo:OrderedList"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sampoorna_Audava_Raaga"/>
@@ -682,8 +756,8 @@
         <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
     </SubClassOf>
     <DisjointClasses>
-        <Class IRI="http://purl.org/ontology/olo/core#OrderedList"/>
-        <Class IRI="http://purl.org/ontology/olo/core#Slot"/>
+        <Class abbreviatedIRI="olo:OrderedList"/>
+        <Class abbreviatedIRI="olo:Slot"/>
         <Class IRI="#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e"/>
         <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
     </DisjointClasses>
@@ -740,6 +814,50 @@
         <Class IRI="#OWLClass_edacd04e_9866_4e1e_a008_2589acc87011"/>
     </DisjointClasses>
     <ClassAssertion>
+        <Class IRI="#OWLClass_5e342c79_f409_404f_8f53_dfc649924747"/>
+        <NamedIndividual IRI="#D1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a"/>
+        <NamedIndividual IRI="#D2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9"/>
+        <NamedIndividual IRI="#D3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_82740a9e_684a_4f19_9b7d_439c26b5e427"/>
+        <NamedIndividual IRI="#G1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9"/>
+        <NamedIndividual IRI="#G2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_586ad088_63e0_4755_ada1_c69850057e4e"/>
+        <NamedIndividual IRI="#G3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_3dbe0763_23bb_4c49_874b_7636f8c1e4d0"/>
+        <NamedIndividual IRI="#M1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_22071f5d_7383_4758_bbcf_3dcf34d6b075"/>
+        <NamedIndividual IRI="#M2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_1c5a84da_9c07_42d8_942c_a484f11b06c3"/>
+        <NamedIndividual IRI="#N1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_9f6dac85_2c8f_4867_9e12_fb91e88ff44f"/>
+        <NamedIndividual IRI="#N2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_3407d2c6_530d_47ef_8718_b5faab588f49"/>
+        <NamedIndividual IRI="#N3"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d"/>
         <NamedIndividual IRI="#OWLNamedIndividual_25b46ac4_f7de_42b2_b9aa_af73f247dd59"/>
     </ClassAssertion>
@@ -771,10 +889,26 @@
         <Class IRI="#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d"/>
         <NamedIndividual IRI="#OWLNamedIndividual_da268e86_e549_4cf8_82f8_3f5c0946f767"/>
     </ClassAssertion>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434"/>
-        <ObjectProperty IRI="http://www.co-ode.org/ontologies/list.owl#hasContents"/>
-    </SubObjectPropertyOf>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb"/>
+        <NamedIndividual IRI="#P"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_edacd04e_9866_4e1e_a008_2589acc87011"/>
+        <NamedIndividual IRI="#R1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52"/>
+        <NamedIndividual IRI="#R2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639"/>
+        <NamedIndividual IRI="#R3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_f674f408_0498_407a_9429_72a50c4810d4"/>
+        <NamedIndividual IRI="#S"/>
+    </ClassAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasArohana"/>
         <ObjectProperty IRI="#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711"/>
@@ -792,10 +926,6 @@
         <ObjectProperty IRI="#OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434"/>
-        <ObjectProperty IRI="#OWLObjectProperty_c7920ecf_d794_4888_942a_67bf627ceeb3"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
         <ObjectProperty IRI="#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711"/>
         <ObjectProperty IRI="#OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1"/>
     </InverseObjectProperties>
@@ -807,22 +937,86 @@
         <ObjectProperty IRI="#hasAvarohana"/>
         <ObjectProperty IRI="#isAvarohanaOf"/>
     </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasArohana"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasAvarohana"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#OWLObjectProperty_1a81d57e_47e4_4646_819e_7f491f6fd43c"/>
+    </InverseFunctionalObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_1a81d57e_47e4_4646_819e_7f491f6fd43c"/>
         <Class IRI="#OWLClass_b510f9e1_a5af_41a2_bbf9_842d5d661b48"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434"/>
-        <Class IRI="#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5"/>
+        <Class abbreviatedIRI="olo:OrderedList"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711"/>
         <Class IRI="#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNextSvara"/>
+        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrevSvara"/>
+        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_item"/>
+        <Class abbreviatedIRI="olo:Slot"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#OWLObjectProperty_1a81d57e_47e4_4646_819e_7f491f6fd43c"/>
         <Class IRI="#OWLClass_ffa3b47a_ef1d_44bf_a868_8a20a357083d"/>
     </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434"/>
+        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNextSvara"/>
+        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPrevSvara"/>
+        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_item"/>
+        <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty abbreviatedIRI="olo:slot"/>
+            <ObjectProperty IRI="#has_item"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#has_item"/>
+            </ObjectInverseOf>
+            <ObjectProperty abbreviatedIRI="olo:next"/>
+            <ObjectProperty IRI="#has_item"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#hasNextSvara"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#has_item"/>
+            </ObjectInverseOf>
+            <ObjectProperty abbreviatedIRI="olo:previous"/>
+            <ObjectProperty IRI="#has_item"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#hasPrevSvara"/>
+    </SubObjectPropertyOf>
     <DataPropertyRange>
         <DataProperty IRI="#OWLDataProperty_4a9f62ef_1da8_48af_b4eb_1208fc40b418"/>
         <Datatype abbreviatedIRI="xsd:string"/>
@@ -1188,11 +1382,6 @@ This is known as a Meend in Hindustani. Starts from a svarasthana and reaches a 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasProgression</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#OWLObjectProperty_c7920ecf_d794_4888_942a_67bf627ceeb3</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isSvaraOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
