@@ -44,22 +44,22 @@
         <Class IRI="#Shadava_Audava_Raaga"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Audava_Raaga"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Audava_Shadava_Raaga"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Audava_Raaga"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Natural_Svaras"/>
@@ -86,10 +86,10 @@
         <ObjectProperty IRI="#OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Shadava_Progression"/>
+        <Class IRI="#OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9"/>
+        <Class IRI="#Shadava_Progression"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isArohanaOf"/>
@@ -104,16 +104,19 @@
         <Class IRI="#OWLClass_22071f5d_7383_4758_bbcf_3dcf34d6b075"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_586ad088_63e0_4755_ada1_c69850057e4e"/>
+        <Class IRI="#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd"/>
+        <Class IRI="#OWLClass_586ad088_63e0_4755_ada1_c69850057e4e"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Sampoorna_Progression"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df"/>
@@ -128,10 +131,10 @@
         <ObjectProperty IRI="#isAvarohanaOf"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasArohana"/>
+        <Class IRI="#Shadava_Shadava_Raaga"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Shadava_Shadava_Raaga"/>
+        <ObjectProperty IRI="#hasArohana"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_5354d015_3830_42a5_a8c4_2459751b370c"/>
@@ -161,10 +164,10 @@
         <Class IRI="#Audava_Progression"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Vakra_Raaga"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_da268e86_e549_4cf8_82f8_3f5c0946f767"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_da268e86_e549_4cf8_82f8_3f5c0946f767"/>
+        <Class IRI="#Vakra_Raaga"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_f674f408_0498_407a_9429_72a50c4810d4"/>
@@ -176,13 +179,16 @@
         <ObjectProperty IRI="#hasAvarohana"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Phrase"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Audava_Audava_Raaga"/>
+        <Class IRI="#OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9"/>
+        <Class IRI="#Audava_Audava_Raaga"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434"/>
@@ -209,16 +215,19 @@
         <Class IRI="#OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/list.owl#hasContents"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#OWLNamedIndividual_5e1910c5_22e0_4848_8c25_b6c9a57619cb"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Sampoorna_Sampoorna_Raaga"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OWLNamedIndividual_99fe8f7c_402f_4b98_8d3a_446900e67429"/>
+        <ObjectProperty IRI="#OWLObjectProperty_1a81d57e_47e4_4646_819e_7f491f6fd43c"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#OWLObjectProperty_1a81d57e_47e4_4646_819e_7f491f6fd43c"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_99fe8f7c_402f_4b98_8d3a_446900e67429"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OWLClass_3407d2c6_530d_47ef_8718_b5faab588f49"/>
@@ -241,26 +250,17 @@
     <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
     </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://www.co-ode.org/ontologies/list.owl#hasContents"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
-    </Declaration>
     <EquivalentClasses>
         <Class IRI="#Audava_Audava_Raaga"/>
         <ObjectIntersectionOf>
-            <ObjectMinCardinality cardinality="2">
-                <ObjectProperty IRI="#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711"/>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasArohana"/>
                 <Class IRI="#Audava_Progression"/>
-            </ObjectMinCardinality>
-            <ObjectMaxCardinality cardinality="2">
-                <ObjectProperty IRI="#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasAvarohana"/>
                 <Class IRI="#Audava_Progression"/>
-            </ObjectMaxCardinality>
+            </ObjectExactCardinality>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -271,17 +271,37 @@
         </ObjectMinCardinality>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#Krama_Raaga"/>
+        <Class IRI="#Audava_Sampoorna_Raaga"/>
         <ObjectIntersectionOf>
-            <ObjectMinCardinality cardinality="2">
-                <ObjectProperty IRI="#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711"/>
-                <Class IRI="#Krama_Progression"/>
-            </ObjectMinCardinality>
-            <ObjectMaxCardinality cardinality="2">
-                <ObjectProperty IRI="#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711"/>
-                <Class IRI="#Krama_Progression"/>
-            </ObjectMaxCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasArohana"/>
+                <Class IRI="#Audava_Progression"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasAvarohana"/>
+                <Class IRI="#Sampoorna_Progression"/>
+            </ObjectExactCardinality>
         </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Audava_Shadava_Raaga"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasArohana"/>
+                <Class IRI="#Audava_Progression"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasAvarohana"/>
+                <Class IRI="#Shadava_Progression"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Krama_Raaga"/>
+        <ObjectExactCardinality cardinality="2">
+            <ObjectProperty IRI="#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711"/>
+            <Class IRI="#Krama_Progression"/>
+        </ObjectExactCardinality>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5"/>
@@ -289,6 +309,19 @@
             <ObjectProperty IRI="#OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1"/>
             <Class IRI="#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e"/>
         </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Sampoorna_Audava_Raaga"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasArohana"/>
+                <Class IRI="#Sampoorna_Progression"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasAvarohana"/>
+                <Class IRI="#Audava_Progression"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#Sampoorna_Raaga"/>
@@ -300,14 +333,40 @@
     <EquivalentClasses>
         <Class IRI="#Sampoorna_Sampoorna_Raaga"/>
         <ObjectIntersectionOf>
-            <ObjectMinCardinality cardinality="2">
-                <ObjectProperty IRI="#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711"/>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasArohana"/>
                 <Class IRI="#Sampoorna_Progression"/>
-            </ObjectMinCardinality>
-            <ObjectMaxCardinality cardinality="2">
-                <ObjectProperty IRI="#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasAvarohana"/>
                 <Class IRI="#Sampoorna_Progression"/>
-            </ObjectMaxCardinality>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Sampoorna_Shadava_Raaga"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasArohana"/>
+                <Class IRI="#Sampoorna_Progression"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasAvarohana"/>
+                <Class IRI="#Shadava_Progression"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Shadava_Audava_Raaga"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasArohana"/>
+                <Class IRI="#Shadava_Progression"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasAvarohana"/>
+                <Class IRI="#Audava_Progression"/>
+            </ObjectExactCardinality>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -318,16 +377,29 @@
         </ObjectMinCardinality>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="#Shadava_Sampoorna_Raaga"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasArohana"/>
+                <Class IRI="#Shadava_Progression"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasAvarohana"/>
+                <Class IRI="#Sampoorna_Progression"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#Shadava_Shadava_Raaga"/>
         <ObjectIntersectionOf>
-            <ObjectMinCardinality cardinality="2">
-                <ObjectProperty IRI="#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711"/>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasArohana"/>
                 <Class IRI="#Shadava_Progression"/>
-            </ObjectMinCardinality>
-            <ObjectMaxCardinality cardinality="2">
-                <ObjectProperty IRI="#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#hasAvarohana"/>
                 <Class IRI="#Shadava_Progression"/>
-            </ObjectMaxCardinality>
+            </ObjectExactCardinality>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -616,6 +688,10 @@
         <Class IRI="#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#Krama_Raaga"/>
+        <Class IRI="#Vakra_Raaga"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#Natural_Svaras"/>
         <Class IRI="#Vivadi_Svaras"/>
     </DisjointClasses>
@@ -654,6 +730,10 @@
     <DisjointClasses>
         <Class IRI="#OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639"/>
         <Class IRI="#OWLClass_edacd04e_9866_4e1e_a008_2589acc87011"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_b510f9e1_a5af_41a2_bbf9_842d5d661b48"/>
+        <Class IRI="#OWLClass_ffa3b47a_ef1d_44bf_a868_8a20a357083d"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52"/>
