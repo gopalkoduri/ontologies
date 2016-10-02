@@ -1,0 +1,1051 @@
+Prefix: : <http://www.w3.org/2002/07/owl#>
+Prefix: olo: <http://purl.org/ontology/olo/core#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: raaga: <http://www.compmusic.upf.edu/ontologies/raaga>
+
+
+
+Ontology: <http://www.compmusic.upf.edu/ontologies/raaga>
+
+Import: <http://purl.org/ontology/olo/core#>
+Import: <http://www.compmusic.upf.edu/ontologies/data-model>
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/description> "Ontology for raaga, which is the melodic framework of Indian art music traditions."@en,
+    <http://purl.org/dc/elements/1.1/creator> "గోపాలకృష్ణ కోడూరి"@te,
+    rdfs:comment "An ontology that describes raaga, which is the melodic framework for Indian art music traditions: Hindustani and Carnatic."@en,
+    versionInfo "0.01",
+    <http://purl.org/dc/elements/1.1/creator> "Gopala Krishna Koduri"@en,
+    <http://purl.org/dc/elements/1.1/description> "భారత శాస్త్రీయ సంగీతంలో బాణీలు కట్టడంలో వాడే రాగం అనే విషయానికి అస్తిత్వ పత్రం."@te
+
+AnnotationProperty: versionInfo
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/creator>
+
+    
+AnnotationProperty: <http://purl.org/dc/terms/description>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: rdfs:comment
+
+    
+Datatype: rdf:PlainLiteral
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: olo:next
+
+    
+ObjectProperty: <http://www.compmusic.upf.edu/ontologies/raaga#hasNextSvara>
+
+    SubPropertyChain: 
+         inverse (<http://www.compmusic.upf.edu/ontologies/raaga#has_item>) o olo:next o <http://www.compmusic.upf.edu/ontologies/raaga#has_item>
+    
+    Characteristics: 
+        Transitive
+    
+    Domain: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7>
+    
+    Range: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7>
+    
+    
+ObjectProperty: <http://www.compmusic.upf.edu/ontologies/raaga#isArohanaOf>
+
+    SubPropertyOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1>
+    
+    InverseOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#hasArohana>
+    
+    
+ObjectProperty: <http://www.compmusic.upf.edu/ontologies/raaga#hasPrevSvara>
+
+    SubPropertyChain: 
+         inverse (<http://www.compmusic.upf.edu/ontologies/raaga#has_item>) o olo:previous o <http://www.compmusic.upf.edu/ontologies/raaga#has_item>
+    
+    Characteristics: 
+        Transitive
+    
+    Domain: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7>
+    
+    Range: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7>
+    
+    
+ObjectProperty: <http://www.compmusic.upf.edu/ontologies/raaga#has_svara_model>
+
+    Domain: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e>
+    
+    Range: 
+        <http://www.compmusic.upf.edu/ontologies/data-model#Data_model>
+    
+    
+ObjectProperty: olo:slot
+
+    
+ObjectProperty: <http://www.compmusic.upf.edu/ontologies/raaga#isAvarohanaOf>
+
+    SubPropertyOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1>
+    
+    InverseOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana>
+    
+    
+ObjectProperty: <http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_1a81d57e_47e4_4646_819e_7f491f6fd43c>
+
+    Annotations: 
+        rdfs:label "hasJanyaRaaga"@en
+    
+    Characteristics: 
+        InverseFunctional
+    
+    Domain: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_b510f9e1_a5af_41a2_bbf9_842d5d661b48>
+    
+    Range: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_ffa3b47a_ef1d_44bf_a868_8a20a357083d>
+    
+    
+ObjectProperty: <http://www.compmusic.upf.edu/ontologies/raaga#hasPhrase>
+
+    Domain: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e>
+    
+    Range: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Phrase>
+    
+    
+ObjectProperty: olo:previous
+
+    
+ObjectProperty: <http://www.compmusic.upf.edu/ontologies/raaga#hasArohana>
+
+    SubPropertyOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711>
+    
+    Characteristics: 
+        Functional
+    
+    InverseOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#isArohanaOf>
+    
+    
+ObjectProperty: <http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434>
+
+    Annotations: 
+        rdfs:label "hasSvara"@en
+    
+    Domain: 
+        olo:OrderedList
+    
+    Range: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7>
+    
+    
+ObjectProperty: <http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana>
+
+    SubPropertyOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711>
+    
+    Characteristics: 
+        Functional
+    
+    InverseOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#isAvarohanaOf>
+    
+    
+ObjectProperty: <http://www.compmusic.upf.edu/ontologies/raaga#vivadi_with>
+
+    Characteristics: 
+        InverseFunctional,
+        Functional
+    
+    Domain: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Vivadi_Svaras>
+    
+    
+ObjectProperty: <http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711>
+
+    Annotations: 
+        rdfs:label "hasProgression"@en
+    
+    Domain: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e>
+    
+    InverseOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1>
+    
+    
+ObjectProperty: <http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1>
+
+    Annotations: 
+        rdfs:label "isProgressionOf"@en
+    
+    InverseOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711>
+    
+    
+ObjectProperty: <http://www.compmusic.upf.edu/ontologies/raaga#has_item>
+
+    Domain: 
+        olo:Slot
+    
+    Range: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7>
+    
+    
+DataProperty: <http://www.compmusic.upf.edu/ontologies/raaga#OWLDataProperty_4a9f62ef_1da8_48af_b4eb_1208fc40b418>
+
+    Annotations: 
+        rdfs:label "hasProperty"@en
+    
+    Range: 
+        xsd:string
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd>
+
+    Annotations: 
+        rdfs:label "మధ్యమము"@te,
+        rdfs:label "Madhyama"@en
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Natural_Svaras>,
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d>
+
+    Annotations: 
+        rdfs:label "Gamaka"@en,
+        rdfs:label "గమకము"@te
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_edacd04e_9866_4e1e_a008_2589acc87011>
+
+    Annotations: 
+        rdfs:label "శుద్ద రిషభము"@te,
+        rdfs:label "Suddha Rishaba"@en
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Natural_Svaras>,
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2>
+    
+    DisjointWith: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639>, <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Audava_Raaga>
+
+    EquivalentTo: 
+        (<http://www.compmusic.upf.edu/ontologies/raaga#hasArohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Progression>)
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Progression>)
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Raaga>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Arohana>
+
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Svarantara_Raaga>
+
+    EquivalentTo: 
+        (<http://www.compmusic.upf.edu/ontologies/raaga#hasArohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Progression>)
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Progression>)
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Raaga>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9f6dac85_2c8f_4867_9e12_fb91e88ff44f>
+
+    Annotations: 
+        rdfs:label "కైసికి నిషాదము"@te,
+        rdfs:label "Kaisiki Nishada"@en
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Natural_Svaras>,
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Shadava_Raaga>
+
+    EquivalentTo: 
+        (<http://www.compmusic.upf.edu/ontologies/raaga#hasArohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Progression>)
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Progression>)
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Raaga>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Shadava_Raaga>
+
+    EquivalentTo: 
+        (<http://www.compmusic.upf.edu/ontologies/raaga#hasArohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Progression>)
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Progression>)
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Raaga>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Avarohana>
+
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Krama_Raaga>
+
+    EquivalentTo: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711> exactly 2 <http://www.compmusic.upf.edu/ontologies/raaga#Krama_Progression>
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e>
+    
+    DisjointWith: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Vakra_Raaga>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a>
+
+    Annotations: 
+        rdfs:label "Chatussruti Daivata"@en,
+        rdfs:label "చతుశ్రుతి దైవతము"@te
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Natural_Svaras>,
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_3407d2c6_530d_47ef_8718_b5faab588f49>
+
+    Annotations: 
+        rdfs:label "Kakali Nishada"@en,
+        rdfs:label "కాకలి నిషాదము"@te
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42>,
+        <http://www.compmusic.upf.edu/ontologies/raaga#Natural_Svaras>
+    
+    
+Class: olo:OrderedList
+
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Progression>
+
+    EquivalentTo: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5>
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434> exactly 4 ({<http://www.compmusic.upf.edu/ontologies/raaga#D1> , <http://www.compmusic.upf.edu/ontologies/raaga#D2> , <http://www.compmusic.upf.edu/ontologies/raaga#D3> , <http://www.compmusic.upf.edu/ontologies/raaga#G1> , <http://www.compmusic.upf.edu/ontologies/raaga#G2> , <http://www.compmusic.upf.edu/ontologies/raaga#G3> , <http://www.compmusic.upf.edu/ontologies/raaga#M1> , <http://www.compmusic.upf.edu/ontologies/raaga#M2> , <http://www.compmusic.upf.edu/ontologies/raaga#N1> , <http://www.compmusic.upf.edu/ontologies/raaga#N2> , <http://www.compmusic.upf.edu/ontologies/raaga#N3> , <http://www.compmusic.upf.edu/ontologies/raaga#P> , <http://www.compmusic.upf.edu/ontologies/raaga#R1> , <http://www.compmusic.upf.edu/ontologies/raaga#R2> , <http://www.compmusic.upf.edu/ontologies/raaga#R3> , <http://www.compmusic.upf.edu/ontologies/raaga#S>}))
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_f674f408_0498_407a_9429_72a50c4810d4>
+
+    Annotations: 
+        rdfs:label "షడ్జమము"@te,
+        rdfs:label "Shadjama"@en
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Natural_Svaras>,
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Vivadi_Svaras>
+
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7>
+    
+    DisjointWith: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Natural_Svaras>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Progression>
+
+    Annotations: 
+        rdfs:comment ""@en
+    
+    EquivalentTo: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5>
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434> exactly 5 ({<http://www.compmusic.upf.edu/ontologies/raaga#D1> , <http://www.compmusic.upf.edu/ontologies/raaga#D2> , <http://www.compmusic.upf.edu/ontologies/raaga#D3> , <http://www.compmusic.upf.edu/ontologies/raaga#G1> , <http://www.compmusic.upf.edu/ontologies/raaga#G2> , <http://www.compmusic.upf.edu/ontologies/raaga#G3> , <http://www.compmusic.upf.edu/ontologies/raaga#M1> , <http://www.compmusic.upf.edu/ontologies/raaga#M2> , <http://www.compmusic.upf.edu/ontologies/raaga#N1> , <http://www.compmusic.upf.edu/ontologies/raaga#N2> , <http://www.compmusic.upf.edu/ontologies/raaga#N3> , <http://www.compmusic.upf.edu/ontologies/raaga#P> , <http://www.compmusic.upf.edu/ontologies/raaga#R1> , <http://www.compmusic.upf.edu/ontologies/raaga#R2> , <http://www.compmusic.upf.edu/ontologies/raaga#R3> , <http://www.compmusic.upf.edu/ontologies/raaga#S>}))
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Sampoorna_Raaga>
+
+    EquivalentTo: 
+        (<http://www.compmusic.upf.edu/ontologies/raaga#hasArohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Progression>)
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Progression>)
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Raaga>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Svarantara_Raaga>
+
+    EquivalentTo: 
+        (<http://www.compmusic.upf.edu/ontologies/raaga#hasArohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Progression>)
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Progression>)
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Raaga>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Audava_Raaga>
+
+    EquivalentTo: 
+        (<http://www.compmusic.upf.edu/ontologies/raaga#hasArohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Progression>)
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Progression>)
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Raaga>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_3dbe0763_23bb_4c49_874b_7636f8c1e4d0>
+
+    Annotations: 
+        rdfs:label "Suddha Madhyama"@en,
+        rdfs:label "శుద్ద మధ్యమము"@te
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd>
+    
+    DisjointWith: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_22071f5d_7383_4758_bbcf_3dcf34d6b075>
+    
+    
+Class: olo:Slot
+
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_586ad088_63e0_4755_ada1_c69850057e4e>
+
+    Annotations: 
+        rdfs:label "Antara Gandhara"@en,
+        rdfs:label "అంతర గాంధారము"@te
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Natural_Svaras>,
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Svarantara_Raaga>
+
+    EquivalentTo: 
+        (<http://www.compmusic.upf.edu/ontologies/raaga#hasArohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Progression>)
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Progression>)
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Raaga>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_5e342c79_f409_404f_8f53_dfc649924747>
+
+    Annotations: 
+        rdfs:label "Suddha Daivata"@en,
+        rdfs:label "శుద్ద దైవతము"@te
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Natural_Svaras>,
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7>
+
+    Annotations: 
+        rdfs:label "స్వరము"@te,
+        rdfs:label "Svara"@en
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Sampoorna_Raaga>
+
+    EquivalentTo: 
+        (<http://www.compmusic.upf.edu/ontologies/raaga#hasArohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Progression>)
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Progression>)
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Raaga>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Sampoorna_Raaga>
+
+    EquivalentTo: 
+        (<http://www.compmusic.upf.edu/ontologies/raaga#hasArohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Progression>)
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Progression>)
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Raaga>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Natural_Svaras>
+
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7>
+    
+    DisjointWith: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Vivadi_Svaras>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Phrase>
+
+    SubClassOf: 
+        olo:OrderedList
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Audava_Raaga>
+
+    EquivalentTo: 
+        (<http://www.compmusic.upf.edu/ontologies/raaga#hasArohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Progression>)
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Progression>)
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Raaga>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_b510f9e1_a5af_41a2_bbf9_842d5d661b48>
+
+    Annotations: 
+        rdfs:label "Melakarta_Raaga"@en
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e>
+    
+    DisjointWith: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_ffa3b47a_ef1d_44bf_a868_8a20a357083d>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_ffa3b47a_ef1d_44bf_a868_8a20a357083d>
+
+    Annotations: 
+        rdfs:label "Janya_Raaga"@en
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e>
+    
+    DisjointWith: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_b510f9e1_a5af_41a2_bbf9_842d5d661b48>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Progression>
+
+    EquivalentTo: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5>
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434> some ({<http://www.compmusic.upf.edu/ontologies/raaga#D1> , <http://www.compmusic.upf.edu/ontologies/raaga#D2> , <http://www.compmusic.upf.edu/ontologies/raaga#D3>}))
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434> some ({<http://www.compmusic.upf.edu/ontologies/raaga#G1> , <http://www.compmusic.upf.edu/ontologies/raaga#G2> , <http://www.compmusic.upf.edu/ontologies/raaga#G3>}))
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434> some ({<http://www.compmusic.upf.edu/ontologies/raaga#M1> , <http://www.compmusic.upf.edu/ontologies/raaga#M2>}))
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434> some ({<http://www.compmusic.upf.edu/ontologies/raaga#N1> , <http://www.compmusic.upf.edu/ontologies/raaga#N2> , <http://www.compmusic.upf.edu/ontologies/raaga#N3>}))
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434> some ({<http://www.compmusic.upf.edu/ontologies/raaga#P>}))
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434> some ({<http://www.compmusic.upf.edu/ontologies/raaga#R1> , <http://www.compmusic.upf.edu/ontologies/raaga#R2> , <http://www.compmusic.upf.edu/ontologies/raaga#R3>}))
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434> some ({<http://www.compmusic.upf.edu/ontologies/raaga#S>}))
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Vakra_Progression>
+
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9>
+
+    Annotations: 
+        rdfs:label "షట్శ్రుతి దైవతము"@te,
+        rdfs:label "Satsruti Daivata"@en
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Vivadi_Svaras>,
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Sampoorna_Raaga>
+
+    EquivalentTo: 
+        (<http://www.compmusic.upf.edu/ontologies/raaga#hasArohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Progression>)
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Progression>)
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Raaga>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5>
+
+    Annotations: 
+        rdfs:label "మూర్చన"@te,
+        rdfs:label "Progression"@en
+    
+    EquivalentTo: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1> some <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e>
+    
+    SubClassOf: 
+        olo:OrderedList
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Vakra_Raaga>
+
+    EquivalentTo: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711> min 1 <http://www.compmusic.upf.edu/ontologies/raaga#Vakra_Progression>
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e>
+    
+    DisjointWith: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Krama_Raaga>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Audava_Raaga>
+
+    EquivalentTo: 
+        (<http://www.compmusic.upf.edu/ontologies/raaga#hasArohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Progression>)
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Progression>)
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Raaga>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Shadava_Raaga>
+
+    EquivalentTo: 
+        (<http://www.compmusic.upf.edu/ontologies/raaga#hasArohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Progression>)
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Progression>)
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Raaga>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_82740a9e_684a_4f19_9b7d_439c26b5e427>
+
+    Annotations: 
+        rdfs:label "శుద్ద గాంధారము"@te,
+        rdfs:label "Suddha Gandhara"@en
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Vivadi_Svaras>,
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42>
+
+    Annotations: 
+        rdfs:label "నిషాదము"@te,
+        rdfs:label "Nishada"@en
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Progression>
+
+    Annotations: 
+        rdfs:comment ""@en
+    
+    EquivalentTo: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5>
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434> exactly 6 ({<http://www.compmusic.upf.edu/ontologies/raaga#D1> , <http://www.compmusic.upf.edu/ontologies/raaga#D2> , <http://www.compmusic.upf.edu/ontologies/raaga#D3> , <http://www.compmusic.upf.edu/ontologies/raaga#G1> , <http://www.compmusic.upf.edu/ontologies/raaga#G2> , <http://www.compmusic.upf.edu/ontologies/raaga#G3> , <http://www.compmusic.upf.edu/ontologies/raaga#M1> , <http://www.compmusic.upf.edu/ontologies/raaga#M2> , <http://www.compmusic.upf.edu/ontologies/raaga#N1> , <http://www.compmusic.upf.edu/ontologies/raaga#N2> , <http://www.compmusic.upf.edu/ontologies/raaga#N3> , <http://www.compmusic.upf.edu/ontologies/raaga#P> , <http://www.compmusic.upf.edu/ontologies/raaga#R1> , <http://www.compmusic.upf.edu/ontologies/raaga#R2> , <http://www.compmusic.upf.edu/ontologies/raaga#R3> , <http://www.compmusic.upf.edu/ontologies/raaga#S>}))
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Krama_Progression>
+
+    EquivalentTo: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5>
+         and (not (<http://www.compmusic.upf.edu/ontologies/raaga#Vakra_Progression>))
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52>
+
+    Annotations: 
+        rdfs:label "Chatussruti Rishaba"@en,
+        rdfs:label "చతుశ్రుతి రిషభము"@te
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Natural_Svaras>,
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2>
+    
+    DisjointWith: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_edacd04e_9866_4e1e_a008_2589acc87011>, <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df>
+
+    Annotations: 
+        rdfs:label "Gandhara"@en,
+        rdfs:label "గాంధారము"@te
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420>
+
+    Annotations: 
+        rdfs:label "Daivata"@en,
+        rdfs:label "దైవతము"@te
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb>
+
+    Annotations: 
+        rdfs:label "పంచమము"@te,
+        rdfs:label "Panchama"@en
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Natural_Svaras>,
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9>
+
+    Annotations: 
+        rdfs:label "సాధారణ గాంధారము"@te,
+        rdfs:label "Sadharana Gandhara"@en
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Natural_Svaras>,
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/data-model#Data_model>
+
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_22071f5d_7383_4758_bbcf_3dcf34d6b075>
+
+    Annotations: 
+        rdfs:label "Prati Madhyama"@en,
+        rdfs:label "ప్రతి మధ్యమము"@te
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd>
+    
+    DisjointWith: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_3dbe0763_23bb_4c49_874b_7636f8c1e4d0>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_1c5a84da_9c07_42d8_942c_a484f11b06c3>
+
+    Annotations: 
+        rdfs:label "Suddha Nishada"@en,
+        rdfs:label "శుద్ద నిషాదము"@te
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42>,
+        <http://www.compmusic.upf.edu/ontologies/raaga#Vivadi_Svaras>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Raaga>
+
+    EquivalentTo: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711> min 1 <http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Progression>
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e>
+
+    Annotations: 
+        rdfs:label "రాగము"@te,
+        rdfs:label "Raaga"@en
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Raaga>
+
+    EquivalentTo: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711> min 1 <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Progression>
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2>
+
+    Annotations: 
+        rdfs:label "రిషభము"@te,
+        rdfs:label "Rishaba"@en
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Shadava_Raaga>
+
+    EquivalentTo: 
+        (<http://www.compmusic.upf.edu/ontologies/raaga#hasArohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Progression>)
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Progression>)
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Raaga>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Raaga>
+
+    EquivalentTo: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711> min 1 <http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Progression>
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Raaga>
+
+    EquivalentTo: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711> min 1 <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Progression>
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639>
+
+    Annotations: 
+        rdfs:label "షట్శ్రుతి రిషభము"@te,
+        rdfs:label "Satsruti Rishaba"@en
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Vivadi_Svaras>,
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2>
+    
+    DisjointWith: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_edacd04e_9866_4e1e_a008_2589acc87011>, <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52>
+    
+    
+Class: <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Svarantara_Raaga>
+
+    EquivalentTo: 
+        (<http://www.compmusic.upf.edu/ontologies/raaga#hasArohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Progression>)
+         and (<http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana> exactly 1 <http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Progression>)
+    
+    SubClassOf: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#Audava_Raaga>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#OWLNamedIndividual_89d2df72_83fd_4121_b2e1_93d9b20a98c5>
+
+    Annotations: 
+        rdfs:label "Sphuritam"@en,
+        <http://purl.org/dc/terms/description> "In Janta Arohana swaras like SS-RR- 3/4 time of the Swara should be in the earlier note and then the 2nd note should be pressed. This is called sphuritam. i.e. in SS-SNS should be heard."@en
+    
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#OWLNamedIndividual_5354d015_3830_42a5_a8c4_2459751b370c>
+
+    Annotations: 
+        <http://purl.org/dc/terms/description> "While sliding down from one swara you leave the next swara and go to the 3rd one. Examples: 
+
+i) Ma Ri – Ma, ga, Ri; 
+ii) Sa, Ri - Sa Ga Ri;"@en,
+        rdfs:label "Khandimpu"@en
+    
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#OWLNamedIndividual_99fe8f7c_402f_4b98_8d3a_446900e67429>
+
+    Annotations: 
+        rdfs:label "Orayika"@en,
+        <http://purl.org/dc/terms/description> "Also known as Orikai in Tamil. Sliding from one higher note to the lower note in such a way that the higher notes are touched and are heard. While playing Sa, Ni, Dha, the higher note is heard in the lower notes. Sign given is V"@en
+    
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#OWLNamedIndividual_da268e86_e549_4cf8_82f8_3f5c0946f767>
+
+    Annotations: 
+        rdfs:label "Odigimpu"@en,
+        <http://purl.org/dc/terms/description> "To produce 2 or 3 adjacent swaras in one swara. For example producing Gandharam in Rishabam. This can be very vividly shown on Veena."@en
+    
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#OWLNamedIndividual_5e1910c5_22e0_4848_8c25_b6c9a57619cb>
+
+    Annotations: 
+        rdfs:label "Janta"@en
+    
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#OWLNamedIndividual_25b46ac4_f7de_42b2_b9aa_af73f247dd59>
+
+    Annotations: 
+        rdfs:label "EguJaaru"@en,
+        <http://purl.org/dc/terms/description> "Upward glide. Also known as Etrajaaru in Tamil.
+
+This is known as a Meend in Hindustani. Starts from a svarasthana and reaches a higher svarasthana by gliding over the intermediate svarasthanas."@en
+    
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#P>
+
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#R3>
+
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#OWLNamedIndividual_d3899e4f_f12f_4a15_b1d3_1cfe06256371>
+
+    Annotations: 
+        <http://purl.org/dc/terms/description> "Shaking or vibrating. Vibrating the swara slightly without losing its nature."@en,
+        rdfs:label "Kampita"@en
+    
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#M1>
+
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_3dbe0763_23bb_4c49_874b_7636f8c1e4d0>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#N1>
+
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_1c5a84da_9c07_42d8_942c_a484f11b06c3>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#N2>
+
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9f6dac85_2c8f_4867_9e12_fb91e88ff44f>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#R1>
+
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_edacd04e_9866_4e1e_a008_2589acc87011>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#G3>
+
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_586ad088_63e0_4755_ada1_c69850057e4e>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#N3>
+
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_3407d2c6_530d_47ef_8718_b5faab588f49>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#R2>
+
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#G2>
+
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#G1>
+
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_82740a9e_684a_4f19_9b7d_439c26b5e427>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#M2>
+
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_22071f5d_7383_4758_bbcf_3dcf34d6b075>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#S>
+
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_f674f408_0498_407a_9429_72a50c4810d4>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#D1>
+
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_5e342c79_f409_404f_8f53_dfc649924747>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#D2>
+
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#D3>
+
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9>
+    
+    
+Individual: <http://www.compmusic.upf.edu/ontologies/raaga#OWLNamedIndividual_b6ea1839_8259_415a_8e74_7ae19cfed232>
+
+    Annotations: 
+        rdfs:label "DiguJaaru"@en,
+        <http://purl.org/dc/terms/description> "Downward glide. Also known as Irakkajaaru in Tamil.
+
+This is known as a Meend in Hindustani. Starts from a svarasthana and reaches a lower svarasthana by gliding over the intermediate svarasthanas."@en
+    
+    Types: 
+        <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d>
+    
+    
+DisjointClasses: 
+    olo:OrderedList,olo:Slot,<http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e>,<http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7>
+
+DisjointClasses: 
+    <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_1c5a84da_9c07_42d8_942c_a484f11b06c3>,<http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_3407d2c6_530d_47ef_8718_b5faab588f49>,<http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9f6dac85_2c8f_4867_9e12_fb91e88ff44f>
+
+DisjointClasses: 
+    <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420>,<http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd>,<http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2>,<http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb>,<http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42>,<http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df>,<http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_f674f408_0498_407a_9429_72a50c4810d4>
+
+DisjointClasses: 
+    <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_5e342c79_f409_404f_8f53_dfc649924747>,<http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9>,<http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a>
+
+DisjointClasses: 
+    <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_586ad088_63e0_4755_ada1_c69850057e4e>,<http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_82740a9e_684a_4f19_9b7d_439c26b5e427>,<http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9>
+

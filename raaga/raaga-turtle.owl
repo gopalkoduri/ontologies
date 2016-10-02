@@ -1,0 +1,1559 @@
+@prefix : <http://www.compmusic.upf.edu/ontologies/raaga#> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix raaga: <http://www.compmusic.upf.edu/ontologies/raaga> .
+@base <http://www.compmusic.upf.edu/ontologies/raaga> .
+
+<http://www.compmusic.upf.edu/ontologies/raaga> rdf:type owl:Ontology ;
+                                                
+                                                owl:versionInfo "0.01" ;
+                                                
+                                                rdfs:comment "An ontology that describes raaga, which is the melodic framework for Indian art music traditions: Hindustani and Carnatic."@en ;
+                                                
+                                                <http://purl.org/dc/elements/1.1/creator> "Gopala Krishna Koduri"@en ;
+                                                
+                                                <http://purl.org/dc/elements/1.1/description> "Ontology for raaga, which is the melodic framework of Indian art music traditions."@en ;
+                                                
+                                                <http://purl.org/dc/elements/1.1/creator> "గోపాలకృష్ణ కోడూరి"@te ;
+                                                
+                                                <http://purl.org/dc/elements/1.1/description> "భారత శాస్త్రీయ సంగీతంలో బాణీలు కట్టడంలో వాడే రాగం అనే విషయానికి అస్తిత్వ పత్రం."@te ;
+                                                
+                                                owl:imports olo: ,
+                                                            <http://www.compmusic.upf.edu/ontologies/data-model> .
+
+
+#################################################################
+#
+#    Annotation properties
+#
+#################################################################
+
+
+###  http://purl.org/dc/elements/1.1/creator
+
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+
+###  http://purl.org/dc/elements/1.1/description
+
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+
+###  http://purl.org/dc/terms/description
+
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://purl.org/ontology/olo/core#next
+
+olo:next rdf:type owl:ObjectProperty .
+
+
+
+###  http://purl.org/ontology/olo/core#previous
+
+olo:previous rdf:type owl:ObjectProperty .
+
+
+
+###  http://purl.org/ontology/olo/core#slot
+
+olo:slot rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_1a81d57e_47e4_4646_819e_7f491f6fd43c
+
+:OWLObjectProperty_1a81d57e_47e4_4646_819e_7f491f6fd43c rdf:type owl:InverseFunctionalProperty ,
+                                                                 owl:ObjectProperty ;
+                                                        
+                                                        rdfs:label "hasJanyaRaaga"@en ;
+                                                        
+                                                        rdfs:domain :OWLClass_b510f9e1_a5af_41a2_bbf9_842d5d661b48 ;
+                                                        
+                                                        rdfs:range :OWLClass_ffa3b47a_ef1d_44bf_a868_8a20a357083d .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434
+
+:OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434 rdf:type owl:ObjectProperty ;
+                                                        
+                                                        rdfs:label "hasSvara"@en ;
+                                                        
+                                                        rdfs:domain olo:OrderedList ;
+                                                        
+                                                        rdfs:range :OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711
+
+:OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711 rdf:type owl:ObjectProperty ;
+                                                        
+                                                        rdfs:label "hasProgression"@en ;
+                                                        
+                                                        rdfs:domain :OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e ;
+                                                        
+                                                        owl:inverseOf :OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1
+
+:OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1 rdf:type owl:ObjectProperty ;
+                                                        
+                                                        rdfs:label "isProgressionOf"@en .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#hasArohana
+
+:hasArohana rdf:type owl:FunctionalProperty ,
+                     owl:ObjectProperty ;
+            
+            rdfs:subPropertyOf :OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#hasAvarohana
+
+:hasAvarohana rdf:type owl:FunctionalProperty ,
+                       owl:ObjectProperty ;
+              
+              rdfs:subPropertyOf :OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#hasNextSvara
+
+:hasNextSvara rdf:type owl:ObjectProperty ,
+                       owl:TransitiveProperty ;
+              
+              rdfs:range :OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7 ;
+              
+              rdfs:domain :OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7 ;
+              
+              owl:propertyChainAxiom ( [ owl:inverseOf :has_item
+                                       ]
+                                       olo:next
+                                       :has_item
+                                     ) .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#hasPhrase
+
+:hasPhrase rdf:type owl:ObjectProperty ;
+           
+           rdfs:domain :OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e ;
+           
+           rdfs:range :Phrase .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#hasPrevSvara
+
+:hasPrevSvara rdf:type owl:ObjectProperty ,
+                       owl:TransitiveProperty ;
+              
+              rdfs:range :OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7 ;
+              
+              rdfs:domain :OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7 ;
+              
+              owl:propertyChainAxiom ( [ owl:inverseOf :has_item
+                                       ]
+                                       olo:previous
+                                       :has_item
+                                     ) .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#has_item
+
+:has_item rdf:type owl:ObjectProperty ;
+          
+          rdfs:domain olo:Slot ;
+          
+          rdfs:range :OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#has_svara_model
+
+:has_svara_model rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:range <http://www.compmusic.upf.edu/ontologies/data-model#Data_model> ;
+                 
+                 rdfs:domain :OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#isArohanaOf
+
+:isArohanaOf rdf:type owl:ObjectProperty ;
+             
+             rdfs:subPropertyOf :OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1 ;
+             
+             owl:inverseOf :hasArohana .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#isAvarohanaOf
+
+:isAvarohanaOf rdf:type owl:ObjectProperty ;
+               
+               rdfs:subPropertyOf :OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1 ;
+               
+               owl:inverseOf :hasAvarohana .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#vivadi_with
+
+:vivadi_with rdf:type owl:FunctionalProperty ,
+                      owl:InverseFunctionalProperty ,
+                      owl:ObjectProperty ;
+             
+             rdfs:domain :Vivadi_Svaras .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLDataProperty_4a9f62ef_1da8_48af_b4eb_1208fc40b418
+
+:OWLDataProperty_4a9f62ef_1da8_48af_b4eb_1208fc40b418 rdf:type owl:DatatypeProperty ;
+                                                      
+                                                      rdfs:label "hasProperty"@en ;
+                                                      
+                                                      rdfs:range xsd:string .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://purl.org/ontology/olo/core#OrderedList
+
+olo:OrderedList rdf:type owl:Class .
+
+
+
+###  http://purl.org/ontology/olo/core#Slot
+
+olo:Slot rdf:type owl:Class .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Arohana
+
+:Arohana rdf:type owl:Class ;
+         
+         rdfs:subClassOf :OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Audava_Audava_Raaga
+
+:Audava_Audava_Raaga rdf:type owl:Class ;
+                     
+                     owl:equivalentClass [ rdf:type owl:Class ;
+                                           owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty :hasArohana ;
+                                                                  owl:onClass :Audava_Progression ;
+                                                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                ]
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty :hasAvarohana ;
+                                                                  owl:onClass :Audava_Progression ;
+                                                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                ]
+                                                              )
+                                         ] ;
+                     
+                     rdfs:subClassOf :Audava_Raaga .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Audava_Progression
+
+:Audava_Progression rdf:type owl:Class ;
+                    
+                    owl:equivalentClass [ rdf:type owl:Class ;
+                                          owl:intersectionOf ( :OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434 ;
+                                                                 owl:onClass [ rdf:type owl:Class ;
+                                                                               owl:oneOf ( :P
+                                                                                           :R3
+                                                                                           :M1
+                                                                                           :N1
+                                                                                           :N2
+                                                                                           :G3
+                                                                                           :N3
+                                                                                           :R1
+                                                                                           :R2
+                                                                                           :G2
+                                                                                           :G1
+                                                                                           :M2
+                                                                                           :S
+                                                                                           :D1
+                                                                                           :D2
+                                                                                           :D3
+                                                                                         )
+                                                                             ] ;
+                                                                 owl:qualifiedCardinality "5"^^xsd:nonNegativeInteger
+                                                               ]
+                                                             )
+                                        ] ;
+                    
+                    rdfs:subClassOf :OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5 ;
+                    
+                    rdfs:comment ""@en .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Audava_Raaga
+
+:Audava_Raaga rdf:type owl:Class ;
+              
+              owl:equivalentClass [ rdf:type owl:Restriction ;
+                                    owl:onProperty :OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711 ;
+                                    owl:onClass :Audava_Progression ;
+                                    owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                  ] ;
+              
+              rdfs:subClassOf :OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Audava_Sampoorna_Raaga
+
+:Audava_Sampoorna_Raaga rdf:type owl:Class ;
+                        
+                        owl:equivalentClass [ rdf:type owl:Class ;
+                                              owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty :hasArohana ;
+                                                                     owl:onClass :Audava_Progression ;
+                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                   ]
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty :hasAvarohana ;
+                                                                     owl:onClass :Sampoorna_Progression ;
+                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                   ]
+                                                                 )
+                                            ] ;
+                        
+                        rdfs:subClassOf :Audava_Raaga .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Audava_Shadava_Raaga
+
+:Audava_Shadava_Raaga rdf:type owl:Class ;
+                      
+                      owl:equivalentClass [ rdf:type owl:Class ;
+                                            owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty :hasArohana ;
+                                                                   owl:onClass :Audava_Progression ;
+                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                 ]
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty :hasAvarohana ;
+                                                                   owl:onClass :Shadava_Progression ;
+                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                 ]
+                                                               )
+                                          ] ;
+                      
+                      rdfs:subClassOf :Audava_Raaga .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Audava_Svarantara_Raaga
+
+:Audava_Svarantara_Raaga rdf:type owl:Class ;
+                         
+                         owl:equivalentClass [ rdf:type owl:Class ;
+                                               owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty :hasArohana ;
+                                                                      owl:onClass :Audava_Progression ;
+                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                    ]
+                                                                    [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty :hasAvarohana ;
+                                                                      owl:onClass :Svarantara_Progression ;
+                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                    ]
+                                                                  )
+                                             ] ;
+                         
+                         rdfs:subClassOf :Audava_Raaga .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Avarohana
+
+:Avarohana rdf:type owl:Class ;
+           
+           rdfs:subClassOf :OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Krama_Progression
+
+:Krama_Progression rdf:type owl:Class ;
+                   
+                   owl:equivalentClass [ rdf:type owl:Class ;
+                                         owl:intersectionOf ( :OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5
+                                                              [ rdf:type owl:Class ;
+                                                                owl:complementOf :Vakra_Progression
+                                                              ]
+                                                            )
+                                       ] ;
+                   
+                   rdfs:subClassOf :OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Krama_Raaga
+
+:Krama_Raaga rdf:type owl:Class ;
+             
+             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                   owl:onProperty :OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711 ;
+                                   owl:onClass :Krama_Progression ;
+                                   owl:qualifiedCardinality "2"^^xsd:nonNegativeInteger
+                                 ] ;
+             
+             rdfs:subClassOf :OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e ;
+             
+             owl:disjointWith :Vakra_Raaga .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Natural_Svaras
+
+:Natural_Svaras rdf:type owl:Class ;
+                
+                rdfs:subClassOf :OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7 ;
+                
+                owl:disjointWith :Vivadi_Svaras .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_0249da8a_1351_4006_8887_1e7ad562d420
+
+:OWLClass_0249da8a_1351_4006_8887_1e7ad562d420 rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Daivata"@en ,
+                                                          "దైవతము"@te ;
+                                               
+                                               rdfs:subClassOf :OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_1c5a84da_9c07_42d8_942c_a484f11b06c3
+
+:OWLClass_1c5a84da_9c07_42d8_942c_a484f11b06c3 rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Suddha Nishada"@en ,
+                                                          "శుద్ద నిషాదము"@te ;
+                                               
+                                               rdfs:subClassOf :OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42 ,
+                                                               :Vivadi_Svaras .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_22071f5d_7383_4758_bbcf_3dcf34d6b075
+
+:OWLClass_22071f5d_7383_4758_bbcf_3dcf34d6b075 rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Prati Madhyama"@en ,
+                                                          "ప్రతి మధ్యమము"@te ;
+                                               
+                                               rdfs:subClassOf :OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd ;
+                                               
+                                               owl:disjointWith :OWLClass_3dbe0763_23bb_4c49_874b_7636f8c1e4d0 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd
+
+:OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Madhyama"@en ,
+                                                          "మధ్యమము"@te ;
+                                               
+                                               rdfs:subClassOf :Natural_Svaras ,
+                                                               :OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_3407d2c6_530d_47ef_8718_b5faab588f49
+
+:OWLClass_3407d2c6_530d_47ef_8718_b5faab588f49 rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Kakali Nishada"@en ,
+                                                          "కాకలి నిషాదము"@te ;
+                                               
+                                               rdfs:subClassOf :Natural_Svaras ,
+                                                               :OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_3dbe0763_23bb_4c49_874b_7636f8c1e4d0
+
+:OWLClass_3dbe0763_23bb_4c49_874b_7636f8c1e4d0 rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Suddha Madhyama"@en ,
+                                                          "శుద్ద మధ్యమము"@te ;
+                                               
+                                               rdfs:subClassOf :OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e
+
+:OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Raaga"@en ,
+                                                          "రాగము"@te .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_586ad088_63e0_4755_ada1_c69850057e4e
+
+:OWLClass_586ad088_63e0_4755_ada1_c69850057e4e rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Antara Gandhara"@en ,
+                                                          "అంతర గాంధారము"@te ;
+                                               
+                                               rdfs:subClassOf :Natural_Svaras ,
+                                                               :OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_5e342c79_f409_404f_8f53_dfc649924747
+
+:OWLClass_5e342c79_f409_404f_8f53_dfc649924747 rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Suddha Daivata"@en ,
+                                                          "శుద్ద దైవతము"@te ;
+                                               
+                                               rdfs:subClassOf :Natural_Svaras ,
+                                                               :OWLClass_0249da8a_1351_4006_8887_1e7ad562d420 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639
+
+:OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639 rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Satsruti Rishaba"@en ,
+                                                          "షట్శ్రుతి రిషభము"@te ;
+                                               
+                                               rdfs:subClassOf :OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2 ,
+                                                               :Vivadi_Svaras ;
+                                               
+                                               owl:disjointWith :OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52 ,
+                                                                :OWLClass_edacd04e_9866_4e1e_a008_2589acc87011 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9
+
+:OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9 rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Satsruti Daivata"@en ,
+                                                          "షట్శ్రుతి దైవతము"@te ;
+                                               
+                                               rdfs:subClassOf :OWLClass_0249da8a_1351_4006_8887_1e7ad562d420 ,
+                                                               :Vivadi_Svaras .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_82740a9e_684a_4f19_9b7d_439c26b5e427
+
+:OWLClass_82740a9e_684a_4f19_9b7d_439c26b5e427 rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Suddha Gandhara"@en ,
+                                                          "శుద్ద గాంధారము"@te ;
+                                               
+                                               rdfs:subClassOf :OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df ,
+                                                               :Vivadi_Svaras .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9
+
+:OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9 rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Sadharana Gandhara"@en ,
+                                                          "సాధారణ గాంధారము"@te ;
+                                               
+                                               rdfs:subClassOf :Natural_Svaras ,
+                                                               :OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7
+
+:OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7 rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Svara"@en ,
+                                                          "స్వరము"@te .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9f6dac85_2c8f_4867_9e12_fb91e88ff44f
+
+:OWLClass_9f6dac85_2c8f_4867_9e12_fb91e88ff44f rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Kaisiki Nishada"@en ,
+                                                          "కైసికి నిషాదము"@te ;
+                                               
+                                               rdfs:subClassOf :Natural_Svaras ,
+                                                               :OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2
+
+:OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2 rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Rishaba"@en ,
+                                                          "రిషభము"@te ;
+                                               
+                                               rdfs:subClassOf :OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_b510f9e1_a5af_41a2_bbf9_842d5d661b48
+
+:OWLClass_b510f9e1_a5af_41a2_bbf9_842d5d661b48 rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Melakarta_Raaga"@en ;
+                                               
+                                               rdfs:subClassOf :OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e ;
+                                               
+                                               owl:disjointWith :OWLClass_ffa3b47a_ef1d_44bf_a868_8a20a357083d .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a
+
+:OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Chatussruti Daivata"@en ,
+                                                          "చతుశ్రుతి దైవతము"@te ;
+                                               
+                                               rdfs:subClassOf :Natural_Svaras ,
+                                                               :OWLClass_0249da8a_1351_4006_8887_1e7ad562d420 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52
+
+:OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52 rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Chatussruti Rishaba"@en ,
+                                                          "చతుశ్రుతి రిషభము"@te ;
+                                               
+                                               rdfs:subClassOf :Natural_Svaras ,
+                                                               :OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2 ;
+                                               
+                                               owl:disjointWith :OWLClass_edacd04e_9866_4e1e_a008_2589acc87011 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d
+
+:OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Gamaka"@en ,
+                                                          "గమకము"@te .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb
+
+:OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Panchama"@en ,
+                                                          "పంచమము"@te ;
+                                               
+                                               rdfs:subClassOf :Natural_Svaras ,
+                                                               :OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42
+
+:OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42 rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Nishada"@en ,
+                                                          "నిషాదము"@te ;
+                                               
+                                               rdfs:subClassOf :OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5
+
+:OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5 rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Progression"@en ,
+                                                          "మూర్చన"@te ;
+                                               
+                                               owl:equivalentClass [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty :OWLObjectProperty_da4f13b2_3592_446d_96d6_42747fee65c1 ;
+                                                                     owl:someValuesFrom :OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e
+                                                                   ] ;
+                                               
+                                               rdfs:subClassOf olo:OrderedList .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_edacd04e_9866_4e1e_a008_2589acc87011
+
+:OWLClass_edacd04e_9866_4e1e_a008_2589acc87011 rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Suddha Rishaba"@en ,
+                                                          "శుద్ద రిషభము"@te ;
+                                               
+                                               rdfs:subClassOf :Natural_Svaras ,
+                                                               :OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df
+
+:OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Gandhara"@en ,
+                                                          "గాంధారము"@te ;
+                                               
+                                               rdfs:subClassOf :OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_f674f408_0498_407a_9429_72a50c4810d4
+
+:OWLClass_f674f408_0498_407a_9429_72a50c4810d4 rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Shadjama"@en ,
+                                                          "షడ్జమము"@te ;
+                                               
+                                               rdfs:subClassOf :Natural_Svaras ,
+                                                               :OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_ffa3b47a_ef1d_44bf_a868_8a20a357083d
+
+:OWLClass_ffa3b47a_ef1d_44bf_a868_8a20a357083d rdf:type owl:Class ;
+                                               
+                                               rdfs:label "Janya_Raaga"@en ;
+                                               
+                                               rdfs:subClassOf :OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Phrase
+
+:Phrase rdf:type owl:Class ;
+        
+        rdfs:subClassOf olo:OrderedList .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Audava_Raaga
+
+:Sampoorna_Audava_Raaga rdf:type owl:Class ;
+                        
+                        owl:equivalentClass [ rdf:type owl:Class ;
+                                              owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty :hasArohana ;
+                                                                     owl:onClass :Sampoorna_Progression ;
+                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                   ]
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty :hasAvarohana ;
+                                                                     owl:onClass :Audava_Progression ;
+                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                   ]
+                                                                 )
+                                            ] ;
+                        
+                        rdfs:subClassOf :Sampoorna_Raaga .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Progression
+
+:Sampoorna_Progression rdf:type owl:Class ;
+                       
+                       owl:equivalentClass [ rdf:type owl:Class ;
+                                             owl:intersectionOf ( :OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty :OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434 ;
+                                                                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                         owl:oneOf ( :D1
+                                                                                                     :D2
+                                                                                                     :D3
+                                                                                                   )
+                                                                                       ]
+                                                                  ]
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty :OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434 ;
+                                                                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                         owl:oneOf ( :G3
+                                                                                                     :G2
+                                                                                                     :G1
+                                                                                                   )
+                                                                                       ]
+                                                                  ]
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty :OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434 ;
+                                                                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                         owl:oneOf ( :M1
+                                                                                                     :M2
+                                                                                                   )
+                                                                                       ]
+                                                                  ]
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty :OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434 ;
+                                                                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                         owl:oneOf ( :N1
+                                                                                                     :N2
+                                                                                                     :N3
+                                                                                                   )
+                                                                                       ]
+                                                                  ]
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty :OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434 ;
+                                                                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                         owl:oneOf ( :P
+                                                                                                   )
+                                                                                       ]
+                                                                  ]
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty :OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434 ;
+                                                                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                         owl:oneOf ( :R1
+                                                                                                     :R2
+                                                                                                     :R3
+                                                                                                   )
+                                                                                       ]
+                                                                  ]
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty :OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434 ;
+                                                                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                         owl:oneOf ( :S
+                                                                                                   )
+                                                                                       ]
+                                                                  ]
+                                                                )
+                                           ] ;
+                       
+                       rdfs:subClassOf :OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Raaga
+
+:Sampoorna_Raaga rdf:type owl:Class ;
+                 
+                 owl:equivalentClass [ rdf:type owl:Restriction ;
+                                       owl:onProperty :OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711 ;
+                                       owl:onClass :Sampoorna_Progression ;
+                                       owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                     ] ;
+                 
+                 rdfs:subClassOf :OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Sampoorna_Raaga
+
+:Sampoorna_Sampoorna_Raaga rdf:type owl:Class ;
+                           
+                           owl:equivalentClass [ rdf:type owl:Class ;
+                                                 owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty :hasArohana ;
+                                                                        owl:onClass :Sampoorna_Progression ;
+                                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                      ]
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty :hasAvarohana ;
+                                                                        owl:onClass :Sampoorna_Progression ;
+                                                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                      ]
+                                                                    )
+                                               ] ;
+                           
+                           rdfs:subClassOf :Sampoorna_Raaga .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Shadava_Raaga
+
+:Sampoorna_Shadava_Raaga rdf:type owl:Class ;
+                         
+                         owl:equivalentClass [ rdf:type owl:Class ;
+                                               owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty :hasArohana ;
+                                                                      owl:onClass :Sampoorna_Progression ;
+                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                    ]
+                                                                    [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty :hasAvarohana ;
+                                                                      owl:onClass :Shadava_Progression ;
+                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                    ]
+                                                                  )
+                                             ] ;
+                         
+                         rdfs:subClassOf :Sampoorna_Raaga .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Sampoorna_Svarantara_Raaga
+
+:Sampoorna_Svarantara_Raaga rdf:type owl:Class ;
+                            
+                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                  owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty :hasArohana ;
+                                                                         owl:onClass :Sampoorna_Progression ;
+                                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                       ]
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty :hasAvarohana ;
+                                                                         owl:onClass :Svarantara_Progression ;
+                                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                       ]
+                                                                     )
+                                                ] ;
+                            
+                            rdfs:subClassOf :Sampoorna_Raaga .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Audava_Raaga
+
+:Shadava_Audava_Raaga rdf:type owl:Class ;
+                      
+                      owl:equivalentClass [ rdf:type owl:Class ;
+                                            owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty :hasArohana ;
+                                                                   owl:onClass :Shadava_Progression ;
+                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                 ]
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty :hasAvarohana ;
+                                                                   owl:onClass :Audava_Progression ;
+                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                 ]
+                                                               )
+                                          ] ;
+                      
+                      rdfs:subClassOf :Shadava_Raaga .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Progression
+
+:Shadava_Progression rdf:type owl:Class ;
+                     
+                     owl:equivalentClass [ rdf:type owl:Class ;
+                                           owl:intersectionOf ( :OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5
+                                                                [ rdf:type owl:Restriction ;
+                                                                  owl:onProperty :OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434 ;
+                                                                  owl:onClass [ rdf:type owl:Class ;
+                                                                                owl:oneOf ( :P
+                                                                                            :R3
+                                                                                            :M1
+                                                                                            :N1
+                                                                                            :N2
+                                                                                            :R1
+                                                                                            :N3
+                                                                                            :G3
+                                                                                            :R2
+                                                                                            :G2
+                                                                                            :M2
+                                                                                            :G1
+                                                                                            :S
+                                                                                            :D1
+                                                                                            :D2
+                                                                                            :D3
+                                                                                          )
+                                                                              ] ;
+                                                                  owl:qualifiedCardinality "6"^^xsd:nonNegativeInteger
+                                                                ]
+                                                              )
+                                         ] ;
+                     
+                     rdfs:subClassOf :OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5 ;
+                     
+                     rdfs:comment ""@en .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Raaga
+
+:Shadava_Raaga rdf:type owl:Class ;
+               
+               owl:equivalentClass [ rdf:type owl:Restriction ;
+                                     owl:onProperty :OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711 ;
+                                     owl:onClass :Shadava_Progression ;
+                                     owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                   ] ;
+               
+               rdfs:subClassOf :OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Sampoorna_Raaga
+
+:Shadava_Sampoorna_Raaga rdf:type owl:Class ;
+                         
+                         owl:equivalentClass [ rdf:type owl:Class ;
+                                               owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty :hasArohana ;
+                                                                      owl:onClass :Shadava_Progression ;
+                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                    ]
+                                                                    [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty :hasAvarohana ;
+                                                                      owl:onClass :Sampoorna_Progression ;
+                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                    ]
+                                                                  )
+                                             ] ;
+                         
+                         rdfs:subClassOf :Shadava_Raaga .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Shadava_Raaga
+
+:Shadava_Shadava_Raaga rdf:type owl:Class ;
+                       
+                       owl:equivalentClass [ rdf:type owl:Class ;
+                                             owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty :hasArohana ;
+                                                                    owl:onClass :Shadava_Progression ;
+                                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                  ]
+                                                                  [ rdf:type owl:Restriction ;
+                                                                    owl:onProperty :hasAvarohana ;
+                                                                    owl:onClass :Shadava_Progression ;
+                                                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                  ]
+                                                                )
+                                           ] ;
+                       
+                       rdfs:subClassOf :Shadava_Raaga .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Shadava_Svarantara_Raaga
+
+:Shadava_Svarantara_Raaga rdf:type owl:Class ;
+                          
+                          owl:equivalentClass [ rdf:type owl:Class ;
+                                                owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty :hasArohana ;
+                                                                       owl:onClass :Shadava_Progression ;
+                                                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                     ]
+                                                                     [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty :hasAvarohana ;
+                                                                       owl:onClass :Svarantara_Progression ;
+                                                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                     ]
+                                                                   )
+                                              ] ;
+                          
+                          rdfs:subClassOf :Shadava_Raaga .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Audava_Raaga
+
+:Svarantara_Audava_Raaga rdf:type owl:Class ;
+                         
+                         owl:equivalentClass [ rdf:type owl:Class ;
+                                               owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty :hasArohana ;
+                                                                      owl:onClass :Svarantara_Progression ;
+                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                    ]
+                                                                    [ rdf:type owl:Restriction ;
+                                                                      owl:onProperty :hasAvarohana ;
+                                                                      owl:onClass :Audava_Progression ;
+                                                                      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                    ]
+                                                                  )
+                                             ] ;
+                         
+                         rdfs:subClassOf :Svarantara_Raaga .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Progression
+
+:Svarantara_Progression rdf:type owl:Class ;
+                        
+                        owl:equivalentClass [ rdf:type owl:Class ;
+                                              owl:intersectionOf ( :OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5
+                                                                   [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty :OWLObjectProperty_1cbe75e4_e287_451f_9c3d_4cc8f20e1434 ;
+                                                                     owl:onClass [ rdf:type owl:Class ;
+                                                                                   owl:oneOf ( :P
+                                                                                               :R3
+                                                                                               :M1
+                                                                                               :N1
+                                                                                               :N2
+                                                                                               :R1
+                                                                                               :N3
+                                                                                               :G3
+                                                                                               :G2
+                                                                                               :R2
+                                                                                               :M2
+                                                                                               :G1
+                                                                                               :S
+                                                                                               :D1
+                                                                                               :D2
+                                                                                               :D3
+                                                                                             )
+                                                                                 ] ;
+                                                                     owl:qualifiedCardinality "4"^^xsd:nonNegativeInteger
+                                                                   ]
+                                                                 )
+                                            ] ;
+                        
+                        rdfs:subClassOf :OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Raaga
+
+:Svarantara_Raaga rdf:type owl:Class ;
+                  
+                  owl:equivalentClass [ rdf:type owl:Restriction ;
+                                        owl:onProperty :OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711 ;
+                                        owl:onClass :Svarantara_Progression ;
+                                        owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                      ] ;
+                  
+                  rdfs:subClassOf :OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Sampoorna_Raaga
+
+:Svarantara_Sampoorna_Raaga rdf:type owl:Class ;
+                            
+                            owl:equivalentClass [ rdf:type owl:Class ;
+                                                  owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty :hasArohana ;
+                                                                         owl:onClass :Svarantara_Progression ;
+                                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                       ]
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty :hasAvarohana ;
+                                                                         owl:onClass :Sampoorna_Progression ;
+                                                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                       ]
+                                                                     )
+                                                ] ;
+                            
+                            rdfs:subClassOf :Svarantara_Raaga .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Shadava_Raaga
+
+:Svarantara_Shadava_Raaga rdf:type owl:Class ;
+                          
+                          owl:equivalentClass [ rdf:type owl:Class ;
+                                                owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty :hasArohana ;
+                                                                       owl:onClass :Svarantara_Progression ;
+                                                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                     ]
+                                                                     [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty :hasAvarohana ;
+                                                                       owl:onClass :Shadava_Progression ;
+                                                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                     ]
+                                                                   )
+                                              ] ;
+                          
+                          rdfs:subClassOf :Svarantara_Raaga .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Svarantara_Svarantara_Raaga
+
+:Svarantara_Svarantara_Raaga rdf:type owl:Class ;
+                             
+                             owl:equivalentClass [ rdf:type owl:Class ;
+                                                   owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :hasArohana ;
+                                                                          owl:onClass :Svarantara_Progression ;
+                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                        ]
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :hasAvarohana ;
+                                                                          owl:onClass :Svarantara_Progression ;
+                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                                                        ]
+                                                                      )
+                                                 ] ;
+                             
+                             rdfs:subClassOf :Svarantara_Raaga .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Vakra_Progression
+
+:Vakra_Progression rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :OWLClass_eae31425_c564_4cdb_bcba_0b84223d42a5 .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Vakra_Raaga
+
+:Vakra_Raaga rdf:type owl:Class ;
+             
+             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                   owl:onProperty :OWLObjectProperty_aa573c56_8091_4c92_88b0_4dfb02e94711 ;
+                                   owl:onClass :Vakra_Progression ;
+                                   owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger
+                                 ] ;
+             
+             rdfs:subClassOf :OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#Vivadi_Svaras
+
+:Vivadi_Svaras rdf:type owl:Class ;
+               
+               rdfs:subClassOf :OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7 .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#D1
+
+:D1 rdf:type :OWLClass_5e342c79_f409_404f_8f53_dfc649924747 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#D2
+
+:D2 rdf:type :OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#D3
+
+:D3 rdf:type :OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#G1
+
+:G1 rdf:type :OWLClass_82740a9e_684a_4f19_9b7d_439c26b5e427 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#G2
+
+:G2 rdf:type :OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#G3
+
+:G3 rdf:type :OWLClass_586ad088_63e0_4755_ada1_c69850057e4e ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#M1
+
+:M1 rdf:type :OWLClass_3dbe0763_23bb_4c49_874b_7636f8c1e4d0 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#M2
+
+:M2 rdf:type :OWLClass_22071f5d_7383_4758_bbcf_3dcf34d6b075 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#N1
+
+:N1 rdf:type :OWLClass_1c5a84da_9c07_42d8_942c_a484f11b06c3 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#N2
+
+:N2 rdf:type :OWLClass_9f6dac85_2c8f_4867_9e12_fb91e88ff44f ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#N3
+
+:N3 rdf:type :OWLClass_3407d2c6_530d_47ef_8718_b5faab588f49 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLNamedIndividual_25b46ac4_f7de_42b2_b9aa_af73f247dd59
+
+:OWLNamedIndividual_25b46ac4_f7de_42b2_b9aa_af73f247dd59 rdf:type :OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d ,
+                                                                  owl:NamedIndividual ;
+                                                         
+                                                         rdfs:label "EguJaaru"@en ;
+                                                         
+                                                         <http://purl.org/dc/terms/description> """Upward glide. Also known as Etrajaaru in Tamil.
+
+This is known as a Meend in Hindustani. Starts from a svarasthana and reaches a higher svarasthana by gliding over the intermediate svarasthanas."""@en .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLNamedIndividual_5354d015_3830_42a5_a8c4_2459751b370c
+
+:OWLNamedIndividual_5354d015_3830_42a5_a8c4_2459751b370c rdf:type :OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d ,
+                                                                  owl:NamedIndividual ;
+                                                         
+                                                         rdfs:label "Khandimpu"@en ;
+                                                         
+                                                         <http://purl.org/dc/terms/description> """While sliding down from one swara you leave the next swara and go to the 3rd one. Examples: 
+
+i) Ma Ri – Ma, ga, Ri; 
+ii) Sa, Ri - Sa Ga Ri;"""@en .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLNamedIndividual_5e1910c5_22e0_4848_8c25_b6c9a57619cb
+
+:OWLNamedIndividual_5e1910c5_22e0_4848_8c25_b6c9a57619cb rdf:type :OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d ,
+                                                                  owl:NamedIndividual ;
+                                                         
+                                                         rdfs:label "Janta"@en .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLNamedIndividual_89d2df72_83fd_4121_b2e1_93d9b20a98c5
+
+:OWLNamedIndividual_89d2df72_83fd_4121_b2e1_93d9b20a98c5 rdf:type :OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d ,
+                                                                  owl:NamedIndividual ;
+                                                         
+                                                         rdfs:label "Sphuritam"@en ;
+                                                         
+                                                         <http://purl.org/dc/terms/description> "In Janta Arohana swaras like SS-RR- 3/4 time of the Swara should be in the earlier note and then the 2nd note should be pressed. This is called sphuritam. i.e. in SS-SNS should be heard."@en .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLNamedIndividual_99fe8f7c_402f_4b98_8d3a_446900e67429
+
+:OWLNamedIndividual_99fe8f7c_402f_4b98_8d3a_446900e67429 rdf:type :OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d ,
+                                                                  owl:NamedIndividual ;
+                                                         
+                                                         rdfs:label "Orayika"@en ;
+                                                         
+                                                         <http://purl.org/dc/terms/description> "Also known as Orikai in Tamil. Sliding from one higher note to the lower note in such a way that the higher notes are touched and are heard. While playing Sa, Ni, Dha, the higher note is heard in the lower notes. Sign given is V"@en .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLNamedIndividual_b6ea1839_8259_415a_8e74_7ae19cfed232
+
+:OWLNamedIndividual_b6ea1839_8259_415a_8e74_7ae19cfed232 rdf:type :OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d ,
+                                                                  owl:NamedIndividual ;
+                                                         
+                                                         rdfs:label "DiguJaaru"@en ;
+                                                         
+                                                         <http://purl.org/dc/terms/description> """Downward glide. Also known as Irakkajaaru in Tamil.
+
+This is known as a Meend in Hindustani. Starts from a svarasthana and reaches a lower svarasthana by gliding over the intermediate svarasthanas."""@en .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLNamedIndividual_d3899e4f_f12f_4a15_b1d3_1cfe06256371
+
+:OWLNamedIndividual_d3899e4f_f12f_4a15_b1d3_1cfe06256371 rdf:type :OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d ,
+                                                                  owl:NamedIndividual ;
+                                                         
+                                                         rdfs:label "Kampita"@en ;
+                                                         
+                                                         <http://purl.org/dc/terms/description> "Shaking or vibrating. Vibrating the swara slightly without losing its nature."@en .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#OWLNamedIndividual_da268e86_e549_4cf8_82f8_3f5c0946f767
+
+:OWLNamedIndividual_da268e86_e549_4cf8_82f8_3f5c0946f767 rdf:type :OWLClass_d6ab8867_693b_4ada_b915_f1300a6b8b8d ,
+                                                                  owl:NamedIndividual ;
+                                                         
+                                                         rdfs:label "Odigimpu"@en ;
+                                                         
+                                                         <http://purl.org/dc/terms/description> "To produce 2 or 3 adjacent swaras in one swara. For example producing Gandharam in Rishabam. This can be very vividly shown on Veena."@en .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#P
+
+:P rdf:type :OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb ,
+            owl:NamedIndividual .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#R1
+
+:R1 rdf:type :OWLClass_edacd04e_9866_4e1e_a008_2589acc87011 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#R2
+
+:R2 rdf:type :OWLClass_ba6d18ba_7351_46d2_ab33_f6daaef8db52 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#R3
+
+:R3 rdf:type :OWLClass_66eaf4cc_8842_4f1d_99e2_74e0d609c639 ,
+             owl:NamedIndividual .
+
+
+
+###  http://www.compmusic.upf.edu/ontologies/raaga#S
+
+:S rdf:type :OWLClass_f674f408_0498_407a_9429_72a50c4810d4 ,
+            owl:NamedIndividual .
+
+
+
+
+
+#################################################################
+#
+#    Annotations
+#
+#################################################################
+
+
+<http://www.compmusic.upf.edu/ontologies/data-model#Pitch_distribution> rdfs:label "Pitch Distribution" .
+
+
+
+
+
+#################################################################
+#
+#    General axioms
+#
+#################################################################
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :OWLClass_0249da8a_1351_4006_8887_1e7ad562d420
+                :OWLClass_2428d91e_8da4_4a62_a037_b1e4ba308ecd
+                :OWLClass_9ff2637a_fdb0_4db7_88eb_bc521eabc8d2
+                :OWLClass_df4084df_f851_4b7b_b2ee_5188ade64fcb
+                :OWLClass_e4827f1f_5c66_43b1_b508_b4c568adcf42
+                :OWLClass_ee3414c8_6510_4014_bff4_2aa3b61f88df
+                :OWLClass_f674f408_0498_407a_9429_72a50c4810d4
+              )
+] .
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( olo:OrderedList
+                olo:Slot
+                :OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e
+                :OWLClass_9e8f33f3_886d_4436_9da0_57d062b22ae7
+              )
+] .
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :OWLClass_1c5a84da_9c07_42d8_942c_a484f11b06c3
+                :OWLClass_3407d2c6_530d_47ef_8718_b5faab588f49
+                :OWLClass_9f6dac85_2c8f_4867_9e12_fb91e88ff44f
+              )
+] .
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :OWLClass_5e342c79_f409_404f_8f53_dfc649924747
+                :OWLClass_67809bfe_e9f3_453c_aa09_0736916e00a9
+                :OWLClass_b6188633_c2b5_4650_83e8_c4bc5278565a
+              )
+] .
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :OWLClass_586ad088_63e0_4755_ada1_c69850057e4e
+                :OWLClass_82740a9e_684a_4f19_9b7d_439c26b5e427
+                :OWLClass_95296ca6_2ddf_48dd_8dc0_6d01c4f73ce9
+              )
+] .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+
