@@ -30,11 +30,27 @@
     
 
 
+    <!-- http://compmusic.upf.edu/ontologies/carnatic-forms#Abhyasa_Gana -->
+
+    <owl:Class rdf:about="http://compmusic.upf.edu/ontologies/carnatic-forms#Abhyasa_Gana">
+        <rdfs:subClassOf rdf:resource="http://compmusic.upf.edu/ontologies/carnatic-forms#Form"/>
+    </owl:Class>
+    
+
+
     <!-- http://compmusic.upf.edu/ontologies/carnatic-forms#Alapana -->
 
     <owl:Class rdf:about="http://compmusic.upf.edu/ontologies/carnatic-forms#Alapana">
         <rdfs:subClassOf rdf:resource="http://compmusic.upf.edu/ontologies/carnatic-forms#Freeflow"/>
         <rdfs:subClassOf rdf:resource="http://compmusic.upf.edu/ontologies/carnatic-forms#Improvisational"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/carnatic-forms#Applied -->
+
+    <owl:Class rdf:about="http://compmusic.upf.edu/ontologies/carnatic-forms#Applied">
+        <rdfs:subClassOf rdf:resource="http://compmusic.upf.edu/ontologies/carnatic-forms#Form"/>
     </owl:Class>
     
 
@@ -76,6 +92,7 @@
     <!-- http://compmusic.upf.edu/ontologies/carnatic-forms#Improvisational -->
 
     <owl:Class rdf:about="http://compmusic.upf.edu/ontologies/carnatic-forms#Improvisational">
+        <rdfs:label>Improvisatory</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://compmusic.upf.edu/ontologies/carnatic-forms#Form"/>
     </owl:Class>
     
@@ -139,9 +156,25 @@
     
 
 
+    <!-- http://compmusic.upf.edu/ontologies/carnatic-forms#Pure -->
+
+    <owl:Class rdf:about="http://compmusic.upf.edu/ontologies/carnatic-forms#Pure">
+        <rdfs:subClassOf rdf:resource="http://compmusic.upf.edu/ontologies/carnatic-forms#Form"/>
+    </owl:Class>
+    
+
+
     <!-- http://compmusic.upf.edu/ontologies/carnatic-forms#Rhythmic -->
 
     <owl:Class rdf:about="http://compmusic.upf.edu/ontologies/carnatic-forms#Rhythmic">
+        <rdfs:subClassOf rdf:resource="http://compmusic.upf.edu/ontologies/carnatic-forms#Form"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/carnatic-forms#Sabha_Gana -->
+
+    <owl:Class rdf:about="http://compmusic.upf.edu/ontologies/carnatic-forms#Sabha_Gana">
         <rdfs:subClassOf rdf:resource="http://compmusic.upf.edu/ontologies/carnatic-forms#Form"/>
     </owl:Class>
     
