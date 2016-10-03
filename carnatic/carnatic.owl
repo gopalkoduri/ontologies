@@ -9,7 +9,15 @@
 
 <http://compmusic.upf.edu/ontologies/carnatic_music> rdf:type owl:Ontology ;
                                                      
-                                                     owl:imports <http://www.compmusic.upf.edu/ontologies/raaga> .
+                                                     owl:versionInfo "1.0"@en ;
+                                                     
+                                                     <http://purl.org/dc/elements/1.1/creator> "Gopala Krishna Koduri"@en ;
+                                                     
+                                                     <http://compmusic.upf.edu/ontologies/taala#Description> "This ontology brings together the raaga ontology (about melodic framework in Carnatic music), the taala ontology (about its rhythmic framework) and the carnatic-forms ontology, defining new relations and concepts to describe Carnatic music domain. It is particularly tailored to meet the demands of navigation and browsing systems in the semantic web domain."@en ;
+                                                     
+                                                     owl:imports <http://compmusic.upf.edu/ontologies/carnatic-forms> ,
+                                                                 <http://compmusic.upf.edu/ontologies/taala> ,
+                                                                 <http://www.compmusic.upf.edu/ontologies/raaga> .
 
 
 #################################################################
@@ -23,11 +31,7 @@
 
 :OWLObjectProperty_00d355a8_3a4f_4ba7_a0f7_7d192961a630 rdf:type owl:ObjectProperty ;
                                                         
-                                                        rdfs:label "plays"@en ;
-                                                        
-                                                        rdfs:range :Instrument ;
-                                                        
-                                                        rdfs:domain :Musician .
+                                                        rdfs:label "plays"@en .
 
 
 
@@ -35,11 +39,7 @@
 
 :OWLObjectProperty_84a63c84_647c_4787_adb0_6712a325e65e rdf:type owl:ObjectProperty ;
                                                         
-                                                        rdfs:label "bornIn"@en ;
-                                                        
-                                                        rdfs:domain :Musician ;
-                                                        
-                                                        rdfs:range :Place .
+                                                        rdfs:label "bornIn"@en .
 
 
 
@@ -47,11 +47,7 @@
 
 :OWLObjectProperty_99988a38_7865_42cb_a232_ddabf97d246c rdf:type owl:ObjectProperty ;
                                                         
-                                                        rdfs:label "hasTaala"@en ;
-                                                        
-                                                        rdfs:domain :OWLClass_0a21f545_e1ad_4b88_96fb_22e5420793b2 ;
-                                                        
-                                                        rdfs:range :Taala .
+                                                        rdfs:label "hasTaala"@en .
 
 
 
@@ -61,8 +57,6 @@
                                                         
                                                         rdfs:label "hasRaaga"@en ;
                                                         
-                                                        rdfs:domain :OWLClass_0a21f545_e1ad_4b88_96fb_22e5420793b2 ;
-                                                        
                                                         rdfs:range <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e> .
 
 
@@ -71,11 +65,7 @@
 
 :OWLObjectProperty_a47df839_c965_4773_a50f_02f9067588f3 rdf:type owl:ObjectProperty ;
                                                         
-                                                        rdfs:label "diedIn"@en ;
-                                                        
-                                                        rdfs:domain :Musician ;
-                                                        
-                                                        rdfs:range :Place .
+                                                        rdfs:label "diedIn"@en .
 
 
 
@@ -83,11 +73,7 @@
 
 :OWLObjectProperty_b45cac26_7341_473d_89fe_a4e0ea1b9f29 rdf:type owl:ObjectProperty ;
                                                         
-                                                        rdfs:label "isHeldAt"@en ;
-                                                        
-                                                        rdfs:domain :Festival ;
-                                                        
-                                                        rdfs:range :Place .
+                                                        rdfs:label "isHeldAt"@en .
 
 
 
@@ -95,9 +81,7 @@
 
 :OWLObjectProperty_cbf3b090_4ace_4fb7_962c_979e4de41df9 rdf:type owl:ObjectProperty ;
                                                         
-                                                        rdfs:label "diedOn"@en ;
-                                                        
-                                                        rdfs:domain :Musician .
+                                                        rdfs:label "diedOn"@en .
 
 
 
@@ -105,21 +89,7 @@
 
 :OWLObjectProperty_d72f5458_54bc_4610_99b2_9556f4bcb320 rdf:type owl:ObjectProperty ;
                                                         
-                                                        rdfs:label "bornOn"@en ;
-                                                        
-                                                        rdfs:domain :Musician .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#OWLObjectProperty_f49a4d41_066e_4a8d_99c2_e69dc850de44
-
-:OWLObjectProperty_f49a4d41_066e_4a8d_99c2_e69dc850de44 rdf:type owl:ObjectProperty ;
-                                                        
-                                                        rdfs:label "isAwardedTo"@en ;
-                                                        
-                                                        rdfs:domain :Award ;
-                                                        
-                                                        rdfs:range :Musician .
+                                                        rdfs:label "bornOn"@en .
 
 
 
@@ -132,131 +102,99 @@
 #################################################################
 
 
-###  http://compmusic.upf.edu/ontologies/carnatic_music#Award
-
-:Award rdf:type owl:Class .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#Composer
-
-:Composer rdf:type owl:Class ;
-          
-          rdfs:subClassOf :Musician .
-
-
-
 ###  http://compmusic.upf.edu/ontologies/carnatic_music#Concert
 
-:Concert rdf:type owl:Class .
+:Concert rdf:type owl:Class ;
+         
+         rdfs:subClassOf <http://purl.org/NET/c4dm/event.owl#Event> .
 
 
 
-###  http://compmusic.upf.edu/ontologies/carnatic_music#Festival
+###  http://purl.org/NET/c4dm/event.owl#Event
 
-:Festival rdf:type owl:Class .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#Form
-
-:Form rdf:type owl:Class .
+<http://purl.org/NET/c4dm/event.owl#Event> rdf:type owl:Class .
 
 
 
-###  http://compmusic.upf.edu/ontologies/carnatic_music#Instrument
+###  http://purl.org/ontology/mo/Festival
 
-:Instrument rdf:type owl:Class .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#Instrumentalist
-
-:Instrumentalist rdf:type owl:Class ;
-                 
-                 rdfs:subClassOf :Performer .
+mo:Festival rdf:type owl:Class ;
+            
+            rdfs:subClassOf <http://purl.org/NET/c4dm/event.owl#Event> .
 
 
 
-###  http://compmusic.upf.edu/ontologies/carnatic_music#Musician
+###  http://purl.org/ontology/mo/Instrument
 
-:Musician rdf:type owl:Class .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#OWLClass_0a21f545_e1ad_4b88_96fb_22e5420793b2
-
-:OWLClass_0a21f545_e1ad_4b88_96fb_22e5420793b2 rdf:type owl:Class ;
-                                               
-                                               rdfs:label "Composition"@en .
+mo:Instrument rdf:type owl:Class .
 
 
 
-###  http://compmusic.upf.edu/ontologies/carnatic_music#OWLClass_64e21fd9_05cd_49a3_a9b7_bfa4a781c228
+###  http://purl.org/ontology/mo/Lyrics
 
-:OWLClass_64e21fd9_05cd_49a3_a9b7_bfa4a781c228 rdf:type owl:Class ;
-                                               
-                                               rdfs:label "Country"@en ;
-                                               
-                                               rdfs:subClassOf :Place .
+mo:Lyrics rdf:type owl:Class .
 
 
 
-###  http://compmusic.upf.edu/ontologies/carnatic_music#OWLClass_7cba7ac4_cc8e_429f_80e6_8783d8f6e891
+###  http://purl.org/ontology/mo/Record
 
-:OWLClass_7cba7ac4_cc8e_429f_80e6_8783d8f6e891 rdf:type owl:Class ;
-                                               
-                                               rdfs:label "City"@en ;
-                                               
-                                               rdfs:subClassOf :Place .
+mo:Record rdf:type owl:Class .
 
 
 
-###  http://compmusic.upf.edu/ontologies/carnatic_music#OWLClass_899582ea_e686_4000_9298_8e0de1756df1
+###  http://purl.org/ontology/mo/Release
 
-:OWLClass_899582ea_e686_4000_9298_8e0de1756df1 rdf:type owl:Class ;
-                                               
-                                               rdfs:label "State"@en ;
-                                               
-                                               rdfs:subClassOf :Place .
+mo:Release rdf:type owl:Class .
 
 
 
-###  http://compmusic.upf.edu/ontologies/carnatic_music#OWLClass_9b38dd3f_97b3_4c31_b4d1_494625460bbf
+###  http://purl.org/ontology/mo/Show
 
-:OWLClass_9b38dd3f_97b3_4c31_b4d1_494625460bbf rdf:type owl:Class ;
-                                               
-                                               rdfs:label "Sabha"@en ;
-                                               
-                                               rdfs:subClassOf :Place .
+mo:Show rdf:type owl:Class ;
+        
+        rdfs:subClassOf <http://purl.org/NET/c4dm/event.owl#Event> .
 
 
 
-###  http://compmusic.upf.edu/ontologies/carnatic_music#Performer
+###  http://purl.org/vocab/frbr/core#Work
 
-:Performer rdf:type owl:Class ;
-           
-           rdfs:subClassOf :Musician .
+<http://purl.org/vocab/frbr/core#Work> rdf:type owl:Class .
 
 
 
-###  http://compmusic.upf.edu/ontologies/carnatic_music#Place
+###  http://schema.org/Person
 
-:Place rdf:type owl:Class .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#Taala
-
-:Taala rdf:type owl:Class .
+<http://schema.org/Person> rdf:type owl:Class .
 
 
 
-###  http://compmusic.upf.edu/ontologies/carnatic_music#Vocalist
+###  http://schema.org/Place
 
-:Vocalist rdf:type owl:Class ;
-          
-          rdfs:subClassOf :Performer .
+<http://schema.org/Place> rdf:type owl:Class .
+
+
+
+###  http://schema.org/Person#Composer
+
+<http://schema.org/Person#Composer> rdf:type owl:Class ;
+                                    
+                                    rdfs:subClassOf <http://schema.org/Person> .
+
+
+
+###  http://schema.org/Person#Lyricist
+
+<http://schema.org/Person#Lyricist> rdf:type owl:Class ;
+                                    
+                                    rdfs:subClassOf <http://schema.org/Person> .
+
+
+
+###  http://schema.org/Person#Performer
+
+<http://schema.org/Person#Performer> rdf:type owl:Class ;
+                                     
+                                     rdfs:subClassOf <http://schema.org/Person> .
 
 
 
@@ -267,5 +205,5 @@
 
 
 
-###  Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
 

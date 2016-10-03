@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY taala "http://compmusic.upf.edu/ontologies/taala#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://compmusic.upf.edu/ontologies/taala#"
+     xml:base="http://compmusic.upf.edu/ontologies/taala"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:taala="http://compmusic.upf.edu/ontologies/taala#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://compmusic.upf.edu/ontologies/taala">
+        <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
+        <dc:contributor xml:lang="en">Ajay Srinivasamurthy</dc:contributor>
+        <dc:creator xml:lang="en">Gopala Krishna Koduri</dc:creator>
+        <Description xml:lang="en">Ontology for taala, the rhythmic framework of Carnatic music.</Description>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Description -->
+
+    <owl:AnnotationProperty rdf:about="&taala;Description"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#has_anga -->
+
+    <owl:ObjectProperty rdf:about="&taala;has_anga">
+        <rdfs:range rdf:resource="&taala;Anga"/>
+        <rdfs:domain rdf:resource="&taala;Suladi_Sapta_Taala"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#has_gati -->
+
+    <owl:ObjectProperty rdf:about="&taala;has_gati">
+        <rdfs:range rdf:resource="&taala;Gati"/>
+        <rdfs:domain rdf:resource="&taala;Taala"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#has_jaati -->
+
+    <owl:ObjectProperty rdf:about="&taala;has_jaati">
+        <rdfs:range rdf:resource="&taala;Jaati"/>
+        <rdfs:domain rdf:resource="&taala;Taala"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Anga -->
+
+    <owl:Class rdf:about="&taala;Anga"/>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Anudhrutam -->
+
+    <owl:Class rdf:about="&taala;Anudhrutam">
+        <rdfs:subClassOf rdf:resource="&taala;Anga"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Ata -->
+
+    <owl:Class rdf:about="&taala;Ata">
+        <rdfs:subClassOf rdf:resource="&taala;Suladi_Sapta_Taala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Chapu -->
+
+    <owl:Class rdf:about="&taala;Chapu">
+        <rdfs:subClassOf rdf:resource="&taala;Taala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Chatusra_Gati -->
+
+    <owl:Class rdf:about="&taala;Chatusra_Gati">
+        <rdfs:subClassOf rdf:resource="&taala;Gati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Chatusra_Jaati -->
+
+    <owl:Class rdf:about="&taala;Chatusra_Jaati">
+        <rdfs:subClassOf rdf:resource="&taala;Jaati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Dhrutam -->
+
+    <owl:Class rdf:about="&taala;Dhrutam">
+        <rdfs:subClassOf rdf:resource="&taala;Anga"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Dhruva -->
+
+    <owl:Class rdf:about="&taala;Dhruva">
+        <rdfs:subClassOf rdf:resource="&taala;Suladi_Sapta_Taala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Eka -->
+
+    <owl:Class rdf:about="&taala;Eka">
+        <rdfs:subClassOf rdf:resource="&taala;Suladi_Sapta_Taala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Gati -->
+
+    <owl:Class rdf:about="&taala;Gati">
+        <owl:equivalentClass rdf:resource="&taala;Nadai"/>
+        <owl:equivalentClass rdf:resource="&taala;Nade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Jaati -->
+
+    <owl:Class rdf:about="&taala;Jaati"/>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Jhampa -->
+
+    <owl:Class rdf:about="&taala;Jhampa">
+        <rdfs:subClassOf rdf:resource="&taala;Suladi_Sapta_Taala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Khanda_Gati -->
+
+    <owl:Class rdf:about="&taala;Khanda_Gati">
+        <rdfs:subClassOf rdf:resource="&taala;Gati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Khanda_Jaati -->
+
+    <owl:Class rdf:about="&taala;Khanda_Jaati">
+        <rdfs:subClassOf rdf:resource="&taala;Jaati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Laghu -->
+
+    <owl:Class rdf:about="&taala;Laghu">
+        <rdfs:subClassOf rdf:resource="&taala;Anga"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Matya -->
+
+    <owl:Class rdf:about="&taala;Matya">
+        <rdfs:subClassOf rdf:resource="&taala;Suladi_Sapta_Taala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Misra_Gati -->
+
+    <owl:Class rdf:about="&taala;Misra_Gati">
+        <rdfs:subClassOf rdf:resource="&taala;Gati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Misra_Jaati -->
+
+    <owl:Class rdf:about="&taala;Misra_Jaati">
+        <rdfs:subClassOf rdf:resource="&taala;Jaati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Nadai -->
+
+    <owl:Class rdf:about="&taala;Nadai"/>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Nade -->
+
+    <owl:Class rdf:about="&taala;Nade"/>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Rupaka -->
+
+    <owl:Class rdf:about="&taala;Rupaka">
+        <rdfs:subClassOf rdf:resource="&taala;Suladi_Sapta_Taala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Sankeerna_Gati -->
+
+    <owl:Class rdf:about="&taala;Sankeerna_Gati">
+        <rdfs:subClassOf rdf:resource="&taala;Gati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Sankeerna_Jaati -->
+
+    <owl:Class rdf:about="&taala;Sankeerna_Jaati">
+        <rdfs:subClassOf rdf:resource="&taala;Jaati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Suladi_Sapta_Taala -->
+
+    <owl:Class rdf:about="&taala;Suladi_Sapta_Taala">
+        <rdfs:subClassOf rdf:resource="&taala;Taala"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Taala -->
+
+    <owl:Class rdf:about="&taala;Taala"/>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Tisra_Gati -->
+
+    <owl:Class rdf:about="&taala;Tisra_Gati">
+        <rdfs:subClassOf rdf:resource="&taala;Gati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Tisra_Jaati -->
+
+    <owl:Class rdf:about="&taala;Tisra_Jaati">
+        <rdfs:subClassOf rdf:resource="&taala;Jaati"/>
+    </owl:Class>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Triputa -->
+
+    <owl:Class rdf:about="&taala;Triputa">
+        <rdfs:subClassOf rdf:resource="&taala;Suladi_Sapta_Taala"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
