@@ -24,6 +24,7 @@
         <dc:contributor xml:lang="en">Ajay Srinivasamurthy</dc:contributor>
         <dc:creator xml:lang="en">Gopala Krishna Koduri</dc:creator>
         <Description xml:lang="en">Ontology for taala, the rhythmic framework of Carnatic music.</Description>
+        <owl:imports rdf:resource="http://purl.org/ontology/olo/core#"/>
     </owl:Ontology>
     
 
@@ -56,11 +57,30 @@
     
 
 
+    <!-- http://compmusic.upf.edu/ontologies/taala#hasAngaStructure -->
+
+    <owl:ObjectProperty rdf:about="&taala;hasAngaStructure">
+        <rdfs:range rdf:resource="&taala;Anga_Structure"/>
+        <rdfs:domain rdf:resource="&taala;Suladi_Sapta_Taala"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://compmusic.upf.edu/ontologies/taala#has_anga -->
 
     <owl:ObjectProperty rdf:about="&taala;has_anga">
+        <rdfs:label>hasAnga</rdfs:label>
         <rdfs:range rdf:resource="&taala;Anga"/>
         <rdfs:domain rdf:resource="&taala;Suladi_Sapta_Taala"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#has_beats -->
+
+    <owl:ObjectProperty rdf:about="&taala;has_beats">
+        <rdfs:label>hasBeats</rdfs:label>
+        <rdfs:domain rdf:resource="&taala;Taala"/>
     </owl:ObjectProperty>
     
 
@@ -68,6 +88,7 @@
     <!-- http://compmusic.upf.edu/ontologies/taala#has_gati -->
 
     <owl:ObjectProperty rdf:about="&taala;has_gati">
+        <rdfs:label>hasGati</rdfs:label>
         <rdfs:range rdf:resource="&taala;Gati"/>
         <rdfs:domain rdf:resource="&taala;Taala"/>
     </owl:ObjectProperty>
@@ -77,6 +98,7 @@
     <!-- http://compmusic.upf.edu/ontologies/taala#has_jaati -->
 
     <owl:ObjectProperty rdf:about="&taala;has_jaati">
+        <rdfs:label>hasJaati</rdfs:label>
         <rdfs:range rdf:resource="&taala;Jaati"/>
         <rdfs:domain rdf:resource="&taala;Taala"/>
     </owl:ObjectProperty>
@@ -97,6 +119,14 @@
     <!-- http://compmusic.upf.edu/ontologies/taala#Anga -->
 
     <owl:Class rdf:about="&taala;Anga"/>
+    
+
+
+    <!-- http://compmusic.upf.edu/ontologies/taala#Anga_Structure -->
+
+    <owl:Class rdf:about="&taala;Anga_Structure">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/olo/core#OrderedList"/>
+    </owl:Class>
     
 
 

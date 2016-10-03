@@ -188,8 +188,8 @@
     <!-- http://compmusic.upf.edu/ontologies/carnatic-forms#Viruttham -->
 
     <owl:Class rdf:about="http://compmusic.upf.edu/ontologies/carnatic-forms#Viruttham">
-        <rdfs:subClassOf rdf:resource="http://compmusic.upf.edu/ontologies/carnatic-forms#Compositional"/>
         <rdfs:subClassOf rdf:resource="http://compmusic.upf.edu/ontologies/carnatic-forms#Freeflow"/>
+        <rdfs:subClassOf rdf:resource="http://compmusic.upf.edu/ontologies/carnatic-forms#Improvisational"/>
         <rdfs:subClassOf rdf:resource="http://compmusic.upf.edu/ontologies/carnatic-forms#Lyrical"/>
     </owl:Class>
 </rdf:RDF>
