@@ -93,6 +93,36 @@
 
 
 
+###  http://compmusic.upf.edu/ontologies/carnatic_music#playedBy
+
+:playedBy rdf:type owl:ObjectProperty ;
+          
+          rdfs:domain :Player ;
+          
+          rdfs:range <http://schema.org/Person> .
+
+
+
+###  http://compmusic.upf.edu/ontologies/carnatic_music#playedInstrument
+
+:playedInstrument rdf:type owl:ObjectProperty ;
+                  
+                  rdfs:domain :Player ;
+                  
+                  rdfs:range mo:Instrument .
+
+
+
+###  http://compmusic.upf.edu/ontologies/carnatic_music#playedRole
+
+:playedRole rdf:type owl:ObjectProperty ;
+            
+            rdfs:domain :Player ;
+            
+            rdfs:range :Role .
+
+
+
 
 
 #################################################################
@@ -102,11 +132,47 @@
 #################################################################
 
 
+###  http://compmusic.upf.edu/ontologies/carnatic_music#Accompanist
+
+:Accompanist rdf:type owl:Class ;
+             
+             rdfs:subClassOf :Role .
+
+
+
 ###  http://compmusic.upf.edu/ontologies/carnatic_music#Concert
 
 :Concert rdf:type owl:Class ;
          
          rdfs:subClassOf <http://purl.org/NET/c4dm/event.owl#Event> .
+
+
+
+###  http://compmusic.upf.edu/ontologies/carnatic_music#Lead
+
+:Lead rdf:type owl:Class ;
+      
+      rdfs:subClassOf :Role .
+
+
+
+###  http://compmusic.upf.edu/ontologies/carnatic_music#Performer
+
+:Performer rdf:type owl:Class ;
+           
+           rdfs:subClassOf <http://schema.org/Person> .
+
+
+
+###  http://compmusic.upf.edu/ontologies/carnatic_music#Player
+
+:Player rdf:type owl:Class .
+
+
+
+###  http://compmusic.upf.edu/ontologies/carnatic_music#Role
+
+:Role rdf:type owl:Class .
 
 
 
@@ -127,12 +193,6 @@ mo:Festival rdf:type owl:Class ;
 ###  http://purl.org/ontology/mo/Instrument
 
 mo:Instrument rdf:type owl:Class .
-
-
-
-###  http://purl.org/ontology/mo/Lyrics
-
-mo:Lyrics rdf:type owl:Class .
 
 
 
@@ -171,30 +231,6 @@ mo:Show rdf:type owl:Class ;
 ###  http://schema.org/Place
 
 <http://schema.org/Place> rdf:type owl:Class .
-
-
-
-###  http://schema.org/Person#Composer
-
-<http://schema.org/Person#Composer> rdf:type owl:Class ;
-                                    
-                                    rdfs:subClassOf <http://schema.org/Person> .
-
-
-
-###  http://schema.org/Person#Lyricist
-
-<http://schema.org/Person#Lyricist> rdf:type owl:Class ;
-                                    
-                                    rdfs:subClassOf <http://schema.org/Person> .
-
-
-
-###  http://schema.org/Person#Performer
-
-<http://schema.org/Person#Performer> rdf:type owl:Class ;
-                                     
-                                     rdfs:subClassOf <http://schema.org/Person> .
 
 
 
