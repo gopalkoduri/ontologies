@@ -5,241 +5,125 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://compmusic.upf.edu/ontologies/carnatic_music> .
 
-<http://compmusic.upf.edu/ontologies/carnatic_music> rdf:type owl:Ontology ;
-                                                     
-                                                     owl:versionInfo "1.0"@en ;
-                                                     
-                                                     <http://purl.org/dc/elements/1.1/creator> "Gopala Krishna Koduri"@en ;
-                                                     
-                                                     <http://compmusic.upf.edu/ontologies/taala#Description> "This ontology brings together the raaga ontology (about melodic framework in Carnatic music), the taala ontology (about its rhythmic framework) and the carnatic-forms ontology, defining new relations and concepts to describe Carnatic music domain. It is particularly tailored to meet the demands of navigation and browsing systems in the semantic web domain."@en ;
-                                                     
-                                                     owl:imports <http://compmusic.upf.edu/ontologies/carnatic-forms> ,
-                                                                 <http://compmusic.upf.edu/ontologies/taala> ,
-                                                                 <http://www.compmusic.upf.edu/ontologies/raaga> .
-
-
-#################################################################
-#
-#    Object Properties
-#
-#################################################################
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#OWLObjectProperty_00d355a8_3a4f_4ba7_a0f7_7d192961a630
-
-:OWLObjectProperty_00d355a8_3a4f_4ba7_a0f7_7d192961a630 rdf:type owl:ObjectProperty ;
-                                                        
-                                                        rdfs:label "plays"@en .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#OWLObjectProperty_84a63c84_647c_4787_adb0_6712a325e65e
-
-:OWLObjectProperty_84a63c84_647c_4787_adb0_6712a325e65e rdf:type owl:ObjectProperty ;
-                                                        
-                                                        rdfs:label "bornIn"@en .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#OWLObjectProperty_99988a38_7865_42cb_a232_ddabf97d246c
-
-:OWLObjectProperty_99988a38_7865_42cb_a232_ddabf97d246c rdf:type owl:ObjectProperty ;
-                                                        
-                                                        rdfs:label "hasTaala"@en .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#OWLObjectProperty_9ba90fac_3089_4e2a_9a59_0db7948c7cac
-
-:OWLObjectProperty_9ba90fac_3089_4e2a_9a59_0db7948c7cac rdf:type owl:ObjectProperty ;
-                                                        
-                                                        rdfs:label "hasRaaga"@en ;
-                                                        
-                                                        rdfs:range <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e> .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#OWLObjectProperty_a47df839_c965_4773_a50f_02f9067588f3
-
-:OWLObjectProperty_a47df839_c965_4773_a50f_02f9067588f3 rdf:type owl:ObjectProperty ;
-                                                        
-                                                        rdfs:label "diedIn"@en .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#OWLObjectProperty_b45cac26_7341_473d_89fe_a4e0ea1b9f29
-
-:OWLObjectProperty_b45cac26_7341_473d_89fe_a4e0ea1b9f29 rdf:type owl:ObjectProperty ;
-                                                        
-                                                        rdfs:label "isHeldAt"@en .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#OWLObjectProperty_cbf3b090_4ace_4fb7_962c_979e4de41df9
-
-:OWLObjectProperty_cbf3b090_4ace_4fb7_962c_979e4de41df9 rdf:type owl:ObjectProperty ;
-                                                        
-                                                        rdfs:label "diedOn"@en .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#OWLObjectProperty_d72f5458_54bc_4610_99b2_9556f4bcb320
-
-:OWLObjectProperty_d72f5458_54bc_4610_99b2_9556f4bcb320 rdf:type owl:ObjectProperty ;
-                                                        
-                                                        rdfs:label "bornOn"@en .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#playedBy
-
-:playedBy rdf:type owl:ObjectProperty ;
-          
-          rdfs:domain :Player ;
-          
-          rdfs:range <http://schema.org/Person> .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#playedInstrument
-
-:playedInstrument rdf:type owl:ObjectProperty ;
-                  
-                  rdfs:domain :Player ;
-                  
-                  rdfs:range mo:Instrument .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#playedRole
-
-:playedRole rdf:type owl:ObjectProperty ;
-            
-            rdfs:domain :Player ;
-            
-            rdfs:range :Role .
-
-
-
-
-
-#################################################################
-#
-#    Classes
-#
-#################################################################
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#Accompanist
-
-:Accompanist rdf:type owl:Class ;
-             
-             rdfs:subClassOf :Role .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#Concert
-
-:Concert rdf:type owl:Class ;
-         
-         rdfs:subClassOf <http://purl.org/NET/c4dm/event.owl#Event> .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#Lead
-
-:Lead rdf:type owl:Class ;
-      
-      rdfs:subClassOf :Role .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#Performer
-
-:Performer rdf:type owl:Class ;
-           
-           rdfs:subClassOf <http://schema.org/Person> .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#Player
-
-:Player rdf:type owl:Class .
-
-
-
-###  http://compmusic.upf.edu/ontologies/carnatic_music#Role
-
-:Role rdf:type owl:Class .
-
-
-
-###  http://purl.org/NET/c4dm/event.owl#Event
-
-<http://purl.org/NET/c4dm/event.owl#Event> rdf:type owl:Class .
-
-
-
-###  http://purl.org/ontology/mo/Festival
-
-mo:Festival rdf:type owl:Class ;
-            
-            rdfs:subClassOf <http://purl.org/NET/c4dm/event.owl#Event> .
-
-
-
-###  http://purl.org/ontology/mo/Instrument
-
-mo:Instrument rdf:type owl:Class .
-
-
-
-###  http://purl.org/ontology/mo/Record
-
-mo:Record rdf:type owl:Class .
-
-
-
-###  http://purl.org/ontology/mo/Release
-
-mo:Release rdf:type owl:Class .
-
-
-
-###  http://purl.org/ontology/mo/Show
-
-mo:Show rdf:type owl:Class ;
-        
-        rdfs:subClassOf <http://purl.org/NET/c4dm/event.owl#Event> .
-
-
-
-###  http://purl.org/vocab/frbr/core#Work
-
-<http://purl.org/vocab/frbr/core#Work> rdf:type owl:Class .
-
-
-
-###  http://schema.org/Person
-
-<http://schema.org/Person> rdf:type owl:Class .
-
-
-
-###  http://schema.org/Place
-
-<http://schema.org/Place> rdf:type owl:Class .
-
-
-
-###  http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e
-
-<http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e> rdf:type owl:Class .
-
-
-
-
-###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
-
+<http://compmusic.upf.edu/ontologies/carnatic_music> a owl:Ontology ;
+	owl:imports <http://compmusic.upf.edu/ontologies/taala> , <http://www.compmusic.upf.edu/ontologies/raaga> , <http://compmusic.upf.edu/ontologies/carnatic-forms> ;
+	<http://purl.org/dc/elements/1.1/creator> "Gopala Krishna Koduri"@en ;
+	owl:versionInfo "1.0"@en ;
+	<http://compmusic.upf.edu/ontologies/taala#Description> "This ontology brings together the raaga ontology (about melodic framework in Carnatic music), the taala ontology (about its rhythmic framework) and the carnatic-forms ontology, defining new relations and concepts to describe Carnatic music domain. It is particularly tailored to meet the demands of navigation and browsing systems in the semantic web domain."@en .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://compmusic.upf.edu/ontologies/carnatic_music#OWLObjectProperty_00d355a8_3a4f_4ba7_a0f7_7d192961a630
+
+:OWLObjectProperty_00d355a8_3a4f_4ba7_a0f7_7d192961a630 a owl:ObjectProperty ;
+	rdfs:label "plays"@en .
+# 
+# http://compmusic.upf.edu/ontologies/carnatic_music#artist
+
+:artist a owl:ObjectProperty ;
+	rdfs:domain :Performer ;
+	rdfs:range <http://schema.org/Person> .
+# 
+# http://compmusic.upf.edu/ontologies/carnatic_music#instrument
+
+:instrument a owl:ObjectProperty ;
+	rdfs:domain :Performer ;
+	rdfs:range mo:Instrument .
+# 
+# http://compmusic.upf.edu/ontologies/carnatic_music#raaga
+
+:raaga a owl:ObjectProperty ;
+	rdfs:range <http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e> .
+# 
+# http://compmusic.upf.edu/ontologies/carnatic_music#role
+
+:role a owl:ObjectProperty ;
+	rdfs:domain :Performer ;
+	rdfs:range :Role .
+# 
+# http://compmusic.upf.edu/ontologies/carnatic_music#taala
+
+:taala a owl:ObjectProperty .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://compmusic.upf.edu/ontologies/carnatic_music#Accompanist
+
+:Accompanist a owl:Class ;
+	rdfs:subClassOf :Role .
+# 
+# http://compmusic.upf.edu/ontologies/carnatic_music#Concert
+
+:Concert a owl:Class ;
+	rdfs:subClassOf <http://purl.org/NET/c4dm/event.owl#Event> .
+# 
+# http://compmusic.upf.edu/ontologies/carnatic_music#Lead
+
+:Lead a owl:Class ;
+	rdfs:subClassOf :Role .
+# 
+# http://compmusic.upf.edu/ontologies/carnatic_music#Performer
+
+:Performer a owl:Class .
+# 
+# http://compmusic.upf.edu/ontologies/carnatic_music#Role
+
+:Role a owl:Class .
+# 
+# http://purl.org/NET/c4dm/event.owl#Event
+
+<http://purl.org/NET/c4dm/event.owl#Event> a owl:Class .
+# 
+# http://purl.org/ontology/mo/Festival
+
+mo:Festival a owl:Class ;
+	rdfs:subClassOf <http://purl.org/NET/c4dm/event.owl#Event> .
+# 
+# http://purl.org/ontology/mo/Instrument
+
+mo:Instrument a owl:Class .
+# 
+# http://purl.org/ontology/mo/Record
+
+mo:Record a owl:Class .
+# 
+# http://purl.org/ontology/mo/Release
+
+mo:Release a owl:Class .
+# 
+# http://purl.org/ontology/mo/Show
+
+mo:Show a owl:Class ;
+	rdfs:subClassOf <http://purl.org/NET/c4dm/event.owl#Event> .
+# 
+# http://purl.org/vocab/frbr/core#Work
+
+<http://purl.org/vocab/frbr/core#Work> a owl:Class .
+# 
+# http://schema.org/Person
+
+<http://schema.org/Person> a owl:Class .
+# 
+# http://schema.org/Place
+
+<http://schema.org/Place> a owl:Class .
+# 
+# http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e
+
+<http://www.compmusic.upf.edu/ontologies/raaga#OWLClass_4b6d906a_4c62_4abe_bc37_f7314160af3e> a owl:Class .
+# 
+# Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi
